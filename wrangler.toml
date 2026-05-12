@@ -1,30 +1,8 @@
-# Cloudflare Workers / Pages 設定ファイル
-# DCトレンド研究 (dc-trend-jp.com)
-
 name = "dc-trend-jp"
 compatibility_date = "2024-01-01"
 
-# Cloudflare Pages設定
 pages_build_output_dir = "dist"
 
-# 本番環境変数
 [vars]
   SITE_NAME = "DCトレンド研究"
   SITE_URL = "https://dc-trend-jp.com"
-
-# KV Namespace（将来的なキャッシュ・セッション管理用）
-# [[kv_namespaces]]
-#   binding = "CACHE"
-#   id = "xxxxxxxxxxxxxxxxxxxx"  # wrangler kv:namespace create CACHE で取得
-
-# D1 データベース（将来的なコメント機能・分析用）
-# [[d1_databases]]
-#   binding = "DB"
-#   database_name = "dc-trend-db"
-#   database_id = "xxxxxxxxxxxxxxxxxxxx"
-
-# ステージング環境
-[env.staging]
-  name = "dc-trend-jp-staging"
-  [env.staging.vars]
-    SITE_URL = "https://staging.dc-trend-jp.com"
