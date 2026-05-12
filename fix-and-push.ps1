@@ -12,7 +12,7 @@ Write-Host "Step 3: git add"
 git add .
 
 Write-Host "Step 4: git commit"
-git commit -m "feat: initial commit dc-trend-jp"
+git commit -m "fix: fix wrangler.toml pages_build_output_dir format"
 
 Write-Host "Step 5: git push"
 git remote remove origin 2>$null

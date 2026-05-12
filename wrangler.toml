@@ -5,8 +5,7 @@ name = "dc-trend-jp"
 compatibility_date = "2024-01-01"
 
 # Cloudflare Pages設定
-[pages_build_output_dir]
-  path = "dist"
+pages_build_output_dir = "dist"
 
 # 本番環境変数
 [vars]
