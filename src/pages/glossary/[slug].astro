@@ -1,0 +1,67 @@
+---
+// 用語解説詳細ページ
+
+import { getCollection } from 'astro:content';
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+
+// 静的生成: 全用語のパスを返す
+export async function getStaticPaths() {
+  const terms = await getCollection('glossary', ({ data }) => !data.draft);
+  return terms.map(term => ({
+    params: { slug: term.data.slug },
+    props: { term },
+  }));
+}
+
+const { term } = Astro.props;
+const { Content } = await term.render();
+---
+
+<ArticleLayout
+  title={term.data.title}
+  description={term.data.summary}
+  publishedAt={term.data.published_at}
+  updatedAt={term.data.updated_at}
+  category="用語解説"
+  tags={term.data.tags}
+  slug={term.data.slug}
+  isGlossary={true}
+>
+  <Content />
+
+  {/* 関連用語リンク */}
+  {term.data.related_terms.length > 0 && (
+    <div class="mt-10 p-4 bg-slate-50 dark:bg-slate-800 rounded-lg border border-slate-200 dark:border-slate-700">
+      <h3 class="font-bold text-sm text-slate-700 dark:text-slate-300 mb-3">関連用語</h3>
+      <div class="flex flex-wrap gap-2">
+        {term.data.related_terms.map(slug => (
+          <a
+            href={`/glossary/${slug}`}
+            class="text-sm px-3 py-1 bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600 rounded hover:border-brand-400 transition-colors text-brand-600 dark:text-brand-400"
+          >
+            {slug}
+          </a>
+        ))}
+      </div>
+    </div>
+  )}
+
+  {/* 関連記事リンク */}
+  {term.data.related_articles.length > 0 && (
+    <div class="mt-4 p-4 bg-brand-50 dark:bg-slate-800 rounded-lg border border-brand-100 dark:border-slate-700">
+      <h3 class="font-bold text-sm text-slate-700 dark:text-slate-300 mb-3">関連記事</h3>
+      <ul class="space-y-1">
+        {term.data.related_articles.map(slug => (
+          <li>
+            <a
+              href={`/articles/${slug}`}
+              class="text-sm text-brand-600 dark:text-brand-400 hover:underline"
+            >
+              → {slug}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )}
+</ArticleLayout>

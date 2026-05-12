@@ -1,0 +1,78 @@
+---
+// カテゴリ一覧ページ — 動的ルーティング
+
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { CATEGORIES, getCategoryBySlug } from '../../config/site';
+
+// 静的生成: 全カテゴリのパスを返す（glossaryは専用ページがあるので除外）
+export async function getStaticPaths() {
+  const categories = CATEGORIES.filter(c => c.slug !== 'glossary');
+  return categories.map(cat => ({
+    params: { slug: cat.slug },
+    props: { categorySlug: cat.slug },
+  }));
+}
+
+const { categorySlug } = Astro.props;
+const category = getCategoryBySlug(categorySlug);
+
+// カテゴリに属する記事を取得
+const allArticles = await getCollection('articles', ({ data }) => !data.draft);
+const articles = allArticles
+  .filter(a => {
+    // カテゴリ名でフィルタリング
+    const aCatSlug = CATEGORIES.find(c => c.name === a.data.category)?.slug;
+    return aCatSlug === categorySlug;
+  })
+  .sort((a, b) => b.data.published_at.localeCompare(a.data.published_at));
+
+const breadcrumbs = [
+  { name: category?.name ?? categorySlug, url: `/category/${categorySlug}` },
+];
+---
+
+<BaseLayout
+  title={category?.name ?? categorySlug}
+  description={category?.description ?? `${category?.name}に関する記事一覧`}
+  breadcrumbs={breadcrumbs}
+>
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    {/* カテゴリヘッダー */}
+    <div class="mb-8 pb-6 border-b border-slate-200 dark:border-slate-700">
+      <h1 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-2">
+        {category?.name ?? categorySlug}
+      </h1>
+      {category?.description && (
+        <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+          {category.description}
+        </p>
+      )}
+      <p class="text-xs text-slate-400 dark:text-slate-500 mt-3">
+        {articles.length}件の記事
+      </p>
+    </div>
+
+    {/* 記事一覧 */}
+    {articles.length > 0 ? (
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {articles.map(article => (
+          <ArticleCard
+            title={article.data.title}
+            slug={article.data.slug}
+            summary={article.data.summary}
+            category={article.data.category}
+            tags={article.data.tags}
+            publishedAt={article.data.published_at}
+          />
+        ))}
+      </div>
+    ) : (
+      <div class="text-center py-16 text-slate-400">
+        <p class="text-3xl mb-4">📝</p>
+        <p>このカテゴリの記事はまだありません。</p>
+      </div>
+    )}
+  </div>
+</BaseLayout>

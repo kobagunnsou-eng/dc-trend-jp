@@ -1,0 +1,78 @@
+---
+// フッターコンポーネント
+
+import { SITE_CONFIG, NAV_LINKS } from '../config/site';
+
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="mt-16 bg-slate-900 dark:bg-slate-950 text-slate-300">
+  <div class="max-w-6xl mx-auto px-4 py-10">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      {/* サイト概要 */}
+      <div>
+        <h2 class="font-bold text-white mb-3">{SITE_CONFIG.name}</h2>
+        <p class="text-sm leading-relaxed text-slate-400">
+          {SITE_CONFIG.description}
+        </p>
+        <p class="text-sm mt-3 text-slate-500">
+          現役DCエンジニアの知見と、AIによる高速コンテンツ生成を組み合わせた専門メディアです。
+        </p>
+      </div>
+
+      {/* ナビゲーション */}
+      <div>
+        <h3 class="font-bold text-white mb-3">カテゴリ</h3>
+        <ul class="space-y-1.5">
+          {NAV_LINKS.filter(l => l.href !== '/' && l.href !== '/about').map(link => (
+            <li>
+              <a
+                href={link.href}
+                class="text-sm text-slate-400 hover:text-white transition-colors"
+              >
+                {link.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      {/* リンク */}
+      <div>
+        <h3 class="font-bold text-white mb-3">リンク</h3>
+        <ul class="space-y-1.5">
+          <li>
+            <a href="/about" class="text-sm text-slate-400 hover:text-white transition-colors">
+              このサイトについて
+            </a>
+          </li>
+          <li>
+            <a href="/rss.xml" class="text-sm text-slate-400 hover:text-white transition-colors">
+              RSSフィード
+            </a>
+          </li>
+          <li>
+            <a href="/sitemap-index.xml" class="text-sm text-slate-400 hover:text-white transition-colors">
+              サイトマップ
+            </a>
+          </li>
+        </ul>
+
+        {/* 免責事項 */}
+        <div class="mt-6">
+          <h3 class="font-bold text-white mb-2">免責事項</h3>
+          <p class="text-xs text-slate-500 leading-relaxed">
+            当サイトの情報は独立した第三者の立場で提供しており、特定の企業・製品を推奨するものではありません。投資・調達判断は自己責任でお願いします。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    {/* コピーライト */}
+    <div class="mt-8 pt-6 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-slate-500">
+      <p>© {currentYear} {SITE_CONFIG.name}. All rights reserved.</p>
+      <p>Powered by <a href="https://astro.build" class="hover:text-slate-300 transition-colors">Astro</a> + <a href="https://pages.cloudflare.com" class="hover:text-slate-300 transition-colors">Cloudflare Pages</a></p>
+    </div>
+  </div>
+</footer>

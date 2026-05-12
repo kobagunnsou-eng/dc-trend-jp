@@ -1,0 +1,186 @@
+---
+// ベースレイアウト
+// OGP・JSON-LD（BreadcrumbList）・ダークモード対応を含む
+
+import { SITE_CONFIG } from '../config/site';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+export interface Props {
+  title?: string;
+  description?: string;
+  ogImage?: string;
+  canonical?: string;
+  // パンくずリスト（JSON-LD BreadcrumbList用）
+  breadcrumbs?: Array<{ name: string; url: string }>;
+}
+
+const {
+  title,
+  description = SITE_CONFIG.description,
+  ogImage = SITE_CONFIG.ogImage,
+  canonical,
+  breadcrumbs,
+} = Astro.props;
+
+// ページタイトルの組み立て（トップページはサイト名のみ）
+const pageTitle = title ? `${title} | ${SITE_CONFIG.name}` : SITE_CONFIG.name;
+
+// 正規URLの設定
+const canonicalURL = canonical ?? new URL(Astro.url.pathname, SITE_CONFIG.url).href;
+
+// OGP画像の絶対URL
+const ogImageURL = ogImage.startsWith('http') ? ogImage : `${SITE_CONFIG.url}${ogImage}`;
+
+// BreadcrumbList JSON-LD の組み立て
+const breadcrumbJsonLd = breadcrumbs && breadcrumbs.length > 0
+  ? JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: 'ホーム',
+          item: SITE_CONFIG.url,
+        },
+        ...breadcrumbs.map((crumb, i) => ({
+          '@type': 'ListItem',
+          position: i + 2,
+          name: crumb.name,
+          item: crumb.url.startsWith('http') ? crumb.url : `${SITE_CONFIG.url}${crumb.url}`,
+        })),
+      ],
+    })
+  : null;
+---
+
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    {/* 基本メタタグ */}
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
+
+    {/* OGP（Open Graph）メタタグ */}
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:image" content={ogImageURL} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content={SITE_CONFIG.name} />
+    <meta property="og:locale" content="ja_JP" />
+
+    {/* Twitter Card メタタグ */}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageURL} />
+    {SITE_CONFIG.twitterHandle && (
+      <meta name="twitter:site" content={`@${SITE_CONFIG.twitterHandle}`} />
+    )}
+
+    {/* ファビコン */}
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    {/* RSS フィード */}
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title={`${SITE_CONFIG.name} RSS`}
+      href="/rss.xml"
+    />
+
+    {/* BreadcrumbList JSON-LD */}
+    {breadcrumbJsonLd && (
+      <script type="application/ld+json" set:html={breadcrumbJsonLd} />
+    )}
+
+    {/* WebSite JSON-LD（トップページ用） */}
+    {!title && (
+      <script
+        type="application/ld+json"
+        set:html={JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'WebSite',
+          name: SITE_CONFIG.name,
+          description: SITE_CONFIG.description,
+          url: SITE_CONFIG.url,
+        })}
+      />
+    )}
+
+    {/* ダークモード初期化スクリプト（フラッシュ防止） */}
+    <script is:inline>
+      (function () {
+        const saved = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (saved === 'dark' || (!saved && prefersDark)) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+  </head>
+
+  <body class="bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100">
+    <Header />
+
+    {/* パンくずリスト表示 */}
+    {breadcrumbs && breadcrumbs.length > 0 && (
+      <nav
+        aria-label="パンくずリスト"
+        class="max-w-5xl mx-auto px-4 py-3 text-sm text-slate-500 dark:text-slate-400"
+      >
+        <ol class="flex flex-wrap items-center gap-1">
+          <li>
+            <a href="/" class="hover:text-brand-600 dark:hover:text-brand-400">ホーム</a>
+          </li>
+          {breadcrumbs.map((crumb, i) => (
+            <li class="flex items-center gap-1">
+              <span aria-hidden="true">›</span>
+              {i === breadcrumbs.length - 1 ? (
+                <span class="text-slate-700 dark:text-slate-300" aria-current="page">
+                  {crumb.name}
+                </span>
+              ) : (
+                <a href={crumb.url} class="hover:text-brand-600 dark:hover:text-brand-400">
+                  {crumb.name}
+                </a>
+              )}
+            </li>
+          ))}
+        </ol>
+      </nav>
+    )}
+
+    <main>
+      <slot />
+    </main>
+
+    <Footer />
+
+    {/* ダークモード切り替えロジック */}
+    <script>
+      function toggleTheme() {
+        const html = document.documentElement;
+        const isDark = html.classList.contains('dark');
+        html.classList.toggle('dark', !isDark);
+        localStorage.setItem('theme', isDark ? 'light' : 'dark');
+      }
+
+      // ダークモードトグルボタンにイベントを付与
+      document.addEventListener('DOMContentLoaded', () => {
+        const btn = document.getElementById('theme-toggle');
+        if (btn) btn.addEventListener('click', toggleTheme);
+      });
+    </script>
+  </body>
+</html>

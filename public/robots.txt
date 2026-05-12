@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# サイトマップの場所をクローラーに通知
+Sitemap: https://dc-trend-jp.com/sitemap-index.xml
+
+# 管理者向けページ（存在する場合）は除外
+Disallow: /admin/
+Disallow: /api/
+
+# クローリング負荷対策
+Crawl-delay: 1

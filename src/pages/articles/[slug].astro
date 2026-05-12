@@ -1,0 +1,31 @@
+---
+// 記事詳細ページ — 動的ルーティング
+
+import { getCollection } from 'astro:content';
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+
+// 静的生成: 全記事のパスを返す
+export async function getStaticPaths() {
+  const articles = await getCollection('articles', ({ data }) => !data.draft);
+  return articles.map(article => ({
+    params: { slug: article.data.slug },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const { Content } = await article.render();
+---
+
+<ArticleLayout
+  title={article.data.title}
+  description={article.data.summary}
+  publishedAt={article.data.published_at}
+  updatedAt={article.data.updated_at}
+  category={article.data.category}
+  tags={article.data.tags}
+  slug={article.data.slug}
+  author={article.data.author}
+>
+  <Content />
+</ArticleLayout>

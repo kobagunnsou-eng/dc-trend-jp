@@ -1,0 +1,123 @@
+/* グローバルCSS — DCトレンド研究 */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 日本語フォント読み込み（Google Fonts） */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+
+@layer base {
+  /* ライトモード / ダークモードのベーススタイル */
+  :root {
+    --color-bg: #ffffff;
+    --color-bg-secondary: #f8fafc;
+    --color-text: #0f172a;
+    --color-text-muted: #64748b;
+    --color-border: #e2e8f0;
+    --color-brand: #1d4ed8;
+    --color-brand-light: #dbeafe;
+  }
+
+  .dark {
+    --color-bg: #0f172a;
+    --color-bg-secondary: #1e293b;
+    --color-text: #f1f5f9;
+    --color-text-muted: #94a3b8;
+    --color-border: #334155;
+    --color-brand: #60a5fa;
+    --color-brand-light: #1e3a8a;
+  }
+
+  html {
+    font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    scroll-behavior: smooth;
+  }
+
+  body {
+    min-height: 100vh;
+    line-height: 1.9;
+  }
+
+  /* 見出しの日本語最適化 */
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.4;
+    font-weight: 700;
+  }
+}
+
+@layer components {
+  /* 記事本文のスタイル */
+  .prose-dc {
+    @apply max-w-none;
+  }
+
+  .prose-dc h2 {
+    @apply text-xl font-bold mt-10 mb-4 pb-2 border-b-2 border-brand-600 dark:border-brand-400 text-slate-900 dark:text-slate-100;
+  }
+
+  .prose-dc h3 {
+    @apply text-lg font-bold mt-8 mb-3 text-slate-800 dark:text-slate-200;
+  }
+
+  .prose-dc p {
+    @apply mb-5 text-slate-700 dark:text-slate-300 leading-loose;
+  }
+
+  .prose-dc ul {
+    @apply list-disc list-inside mb-5 space-y-1 text-slate-700 dark:text-slate-300;
+  }
+
+  .prose-dc ol {
+    @apply list-decimal list-inside mb-5 space-y-1 text-slate-700 dark:text-slate-300;
+  }
+
+  .prose-dc a {
+    @apply text-brand-600 dark:text-brand-400 underline hover:no-underline;
+  }
+
+  .prose-dc blockquote {
+    @apply border-l-4 border-brand-400 pl-4 my-6 text-slate-600 dark:text-slate-400 italic;
+  }
+
+  .prose-dc code {
+    @apply bg-slate-100 dark:bg-slate-800 px-1.5 py-0.5 rounded text-sm font-mono;
+  }
+
+  .prose-dc pre {
+    @apply bg-slate-900 text-slate-100 p-4 rounded-lg overflow-x-auto mb-5 text-sm;
+  }
+
+  .prose-dc table {
+    @apply w-full border-collapse mb-5;
+  }
+
+  .prose-dc th {
+    @apply bg-slate-100 dark:bg-slate-800 border border-slate-300 dark:border-slate-600 px-3 py-2 text-left text-sm font-bold;
+  }
+
+  .prose-dc td {
+    @apply border border-slate-300 dark:border-slate-600 px-3 py-2 text-sm;
+  }
+
+  /* カテゴリバッジ */
+  .category-badge {
+    @apply inline-block text-xs font-medium px-2 py-0.5 rounded bg-brand-100 dark:bg-brand-900 text-brand-700 dark:text-brand-300;
+  }
+
+  /* 記事カードのホバーエフェクト */
+  .article-card {
+    @apply transition-all duration-200 hover:shadow-md hover:-translate-y-0.5;
+  }
+}
+
+/* ダークモード切り替えボタンのアニメーション */
+.theme-toggle {
+  transition: transform 0.3s ease;
+}
+
+.theme-toggle:hover {
+  transform: rotate(20deg);
+}

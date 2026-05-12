@@ -1,0 +1,130 @@
+---
+// トップページ — 最新記事一覧 + カテゴリ別ハイライト
+
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { SITE_CONFIG, CATEGORIES } from '../config/site';
+
+// 記事を公開日降順で取得（下書きを除く）
+const allArticles = (await getCollection('articles'))
+  .filter(a => !a.data.draft)
+  .sort((a, b) => b.data.published_at.localeCompare(a.data.published_at));
+
+// 最新5記事をヒーローに表示
+const heroArticles = allArticles.slice(0, 5);
+
+// それ以降を通常一覧に
+const listArticles = allArticles.slice(5, 20);
+---
+
+<BaseLayout>
+  <div class="max-w-6xl mx-auto px-4 py-8">
+
+    {/* ヒーロー: 最新記事 */}
+    {heroArticles.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-lg font-bold mb-4 text-slate-700 dark:text-slate-300 flex items-center gap-2">
+          <span class="w-1 h-5 bg-brand-600 rounded"></span>
+          最新記事
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {heroArticles.map(article => (
+            <ArticleCard
+              title={article.data.title}
+              slug={article.data.slug}
+              summary={article.data.summary}
+              category={article.data.category}
+              tags={article.data.tags}
+              publishedAt={article.data.published_at}
+            />
+          ))}
+        </div>
+      </section>
+    )}
+
+    {/* カテゴリ一覧バナー */}
+    <section class="mb-10">
+      <h2 class="text-lg font-bold mb-4 text-slate-700 dark:text-slate-300 flex items-center gap-2">
+        <span class="w-1 h-5 bg-brand-600 rounded"></span>
+        カテゴリから探す
+      </h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+        {CATEGORIES.map(cat => (
+          <a
+            href={cat.slug === 'glossary' ? '/glossary' : `/category/${cat.slug}`}
+            class="flex flex-col p-4 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:border-brand-400 dark:hover:border-brand-500 transition-colors group"
+          >
+            <span class="font-bold text-sm text-slate-800 dark:text-slate-200 group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors">
+              {cat.name}
+            </span>
+            <span class="text-xs text-slate-500 dark:text-slate-400 mt-1 leading-relaxed">
+              {cat.description.slice(0, 40)}…
+            </span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    {/* サイトの特徴 */}
+    <section class="mb-10 bg-brand-50 dark:bg-slate-800 rounded-xl p-6">
+      <h2 class="text-lg font-bold mb-4 text-brand-800 dark:text-brand-300">
+        {SITE_CONFIG.name} について
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+        <div class="flex gap-3">
+          <span class="text-2xl">🔍</span>
+          <div>
+            <strong class="block text-slate-800 dark:text-slate-200">独立した第三者視点</strong>
+            <span class="text-slate-600 dark:text-slate-400">ベンダーに依存しない中立的な解説を提供します。</span>
+          </div>
+        </div>
+        <div class="flex gap-3">
+          <span class="text-2xl">⚡</span>
+          <div>
+            <strong class="block text-slate-800 dark:text-slate-200">高頻度更新</strong>
+            <span class="text-slate-600 dark:text-slate-400">週3〜5本ペースで最新ニュースをお届けします。</span>
+          </div>
+        </div>
+        <div class="flex gap-3">
+          <span class="text-2xl">🛠️</span>
+          <div>
+            <strong class="block text-slate-800 dark:text-slate-200">現場エンジニアの知見</strong>
+            <span class="text-slate-600 dark:text-slate-400">現役DCエンジニアのリアルな視点で解説します。</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {/* 記事一覧（続き） */}
+    {listArticles.length > 0 && (
+      <section>
+        <h2 class="text-lg font-bold mb-4 text-slate-700 dark:text-slate-300 flex items-center gap-2">
+          <span class="w-1 h-5 bg-slate-400 rounded"></span>
+          記事一覧
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {listArticles.map(article => (
+            <ArticleCard
+              title={article.data.title}
+              slug={article.data.slug}
+              summary={article.data.summary}
+              category={article.data.category}
+              tags={article.data.tags}
+              publishedAt={article.data.published_at}
+            />
+          ))}
+        </div>
+      </section>
+    )}
+
+    {/* 記事がない場合 */}
+    {allArticles.length === 0 && (
+      <div class="text-center py-20 text-slate-400">
+        <p class="text-4xl mb-4">📡</p>
+        <p class="text-lg font-bold">記事を準備中です</p>
+        <p class="text-sm mt-2">しばらくお待ちください。</p>
+      </div>
+    )}
+  </div>
+</BaseLayout>

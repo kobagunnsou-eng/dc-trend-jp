@@ -1,0 +1,96 @@
+---
+// 用語解説インデックスページ
+// 読み仮名の五十音順でソートして表示
+
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+// 用語解説コレクションを取得
+const allTerms = (await getCollection('glossary', ({ data }) => !data.draft))
+  .sort((a, b) => a.data.reading.localeCompare(b.data.reading, 'ja'));
+
+// 五十音グループ化
+const groups: Record<string, typeof allTerms> = {};
+const ROW_LABELS: Record<string, string> = {
+  'あ': 'あ行', 'い': 'あ行', 'う': 'あ行', 'え': 'あ行', 'お': 'あ行',
+  'か': 'か行', 'き': 'か行', 'く': 'か行', 'け': 'か行', 'こ': 'か行',
+  'さ': 'さ行', 'し': 'さ行', 'す': 'さ行', 'せ': 'さ行', 'そ': 'さ行',
+  'た': 'た行', 'ち': 'た行', 'つ': 'た行', 'て': 'た行', 'と': 'た行',
+  'な': 'な行', 'に': 'な行', 'ぬ': 'な行', 'ね': 'な行', 'の': 'な行',
+  'は': 'は行', 'ひ': 'は行', 'ふ': 'は行', 'へ': 'は行', 'ほ': 'は行',
+  'ま': 'ま行', 'み': 'ま行', 'む': 'ま行', 'め': 'ま行', 'も': 'ま行',
+  'や': 'や行', 'ゆ': 'や行', 'よ': 'や行',
+  'ら': 'ら行', 'り': 'ら行', 'る': 'ら行', 'れ': 'ら行', 'ろ': 'ら行',
+  'わ': 'わ行',
+  // アルファベット（英語用語）
+  'a': 'A〜Z', 'b': 'A〜Z', 'c': 'A〜Z', 'd': 'A〜Z', 'e': 'A〜Z',
+  'f': 'A〜Z', 'g': 'A〜Z', 'h': 'A〜Z', 'i': 'A〜Z', 'j': 'A〜Z',
+  'k': 'A〜Z', 'l': 'A〜Z', 'm': 'A〜Z', 'n': 'A〜Z', 'o': 'A〜Z',
+  'p': 'A〜Z', 'q': 'A〜Z', 'r': 'A〜Z', 's': 'A〜Z', 't': 'A〜Z',
+  'u': 'A〜Z', 'v': 'A〜Z', 'w': 'A〜Z', 'x': 'A〜Z', 'y': 'A〜Z', 'z': 'A〜Z',
+};
+
+for (const term of allTerms) {
+  const firstChar = term.data.reading[0]?.toLowerCase() ?? '';
+  const group = ROW_LABELS[firstChar] ?? 'その他';
+  if (!groups[group]) groups[group] = [];
+  groups[group].push(term);
+}
+
+// グループの順番
+const groupOrder = ['あ行', 'か行', 'さ行', 'た行', 'な行', 'は行', 'ま行', 'や行', 'ら行', 'わ行', 'A〜Z', 'その他'];
+const sortedGroups = groupOrder.filter(g => groups[g]);
+
+const breadcrumbs = [{ name: '用語解説', url: '/glossary' }];
+---
+
+<BaseLayout
+  title="用語解説"
+  description="データセンター業界の専門用語（PUE・液浸冷却・ハイパースケーラーなど）をわかりやすく解説します。"
+  breadcrumbs={breadcrumbs}
+>
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <div class="mb-8">
+      <h1 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-2">用語解説</h1>
+      <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+        データセンター業界の専門用語をわかりやすく解説します。DX担当者・経営企画層でも理解できる平易な説明を心がけています。
+      </p>
+      <p class="text-xs text-slate-400 mt-2">{allTerms.length}件の用語</p>
+    </div>
+
+    {sortedGroups.length > 0 ? (
+      <div class="space-y-8">
+        {sortedGroups.map(groupName => (
+          <section id={groupName}>
+            <h2 class="text-base font-bold text-brand-700 dark:text-brand-400 mb-3 pb-1 border-b border-brand-200 dark:border-brand-900">
+              {groupName}
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {groups[groupName].map(term => (
+                <a
+                  href={`/glossary/${term.data.slug}`}
+                  class="flex flex-col p-3 rounded border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:border-brand-400 dark:hover:border-brand-500 transition-colors"
+                >
+                  <span class="font-bold text-sm text-slate-900 dark:text-slate-100">
+                    {term.data.title}
+                  </span>
+                  <span class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
+                    {term.data.reading}
+                  </span>
+                  <span class="text-xs text-slate-600 dark:text-slate-400 mt-1 leading-relaxed line-clamp-1">
+                    {term.data.summary}
+                  </span>
+                </a>
+              ))}
+            </div>
+          </section>
+        ))}
+      </div>
+    ) : (
+      <div class="text-center py-16 text-slate-400">
+        <p class="text-3xl mb-4">📚</p>
+        <p>用語を準備中です。</p>
+      </div>
+    )}
+  </div>
+</BaseLayout>

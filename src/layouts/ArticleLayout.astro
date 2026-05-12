@@ -1,0 +1,147 @@
+---
+// 記事・用語解説共通レイアウト
+// Article スキーマの JSON-LD を含む
+
+import BaseLayout from './BaseLayout.astro';
+import { SITE_CONFIG, getCategorySlug } from '../config/site';
+
+export interface Props {
+  title: string;
+  description: string;
+  publishedAt: string;
+  updatedAt?: string;
+  category?: string;
+  tags?: string[];
+  slug: string;
+  author?: string;
+  isGlossary?: boolean;
+}
+
+const {
+  title,
+  description,
+  publishedAt,
+  updatedAt,
+  category,
+  tags = [],
+  slug,
+  author = SITE_CONFIG.author,
+  isGlossary = false,
+} = Astro.props;
+
+// 記事URLの絶対パス
+const articleUrl = isGlossary
+  ? `${SITE_CONFIG.url}/glossary/${slug}`
+  : `${SITE_CONFIG.url}/articles/${slug}`;
+
+// カテゴリのスラッグ（パンくず用）
+const categorySlug = category ? getCategorySlug(category) : null;
+
+// パンくずリスト
+const breadcrumbs = [
+  ...(category && categorySlug
+    ? [
+        {
+          name: isGlossary ? '用語解説' : category,
+          url: isGlossary ? '/glossary' : `/category/${categorySlug}`,
+        },
+      ]
+    : []),
+  { name: title, url: isGlossary ? `/glossary/${slug}` : `/articles/${slug}` },
+];
+
+// Article JSON-LD 構造化データ
+const articleJsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': isGlossary ? 'DefinedTerm' : 'Article',
+  headline: title,
+  description: description,
+  url: articleUrl,
+  datePublished: publishedAt,
+  ...(updatedAt ? { dateModified: updatedAt } : {}),
+  author: {
+    '@type': 'Organization',
+    name: author,
+    url: SITE_CONFIG.url,
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: SITE_CONFIG.name,
+    url: SITE_CONFIG.url,
+  },
+  inLanguage: 'ja',
+});
+
+// 日付表示のフォーマット
+function formatDate(dateStr: string): string {
+  const d = new Date(dateStr);
+  return d.toLocaleDateString('ja-JP', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  });
+}
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonical={articleUrl}
+  breadcrumbs={breadcrumbs}
+>
+  {/* Article JSON-LD */}
+  <script type="application/ld+json" set:html={articleJsonLd} slot="head" />
+
+  <article class="max-w-3xl mx-auto px-4 py-10">
+    {/* カテゴリバッジ */}
+    {category && (
+      <div class="mb-4">
+        <a
+          href={isGlossary ? '/glossary' : `/category/${categorySlug}`}
+          class="category-badge"
+        >
+          {category}
+        </a>
+      </div>
+    )}
+
+    {/* 記事タイトル */}
+    <h1 class="text-2xl md:text-3xl font-bold leading-tight mb-4 text-slate-900 dark:text-slate-100">
+      {title}
+    </h1>
+
+    {/* メタ情報（日付・タグ） */}
+    <div class="flex flex-wrap items-center gap-3 text-sm text-slate-500 dark:text-slate-400 mb-6 pb-6 border-b border-slate-200 dark:border-slate-700">
+      <time datetime={publishedAt}>
+        📅 {formatDate(publishedAt)}
+      </time>
+      {updatedAt && (
+        <span>（更新: {formatDate(updatedAt)}）</span>
+      )}
+      <span>✍️ {author}</span>
+    </div>
+
+    {/* タグ */}
+    {tags.length > 0 && (
+      <div class="flex flex-wrap gap-2 mb-6">
+        {tags.map(tag => (
+          <span class="text-xs px-2 py-0.5 bg-slate-100 dark:bg-slate-800 rounded text-slate-600 dark:text-slate-400">
+            #{tag}
+          </span>
+        ))}
+      </div>
+    )}
+
+    {/* 記事本文 */}
+    <div class="prose-dc">
+      <slot />
+    </div>
+
+    {/* 記事フッター */}
+    <div class="mt-12 pt-6 border-t border-slate-200 dark:border-slate-700 text-sm text-slate-500 dark:text-slate-400">
+      <p>
+        この記事は <strong class="text-slate-700 dark:text-slate-300">{SITE_CONFIG.name}</strong> が独立した第三者の立場で執筆しています。
+      </p>
+    </div>
+  </article>
+</BaseLayout>

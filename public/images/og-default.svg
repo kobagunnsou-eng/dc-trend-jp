@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- OGPデフォルト画像 — DCトレンド研究 -->
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#0f172a"/>
+  <!-- グリッド装飾 -->
+  <line x1="0" y1="210" x2="1200" y2="210" stroke="#1e293b" stroke-width="1"/>
+  <line x1="0" y1="420" x2="1200" y2="420" stroke="#1e293b" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="630" stroke="#1e293b" stroke-width="1"/>
+  <line x1="800" y1="0" x2="800" y2="630" stroke="#1e293b" stroke-width="1"/>
+  <!-- アクセントライン -->
+  <rect x="0" y="0" width="8" height="630" fill="#2563eb"/>
+  <!-- サーバーアイコン群（装飾） -->
+  <rect x="80" y="200" width="180" height="30" rx="4" fill="#1e40af" opacity="0.6"/>
+  <rect x="80" y="240" width="180" height="30" rx="4" fill="#1e40af" opacity="0.6"/>
+  <rect x="80" y="280" width="180" height="30" rx="4" fill="#1e40af" opacity="0.4"/>
+  <circle cx="242" cy="215" r="6" fill="#34d399"/>
+  <circle cx="242" cy="255" r="6" fill="#fbbf24"/>
+  <circle cx="242" cy="295" r="6" fill="#34d399"/>
+  <!-- メインテキスト -->
+  <text x="320" y="270" font-family="'Noto Sans JP', sans-serif" font-size="72" font-weight="bold" fill="#f1f5f9">DCトレンド研究</text>
+  <text x="320" y="340" font-family="'Noto Sans JP', sans-serif" font-size="28" fill="#94a3b8">データセンターのトレンドをニュース×解説でお届けする専門メディア</text>
+  <!-- ドメイン -->
+  <text x="320" y="420" font-family="monospace" font-size="22" fill="#2563eb">dc-trend-jp.com</text>
+</svg>
