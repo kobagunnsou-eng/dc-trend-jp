@@ -15,7 +15,7 @@ related_terms: ["what-is-liquid-immersion-cooling"]
 
 計算式は非常にシンプルです。
 
-> **PUE = データセンター全体の消費電力 ÷ IT機器の消費電力**
+**PUE = データセンター全体の消費電力 ÷ IT機器の消費電力**
 
 ### 数値の読み方
 
