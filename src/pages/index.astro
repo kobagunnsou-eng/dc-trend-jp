@@ -32,7 +32,7 @@ const listArticles = allArticles.slice(5, 20);
           {heroArticles.map(article => (
             <ArticleCard
               title={article.data.title}
-              slug={article.data.slug}
+              slug={article.id.replace(/\.mdx?$/, '')}
               summary={article.data.summary}
               category={article.data.category}
               tags={article.data.tags}
@@ -107,7 +107,7 @@ const listArticles = allArticles.slice(5, 20);
           {listArticles.map(article => (
             <ArticleCard
               title={article.data.title}
-              slug={article.data.slug}
+              slug={article.id.replace(/\.mdx?$/, '')}
               summary={article.data.summary}
               category={article.data.category}
               tags={article.data.tags}

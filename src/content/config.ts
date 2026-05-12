@@ -18,7 +18,7 @@ const articles = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
-    slug: z.string(),
+    // slug は Astro v5 の予約フィールドのためスキーマ定義不要（entry.id から取得）
     category: z.enum(CATEGORIES),
     tags: z.array(z.string()).default([]),
     published_at: z.string(), // "YYYY-MM-DD" 形式
@@ -39,7 +39,7 @@ const glossary = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
-    slug: z.string(),
+    // slug は Astro v5 の予約フィールドのためスキーマ定義不要（entry.id から取得）
     // 読み仮名（索引用）
     reading: z.string(),
     // 関連タグ

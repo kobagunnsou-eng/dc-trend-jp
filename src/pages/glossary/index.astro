@@ -68,7 +68,7 @@ const breadcrumbs = [{ name: '用語解説', url: '/glossary' }];
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {groups[groupName].map(term => (
                 <a
-                  href={`/glossary/${term.data.slug}`}
+                  href={`/glossary/${term.id.replace(/\.mdx?$/, '')}`}
                   class="flex flex-col p-3 rounded border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:border-brand-400 dark:hover:border-brand-500 transition-colors"
                 >
                   <span class="font-bold text-sm text-slate-900 dark:text-slate-100">

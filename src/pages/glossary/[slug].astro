@@ -4,16 +4,22 @@
 import { getCollection } from 'astro:content';
 import ArticleLayout from '../../layouts/ArticleLayout.astro';
 
+// Astro v5: entry.id はファイル名（拡張子付き）なので除去してslugとして使用
+function getSlug(id: string) {
+  return id.replace(/\.mdx?$/, '');
+}
+
 // 静的生成: 全用語のパスを返す
 export async function getStaticPaths() {
   const terms = await getCollection('glossary', ({ data }) => !data.draft);
   return terms.map(term => ({
-    params: { slug: term.data.slug },
+    params: { slug: getSlug(term.id) },
     props: { term },
   }));
 }
 
 const { term } = Astro.props;
+const slug = getSlug(term.id);
 const { Content } = await term.render();
 ---
 
@@ -24,7 +30,7 @@ const { Content } = await term.render();
   updatedAt={term.data.updated_at}
   category="用語解説"
   tags={term.data.tags}
-  slug={term.data.slug}
+  slug={slug}
   isGlossary={true}
 >
   <Content />
@@ -34,12 +40,12 @@ const { Content } = await term.render();
     <div class="mt-10 p-4 bg-slate-50 dark:bg-slate-800 rounded-lg border border-slate-200 dark:border-slate-700">
       <h3 class="font-bold text-sm text-slate-700 dark:text-slate-300 mb-3">関連用語</h3>
       <div class="flex flex-wrap gap-2">
-        {term.data.related_terms.map(slug => (
+        {term.data.related_terms.map(s => (
           <a
-            href={`/glossary/${slug}`}
+            href={`/glossary/${s}`}
             class="text-sm px-3 py-1 bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600 rounded hover:border-brand-400 transition-colors text-brand-600 dark:text-brand-400"
           >
-            {slug}
+            {s}
           </a>
         ))}
       </div>
@@ -51,13 +57,13 @@ const { Content } = await term.render();
     <div class="mt-4 p-4 bg-brand-50 dark:bg-slate-800 rounded-lg border border-brand-100 dark:border-slate-700">
       <h3 class="font-bold text-sm text-slate-700 dark:text-slate-300 mb-3">関連記事</h3>
       <ul class="space-y-1">
-        {term.data.related_articles.map(slug => (
+        {term.data.related_articles.map(s => (
           <li>
             <a
-              href={`/articles/${slug}`}
+              href={`/articles/${s}`}
               class="text-sm text-brand-600 dark:text-brand-400 hover:underline"
             >
-              → {slug}
+              → {s}
             </a>
           </li>
         ))}
