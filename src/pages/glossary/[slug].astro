@@ -4,22 +4,18 @@
 import { getCollection } from 'astro:content';
 import ArticleLayout from '../../layouts/ArticleLayout.astro';
 
-// Astro v5: entry.id はファイル名（拡張子付き）なので除去してslugとして使用
-function getSlug(id: string) {
-  return id.replace(/\.mdx?$/, '');
-}
-
 // 静的生成: 全用語のパスを返す
+// Astro v5: entry.id はファイル名（拡張子付き）なので除去してslugとして使用
 export async function getStaticPaths() {
   const terms = await getCollection('glossary', ({ data }) => !data.draft);
   return terms.map(term => ({
-    params: { slug: getSlug(term.id) },
+    params: { slug: term.id.replace(/\.mdx?$/, '') },
     props: { term },
   }));
 }
 
 const { term } = Astro.props;
-const slug = getSlug(term.id);
+const slug = term.id.replace(/\.mdx?$/, '');
 const { Content } = await term.render();
 ---
 
