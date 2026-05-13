@@ -118,6 +118,18 @@ const breadcrumbJsonLd = breadcrumbs && breadcrumbs.length > 0
       />
     )}
 
+    {/* Google Search Console 認証 */}
+    <meta name="google-site-verification" content="IDNoMGF1xHBBYeFL1UD5JrwhA-YKiXIc4hXErkCI7oM" />
+
+    {/* Google Analytics 4 */}
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QRZT9HPJJ3" is:inline></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QRZT9HPJJ3');
+    </script>
+
     {/* ダークモード初期化スクリプト（フラッシュ防止） */}
     <script is:inline>
       (function () {
