@@ -101,7 +101,7 @@ NVIDIAのGB200（Blackwell世代）や次世代チップは1ラックあたり10
 ### 海外の事例
 
 **Microsoft（アリゾナ州）**  
-AI特化のクラウドDCで2フェーズ液浸を採用。冷却エネルギーを75%削減したと発表しています（2024年）。
+AI特化のクラウドDCで2フェーズ液浸を採用。[冷却エネルギーを75%削減したと発表しています（2024年）](https://www.microsoft.com/en-us/corporate-responsibility/sustainability)。
 
 **Google**  
 次世代AIアクセラレーター（TPU）向けに直接液冷を全面採用。PUE 1.1 以下を達成する施設を複数運用中です。
@@ -111,13 +111,13 @@ AI特化のクラウドDCで2フェーズ液浸を採用。冷却エネルギー
 
 ### 国内の事例
 
-**さくらインターネット（石狩DC）**  
+[**さくらインターネット（石狩DC）**](https://www.sakura.ad.jp/services/datacenter/)  
 2023年よりGPUクラスタ向けに液冷（直接液冷）の導入を開始。石狩という立地のフリークーリングと組み合わせ、PUE の大幅改善を進めています。
 
-**NTT コミュニケーションズ**  
+[**NTT コミュニケーションズ**](https://www.ntt.com/business/services/data-center.html)  
 「Green DC」構想の一環として液浸冷却の実証試験を複数拠点で実施中（2025年発表）。2026年度中の商用化を目指しています。
 
-**KDDIグループ**  
+[**KDDIグループ**](https://www.kddi.com/business/solution/idc/)  
 エッジDC向けの小型液浸冷却ユニットを実証中。特に郊外・工場内設置を想定した小型モジュールに注力しています。
 
 ---

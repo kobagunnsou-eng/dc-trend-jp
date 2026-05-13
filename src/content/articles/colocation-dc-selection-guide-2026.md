@@ -62,7 +62,7 @@ DLC対応は今後のスタンダードになるため、**「DLC対応可否と
 
 ## 確認ポイント④ Tier認定と耐障害設計
 
-DCの信頼性指標として**Uptime Institute Tier認定**があります。
+DCの信頼性指標として[**Uptime Institute Tier認定**](https://uptimeinstitute.com/tiers)があります。
 
 | Tier | 冗長性 | 年間ダウンタイム目安 |
 |------|--------|----------------------|
