@@ -112,5 +112,8 @@ NVIDIA Blackwell（GB200）は、AIの計算能力を飛躍的に高める一方
 
 ### 関連記事・用語
 - [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026)
+- [直接液冷（DLC）とは](/glossary/what-is-dlc)
+- [コロケーションDC選定の勘所2026年版](/articles/colocation-dc-selection-guide-2026)
+- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026)
 - [液浸冷却（Liquid Immersion Cooling）とは](/glossary/what-is-liquid-immersion-cooling)
 - [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue)

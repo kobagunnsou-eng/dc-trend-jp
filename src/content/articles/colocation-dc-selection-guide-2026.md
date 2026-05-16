@@ -140,5 +140,7 @@ AI時代のコロケーションDC選定は、「電力密度・冷却方式・S
 ### 関連記事・用語
 - [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026)
 - [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure)
+- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026)
 - [液浸冷却（Liquid Immersion Cooling）とは](/glossary/what-is-liquid-immersion-cooling)
+- [直接液冷（DLC）とは](/glossary/what-is-dlc)
 - [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue)

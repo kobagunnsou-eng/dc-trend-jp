@@ -104,6 +104,9 @@ const breadcrumbJsonLd = breadcrumbs && breadcrumbs.length > 0
       <script type="application/ld+json" set:html={breadcrumbJsonLd} />
     )}
 
+    {/* 各ページからの追加 head 要素（Article JSON-LD等） */}
+    <slot name="head" />
+
     {/* WebSite JSON-LD（トップページ用） */}
     {!title && (
       <script

@@ -5,8 +5,8 @@ reading: "えきしんれいきゃく"
 tags: ["液浸冷却", "冷却技術", "AI", "GPU", "省エネ"]
 published_at: "2026-05-12"
 summary: "液浸冷却はサーバーを特殊な液体に浸して冷却する次世代技術です。AI/GPU時代に急速に注目を集める仕組み・メリット・課題・国内外の採用事例を解説します。"
-related_articles: ["ai-datacenter-power-crisis-2026"]
-related_terms: ["what-is-pue"]
+related_articles: ["ai-datacenter-power-crisis-2026", "nvidia-blackwell-ai-infrastructure"]
+related_terms: ["what-is-pue", "what-is-dlc"]
 ---
 
 ## 液浸冷却とは
@@ -137,3 +137,12 @@ Submer・Iceotope（欧州スタートアップ）
 DX担当者・IT調達担当者にとっては、AI推論基盤やGPUクラスタの調達時にDC側の冷却方式を確認することが、長期的な稼働安定性の判断材料になります。「液冷対応DCか否か」は今後の施設選定の重要条件になっていくでしょう。
 
 > エンジニアメモ: 「液浸冷却は高い」というイメージがありますが、電力コスト・故障率の低減・寿命延長を含めたTCO（総所有コスト）で評価すると、高密度環境では空冷と比べてもコスト競争力が出てきています。5〜10年スパンで見た場合の比較を必ず行うことをお勧めします。
+
+---
+
+### 関連記事・用語
+- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026)
+- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure)
+- [コロケーションDC選定の勘所2026年版](/articles/colocation-dc-selection-guide-2026)
+- [直接液冷（DLC）とは](/glossary/what-is-dlc)
+- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue)

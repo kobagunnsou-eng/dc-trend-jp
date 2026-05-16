@@ -89,6 +89,10 @@ AIデータセンターの電力問題は、「電力が作れない」という
 
 ---
 
-### 関連用語
+### 関連記事・用語
+- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure)
+- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026)
+- [コロケーションDC選定の勘所2026年版](/articles/colocation-dc-selection-guide-2026)
+- [直接液冷（DLC）とは](/glossary/what-is-dlc)
 - [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue)
 - [液浸冷却（Liquid Immersion Cooling）とは](/glossary/what-is-liquid-immersion-cooling)

@@ -57,8 +57,20 @@ const articleJsonLd = JSON.stringify({
   headline: title,
   description: description,
   url: articleUrl,
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': articleUrl,
+  },
+  // Google Article rich results に必須の image フィールド
+  image: {
+    '@type': 'ImageObject',
+    url: `${SITE_CONFIG.url}/images/og-default.svg`,
+    width: 1200,
+    height: 630,
+  },
   datePublished: publishedAt,
-  ...(updatedAt ? { dateModified: updatedAt } : {}),
+  // updated_at がない場合は published_at をフォールバックとして使用
+  dateModified: updatedAt ?? publishedAt,
   author: {
     '@type': 'Organization',
     name: author,
@@ -68,7 +80,14 @@ const articleJsonLd = JSON.stringify({
     '@type': 'Organization',
     name: SITE_CONFIG.name,
     url: SITE_CONFIG.url,
+    logo: {
+      '@type': 'ImageObject',
+      url: `${SITE_CONFIG.url}/favicon.svg`,
+    },
   },
+  // カテゴリ・タグ情報
+  ...(category ? { articleSection: category } : {}),
+  ...(tags.length > 0 ? { keywords: tags.join(', ') } : {}),
   inLanguage: 'ja',
 });
 

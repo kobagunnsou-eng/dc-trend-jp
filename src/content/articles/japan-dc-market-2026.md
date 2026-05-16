@@ -98,4 +98,8 @@ DC建設の専門業者（電気・空調・配線）は需要過多で、工期
 ### 関連記事・用語
 - [MicrosoftのAI向け日本DC投資4400億円を読み解く](/articles/microsoft-japan-dc-investment-2026)
 - [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026)
+- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure)
+- [コロケーションDC選定の勘所2026年版](/articles/colocation-dc-selection-guide-2026)
 - [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue)
+- [直接液冷（DLC）とは](/glossary/what-is-dlc)
+- [液浸冷却（Liquid Immersion Cooling）とは](/glossary/what-is-liquid-immersion-cooling)
