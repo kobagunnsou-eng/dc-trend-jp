@@ -11,9 +11,7 @@ draft: false
 
 ## 「船の上にデータセンター」——SF的構想が動き出した
 
-2026年3月30日、[商船三井](https://www.mol.co.jp/)・[日立製作所](https://www.hitachi.co.jp/)・[日立システムズ](https://www.hitachi-systems.com/)の3社は、**中古船を改造した浮体式データセンター（FDC: Floating Data Center）** の開発・運用・商用化に向けた基本合意書（MOU）を締結したと発表しました。
-
-（[出典：innovaTopia](https://innovatopia.jp/) / [Logi-biz](https://logi-biz.com/)）
+2026年3月30日、[商船三井](https://www.mol.co.jp/)・[日立製作所](https://www.hitachi.co.jp/)・[日立システムズ](https://www.hitachi-systems.com/)の3社は、**中古船を改造した浮体式データセンター（FDC: Floating Data Center）** の開発・運用・商用化に向けた基本合意書（MOU）を締結したと発表しました（[商船三井プレスリリース](https://www.mol.co.jp/pr/2026/26022.html) / [日立製作所プレスリリース](https://www.hitachi.com/ja-jp/press/articles/2026/03/0330/)）。
 
 「船をデータセンターに改造する」——一見、奇抜なアイデアに聞こえますが、背景にある課題は極めてリアルです。**用地不足・電力系統の逼迫・自然災害リスク**という日本特有の三重苦に対して、海上という選択肢はどこまで現実的なのでしょうか。現役DCエンジニアの視点で検証します。
 
@@ -122,6 +120,19 @@ FDCは現時点では「新興の選択肢候補」であり、**今すぐ調達
 - **洋上再エネとの統合**: 2030年代の洋上風力大規模導入シナリオとの組み合わせ
 
 商用化の本格化は早くて2028〜2030年代とみられます。引き続き実証実験の進捗を追っていきます。
+
+---
+
+### 一次情報・参考報道
+
+**プレスリリース（一次情報）**
+- [商船三井「浮体式データセンター事業化に向けた基本合意書の締結について」](https://www.mol.co.jp/pr/2026/26022.html)（2026年3月30日）
+- [日立製作所「浮体式データセンターの共同開発・事業化に向けた基本合意書締結について」](https://www.hitachi.com/ja-jp/press/articles/2026/03/0330/)（2026年3月30日）
+
+**解説・関連報道**
+- [EE Times Japan「浮体式データセンター共同開発、商船三井と日立」](https://eetimes.itmedia.co.jp/ee/articles/2604/01/news027.html)（2026年4月1日）
+- [Sustainable Japan「商船三井・日立の浮体式DC——水資源・環境問題との関連」](https://sustainablejapan.jp/2026/04/20/mol-hitachi-fdc/124354)（2026年4月20日）
+- [innovatopia「浮体式データセンター、商船三井×日立が本格始動——KineticsとのMOUも」](https://innovatopia.jp/infrastructure/infrastructure-news/93073/)（背景解説）
 
 ---
 
