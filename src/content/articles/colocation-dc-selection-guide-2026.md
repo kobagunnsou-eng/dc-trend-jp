@@ -142,6 +142,7 @@ AI時代のコロケーションDC選定は、「電力密度・冷却方式・S
 - [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure)
 - [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026)
 - [液浸冷却（Liquid Immersion Cooling）とは](/glossary/what-is-liquid-immersion-cooling)
+- [データセンターの発電機「排煙・騒音」問題——法律の穴と住民トラブルの実態](/articles/datacenter-generator-exhaust-resident-trouble-2026)
 - [コロケーション（Colocation）とは](/glossary/what-is-colocation)
 - [液冷（Liquid Cooling）とは](/glossary/what-is-liquid-cooling)
 - [直接液冷（DLC）とは](/glossary/what-is-dlc)

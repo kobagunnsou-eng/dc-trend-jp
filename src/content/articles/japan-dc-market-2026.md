@@ -96,6 +96,7 @@ DC建設の専門業者（電気・空調・配線）は需要過多で、工期
 ---
 
 ### 関連記事・用語
+- [データセンターの発電機「排煙・騒音」問題——法律の穴と住民トラブルの実態](/articles/datacenter-generator-exhaust-resident-trouble-2026)
 - [MicrosoftのAI向け日本DC投資4400億円を読み解く](/articles/microsoft-japan-dc-investment-2026)
 - [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026)
 - [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure)
