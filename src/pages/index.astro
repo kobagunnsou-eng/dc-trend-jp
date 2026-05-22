@@ -6,12 +6,37 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import { SITE_CONFIG, CATEGORIES } from '../config/site';
 
-// 記事を公開日降順で取得（下書きを除く）
-const allArticles = (await getCollection('articles'))
+// 記事コレクション（下書きを除く）
+const articles = (await getCollection('articles'))
   .filter(a => !a.data.draft)
-  .sort((a, b) => b.data.published_at.localeCompare(a.data.published_at));
+  .map(a => ({
+    title: a.data.title,
+    slug: a.id.replace(/\.mdx?$/, ''),
+    summary: a.data.summary,
+    category: a.data.category,
+    tags: a.data.tags,
+    publishedAt: a.data.published_at,
+    isGlossary: false,
+  }));
 
-// 最新5記事をヒーローに表示
+// 用語解説コレクション（下書きを除く）
+const glossaryEntries = (await getCollection('glossary'))
+  .filter(g => !g.data.draft)
+  .map(g => ({
+    title: g.data.title,
+    slug: g.id.replace(/\.mdx?$/, ''),
+    summary: g.data.summary,
+    category: '用語解説',
+    tags: g.data.tags,
+    publishedAt: g.data.published_at,
+    isGlossary: true,
+  }));
+
+// 記事＋用語解説を公開日降順でマージ
+const allArticles = [...articles, ...glossaryEntries]
+  .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+
+// 最新5件をヒーローに表示
 const heroArticles = allArticles.slice(0, 5);
 
 // それ以降を通常一覧に
@@ -31,12 +56,13 @@ const listArticles = allArticles.slice(5, 20);
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {heroArticles.map(article => (
             <ArticleCard
-              title={article.data.title}
-              slug={article.id.replace(/\.mdx?$/, '')}
-              summary={article.data.summary}
-              category={article.data.category}
-              tags={article.data.tags}
-              publishedAt={article.data.published_at}
+              title={article.title}
+              slug={article.slug}
+              summary={article.summary}
+              category={article.category}
+              tags={article.tags}
+              publishedAt={article.publishedAt}
+              isGlossary={article.isGlossary}
             />
           ))}
         </div>
@@ -106,12 +132,13 @@ const listArticles = allArticles.slice(5, 20);
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {listArticles.map(article => (
             <ArticleCard
-              title={article.data.title}
-              slug={article.id.replace(/\.mdx?$/, '')}
-              summary={article.data.summary}
-              category={article.data.category}
-              tags={article.data.tags}
-              publishedAt={article.data.published_at}
+              title={article.title}
+              slug={article.slug}
+              summary={article.summary}
+              category={article.category}
+              tags={article.tags}
+              publishedAt={article.publishedAt}
+              isGlossary={article.isGlossary}
             />
           ))}
         </div>
