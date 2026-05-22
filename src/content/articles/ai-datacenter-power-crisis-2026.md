@@ -98,3 +98,4 @@ AIデータセンターの電力問題は、「電力が作れない」という
 - [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue)
 - [液浸冷却（Liquid Immersion Cooling）とは](/glossary/what-is-liquid-immersion-cooling)
 - [SMR（小型モジュール炉）とは](/glossary/what-is-smr)
+- [エッジコンピューティングとは——5G時代にDCが分散する理由](/glossary/what-is-edge-computing)
