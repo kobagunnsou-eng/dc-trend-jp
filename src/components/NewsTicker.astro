@@ -1,0 +1,36 @@
+---
+// NewsTicker — top "LATEST" strip with the freshest article
+// CHANGES from main: NEW component
+
+import Icon from './Icon.astro';
+
+export interface Props {
+  article: {
+    title: string;
+    slug: string;
+    publishedAt: string;
+    isGlossary?: boolean;
+  };
+}
+
+const { article } = Astro.props;
+
+const href = article.isGlossary
+  ? `/glossary/${article.slug}`
+  : `/articles/${article.slug}`;
+
+const dateStr = new Date(article.publishedAt)
+  .toLocaleDateString('ja-JP', { year: 'numeric', month: '2-digit', day: '2-digit' })
+  .replace(/\//g, '.');
+---
+
+<div class="bg-slate-900 dark:bg-black text-slate-100 text-[12px] border-b border-slate-800">
+  <div class="max-w-6xl mx-auto px-4 py-2 flex items-center gap-3 overflow-hidden">
+    <span class="flex-shrink-0 inline-flex items-center gap-1.5 px-2 py-0.5 bg-brand-600 text-white font-medium tracking-wider text-[10px]">
+      <span class="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
+      LATEST
+    </span>
+    <span class="flex-shrink-0 text-slate-400 tabular-nums font-mono text-[11px]">{dateStr}</span>
+    <a href={href} class="text-slate-100 hover:text-brand-300 no-underline truncate">{article.title}</a>
+  </div>
+</div>
