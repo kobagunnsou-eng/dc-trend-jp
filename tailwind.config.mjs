@@ -1,14 +1,13 @@
-// Tailwind CSS設定 — DCトレンド研究
+// tailwind.config.mjs — DCトレンド研究
+// CHANGES from main: add fontFamily.serif (Noto Serif JP) and fontFamily.mono (JetBrains Mono)
 
 /** @type {import('tailwindcss').Config} */
 export default {
-  // ダークモード: クラスベース（<html class="dark"> で切り替え）
   darkMode: 'class',
   content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
   theme: {
     extend: {
       colors: {
-        // サイトのブランドカラー（ダークブルー系）
         brand: {
           50:  '#eff6ff',
           100: '#dbeafe',
@@ -24,7 +23,6 @@ export default {
         },
       },
       fontFamily: {
-        // 日本語フォント優先設定
         sans: [
           '"Noto Sans JP"',
           '"Hiragino Kaku Gothic ProN"',
@@ -32,11 +30,27 @@ export default {
           'Meiryo',
           'sans-serif',
         ],
+        // NEW — editorial headlines + hero
+        serif: [
+          '"Noto Serif JP"',
+          '"Yu Mincho"',
+          '"Hiragino Mincho ProN"',
+          '"Hiragino Mincho Pro"',
+          'serif',
+        ],
+        // NEW — code / tabular numerics
+        mono: [
+          '"JetBrains Mono"',
+          'ui-monospace',
+          '"SF Mono"',
+          'Menlo',
+          'Consolas',
+          'monospace',
+        ],
       },
       typography: {
         DEFAULT: {
           css: {
-            // 日本語本文の行間を広めに
             lineHeight: '1.9',
           },
         },

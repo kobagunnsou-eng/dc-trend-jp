@@ -1,0 +1,123 @@
+---
+// Thumbnail — flat, editorial placeholder SVG keyed to category.
+// Keeps the brand vocabulary from public/images/og-default.svg (slate-900 base,
+// brand-blue stripe, geometric data-center motif). Drop-in until real photos.
+
+export interface Props {
+  category?: string;
+  ratio?: '16/9' | '4/3' | '3/2';
+  label?: string;
+}
+
+const { category, ratio = '16/9', label } = Astro.props;
+
+const motifs: Record<string, string> = {
+  'AI・HPCインフラ':   'circuit',
+  '電力・冷却技術':     'power',
+  '国内DC動向':         'rack',
+  '海外DC動向':         'globe',
+  '用語解説':           'book',
+  '市場データ・統計':   'chart',
+};
+const motif = (category && motifs[category]) || 'rack';
+---
+
+<div
+  class="thumbnail relative w-full overflow-hidden bg-slate-900 dark:bg-slate-950"
+  style={`aspect-ratio:${ratio};`}
+>
+  <svg
+    viewBox="0 0 320 180"
+    preserveAspectRatio="xMidYMid slice"
+    class="absolute inset-0 w-full h-full"
+    aria-hidden="true"
+  >
+    {/* Subtle grid lines */}
+    <g stroke="#1e293b" stroke-width="1">
+      <line x1="0" y1="45"  x2="320" y2="45"/>
+      <line x1="0" y1="90"  x2="320" y2="90"/>
+      <line x1="0" y1="135" x2="320" y2="135"/>
+      <line x1="80"  y1="0" x2="80"  y2="180"/>
+      <line x1="160" y1="0" x2="160" y2="180"/>
+      <line x1="240" y1="0" x2="240" y2="180"/>
+    </g>
+
+    {/* Brand-blue stripe (left edge) */}
+    <rect x="0" y="0" width="4" height="180" fill="#2563eb"/>
+
+    {motif === 'rack' && (
+      <g>
+        <rect x="140" y="50" width="40" height="80" rx="2" fill="none" stroke="#475569" stroke-width="1.5"/>
+        {[58, 72, 86, 100, 114].map((y, i) => (
+          <>
+            <rect x="146" y={y} width="28" height="8" rx="1" fill="#1e40af" opacity="0.6"/>
+            <circle cx="171" cy={y + 4} r="1.5" fill={i % 2 === 0 ? '#34d399' : '#fbbf24'}/>
+          </>
+        ))}
+      </g>
+    )}
+
+    {motif === 'circuit' && (
+      <g>
+        <rect x="120" y="55" width="80" height="70" rx="3" fill="#1e3a8a" opacity="0.5" stroke="#3b82f6" stroke-width="1.5"/>
+        <rect x="140" y="75" width="40" height="30" rx="1" fill="#2563eb" opacity="0.8"/>
+        <g stroke="#3b82f6" stroke-width="1.5">
+          {[60, 75, 90, 105, 120].map(y => <line x1="110" y1={y} x2="120" y2={y}/>)}
+          {[60, 75, 90, 105, 120].map(y => <line x1="200" y1={y} x2="210" y2={y}/>)}
+          {[130, 145, 160, 175, 190].map(x => <line x1={x} y1="45" x2={x} y2="55"/>)}
+          {[130, 145, 160, 175, 190].map(x => <line x1={x} y1="125" x2={x} y2="135"/>)}
+        </g>
+      </g>
+    )}
+
+    {motif === 'power' && (
+      <g>
+        <polygon points="160,40 150,90 162,90 152,140 180,80 168,80 178,40" fill="#2563eb" opacity="0.85"/>
+        <path d="M 60 145 Q 90 130, 120 145 T 180 145 T 240 145 T 280 145" fill="none" stroke="#60a5fa" stroke-width="1.5" opacity="0.7"/>
+      </g>
+    )}
+
+    {motif === 'globe' && (
+      <g>
+        <circle cx="160" cy="90" r="45" fill="none" stroke="#3b82f6" stroke-width="1.5" opacity="0.7"/>
+        <ellipse cx="160" cy="90" rx="45" ry="18" fill="none" stroke="#3b82f6" stroke-width="1" opacity="0.5"/>
+        <ellipse cx="160" cy="90" rx="18" ry="45" fill="none" stroke="#3b82f6" stroke-width="1" opacity="0.5"/>
+        {[[120,70],[200,75],[155,55],[180,120],[140,115]].map(([x,y]) => (
+          <circle cx={x} cy={y} r="3" fill="#60a5fa"/>
+        ))}
+        <circle cx="160" cy="90" r="4" fill="#fbbf24"/>
+      </g>
+    )}
+
+    {motif === 'book' && (
+      <g>
+        <path d="M 100 60 Q 160 50 220 60 L 220 130 Q 160 120 100 130 Z" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/>
+        <line x1="160" y1="55" x2="160" y2="125" stroke="#3b82f6" stroke-width="1.5"/>
+        {[75, 85, 95, 105, 115].map(y => (
+          <>
+            <line x1="112" y1={y} x2="145" y2={y} stroke="#475569" stroke-width="1"/>
+            <line x1="175" y1={y} x2="208" y2={y} stroke="#475569" stroke-width="1"/>
+          </>
+        ))}
+      </g>
+    )}
+
+    {motif === 'chart' && (
+      <g>
+        {[[110, 110, 25], [142, 95, 25], [174, 75, 25], [206, 55, 25]].map(([x, y, h], i) => (
+          <rect x={x} y={y} width={h} height={135 - y} fill="#2563eb" opacity={0.5 + i * 0.12}/>
+        ))}
+        <polyline points="122,108 154,93 186,73 218,53" fill="none" stroke="#fbbf24" stroke-width="2"/>
+        {[[122, 108], [154, 93], [186, 73], [218, 53]].map(([x, y]) => (
+          <circle cx={x} cy={y} r="3" fill="#fbbf24"/>
+        ))}
+      </g>
+    )}
+  </svg>
+
+  {label && (
+    <span class="absolute top-2 left-3 text-[10px] font-medium tracking-wider uppercase text-brand-300">
+      {label}
+    </span>
+  )}
+</div>
