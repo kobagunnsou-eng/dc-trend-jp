@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0f172a"/>
+  <g stroke="#1e293b" stroke-width="1">
+    <line x1="0" y1="157" x2="1200" y2="157"/><line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="472" x2="1200" y2="472"/>
+    <line x1="300" y1="0" x2="300" y2="630"/><line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+  </g>
+  <rect x="0" y="0" width="12" height="630" fill="#0ea5e9"/>
+  <!-- sea waves -->
+  <path d="M 0 420 Q 150 390 300 420 T 600 420 T 900 420 T 1200 420" fill="#0c4a6e" opacity="0.5"/>
+  <path d="M 0 450 Q 150 420 300 450 T 600 450 T 900 450 T 1200 450" fill="#0c4a6e" opacity="0.7"/>
+  <path d="M 0 480 Q 150 450 300 480 T 600 480 T 900 480 T 1200 480" fill="#0c4a6e" opacity="0.9"/>
+  <rect x="0" y="480" width="1200" height="75" fill="#083344"/>
+  <!-- ship hull -->
+  <rect x="320" y="350" width="560" height="80" rx="4" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <polygon points="320,430 280,430 250,480 880,480 850,430 880,430" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+  <!-- server modules on deck -->
+  <rect x="360" y="290" width="90" height="65" rx="3" fill="#1e3a8a" stroke="#3b82f6" stroke-width="1.5"/>
+  <rect x="470" y="290" width="90" height="65" rx="3" fill="#1e3a8a" stroke="#3b82f6" stroke-width="1.5"/>
+  <rect x="580" y="290" width="90" height="65" rx="3" fill="#1e3a8a" stroke="#3b82f6" stroke-width="1.5"/>
+  <rect x="690" y="290" width="90" height="65" rx="3" fill="#1e3a8a" stroke="#3b82f6" stroke-width="1.5"/>
+  <!-- LED dots on modules -->
+  <circle cx="440" cy="320" r="4" fill="#34d399"/>
+  <circle cx="550" cy="320" r="4" fill="#34d399"/>
+  <circle cx="660" cy="320" r="4" fill="#fbbf24"/>
+  <circle cx="770" cy="320" r="4" fill="#34d399"/>
+  <!-- antenna -->
+  <line x1="600" y1="290" x2="600" y2="200" stroke="#64748b" stroke-width="2"/>
+  <line x1="600" y1="200" x2="560" y2="230" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="600" y1="200" x2="640" y2="230" stroke="#64748b" stroke-width="1.5"/>
+  <rect x="0" y="555" width="1200" height="75" fill="#0f172a" opacity="0.9"/>
+  <rect x="0" y="553" width="1200" height="3" fill="#0ea5e9"/>
+  <text x="40" y="600" font-family="sans-serif" font-size="28" font-weight="700" fill="#f1f5f9">浮体式データセンター 商船三井×日立の挑戦</text>
+  <text x="40" y="618" font-family="sans-serif" font-size="16" fill="#64748b">国内DC動向 ｜ DCトレンド研究</text>
+</svg>

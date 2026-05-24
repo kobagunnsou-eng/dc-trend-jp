@@ -5,6 +5,7 @@ category: "国内DC動向"
 tags: ["コロケーション", "DC選定", "AI", "GPU", "調達", "ガイド"]
 published_at: "2026-05-13"
 summary: "AI・GPU時代にコロケーションDCを選ぶ際の失敗しない視点を現役エンジニアが解説。「電力密度対応」「液冷可否」「電力SLA」など、2026年特有の確認項目を網羅します。"
+thumbnail: "/images/articles/colocation-dc-selection-guide-2026.svg"
 author: "DCトレンド研究編集部（現役DCエンジニア監修）"
 draft: false
 ---

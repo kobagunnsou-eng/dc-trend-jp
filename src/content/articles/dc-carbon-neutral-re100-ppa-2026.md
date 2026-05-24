@@ -5,6 +5,7 @@ category: "電力・冷却技術"
 tags: ["カーボンニュートラル", "RE100", "PPA", "再エネ", "CFE", "ESG", "電力"]
 published_at: "2026-05-13"
 summary: "データセンターの再エネ対応は今やビジネス要件。RE100・PPA・CFEの仕組みと国内の現状、DX担当者が知っておくべき調達の実態を解説します。"
+thumbnail: "/images/articles/dc-carbon-neutral-re100-ppa-2026.svg"
 author: "DCトレンド研究編集部（現役DCエンジニア監修）"
 draft: false
 ---

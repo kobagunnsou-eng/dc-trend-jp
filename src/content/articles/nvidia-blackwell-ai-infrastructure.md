@@ -5,6 +5,7 @@ category: "AI・HPCインフラ"
 tags: ["NVIDIA", "Blackwell", "GB200", "GPU", "AIインフラ", "HPC", "液冷"]
 published_at: "2026-05-13"
 summary: "NVIDIA Blackwell世代（GB200/NVL72）は、AIインフラの設計思想を根本から変えつつあります。従来比8倍の電力密度が引き起こすDC側の変化を現役エンジニアが解説。"
+thumbnail: "/images/articles/nvidia-blackwell-ai-infrastructure.svg"
 author: "DCトレンド研究編集部（現役DCエンジニア監修）"
 draft: false
 ---

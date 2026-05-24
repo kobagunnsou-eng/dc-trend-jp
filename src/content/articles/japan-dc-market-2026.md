@@ -5,6 +5,7 @@ category: "国内DC動向"
 tags: ["国内DC", "市場動向", "投資", "新設", "2026年", "地方DC"]
 published_at: "2026-05-13"
 summary: "2026年の国内データセンター市場は空前の投資ラッシュ。主要事業者の新設計画・地方展開・電力確保の課題を現役エンジニア視点で整理します。"
+thumbnail: "/images/articles/japan-dc-market-2026.svg"
 author: "DCトレンド研究編集部（現役DCエンジニア監修）"
 draft: false
 ---

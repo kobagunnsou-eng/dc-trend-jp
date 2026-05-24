@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0f172a"/>
+  <g stroke="#1e293b" stroke-width="1">
+    <line x1="0" y1="157" x2="1200" y2="157"/><line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="472" x2="1200" y2="472"/>
+    <line x1="300" y1="0" x2="300" y2="630"/><line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+  </g>
+  <rect x="0" y="0" width="12" height="630" fill="#7c3aed"/>
+  <!-- Tokyo Tower silhouette -->
+  <polygon points="480,100 460,460 500,460 490,300 510,300 500,460 540,460 520,100" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <polygon points="485,100 515,100 510,180 490,180" fill="#374151" stroke="#475569" stroke-width="1"/>
+  <!-- DC building under construction -->
+  <rect x="560" y="200" width="200" height="260" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+  <rect x="560" y="200" width="200" height="260" fill="none" stroke="#2563eb" stroke-width="1" stroke-dasharray="8,4" opacity="0.6"/>
+  <!-- construction crane -->
+  <line x1="760" y1="460" x2="760" y2="120" stroke="#64748b" stroke-width="4"/>
+  <line x1="760" y1="120" x2="900" y2="140" stroke="#64748b" stroke-width="3"/>
+  <line x1="760" y1="120" x2="680" y2="135" stroke="#64748b" stroke-width="2"/>
+  <line x1="900" y1="140" x2="900" y2="200" stroke="#64748b" stroke-width="2" stroke-dasharray="4,4"/>
+  <!-- building windows (DC servers) -->
+  <g fill="#1e40af" opacity="0.7">
+    <rect x="575" y="220" width="30" height="20" rx="1"/>
+    <rect x="620" y="220" width="30" height="20" rx="1"/>
+    <rect x="665" y="220" width="30" height="20" rx="1"/>
+    <rect x="710" y="220" width="30" height="20" rx="1"/>
+    <rect x="575" y="255" width="30" height="20" rx="1"/>
+    <rect x="620" y="255" width="30" height="20" rx="1"/>
+    <rect x="665" y="255" width="30" height="20" rx="1"/>
+    <rect x="710" y="255" width="30" height="20" rx="1"/>
+  </g>
+  <!-- LED status lights -->
+  <circle cx="590" cy="230" r="3" fill="#34d399"/>
+  <circle cx="635" cy="265" r="3" fill="#fbbf24"/>
+  <circle cx="680" cy="230" r="3" fill="#34d399"/>
+  <!-- ground line -->
+  <line x1="200" y1="460" x2="1000" y2="460" stroke="#334155" stroke-width="2"/>
+  <rect x="0" y="555" width="1200" height="75" fill="#0f172a" opacity="0.9"/>
+  <rect x="0" y="553" width="1200" height="3" fill="#7c3aed"/>
+  <text x="40" y="600" font-family="sans-serif" font-size="28" font-weight="700" fill="#f1f5f9">東京タワー隣接DC NEXTDC TK1 住民訴訟</text>
+  <text x="40" y="618" font-family="sans-serif" font-size="16" fill="#64748b">国内DC動向 ｜ DCトレンド研究</text>
+</svg>

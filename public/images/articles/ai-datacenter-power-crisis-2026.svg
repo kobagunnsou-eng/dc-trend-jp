@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0f172a"/>
+  <g stroke="#1e293b" stroke-width="1">
+    <line x1="0" y1="157" x2="1200" y2="157"/><line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="472" x2="1200" y2="472"/>
+    <line x1="300" y1="0" x2="300" y2="630"/><line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+  </g>
+  <rect x="0" y="0" width="12" height="630" fill="#dc2626"/>
+  <!-- lightning bolt -->
+  <polygon points="640,100 580,320 620,320 560,530 700,270 650,270 720,100" fill="#2563eb" opacity="0.9"/>
+  <!-- power wave lines -->
+  <path d="M 50 420 Q 150 380 250 420 T 450 420 T 650 420 T 850 420 T 1050 420 T 1200 420" fill="none" stroke="#60a5fa" stroke-width="2.5" opacity="0.7"/>
+  <path d="M 50 450 Q 150 410 250 450 T 450 450 T 650 450 T 850 450 T 1050 450 T 1200 450" fill="none" stroke="#3b82f6" stroke-width="1.5" opacity="0.4"/>
+  <!-- glow effect behind lightning -->
+  <ellipse cx="620" cy="315" rx="120" ry="200" fill="#1d4ed8" opacity="0.15"/>
+  <!-- dots -->
+  <circle cx="560" cy="530" r="6" fill="#fbbf24"/>
+  <circle cx="720" cy="100" r="6" fill="#fbbf24"/>
+  <rect x="0" y="555" width="1200" height="75" fill="#0f172a" opacity="0.9"/>
+  <rect x="0" y="553" width="1200" height="3" fill="#dc2626"/>
+  <text x="40" y="600" font-family="sans-serif" font-size="28" font-weight="700" fill="#f1f5f9">AIデータセンターの電力危機 2026</text>
+  <text x="40" y="618" font-family="sans-serif" font-size="16" fill="#64748b">AI・HPCインフラ ｜ DCトレンド研究</text>
+</svg>
