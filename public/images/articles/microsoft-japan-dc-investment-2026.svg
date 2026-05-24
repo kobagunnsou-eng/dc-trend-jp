@@ -1,58 +1,122 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
   <defs>
-    <linearGradient id="sunrise" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0ea5e9"/>
-      <stop offset="50%" stop-color="#f97316"/>
-      <stop offset="100%" stop-color="#fef08a"/>
+    <!-- Photo: modern glass DC campus aerial view, clear blue sky -->
+    <linearGradient id="bluesky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0369a1"/>
+      <stop offset="35%" stop-color="#0ea5e9"/>
+      <stop offset="65%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#bae6fd"/>
     </linearGradient>
-    <radialGradient id="sun" cx="50%" cy="45%" r="30%">
-      <stop offset="0%" stop-color="#fef9c3" stop-opacity="1"/>
-      <stop offset="50%" stop-color="#fbbf24" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#f97316" stop-opacity="0"/>
+    <radialGradient id="sunspot" cx="30%" cy="30%" r="35%">
+      <stop offset="0%" stop-color="#fef9c3" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#fde68a" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0369a1" stop-opacity="0"/>
     </radialGradient>
-    <filter id="glow2"><feGaussianBlur stdDeviation="10"/></filter>
+    <radialGradient id="vgn" cx="50%" cy="50%" r="72%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.65)"/>
+    </radialGradient>
+    <linearGradient id="tov" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(0,0,0,0)"/>
+      <stop offset="35%" stop-color="rgba(0,0,0,0.5)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.92)"/>
+    </linearGradient>
+    <filter id="ts"><feDropShadow dx="0" dy="2" stdDeviation="8" flood-color="rgba(0,0,0,0.95)"/></filter>
+    <filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+    <filter id="glassreflect"><feGaussianBlur stdDeviation="3"/></filter>
   </defs>
-  <rect width="1200" height="630" fill="url(#sunrise)"/>
-  <!-- sun glow -->
-  <ellipse cx="600" cy="280" rx="300" ry="200" fill="url(#sun)"/>
-  <ellipse cx="600" cy="280" rx="150" ry="100" fill="#fef9c3" opacity="0.6" filter="url(#glow2)"/>
-  <!-- clouds -->
-  <ellipse cx="200" cy="150" rx="180" ry="60" fill="white" opacity="0.3"/>
-  <ellipse cx="900" cy="120" rx="200" ry="55" fill="white" opacity="0.25"/>
-  <ellipse cx="600" cy="100" rx="250" ry="50" fill="white" opacity="0.2"/>
-  <!-- DC campus buildings aerial -->
-  <rect x="150" y="360" width="200" height="130" rx="4" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
-  <rect x="370" y="320" width="200" height="170" rx="4" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2"/>
-  <rect x="590" y="340" width="200" height="150" rx="4" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
-  <rect x="810" y="300" width="220" height="190" rx="4" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
-  <!-- cooling towers on buildings -->
-  <g fill="#94a3b8">
-    <circle cx="200" cy="355" r="18"/><circle cx="230" cy="355" r="18"/>
-    <circle cx="420" cy="315" r="20"/><circle cx="455" cy="315" r="20"/>
-    <circle cx="640" cy="335" r="18"/><circle cx="670" cy="335" r="18"/>
-    <circle cx="870" cy="295" r="22"/><circle cx="910" cy="295" r="22"/>
+
+  <rect width="1200" height="630" fill="url(#bluesky)"/>
+  <rect width="1200" height="630" fill="url(#sunspot)"/>
+
+  <!-- White clouds -->
+  <ellipse cx="150" cy="120" rx="200" ry="55" fill="white" opacity="0.75"/>
+  <ellipse cx="280" cy="100" rx="160" ry="45" fill="white" opacity="0.6"/>
+  <ellipse cx="850" cy="90" rx="250" ry="60" fill="white" opacity="0.7"/>
+  <ellipse cx="1050" cy="115" rx="180" ry="48" fill="white" opacity="0.55"/>
+  <ellipse cx="600" cy="75" rx="180" ry="42" fill="white" opacity="0.5"/>
+
+  <!-- Ground / campus (aerial perspective) -->
+  <rect x="0" y="440" width="1200" height="190" fill="#d1fae5"/>
+  <rect x="0" y="440" width="1200" height="20" fill="#a7f3d0" opacity="0.6"/>
+  <!-- Road grid on campus -->
+  <g stroke="#6ee7b7" stroke-width="3" opacity="0.5">
+    <line x1="400" y1="440" x2="400" y2="630"/><line x1="800" y1="440" x2="800" y2="630"/>
+    <line x1="0" y1="530" x2="1200" y2="530"/>
   </g>
-  <!-- steam from cooling towers -->
-  <g fill="white" opacity="0.5">
-    <ellipse cx="200" cy="330" rx="15" ry="25"/><ellipse cx="230" cy="328" rx="15" ry="28"/>
-    <ellipse cx="420" cy="288" rx="18" ry="28"/><ellipse cx="455" cy="285" rx="18" ry="30"/>
-    <ellipse cx="870" cy="265" rx="20" ry="32"/><ellipse cx="910" cy="262" rx="20" ry="35"/>
+
+  <!-- DC campus buildings (aerial view) -->
+  <!-- Building 1 - large main hall -->
+  <rect x="160" y="320" width="260" height="150" rx="5" fill="#e2e8f0" stroke="#94a3b8" stroke-width="2"/>
+  <!-- Glass roof reflection -->
+  <rect x="165" y="325" width="250" height="65" rx="3" fill="#bae6fd" opacity="0.5"/>
+  <rect x="165" y="392" width="250" height="73" rx="3" fill="#cbd5e1" opacity="0.4"/>
+
+  <!-- Building 2 - taller -->
+  <rect x="450" y="280" width="280" height="175" rx="5" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="455" y="285" width="270" height="80" rx="3" fill="#bae6fd" opacity="0.6"/>
+  <!-- Cooling towers on roof -->
+  <ellipse cx="510" cy="278" rx="22" ry="14" fill="#cbd5e1"/>
+  <ellipse cx="560" cy="275" rx="22" ry="14" fill="#cbd5e1"/>
+  <ellipse cx="610" cy="278" rx="22" ry="14" fill="#cbd5e1"/>
+  <ellipse cx="660" cy="275" rx="22" ry="14" fill="#cbd5e1"/>
+  <!-- Steam wisps -->
+  <ellipse cx="510" cy="255" rx="14" ry="24" fill="white" opacity="0.55"/>
+  <ellipse cx="560" cy="252" rx="14" ry="27" fill="white" opacity="0.5"/>
+  <ellipse cx="610" cy="255" rx="14" ry="24" fill="white" opacity="0.52"/>
+  <ellipse cx="660" cy="252" rx="14" ry="24" fill="white" opacity="0.48"/>
+
+  <!-- Building 3 - right cluster -->
+  <rect x="760" y="300" width="300" height="165" rx="5" fill="#e2e8f0" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="765" y="305" width="290" height="75" rx="3" fill="#bae6fd" opacity="0.55"/>
+  <ellipse cx="830" cy="298" rx="22" ry="14" fill="#cbd5e1"/>
+  <ellipse cx="885" cy="295" rx="22" ry="14" fill="#cbd5e1"/>
+  <ellipse cx="940" cy="298" rx="22" ry="14" fill="#cbd5e1"/>
+  <ellipse cx="830" cy="275" rx="14" ry="24" fill="white" opacity="0.5"/>
+  <ellipse cx="885" cy="272" rx="14" ry="27" fill="white" opacity="0.45"/>
+  <ellipse cx="940" cy="275" rx="14" ry="24" fill="white" opacity="0.5"/>
+
+  <!-- Solar panels on rooftops -->
+  <g fill="#1e40af" opacity="0.65">
+    <rect x="175" y="335" width="22" height="15" rx="1"/><rect x="202" y="335" width="22" height="15" rx="1"/>
+    <rect x="229" y="335" width="22" height="15" rx="1"/><rect x="256" y="335" width="22" height="15" rx="1"/>
+    <rect x="175" y="355" width="22" height="15" rx="1"/><rect x="202" y="355" width="22" height="15" rx="1"/>
+    <rect x="770" y="315" width="22" height="15" rx="1"/><rect x="797" y="315" width="22" height="15" rx="1"/>
+    <rect x="824" y="315" width="22" height="15" rx="1"/>
   </g>
-  <!-- solar panels on rooftops -->
-  <g fill="#1e40af" opacity="0.6">
-    <rect x="165" y="375" width="20" height="14" rx="1"/><rect x="190" y="375" width="20" height="14" rx="1"/>
-    <rect x="215" y="375" width="20" height="14" rx="1"/>
-    <rect x="610" y="358" width="20" height="14" rx="1"/><rect x="635" y="358" width="20" height="14" rx="1"/>
+
+  <!-- Investment arrow flowing across campus -->
+  <g stroke="#16a34a" stroke-width="5" fill="none" opacity="0.8">
+    <path d="M 80 220 Q 300 140 600 160 Q 900 180 1120 150"/>
+    <polygon points="1108,138 1128,150 1108,162" fill="#16a34a"/>
   </g>
-  <!-- money/investment arrows -->
-  <g stroke="#16a34a" stroke-width="4" fill="none" opacity="0.8">
-    <path d="M 100 200 Q 300 100 600 150 Q 900 200 1100 130"/>
-    <polygon points="1090,118 1108,130 1090,142" fill="#16a34a"/>
+  <!-- Money flow dots -->
+  <g fill="#16a34a" opacity="0.7">
+    <circle cx="200" cy="175" r="6"/><circle cx="400" cy="155" r="6"/><circle cx="600" cy="160" r="6"/>
+    <circle cx="800" cy="168" r="6"/><circle cx="1000" cy="155" r="6"/>
   </g>
-  <!-- ¥ symbol hint -->
-  <text x="480" y="230" font-family="sans-serif" font-size="80" font-weight="900" fill="#16a34a" opacity="0.25">¥4,400億</text>
-  <rect x="0" y="560" width="1200" height="70" fill="#0c4a6e" opacity="0.85"/>
-  <rect x="0" y="558" width="1200" height="4" fill="#0ea5e9"/>
-  <text x="40" y="602" font-family="sans-serif" font-size="30" font-weight="900" fill="white">Microsoft 日本DC投資4400億円の衝撃</text>
-  <text x="40" y="620" font-family="sans-serif" font-size="15" fill="#7dd3fc">海外DC動向 ｜ DCトレンド研究</text>
+
+  <!-- Vignette -->
+  <rect width="1200" height="630" fill="url(#vgn)"/>
+
+  <!-- Text overlay -->
+  <rect x="0" y="330" width="1200" height="300" fill="url(#tov)"/>
+
+  <!-- Category badge -->
+  <rect x="40" y="36" width="165" height="38" rx="19" fill="#0369a1"/>
+  <text x="122" y="61" font-family="sans-serif" font-size="15" font-weight="700" fill="white" text-anchor="middle">海外DC動向</text>
+
+  <!-- Green accent bar (money/investment) -->
+  <rect x="40" y="415" width="5" height="125" rx="2.5" fill="#22c55e"/>
+
+  <!-- Kicker (huge yen amount) -->
+  <text x="60" y="478" font-family="sans-serif" font-size="62" font-weight="900" fill="#fde68a" filter="url(#ts)">¥ 4,400億円</text>
+
+  <!-- Main headline -->
+  <text x="60" y="548" font-family="sans-serif" font-size="36" font-weight="900" fill="white" filter="url(#ts)">Microsoft 日本DC投資の衝撃</text>
+
+  <!-- Sub-line -->
+  <text x="60" y="596" font-family="sans-serif" font-size="17" fill="#bae6fd" filter="url(#ts)">2年間で過去最大投資 — 日本市場に何が起きているのか</text>
+
+  <text x="1160" y="618" font-family="sans-serif" font-size="13" fill="rgba(255,255,255,0.4)" text-anchor="end">DCトレンド研究</text>
 </svg>

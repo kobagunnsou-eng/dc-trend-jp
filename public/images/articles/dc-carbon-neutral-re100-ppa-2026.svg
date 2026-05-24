@@ -1,57 +1,127 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
   <defs>
-    <linearGradient id="greensky" x1="0" y1="0" x2="0" y2="1">
+    <!-- Photo: wind turbines and solar farm at golden hour -->
+    <linearGradient id="goldsky" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#0c4a6e"/>
-      <stop offset="40%" stop-color="#f97316"/>
-      <stop offset="70%" stop-color="#fbbf24"/>
-      <stop offset="100%" stop-color="#4ade80"/>
+      <stop offset="30%" stop-color="#0369a1"/>
+      <stop offset="55%" stop-color="#f97316"/>
+      <stop offset="75%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
     </linearGradient>
-    <radialGradient id="sunburst" cx="30%" cy="40%" r="40%">
+    <radialGradient id="sunhalo" cx="28%" cy="58%" r="30%">
       <stop offset="0%" stop-color="#fef9c3" stop-opacity="1"/>
+      <stop offset="30%" stop-color="#fde68a" stop-opacity="0.6"/>
       <stop offset="100%" stop-color="#f97316" stop-opacity="0"/>
     </radialGradient>
-    <filter id="g3"><feGaussianBlur stdDeviation="8"/></filter>
+    <radialGradient id="vgn" cx="50%" cy="50%" r="72%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.7)"/>
+    </radialGradient>
+    <linearGradient id="tov" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(0,0,0,0)"/>
+      <stop offset="35%" stop-color="rgba(0,0,0,0.5)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.92)"/>
+    </linearGradient>
+    <filter id="ts"><feDropShadow dx="0" dy="2" stdDeviation="8" flood-color="rgba(0,0,0,1)"/></filter>
+    <filter id="sunray"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="blur5"><feGaussianBlur stdDeviation="5"/></filter>
   </defs>
-  <rect width="1200" height="630" fill="url(#greensky)"/>
-  <rect width="1200" height="630" fill="url(#sunburst)"/>
-  <!-- ground -->
-  <rect x="0" y="440" width="1200" height="190" fill="#14532d"/>
-  <rect x="0" y="440" width="1200" height="30" fill="#16a34a" opacity="0.5"/>
-  <!-- sun rays -->
-  <g stroke="#fef08a" stroke-width="3" opacity="0.4">
-    <line x1="360" y1="250" x2="0" y2="0"/><line x1="360" y1="250" x2="200" y2="0"/>
-    <line x1="360" y1="250" x2="400" y2="0"/><line x1="360" y1="250" x2="600" y2="0"/>
-    <line x1="360" y1="250" x2="0" y2="250"/><line x1="360" y1="250" x2="0" y2="440"/>
-    <line x1="360" y1="250" x2="200" y2="440"/>
+
+  <rect width="1200" height="630" fill="url(#goldsky)"/>
+  <rect width="1200" height="630" fill="url(#sunhalo)"/>
+
+  <!-- Sun on horizon -->
+  <circle cx="335" cy="368" r="55" fill="#fef9c3" opacity="0.95"/>
+  <circle cx="335" cy="368" r="38" fill="white"/>
+  <!-- Sun rays -->
+  <g stroke="#fde68a" stroke-width="3" opacity="0.35" filter="url(#sunray)">
+    <line x1="335" y1="368" x2="100" y2="160"/><line x1="335" y1="368" x2="250" y2="140"/>
+    <line x1="335" y1="368" x2="420" y2="145"/><line x1="335" y1="368" x2="520" y2="175"/>
+    <line x1="335" y1="368" x2="100" y2="368"/><line x1="335" y1="368" x2="80" y2="500"/>
+    <line x1="335" y1="368" x2="300" y2="630"/>
   </g>
-  <!-- sun -->
-  <circle cx="360" cy="250" r="70" fill="#fef9c3" opacity="0.9"/>
-  <circle cx="360" cy="250" r="50" fill="white"/>
-  <!-- wind turbines large -->
-  <line x1="700" y1="440" x2="700" y2="160" stroke="#f1f5f9" stroke-width="6"/>
-  <ellipse cx="700" cy="155" rx="12" ry="12" fill="#e2e8f0"/>
-  <line x1="700" y1="155" x2="640" y2="50" stroke="#f1f5f9" stroke-width="5"/>
-  <line x1="700" y1="155" x2="780" y2="80" stroke="#f1f5f9" stroke-width="5"/>
-  <line x1="700" y1="155" x2="670" y2="240" stroke="#f1f5f9" stroke-width="5"/>
-  <line x1="920" y1="440" x2="920" y2="200" stroke="#e2e8f0" stroke-width="5"/>
-  <ellipse cx="920" cy="195" rx="10" ry="10" fill="#cbd5e1"/>
-  <line x1="920" y1="195" x2="868" y2="110" stroke="#e2e8f0" stroke-width="4"/>
-  <line x1="920" y1="195" x2="985" y2="135" stroke="#e2e8f0" stroke-width="4"/>
-  <line x1="920" y1="195" x2="895" y2="265" stroke="#e2e8f0" stroke-width="4"/>
-  <line x1="1080" y1="440" x2="1080" y2="240" stroke="#cbd5e1" stroke-width="4"/>
-  <line x1="1080" y1="240" x2="1035" y2="175" stroke="#cbd5e1" stroke-width="3"/>
-  <line x1="1080" y1="240" x2="1130" y2="195" stroke="#cbd5e1" stroke-width="3"/>
-  <!-- solar panels field -->
-  <g fill="#1e40af" stroke="#3b82f6" stroke-width="1">
-    {[460,490,520,550,580,610].map(x=>
-      [460,480,500].map(y=>`<rect x="${x}" y="${y}" width="22" height="14" rx="1"/>`).join('')
-    ).join('')}
+
+  <!-- Horizon landscape / green earth -->
+  <rect x="0" y="410" width="1200" height="220" fill="#14532d"/>
+  <rect x="0" y="410" width="1200" height="25" fill="#16a34a" opacity="0.6"/>
+  <!-- Ground texture rows (solar field) -->
+  <g fill="#0f4023" opacity="0.4">
+    <rect x="0" y="440" width="1200" height="5" rx="1"/><rect x="0" y="460" width="1200" height="4" rx="1"/>
+    <rect x="0" y="478" width="1200" height="4" rx="1"/><rect x="0" y="495" width="1200" height="4" rx="1"/>
   </g>
-  <!-- RE100 badge -->
-  <rect x="80" y="170" width="200" height="80" rx="8" fill="#16a34a" opacity="0.9"/>
-  <text x="105" y="225" font-family="sans-serif" font-size="42" font-weight="900" fill="white">RE100</text>
-  <rect x="0" y="558" width="1200" height="72" fill="#052e16" opacity="0.9"/>
-  <rect x="0" y="556" width="1200" height="4" fill="#16a34a"/>
-  <text x="40" y="600" font-family="sans-serif" font-size="30" font-weight="900" fill="white">カーボンニュートラル RE100・PPA・CFE最前線</text>
-  <text x="40" y="618" font-family="sans-serif" font-size="15" fill="#86efac">電力・冷却技術 ｜ DCトレンド研究</text>
+
+  <!-- Solar panels field (foreground right) -->
+  <g fill="#1e3a8a" stroke="#3b82f6" stroke-width="0.8">
+    <rect x="700" y="420" width="28" height="18" rx="1"/><rect x="734" y="420" width="28" height="18" rx="1"/>
+    <rect x="768" y="420" width="28" height="18" rx="1"/><rect x="802" y="420" width="28" height="18" rx="1"/>
+    <rect x="836" y="420" width="28" height="18" rx="1"/><rect x="870" y="420" width="28" height="18" rx="1"/>
+    <rect x="700" y="445" width="28" height="18" rx="1"/><rect x="734" y="445" width="28" height="18" rx="1"/>
+    <rect x="768" y="445" width="28" height="18" rx="1"/><rect x="802" y="445" width="28" height="18" rx="1"/>
+    <rect x="836" y="445" width="28" height="18" rx="1"/><rect x="870" y="445" width="28" height="18" rx="1"/>
+    <rect x="700" y="470" width="28" height="18" rx="1"/><rect x="734" y="470" width="28" height="18" rx="1"/>
+    <rect x="768" y="470" width="28" height="18" rx="1"/><rect x="802" y="470" width="28" height="18" rx="1"/>
+    <rect x="836" y="470" width="28" height="18" rx="1"/><rect x="870" y="470" width="28" height="18" rx="1"/>
+    <rect x="910" y="420" width="28" height="18" rx="1"/><rect x="944" y="420" width="28" height="18" rx="1"/>
+    <rect x="978" y="420" width="28" height="18" rx="1"/><rect x="1012" y="420" width="28" height="18" rx="1"/>
+    <rect x="910" y="445" width="28" height="18" rx="1"/><rect x="944" y="445" width="28" height="18" rx="1"/>
+    <rect x="978" y="445" width="28" height="18" rx="1"/><rect x="1012" y="445" width="28" height="18" rx="1"/>
+  </g>
+  <!-- Solar panel golden reflections -->
+  <g fill="#fbbf24" opacity="0.1">
+    <rect x="700" y="420" width="28" height="9" rx="1"/><rect x="768" y="420" width="28" height="9" rx="1"/>
+    <rect x="836" y="420" width="28" height="9" rx="1"/><rect x="910" y="420" width="28" height="9" rx="1"/>
+  </g>
+
+  <!-- Wind turbine 1 (main, large) -->
+  <line x1="680" y1="410" x2="680" y2="100" stroke="#f1f5f9" stroke-width="7"/>
+  <ellipse cx="680" cy="95" rx="14" ry="14" fill="#e2e8f0"/>
+  <!-- Blades -->
+  <line x1="680" y1="95" x2="610" y2="-25" stroke="#f1f5f9" stroke-width="6"/>
+  <line x1="680" y1="95" x2="780" y2="10" stroke="#f1f5f9" stroke-width="6"/>
+  <line x1="680" y1="95" x2="645" y2="190" stroke="#f1f5f9" stroke-width="6"/>
+
+  <!-- Wind turbine 2 (mid-distance) -->
+  <line x1="900" y1="410" x2="900" y2="175" stroke="#e2e8f0" stroke-width="5"/>
+  <ellipse cx="900" cy="170" rx="11" ry="11" fill="#cbd5e1"/>
+  <line x1="900" y1="170" x2="840" y2="80" stroke="#e2e8f0" stroke-width="5"/>
+  <line x1="900" y1="170" x2="975" y2="110" stroke="#e2e8f0" stroke-width="5"/>
+  <line x1="900" y1="170" x2="868" y2="248" stroke="#e2e8f0" stroke-width="5"/>
+
+  <!-- Wind turbine 3 (far, blurred) -->
+  <line x1="1080" y1="410" x2="1080" y2="215" stroke="#cbd5e1" stroke-width="4" filter="url(#blur5)"/>
+  <line x1="1080" y1="215" x2="1033" y2="148" stroke="#cbd5e1" stroke-width="4" filter="url(#blur5)"/>
+  <line x1="1080" y1="215" x2="1140" y2="168" stroke="#cbd5e1" stroke-width="4" filter="url(#blur5)"/>
+
+  <!-- Clouds -->
+  <ellipse cx="500" cy="120" rx="180" ry="50" fill="white" opacity="0.35"/>
+  <ellipse cx="900" cy="100" rx="160" ry="45" fill="white" opacity="0.25"/>
+  <ellipse cx="1100" cy="130" rx="120" ry="38" fill="white" opacity="0.2"/>
+
+  <!-- Vignette -->
+  <rect width="1200" height="630" fill="url(#vgn)"/>
+
+  <!-- Text overlay -->
+  <rect x="0" y="320" width="1200" height="310" fill="url(#tov)"/>
+
+  <!-- Category badge -->
+  <rect x="40" y="36" width="190" height="38" rx="19" fill="#16a34a"/>
+  <text x="135" y="61" font-family="sans-serif" font-size="15" font-weight="700" fill="white" text-anchor="middle">電力・冷却技術</text>
+
+  <!-- RE100 badge (top right) -->
+  <rect x="1040" y="32" width="120" height="50" rx="8" fill="#16a34a" opacity="0.92"/>
+  <text x="1100" y="65" font-family="sans-serif" font-size="30" font-weight="900" fill="white" text-anchor="middle">RE100</text>
+
+  <!-- Green accent bar -->
+  <rect x="40" y="415" width="5" height="125" rx="2.5" fill="#4ade80"/>
+
+  <!-- Kicker -->
+  <text x="60" y="474" font-family="sans-serif" font-size="52" font-weight="900" fill="#86efac" filter="url(#ts)">カーボンニュートラル最前線</text>
+
+  <!-- Main headline -->
+  <text x="60" y="545" font-family="sans-serif" font-size="36" font-weight="900" fill="white" filter="url(#ts)">RE100・PPA・CFE — DC電力戦略の新常識</text>
+
+  <!-- Sub-line -->
+  <text x="60" y="596" font-family="sans-serif" font-size="17" fill="#bbf7d0" filter="url(#ts)">2030年ゼロエミッション達成へ 各社の取り組みを総点検</text>
+
+  <text x="1160" y="618" font-family="sans-serif" font-size="13" fill="rgba(255,255,255,0.4)" text-anchor="end">DCトレンド研究</text>
 </svg>

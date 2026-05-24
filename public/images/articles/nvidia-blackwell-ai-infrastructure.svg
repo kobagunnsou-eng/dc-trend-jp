@@ -1,50 +1,108 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
   <defs>
-    <radialGradient id="burst" cx="50%" cy="50%" r="60%">
-      <stop offset="0%" stop-color="#a855f7"/>
-      <stop offset="40%" stop-color="#2563eb"/>
-      <stop offset="100%" stop-color="#0f172a"/>
+    <!-- Photo: GPU chip macro shot in dark server room -->
+    <linearGradient id="bg" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#020714"/>
+      <stop offset="60%" stop-color="#08112b"/>
+      <stop offset="100%" stop-color="#0c1a40"/>
+    </linearGradient>
+    <radialGradient id="chiplight" cx="64%" cy="46%" r="32%">
+      <stop offset="0%" stop-color="#a5f3fc" stop-opacity="0.6"/>
+      <stop offset="30%" stop-color="#22d3ee" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#020714" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#e879f9" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    <radialGradient id="sidelight" cx="10%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6d28d9" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#020714" stop-opacity="0"/>
     </radialGradient>
-    <filter id="blur1"><feGaussianBlur stdDeviation="8"/></filter>
-    <filter id="blur2"><feGaussianBlur stdDeviation="20"/></filter>
+    <radialGradient id="vgn" cx="50%" cy="50%" r="72%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.8)"/>
+    </radialGradient>
+    <linearGradient id="tov" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(0,0,0,0)"/>
+      <stop offset="40%" stop-color="rgba(0,0,0,0.6)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.93)"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="ts"><feDropShadow dx="0" dy="2" stdDeviation="8" flood-color="rgba(0,0,0,1)"/></filter>
+    <filter id="blur14"><feGaussianBlur stdDeviation="14"/></filter>
   </defs>
-  <rect width="1200" height="630" fill="url(#burst)"/>
-  <!-- glow core -->
-  <ellipse cx="600" cy="315" rx="200" ry="200" fill="url(#glow)" filter="url(#blur2)"/>
-  <!-- energy rays -->
-  <g stroke="#e879f9" stroke-width="2" opacity="0.6">
-    <line x1="600" y1="315" x2="0" y2="0"/><line x1="600" y1="315" x2="400" y2="0"/>
-    <line x1="600" y1="315" x2="800" y2="0"/><line x1="600" y1="315" x2="1200" y2="0"/>
-    <line x1="600" y1="315" x2="0" y2="315"/><line x1="600" y1="315" x2="1200" y2="315"/>
-    <line x1="600" y1="315" x2="0" y2="630"/><line x1="600" y1="315" x2="600" y2="630"/>
-    <line x1="600" y1="315" x2="1200" y2="630"/>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#chiplight)"/>
+  <rect width="1200" height="630" fill="url(#sidelight)"/>
+
+  <!-- PCB circuit traces -->
+  <g stroke="#0e4f6b" stroke-width="1.5" opacity="0.4" fill="none">
+    <path d="M 0 160 H 420 V 100 H 550"/><path d="M 0 270 H 240 V 320 H 400"/>
+    <path d="M 1200 140 H 880 V 195 H 740"/><path d="M 1200 290 H 950 V 240 H 810"/>
+    <path d="M 640 0 V 140 H 690 V 190"/><path d="M 820 630 V 500 H 770 V 410"/>
+    <path d="M 180 630 V 510 H 260 V 430"/><path d="M 970 0 V 170 H 900 V 220"/>
+    <path d="M 430 630 V 480 H 500 V 400"/>
   </g>
-  <!-- GPU chip -->
-  <rect x="460" y="175" width="280" height="280" rx="12" fill="#1e1b4b" stroke="#a855f7" stroke-width="3"/>
-  <rect x="490" y="205" width="220" height="220" rx="6" fill="#0f0f2e" stroke="#7c3aed" stroke-width="2"/>
-  <!-- chip die -->
-  <rect x="530" y="245" width="140" height="140" rx="4" fill="#312e81"/>
-  <rect x="550" y="265" width="100" height="100" rx="2" fill="#4c1d95"/>
-  <!-- bright center -->
-  <circle cx="600" cy="315" r="30" fill="#e879f9" opacity="0.9"/>
-  <circle cx="600" cy="315" r="15" fill="white" opacity="0.95"/>
-  <!-- connection pins -->
-  <g fill="#a855f7">
-    {[480,510,540,570,600,630,660,690,720].map(x=>`<rect x="${x-4}" y="167" width="8" height="14" rx="2"/><rect x="${x-4}" y="449" width="8" height="14" rx="2"/>`).join('')}
-    {[205,235,265,295,325,355,385,415].map(y=>`<rect x="452" y="${y-4}" width="14" height="8" rx="2"/><rect x="734" y="${y-4}" width="14" height="8" rx="2"/>`).join('')}
+  <g fill="#0e7490" opacity="0.6">
+    <circle cx="420" cy="160" r="5"/><circle cx="240" cy="270" r="5"/><circle cx="880" cy="140" r="5"/>
+    <circle cx="950" cy="290" r="5"/><circle cx="640" cy="140" r="5"/><circle cx="770" cy="410" r="5"/>
+    <circle cx="260" cy="430" r="5"/><circle cx="900" cy="220" r="5"/><circle cx="500" cy="400" r="5"/>
   </g>
-  <!-- sparks -->
-  <g fill="#fbbf24" opacity="0.9">
-    <polygon points="200,100 210,130 195,125"/><polygon points="950,80 965,115 945,108"/>
-    <polygon points="150,400 165,435 148,428"/><polygon points="1000,450 1018,485 998,478"/>
-    <polygon points="300,520 312,548 296,542"/><polygon points="880,200 895,230 878,224"/>
-  </g>
-  <rect x="0" y="560" width="1200" height="70" fill="#0f0f2e" opacity="0.85"/>
-  <rect x="0" y="558" width="1200" height="4" fill="#a855f7"/>
-  <text x="40" y="605" font-family="sans-serif" font-size="30" font-weight="900" fill="white">NVIDIA Blackwell GB200 — AIインフラ革命</text>
-  <text x="40" y="622" font-family="sans-serif" font-size="15" fill="#c084fc">AI・HPCインフラ ｜ DCトレンド研究</text>
+
+  <!-- GPU board (right side, photographic focus) -->
+  <rect x="580" y="55" width="420" height="500" rx="10" fill="#071828" stroke="#1e3a5f" stroke-width="2.5" opacity="0.9"/>
+  <!-- Main die -->
+  <rect x="650" y="110" width="280" height="280" rx="5" fill="#050e20" stroke="#2563eb" stroke-width="2"/>
+  <!-- Chiplets grid -->
+  <rect x="662" y="122" width="80" height="80" rx="3" fill="#0b1f3a" stroke="#3b82f6" stroke-width="1.5"/>
+  <rect x="752" y="122" width="80" height="80" rx="3" fill="#0b1f3a" stroke="#3b82f6" stroke-width="1.5"/>
+  <rect x="842" y="122" width="76" height="80" rx="3" fill="#0b1f3a" stroke="#3b82f6" stroke-width="1.5"/>
+  <rect x="662" y="212" width="80" height="80" rx="3" fill="#0b1f3a" stroke="#3b82f6" stroke-width="1.5"/>
+  <!-- HBM memory (glowing hot) -->
+  <rect x="752" y="212" width="80" height="80" rx="3" fill="#061018" stroke="#22d3ee" stroke-width="2.5" filter="url(#glow)"/>
+  <rect x="762" y="222" width="60" height="60" rx="2" fill="#020a14" stroke="#22d3ee" stroke-width="1.5"/>
+  <rect x="842" y="212" width="76" height="80" rx="3" fill="#0b1f3a" stroke="#3b82f6" stroke-width="1.5"/>
+  <rect x="662" y="302" width="256" height="76" rx="3" fill="#060e1e" stroke="#1d4ed8" stroke-width="1.5"/>
+  <!-- Die edge glow -->
+  <rect x="650" y="110" width="280" height="280" rx="5" fill="none" stroke="#22d3ee" stroke-width="2" filter="url(#glow)" opacity="0.8"/>
+  <!-- HBM4 label -->
+  <text x="782" y="257" font-family="monospace" font-size="11" fill="#22d3ee" text-anchor="middle" opacity="0.9">HBM4</text>
+  <!-- Caps / passives -->
+  <g fill="#163350"><rect x="622" y="415" width="14" height="22" rx="3"/><rect x="646" y="415" width="14" height="22" rx="3"/><rect x="670" y="415" width="14" height="22" rx="3"/><rect x="870" y="415" width="14" height="22" rx="3"/><rect x="894" y="415" width="14" height="22" rx="3"/><rect x="918" y="415" width="14" height="22" rx="3"/></g>
+  <!-- PCIe connector -->
+  <rect x="652" y="460" width="276" height="32" rx="3" fill="#030d1a" stroke="#334155" stroke-width="1.5"/>
+  <g fill="#0f172a"><rect x="660" y="464" width="8" height="24" rx="1"/><rect x="674" y="464" width="8" height="24" rx="1"/><rect x="688" y="464" width="8" height="24" rx="1"/><rect x="702" y="464" width="8" height="24" rx="1"/><rect x="716" y="464" width="8" height="24" rx="1"/><rect x="730" y="464" width="8" height="24" rx="1"/><rect x="744" y="464" width="8" height="24" rx="1"/><rect x="758" y="464" width="8" height="24" rx="1"/><rect x="772" y="464" width="8" height="24" rx="1"/><rect x="786" y="464" width="8" height="24" rx="1"/><rect x="800" y="464" width="8" height="24" rx="1"/><rect x="814" y="464" width="8" height="24" rx="1"/></g>
+  <!-- LED strip on board edge -->
+  <rect x="580" y="540" width="420" height="5" rx="2" fill="#22d3ee" filter="url(#glow)" opacity="0.7"/>
+
+  <!-- Background rack blurred (bokeh) -->
+  <rect x="50" y="100" width="60" height="440" rx="3" fill="#0a1628" opacity="0.5" filter="url(#blur14)"/>
+  <rect x="130" y="140" width="60" height="400" rx="3" fill="#0a1628" opacity="0.4" filter="url(#blur14)"/>
+  <rect x="1050" y="120" width="80" height="420" rx="3" fill="#0a1628" opacity="0.4" filter="url(#blur14)"/>
+  <!-- Ambient rack LEDs bokeh -->
+  <ellipse cx="80" cy="300" rx="20" ry="180" fill="#22d3ee" opacity="0.06" filter="url(#blur14)"/>
+  <ellipse cx="1090" cy="300" rx="20" ry="180" fill="#3b82f6" opacity="0.08" filter="url(#blur14)"/>
+
+  <!-- Vignette -->
+  <rect width="1200" height="630" fill="url(#vgn)"/>
+
+  <!-- Text overlay gradient -->
+  <rect x="0" y="330" width="1200" height="300" fill="url(#tov)"/>
+
+  <!-- Category badge -->
+  <rect x="40" y="36" width="190" height="38" rx="19" fill="#7c3aed"/>
+  <text x="135" y="61" font-family="sans-serif" font-size="15" font-weight="700" fill="white" text-anchor="middle">AI・HPCインフラ</text>
+
+  <!-- Green accent bar (NVIDIA brand) -->
+  <rect x="40" y="420" width="5" height="120" rx="2.5" fill="#76fe89"/>
+
+  <!-- Kicker -->
+  <text x="60" y="476" font-family="sans-serif" font-size="50" font-weight="900" fill="#22d3ee" filter="url(#ts)">NVL72 × GB200</text>
+
+  <!-- Main headline -->
+  <text x="60" y="548" font-family="sans-serif" font-size="36" font-weight="900" fill="white" filter="url(#ts)">NVIDIA Blackwell — AIインフラの新時代</text>
+
+  <!-- Sub-line -->
+  <text x="60" y="596" font-family="sans-serif" font-size="17" fill="#93c5fd" filter="url(#ts)">1ラック1MW時代、日本データセンターへの影響を徹底解説</text>
+
+  <!-- Site name -->
+  <text x="1160" y="618" font-family="sans-serif" font-size="13" fill="rgba(255,255,255,0.4)" text-anchor="end">DCトレンド研究</text>
 </svg>

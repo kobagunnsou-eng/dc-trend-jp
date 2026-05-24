@@ -1,134 +1,167 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
   <defs>
-    <linearGradient id="tokyonight" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0c0020"/>
-      <stop offset="40%" stop-color="#1a0a2e"/>
-      <stop offset="70%" stop-color="#2d1b47"/>
-      <stop offset="100%" stop-color="#7c2d12"/>
+    <!-- Photo: Tokyo Tower at night with construction site, dramatic dusk sky -->
+    <linearGradient id="tokyobg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#05001a"/>
+      <stop offset="35%" stop-color="#150030"/>
+      <stop offset="65%" stop-color="#2d0a1a"/>
+      <stop offset="100%" stop-color="#5c1a08"/>
     </linearGradient>
-    <radialGradient id="towerglow" cx="38%" cy="45%" r="35%">
-      <stop offset="0%" stop-color="#f97316" stop-opacity="0.9"/>
-      <stop offset="40%" stop-color="#dc2626" stop-opacity="0.5"/>
-      <stop offset="100%" stop-color="#1a0a2e" stop-opacity="0"/>
+    <radialGradient id="towerhalo" cx="35%" cy="45%" r="28%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.75"/>
+      <stop offset="40%" stop-color="#dc2626" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#05001a" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="constructglow" cx="62%" cy="50%" r="30%">
-      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#1a0a2e" stop-opacity="0"/>
+    <radialGradient id="constructlight" cx="62%" cy="58%" r="25%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#05001a" stop-opacity="0"/>
     </radialGradient>
-    <filter id="towerneon"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <filter id="softglow2"><feGaussianBlur stdDeviation="10"/></filter>
+    <radialGradient id="vgn" cx="50%" cy="50%" r="72%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.75)"/>
+    </radialGradient>
+    <linearGradient id="tov" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(0,0,0,0)"/>
+      <stop offset="35%" stop-color="rgba(0,0,0,0.55)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.93)"/>
+    </linearGradient>
+    <filter id="ts"><feDropShadow dx="0" dy="2" stdDeviation="8" flood-color="rgba(0,0,0,1)"/></filter>
+    <filter id="towerneon"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+    <filter id="blur4"><feGaussianBlur stdDeviation="4"/></filter>
   </defs>
-  <rect width="1200" height="630" fill="url(#tokyonight)"/>
-  <rect width="1200" height="630" fill="url(#towerglow)"/>
-  <rect width="1200" height="630" fill="url(#constructglow)"/>
-  <!-- dramatic storm clouds -->
-  <ellipse cx="200" cy="80" rx="280" ry="100" fill="#1c0533" opacity="0.9"/>
-  <ellipse cx="700" cy="50" rx="400" ry="120" fill="#1a0a2e" opacity="0.85"/>
-  <ellipse cx="1100" cy="90" rx="250" ry="90" fill="#1c0533" opacity="0.75"/>
-  <!-- city skyline background -->
-  <rect x="0" y="380" width="80" height="250" fill="#0f0a1a"/>
-  <rect x="50" y="340" width="60" height="290" fill="#120f1f"/>
-  <rect x="120" y="360" width="70" height="270" fill="#0f0a1a"/>
-  <rect x="900" y="370" width="75" height="260" fill="#0f0a1a"/>
-  <rect x="990" y="350" width="65" height="280" fill="#120f1f"/>
-  <rect x="1065" y="390" width="80" height="240" fill="#0f0a1a"/>
-  <rect x="1155" y="410" width="60" height="220" fill="#120f1f"/>
-  <!-- city window lights -->
-  <g fill="#fbbf24" opacity="0.5">
-    <rect x="130" y="380" width="12" height="9" rx="1"/><rect x="152" y="380" width="12" height="9" rx="1"/>
-    <rect x="130" y="400" width="12" height="9" rx="1"/>
-    <rect x="910" y="390" width="12" height="9" rx="1"/><rect x="932" y="390" width="12" height="9" rx="1"/>
-    <rect x="1000" y="370" width="12" height="9" rx="1"/><rect x="1080" y="410" width="12" height="9" rx="1"/>
+
+  <rect width="1200" height="630" fill="url(#tokyobg)"/>
+  <rect width="1200" height="630" fill="url(#towerhalo)"/>
+  <rect width="1200" height="630" fill="url(#constructlight)"/>
+
+  <!-- Starfield -->
+  <g fill="white">
+    <circle cx="70" cy="38" r="1.2"/><circle cx="180" cy="55" r="1.1"/><circle cx="310" cy="28" r="1.3"/>
+    <circle cx="820" cy="42" r="1.1"/><circle cx="980" cy="35" r="1.2"/><circle cx="1100" cy="58" r="1"/>
+    <circle cx="130" cy="95" r="1"/><circle cx="450" cy="75" r="1.1"/><circle cx="1050" cy="88" r="1.2"/>
   </g>
-  <!-- TOKYO TOWER - iconic orange truss structure -->
-  <!-- main tower body -->
-  <polygon points="420,60 395,560 445,560" fill="#ea580c" opacity="0.95" filter="url(#towerneon)"/>
-  <!-- tower cross bracing -->
-  <g stroke="#c2410c" stroke-width="2" opacity="0.8">
-    <line x1="400" y1="120" x2="438" y2="120"/><line x1="396" y1="160" x2="442" y2="160"/>
-    <line x1="393" y1="200" x2="445" y2="200"/><line x1="390" y1="240" x2="448" y2="240"/>
-    <line x1="387" y1="280" x2="451" y2="280"/><line x1="384" y1="320" x2="454" y2="320"/>
-    <line x1="381" y1="360" x2="457" y2="360"/><line x1="378" y1="400" x2="460" y2="400"/>
-    <line x1="375" y1="440" x2="463" y2="440"/><line x1="372" y1="480" x2="466" y2="480"/>
-    <line x1="369" y1="520" x2="469" y2="520"/>
-    <!-- X bracing -->
-    <line x1="400" y1="120" x2="438" y2="160"/><line x1="438" y1="120" x2="400" y2="160"/>
-    <line x1="396" y1="200" x2="442" y2="240"/><line x1="442" y1="200" x2="396" y2="240"/>
-    <line x1="393" y1="280" x2="448" y2="320"/><line x1="448" y1="280" x2="393" y2="320"/>
-    <line x1="390" y1="360" x2="454" y2="400"/><line x1="454" y1="360" x2="390" y2="400"/>
-    <line x1="387" y1="440" x2="460" y2="480"/><line x1="460" y1="440" x2="387" y2="480"/>
+
+  <!-- Storm clouds (dramatic) -->
+  <ellipse cx="200" cy="88" rx="300" ry="110" fill="#150028" opacity="0.85"/>
+  <ellipse cx="650" cy="65" rx="420" ry="130" fill="#100020" opacity="0.9"/>
+  <ellipse cx="1100" cy="95" rx="260" ry="95" fill="#150028" opacity="0.75"/>
+
+  <!-- City skyline (background buildings) -->
+  <g fill="#0a0515" filter="url(#blur8)" opacity="0.6">
+    <rect x="0" y="380" width="75" height="250"/><rect x="60" y="340" width="65" height="290"/>
+    <rect x="135" y="365" width="60" height="265"/>
+    <rect x="900" y="360" width="80" height="270"/><rect x="988" y="330" width="70" height="300"/>
+    <rect x="1068" y="378" width="75" height="252"/><rect x="1150" y="400" width="60" height="230"/>
   </g>
-  <!-- observation deck platform -->
-  <rect x="380" y="228" width="80" height="18" rx="2" fill="#c2410c" stroke="#ea580c" stroke-width="1.5"/>
-  <!-- top antenna spire -->
-  <line x1="420" y1="60" x2="420" y2="20" stroke="#ea580c" stroke-width="4"/>
-  <circle cx="420" cy="15" r="6" fill="#fbbf24" filter="url(#towerneon)"/>
-  <!-- tower glow halo -->
-  <ellipse cx="420" cy="300" rx="80" ry="300" fill="#f97316" opacity="0.08" filter="url(#softglow2)"/>
-  <!-- CONSTRUCTION SITE - DC Building under construction -->
-  <!-- foundation / ground level -->
-  <rect x="530" y="400" width="340" height="160" fill="#1c1917" stroke="#57534e" stroke-width="2"/>
-  <!-- building frame going up -->
-  <rect x="550" y="200" width="300" height="210" fill="#292524" stroke="#78716c" stroke-width="2"/>
-  <!-- scaffolding / construction frame -->
-  <g stroke="#fbbf24" stroke-width="2" opacity="0.7">
-    <!-- vertical poles -->
-    <line x1="548" y1="180" x2="548" y2="560"/><line x1="620" y1="180" x2="620" y2="560"/>
-    <line x1="700" y1="180" x2="700" y2="560"/><line x1="780" y1="180" x2="780" y2="560"/>
-    <line x1="852" y1="180" x2="852" y2="560"/>
-    <!-- horizontal scaffold bands -->
-    <line x1="548" y1="220" x2="852" y2="220"/><line x1="548" y1="280" x2="852" y2="280"/>
-    <line x1="548" y1="340" x2="852" y2="340"/><line x1="548" y1="400" x2="852" y2="400"/>
+  <!-- City windows distant glow -->
+  <g fill="#fbbf24" opacity="0.3" filter="url(#blur4)">
+    <rect x="145" y="385" width="10" height="8" rx="1"/><rect x="165" y="385" width="10" height="8" rx="1"/>
+    <rect x="910" y="375" width="10" height="8" rx="1"/><rect x="930" y="375" width="10" height="8" rx="1"/>
+    <rect x="998" y="352" width="10" height="8" rx="1"/>
   </g>
-  <!-- safety nets / sheeting on upper floors -->
-  <rect x="548" y="180" width="304" height="220" fill="#fbbf24" opacity="0.06"/>
-  <!-- construction cranes -->
-  <!-- crane 1 -->
-  <line x1="870" y1="560" x2="870" y2="80" stroke="#64748b" stroke-width="6"/>
-  <line x1="870" y1="80" x2="1050" y2="105" stroke="#64748b" stroke-width="5"/>
-  <line x1="870" y1="80" x2="750" y2="100" stroke="#64748b" stroke-width="4"/>
-  <!-- crane cable and hook -->
-  <line x1="980" y1="108" x2="980" y2="220" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,4"/>
-  <rect x="972" y="220" width="16" height="12" rx="2" fill="#fbbf24"/>
-  <!-- crane warning lights -->
-  <circle cx="870" cy="75" r="7" fill="#ef4444" filter="url(#towerneon)"/>
-  <circle cx="1050" cy="102" r="5" fill="#ef4444" filter="url(#towerneon)"/>
-  <!-- crane 2 smaller -->
-  <line x1="540" y1="560" x2="540" y2="150" stroke="#475569" stroke-width="4"/>
-  <line x1="540" y1="150" x2="680" y2="168" stroke="#475569" stroke-width="3"/>
-  <line x1="540" y1="150" x2="450" y2="163" stroke="#475569" stroke-width="3"/>
-  <circle cx="540" cy="145" r="5" fill="#ef4444" filter="url(#towerneon)"/>
-  <!-- building windows - glowing server racks -->
-  <g fill="#1e40af" opacity="0.8">
-    <rect x="565" y="215" width="40" height="28" rx="2"/><rect x="620" y="215" width="40" height="28" rx="2"/>
-    <rect x="675" y="215" width="40" height="28" rx="2"/><rect x="730" y="215" width="40" height="28" rx="2"/>
-    <rect x="785" y="215" width="40" height="28" rx="2"/>
-    <rect x="565" y="260" width="40" height="28" rx="2"/><rect x="620" y="260" width="40" height="28" rx="2"/>
-    <rect x="675" y="260" width="40" height="28" rx="2"/><rect x="730" y="260" width="40" height="28" rx="2"/>
-    <rect x="785" y="260" width="40" height="28" rx="2"/>
-    <rect x="565" y="305" width="40" height="28" rx="2"/><rect x="620" y="305" width="40" height="28" rx="2"/>
-    <rect x="675" y="305" width="40" height="28" rx="2"/>
+
+  <!-- TOKYO TOWER (main subject, orange glow) -->
+  <!-- Tower body - warm orange lit from outside lights -->
+  <polygon points="400,65 374,555 426,555" fill="#c2410c" opacity="0.95"/>
+  <!-- Tower structural taper lines -->
+  <line x1="374" y1="555" x2="400" y2="65" stroke="#b45309" stroke-width="1.5" opacity="0.8"/>
+  <line x1="426" y1="555" x2="400" y2="65" stroke="#b45309" stroke-width="1.5" opacity="0.8"/>
+  <!-- Cross bracing (lattice) -->
+  <g stroke="#9a3412" stroke-width="1.5" opacity="0.85">
+    <line x1="377" y1="120" x2="423" y2="120"/><line x1="375" y1="165" x2="425" y2="165"/>
+    <line x1="374" y1="210" x2="426" y2="210"/><line x1="373" y1="255" x2="427" y2="255"/>
+    <line x1="371" y1="300" x2="429" y2="300"/><line x1="370" y1="345" x2="430" y2="345"/>
+    <line x1="368" y1="390" x2="432" y2="390"/><line x1="367" y1="435" x2="433" y2="435"/>
+    <line x1="365" y1="478" x2="435" y2="478"/>
+    <line x1="377" y1="120" x2="423" y2="165"/><line x1="423" y1="120" x2="377" y2="165"/>
+    <line x1="374" y1="210" x2="426" y2="255"/><line x1="426" y1="210" x2="374" y2="255"/>
+    <line x1="371" y1="300" x2="429" y2="345"/><line x1="429" y1="300" x2="371" y2="345"/>
+    <line x1="368" y1="390" x2="432" y2="435"/><line x1="432" y1="390" x2="368" y2="435"/>
   </g>
-  <g fill="#22d3ee" filter="url(#towerneon)" opacity="0.9">
-    <circle cx="600" cy="229" r="4"/><circle cx="655" cy="229" r="4"/><circle cx="710" cy="274" r="4"/>
-    <circle cx="765" cy="229" r="4"/>
+  <!-- Observation deck -->
+  <rect x="382" y="238" width="36" height="20" rx="2" fill="#b45309" stroke="#f97316" stroke-width="1.5"/>
+  <!-- Tower antenna -->
+  <line x1="400" y1="65" x2="400" y2="20" stroke="#ea580c" stroke-width="4.5"/>
+  <circle cx="400" cy="16" r="7" fill="#fbbf24" filter="url(#towerneon)"/>
+  <!-- Tower glow aura -->
+  <ellipse cx="400" cy="300" rx="70" ry="280" fill="#f97316" opacity="0.08" filter="url(#blur8)"/>
+  <!-- Tower neon outline -->
+  <polygon points="400,65 374,555 426,555" fill="none" stroke="#f97316" stroke-width="2" filter="url(#towerneon)" opacity="0.5"/>
+
+  <!-- NEXTDC CONSTRUCTION SITE (right side) -->
+  <!-- Foundation concrete -->
+  <rect x="560" y="460" width="380" height="95" fill="#1c1408"/>
+  <!-- Building frame (under construction) -->
+  <rect x="578" y="230" width="344" height="240" fill="#221508" stroke="#6b4a1a" stroke-width="2"/>
+  <!-- Scaffolding grid -->
+  <g stroke="#fbbf24" stroke-width="1.5" opacity="0.6">
+    <line x1="578" y1="210" x2="578" y2="555"/><line x1="648" y1="210" x2="648" y2="555"/>
+    <line x1="728" y1="210" x2="728" y2="555"/><line x1="808" y1="210" x2="808" y2="555"/>
+    <line x1="888" y1="210" x2="888" y2="555"/><line x1="922" y1="210" x2="922" y2="555"/>
+    <line x1="578" y1="250" x2="922" y2="250"/><line x1="578" y1="310" x2="922" y2="310"/>
+    <line x1="578" y1="370" x2="922" y2="370"/><line x1="578" y1="430" x2="922" y2="430"/>
   </g>
-  <!-- LAWSUIT / protest banner -->
-  <rect x="560" y="350" width="280" height="42" rx="4" fill="#dc2626" opacity="0.92"/>
-  <text x="580" y="378" font-family="sans-serif" font-size="20" font-weight="900" fill="white">住民提訴 ─ 建設差し止め</text>
-  <!-- ground construction barriers -->
-  <g fill="#f59e0b" opacity="0.8">
-    <rect x="530" y="548" width="30" height="12" rx="1"/>
-    <rect x="575" y="548" width="30" height="12" rx="1"/>
-    <rect x="620" y="548" width="30" height="12" rx="1"/>
-    <rect x="665" y="548" width="30" height="12" rx="1"/>
-    <rect x="710" y="548" width="30" height="12" rx="1"/>
-    <rect x="755" y="548" width="30" height="12" rx="1"/>
-    <rect x="800" y="548" width="30" height="12" rx="1"/>
+  <!-- Safety netting (warm yellow) -->
+  <rect x="578" y="210" width="344" height="250" fill="#fbbf24" opacity="0.04"/>
+  <!-- Server hall windows (lit blue) -->
+  <g fill="#1e3a8a" opacity="0.85">
+    <rect x="595" y="248" width="42" height="30" rx="2"/><rect x="648" y="248" width="42" height="30" rx="2"/>
+    <rect x="701" y="248" width="42" height="30" rx="2"/><rect x="754" y="248" width="42" height="30" rx="2"/>
+    <rect x="807" y="248" width="42" height="30" rx="2"/><rect x="860" y="248" width="42" height="30" rx="2"/>
+    <rect x="595" y="292" width="42" height="30" rx="2"/><rect x="648" y="292" width="42" height="30" rx="2"/>
+    <rect x="701" y="292" width="42" height="30" rx="2"/><rect x="754" y="292" width="42" height="30" rx="2"/>
+    <rect x="807" y="292" width="42" height="30" rx="2"/>
+    <rect x="595" y="336" width="42" height="30" rx="2"/><rect x="648" y="336" width="42" height="30" rx="2"/>
+    <rect x="701" y="336" width="42" height="30" rx="2"/>
   </g>
-  <!-- bottom title bar -->
-  <rect x="0" y="558" width="1200" height="72" fill="#0c0020" opacity="0.95"/>
-  <rect x="0" y="556" width="1200" height="4" fill="#f97316"/>
-  <text x="40" y="600" font-family="sans-serif" font-size="28" font-weight="900" fill="white">東京タワー隣接DC NEXTDC TK1 住民訴訟</text>
-  <text x="40" y="618" font-family="sans-serif" font-size="15" fill="#fed7aa">国内DC動向 ｜ DCトレンド研究</text>
+  <g fill="#22d3ee" filter="url(#towerneon)" opacity="0.8">
+    <circle cx="631" cy="263" r="4"/><circle cx="684" cy="307" r="4"/><circle cx="737" cy="263" r="4"/>
+    <circle cx="790" cy="307" r="4"/>
+  </g>
+
+  <!-- Giant crane -->
+  <line x1="940" y1="555" x2="940" y2="75" stroke="#5c4a2a" stroke-width="7"/>
+  <line x1="940" y1="75" x2="1120" y2="100" stroke="#5c4a2a" stroke-width="6"/>
+  <line x1="940" y1="75" x2="820" y2="92" stroke="#5c4a2a" stroke-width="4"/>
+  <line x1="1060" y1="103" x2="1060" y2="210" stroke="#78716c" stroke-width="2.5" stroke-dasharray="6,5"/>
+  <rect x="1050" y="210" width="20" height="14" rx="2" fill="#fbbf24"/>
+  <circle cx="940" cy="70" r="8" fill="#ef4444" filter="url(#towerneon)"/>
+  <circle cx="1120" cy="98" r="6" fill="#ef4444" filter="url(#towerneon)"/>
+
+  <!-- Ground construction barriers -->
+  <g fill="#f59e0b" opacity="0.7">
+    <rect x="560" y="548" width="35" height="12" rx="1"/><rect x="605" y="548" width="35" height="12" rx="1"/>
+    <rect x="650" y="548" width="35" height="12" rx="1"/><rect x="695" y="548" width="35" height="12" rx="1"/>
+    <rect x="740" y="548" width="35" height="12" rx="1"/><rect x="785" y="548" width="35" height="12" rx="1"/>
+    <rect x="830" y="548" width="35" height="12" rx="1"/><rect x="875" y="548" width="35" height="12" rx="1"/>
+  </g>
+
+  <!-- Vignette -->
+  <rect width="1200" height="630" fill="url(#vgn)"/>
+
+  <!-- Text overlay -->
+  <rect x="0" y="320" width="1200" height="310" fill="url(#tov)"/>
+
+  <!-- Category badge -->
+  <rect x="40" y="36" width="165" height="38" rx="19" fill="#7c3aed"/>
+  <text x="122" y="61" font-family="sans-serif" font-size="15" font-weight="700" fill="white" text-anchor="middle">国内DC動向</text>
+
+  <!-- LAWSUIT badge (red, urgent) -->
+  <rect x="900" y="34" width="260" height="44" rx="8" fill="#dc2626" opacity="0.93"/>
+  <text x="1030" y="62" font-family="sans-serif" font-size="22" font-weight="900" fill="white" text-anchor="middle">⚡ 住民が建設差し止め提訴</text>
+
+  <!-- Orange accent bar (Tokyo Tower) -->
+  <rect x="40" y="415" width="5" height="125" rx="2.5" fill="#f97316"/>
+
+  <!-- Kicker -->
+  <text x="60" y="472" font-family="sans-serif" font-size="52" font-weight="900" fill="#fb923c" filter="url(#ts)">東京タワー隣接 DC建設</text>
+
+  <!-- Main headline -->
+  <text x="60" y="546" font-family="sans-serif" font-size="36" font-weight="900" fill="white" filter="url(#ts)">NEXTDC TK1 — 住民訴訟と都心立地問題</text>
+
+  <!-- Sub-line -->
+  <text x="60" y="596" font-family="sans-serif" font-size="17" fill="#fdba74" filter="url(#ts)">NHK報道で炎上 芝公園28MW Tier IV 2030年稼働計画の行方</text>
+
+  <text x="1160" y="618" font-family="sans-serif" font-size="13" fill="rgba(255,255,255,0.4)" text-anchor="end">DCトレンド研究</text>
 </svg>

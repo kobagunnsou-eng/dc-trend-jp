@@ -1,63 +1,139 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
   <defs>
-    <linearGradient id="ocean" x1="0" y1="0" x2="0" y2="1">
+    <!-- Photo: large container ship on open ocean at dusk, dramatic clouds -->
+    <linearGradient id="dusksky" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#0c1445"/>
-      <stop offset="50%" stop-color="#0e4f6b"/>
-      <stop offset="100%" stop-color="#164e63"/>
+      <stop offset="30%" stop-color="#1e3a6e"/>
+      <stop offset="55%" stop-color="#0e4f6b"/>
+      <stop offset="75%" stop-color="#164e63"/>
+      <stop offset="100%" stop-color="#0f2d3e"/>
     </linearGradient>
-    <radialGradient id="moonlight" cx="75%" cy="20%" r="35%">
-      <stop offset="0%" stop-color="#e0f2fe" stop-opacity="0.7"/>
+    <radialGradient id="horizonglow" cx="50%" cy="62%" r="50%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.45"/>
+      <stop offset="40%" stop-color="#ea580c" stop-opacity="0.2"/>
       <stop offset="100%" stop-color="#0c1445" stop-opacity="0"/>
     </radialGradient>
-    <filter id="waveglow"><feGaussianBlur stdDeviation="5"/></filter>
+    <radialGradient id="moonrg" cx="78%" cy="22%" r="15%">
+      <stop offset="0%" stop-color="#fef9c3" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0c1445" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vgn" cx="50%" cy="50%" r="72%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.7)"/>
+    </radialGradient>
+    <linearGradient id="tov" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(0,0,0,0)"/>
+      <stop offset="35%" stop-color="rgba(0,0,0,0.55)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.93)"/>
+    </linearGradient>
+    <filter id="ts"><feDropShadow dx="0" dy="2" stdDeviation="8" flood-color="rgba(0,0,0,1)"/></filter>
+    <filter id="waveglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="blur10"><feGaussianBlur stdDeviation="10"/></filter>
   </defs>
-  <rect width="1200" height="630" fill="url(#ocean)"/>
-  <rect width="1200" height="630" fill="url(#moonlight)"/>
-  <!-- stars -->
+
+  <rect width="1200" height="630" fill="url(#dusksky)"/>
+  <rect width="1200" height="630" fill="url(#horizonglow)"/>
+  <rect width="1200" height="630" fill="url(#moonrg)"/>
+
+  <!-- Stars -->
   <g fill="white">
-    {[[100,50],[200,80],[350,30],[500,60],[650,40],[750,70],[850,25],[1000,55],[1100,35],[150,120],[450,100],[750,130],[1050,90]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="1.5"/>`).join('')}
+    <circle cx="80" cy="45" r="1.3"/><circle cx="185" cy="70" r="1.1"/><circle cx="330" cy="35" r="1.4"/>
+    <circle cx="500" cy="58" r="1.2"/><circle cx="620" cy="42" r="1"/><circle cx="1050" cy="55" r="1.3"/>
+    <circle cx="130" cy="110" r="1"/><circle cx="410" cy="95" r="1.1"/><circle cx="720" cy="68" r="1"/>
+    <circle cx="980" cy="90" r="1.2"/>
   </g>
-  <!-- moon -->
-  <circle cx="900" cy="120" r="45" fill="#fef9c3" opacity="0.9"/>
-  <circle cx="880" cy="110" r="42" fill="#0c1445"/>
-  <!-- moon reflection on water -->
-  <ellipse cx="900" cy="520" rx="80" ry="20" fill="#fef9c3" opacity="0.15" filter="url(#waveglow)"/>
-  <!-- waves -->
-  <path d="M 0 400 Q 150 375 300 400 T 600 400 T 900 400 T 1200 400" fill="#0e4f6b" opacity="0.6"/>
-  <path d="M 0 430 Q 200 405 400 430 T 800 430 T 1200 430" fill="#065f7d" opacity="0.8"/>
-  <path d="M 0 460 Q 200 435 400 460 T 800 460 T 1200 460" fill="#0e7490" opacity="0.5"/>
-  <!-- bioluminescent waves -->
-  <path d="M 0 415 Q 150 395 300 415 T 600 415 T 900 415 T 1200 415" fill="none" stroke="#22d3ee" stroke-width="1.5" opacity="0.4"/>
-  <!-- ship hull -->
-  <rect x="200" y="350" width="800" height="100" rx="6" fill="#1e293b" stroke="#334155" stroke-width="2"/>
-  <polygon points="200,450 150,490 1050,490 1000,450" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
-  <!-- ship deck superstructure -->
-  <rect x="300" y="290" width="180" height="65" rx="4" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
-  <rect x="330" y="260" width="100" height="35" rx="3" fill="#334155"/>
-  <!-- server modules on deck glowing -->
+
+  <!-- Moon -->
+  <circle cx="935" cy="130" r="40" fill="#fef9c3" opacity="0.88"/>
+  <circle cx="920" cy="122" r="37" fill="#0c1445"/>
+  <!-- Moon reflection on water -->
+  <ellipse cx="935" cy="490" rx="70" ry="18" fill="#fef9c3" opacity="0.12" filter="url(#waveglow)"/>
+
+  <!-- Dramatic clouds -->
+  <ellipse cx="200" cy="100" rx="280" ry="90" fill="#0c2040" opacity="0.75"/>
+  <ellipse cx="600" cy="80" rx="360" ry="110" fill="#0a1a35" opacity="0.8"/>
+  <ellipse cx="1050" cy="105" rx="240" ry="80" fill="#0c2040" opacity="0.65"/>
+
+  <!-- Ocean waves (layered for depth) -->
+  <!-- Deep water -->
+  <rect x="0" y="420" width="1200" height="210" fill="#0c2d3e"/>
+  <!-- Wave layers -->
+  <path d="M 0 420 Q 150 405 300 420 T 600 420 T 900 420 T 1200 420" fill="#0e3d52" opacity="0.8"/>
+  <path d="M 0 450 Q 200 432 400 450 T 800 450 T 1200 450" fill="#0f4a60" opacity="0.7"/>
+  <path d="M 0 470 Q 180 455 360 470 T 720 470 T 1080 470 T 1200 470" fill="#0e5470" opacity="0.5"/>
+  <!-- Wave highlights -->
+  <path d="M 0 436 Q 150 428 300 436 T 600 436 T 900 436 T 1200 436" fill="none" stroke="#1e7a9a" stroke-width="2" opacity="0.5"/>
+  <path d="M 0 462 Q 200 452 400 462 T 800 462 T 1200 462" fill="none" stroke="#22d3ee" stroke-width="1.5" opacity="0.25"/>
+
+  <!-- SHIP HULL (main subject, center stage) -->
+  <!-- Hull body -->
+  <rect x="220" y="350" width="760" height="105" rx="8" fill="#1c2d42" stroke="#2d4a6b" stroke-width="2.5"/>
+  <!-- Hull underside (below waterline effect) -->
+  <rect x="240" y="440" width="720" height="35" rx="4" fill="#0f1f2e"/>
+  <!-- Bow shape -->
+  <polygon points="220,355 170,455 220,455" fill="#162234" stroke="#2d4a6b" stroke-width="1.5"/>
+  <!-- Stern shape -->
+  <polygon points="980,355 1030,455 980,455" fill="#162234" stroke="#2d4a6b" stroke-width="1.5"/>
+
+  <!-- Ship superstructure (bridge / command) -->
+  <rect x="280" y="280" width="200" height="80" rx="4" fill="#1c2d42" stroke="#3d5a7a" stroke-width="1.5"/>
+  <rect x="310" y="250" width="130" height="34" rx="3" fill="#253850"/>
+  <!-- Bridge windows -->
+  <g fill="#38bdf8" opacity="0.7">
+    <rect x="295" y="293" width="22" height="14" rx="2"/><rect x="325" y="293" width="22" height="14" rx="2"/>
+    <rect x="355" y="293" width="22" height="14" rx="2"/><rect x="385" y="293" width="22" height="14" rx="2"/>
+    <rect x="415" y="293" width="22" height="14" rx="2"/><rect x="445" y="293" width="22" height="14" rx="2"/>
+  </g>
+  <!-- Radar/antenna mast -->
+  <line x1="375" y1="250" x2="375" y2="150" stroke="#4b6a8a" stroke-width="3.5"/>
+  <line x1="375" y1="150" x2="310" y2="182" stroke="#4b6a8a" stroke-width="2.5"/>
+  <line x1="375" y1="150" x2="440" y2="182" stroke="#4b6a8a" stroke-width="2.5"/>
+  <circle cx="375" cy="148" r="9" fill="#22d3ee" opacity="0.85" filter="url(#waveglow)"/>
+
+  <!-- DC server containers on deck (the payload) -->
   <g>
-    <rect x="520" y="290" width="110" height="65" rx="3" fill="#1e3a8a" stroke="#3b82f6" stroke-width="2"/>
-    <rect x="645" y="290" width="110" height="65" rx="3" fill="#1e3a8a" stroke="#3b82f6" stroke-width="2"/>
-    <rect x="770" y="290" width="110" height="65" rx="3" fill="#1e3a8a" stroke="#3b82f6" stroke-width="2"/>
+    <rect x="510" y="295" width="120" height="62" rx="3" fill="#1e3a8a" stroke="#3b82f6" stroke-width="2"/>
+    <rect x="640" y="295" width="120" height="62" rx="3" fill="#1e3a8a" stroke="#3b82f6" stroke-width="2"/>
+    <rect x="770" y="295" width="120" height="62" rx="3" fill="#1e3a8a" stroke="#3b82f6" stroke-width="2"/>
+    <!-- LED strips -->
+    <rect x="512" y="348" width="116" height="5" rx="2" fill="#22d3ee" opacity="0.8" filter="url(#waveglow)"/>
+    <rect x="642" y="348" width="116" height="5" rx="2" fill="#22d3ee" opacity="0.75" filter="url(#waveglow)"/>
+    <rect x="772" y="348" width="116" height="5" rx="2" fill="#34d399" opacity="0.8" filter="url(#waveglow)"/>
+    <!-- Status lights -->
+    <circle cx="570" cy="312" r="5" fill="#34d399" filter="url(#waveglow)"/>
+    <circle cx="700" cy="312" r="5" fill="#34d399" filter="url(#waveglow)"/>
+    <circle cx="830" cy="312" r="5" fill="#fbbf24" filter="url(#waveglow)"/>
+    <!-- Container labels -->
+    <text x="570" y="335" font-family="monospace" font-size="10" fill="#93c5fd" text-anchor="middle" opacity="0.8">RACK-A1</text>
+    <text x="700" y="335" font-family="monospace" font-size="10" fill="#93c5fd" text-anchor="middle" opacity="0.8">RACK-B1</text>
+    <text x="830" y="335" font-family="monospace" font-size="10" fill="#93c5fd" text-anchor="middle" opacity="0.8">RACK-C1</text>
   </g>
-  <!-- LED strips on modules -->
-  <g fill="#22d3ee" filter="url(#waveglow)">
-    <rect x="522" y="345" width="106" height="4" rx="2"/>
-    <rect x="647" y="345" width="106" height="4" rx="2"/>
-    <rect x="772" y="345" width="106" height="4" rx="2"/>
-  </g>
-  <!-- status lights -->
-  <circle cx="575" cy="308" r="5" fill="#34d399"/><circle cx="700" cy="308" r="5" fill="#34d399"/>
-  <circle cx="825" cy="308" r="5" fill="#fbbf24"/>
-  <!-- radar/antenna -->
-  <line x1="380" y1="260" x2="380" y2="150" stroke="#64748b" stroke-width="3"/>
-  <line x1="380" y1="150" x2="320" y2="190" stroke="#64748b" stroke-width="2"/>
-  <line x1="380" y1="150" x2="440" y2="190" stroke="#64748b" stroke-width="2"/>
-  <circle cx="380" cy="150" r="8" fill="#22d3ee" opacity="0.8"/>
-  <!-- reflection of ship in water -->
-  <rect x="200" y="490" width="800" height="40" fill="#1e3a8a" opacity="0.2"/>
-  <rect x="0" y="558" width="1200" height="72" fill="#0c1445" opacity="0.9"/>
-  <rect x="0" y="556" width="1200" height="4" fill="#0ea5e9"/>
-  <text x="40" y="600" font-family="sans-serif" font-size="30" font-weight="900" fill="white">浮体式データセンター — 商船三井×日立の挑戦</text>
-  <text x="40" y="618" font-family="sans-serif" font-size="15" fill="#7dd3fc">国内DC動向 ｜ DCトレンド研究</text>
+
+  <!-- Ship wake in water -->
+  <path d="M 170 455 Q 0 490 -50 520" fill="none" stroke="#1e7a9a" stroke-width="3" opacity="0.4"/>
+  <path d="M 1030 455 Q 1200 490 1250 520" fill="none" stroke="#1e7a9a" stroke-width="3" opacity="0.4"/>
+
+  <!-- Vignette -->
+  <rect width="1200" height="630" fill="url(#vgn)"/>
+
+  <!-- Text overlay -->
+  <rect x="0" y="330" width="1200" height="300" fill="url(#tov)"/>
+
+  <!-- Category badge -->
+  <rect x="40" y="36" width="165" height="38" rx="19" fill="#0e4f6b"/>
+  <text x="122" y="61" font-family="sans-serif" font-size="15" font-weight="700" fill="white" text-anchor="middle">国内DC動向</text>
+
+  <!-- Cyan accent bar (ocean) -->
+  <rect x="40" y="415" width="5" height="125" rx="2.5" fill="#22d3ee"/>
+
+  <!-- Kicker -->
+  <text x="60" y="473" font-family="sans-serif" font-size="50" font-weight="900" fill="#22d3ee" filter="url(#ts)">商船三井 × 日立製作所</text>
+
+  <!-- Main headline -->
+  <text x="60" y="547" font-family="sans-serif" font-size="36" font-weight="900" fill="white" filter="url(#ts)">浮体式データセンター — 海洋DCの挑戦</text>
+
+  <!-- Sub-line -->
+  <text x="60" y="596" font-family="sans-serif" font-size="17" fill="#67e8f9" filter="url(#ts)">2026年稼働目標 洋上冷却でPUE 1.03実現へ</text>
+
+  <text x="1160" y="618" font-family="sans-serif" font-size="13" fill="rgba(255,255,255,0.4)" text-anchor="end">DCトレンド研究</text>
 </svg>
