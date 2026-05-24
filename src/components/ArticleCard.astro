@@ -21,6 +21,7 @@ export interface Props {
   isGlossary?: boolean;
   variant?: 'standard' | 'hero' | 'feature' | 'list' | 'compact';
   rank?: number;
+  thumbnail?: string;  // 実画像パス（例: /images/articles/foo.png）
 }
 
 const {
@@ -33,6 +34,7 @@ const {
   isGlossary = false,
   variant = 'standard',
   rank,
+  thumbnail,
 } = Astro.props;
 
 const href = isGlossary ? `/glossary/${slug}` : `/articles/${slug}`;
@@ -49,7 +51,7 @@ const dateStr = formatDate(publishedAt);
 {variant === 'hero' && (
   <a href={href} class="group block no-underline">
     <div class="relative overflow-hidden">
-      <Thumbnail category={category} ratio="16/9" />
+      <Thumbnail src={thumbnail} category={category} ratio="16/9" />
       <div class="absolute top-3 left-3">
         <span class="inline-block text-[11px] font-medium tracking-wide px-2 py-0.5 bg-brand-600 text-white">{category}</span>
       </div>
@@ -71,7 +73,7 @@ const dateStr = formatDate(publishedAt);
 {variant === 'feature' && (
   <a href={href} class="group block no-underline">
     <div class="relative overflow-hidden">
-      <Thumbnail category={category} ratio="16/9" />
+      <Thumbnail src={thumbnail} category={category} ratio="16/9" />
       <div class="absolute top-2 left-2">
         <span class="inline-block text-[11px] font-medium tracking-wide px-2 py-0.5 bg-brand-600 text-white">{category}</span>
       </div>
@@ -90,7 +92,7 @@ const dateStr = formatDate(publishedAt);
 {/* ----------------- STANDARD — main grid card ----------------- */}
 {variant === 'standard' && (
   <a href={href} class="group block bg-white dark:bg-slate-900 no-underline border border-slate-200 dark:border-slate-800 hover:border-brand-400 dark:hover:border-brand-600 transition-colors">
-    <Thumbnail category={category} ratio="16/9" />
+    <Thumbnail src={thumbnail} category={category} ratio="16/9" />
     <div class="p-4">
       <div class="mb-2">
         <span class="category-badge">{category}</span>
@@ -110,7 +112,7 @@ const dateStr = formatDate(publishedAt);
 {variant === 'list' && (
   <a href={href} class="group flex gap-3 no-underline py-3 border-b border-slate-200 dark:border-slate-800 last:border-b-0">
     <div class="w-[88px] flex-shrink-0">
-      <Thumbnail category={category} ratio="4/3" />
+      <Thumbnail src={thumbnail} category={category} ratio="4/3" />
     </div>
     <div class="flex-1 min-w-0">
       <div class="mb-1">

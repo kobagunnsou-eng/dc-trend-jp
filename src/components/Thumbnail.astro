@@ -4,12 +4,14 @@
 // brand-blue stripe, geometric data-center motif). Drop-in until real photos.
 
 export interface Props {
+  src?: string;        // 実画像パス（例: /images/articles/foo.png）
+  alt?: string;        // 実画像の alt テキスト
   category?: string;
   ratio?: '16/9' | '4/3' | '3/2';
   label?: string;
 }
 
-const { category, ratio = '16/9', label } = Astro.props;
+const { src, alt = '', category, ratio = '16/9', label } = Astro.props;
 
 const motifs: Record<string, string> = {
   'AI・HPCインフラ':   'circuit',
@@ -26,7 +28,19 @@ const motif = (category && motifs[category]) || 'rack';
   class="thumbnail relative w-full overflow-hidden bg-slate-900 dark:bg-slate-950"
   style={`aspect-ratio:${ratio};`}
 >
-  <svg
+  {/* 実画像が指定されていればそちらを優先表示 */}
+  {src && (
+    <img
+      src={src}
+      alt={alt}
+      class="absolute inset-0 w-full h-full object-cover"
+      loading="lazy"
+      decoding="async"
+    />
+  )}
+
+  {/* 実画像がない場合はSVGプレースホルダ */}
+  {!src && <svg
     viewBox="0 0 320 180"
     preserveAspectRatio="xMidYMid slice"
     class="absolute inset-0 w-full h-full"
@@ -113,7 +127,7 @@ const motif = (category && motifs[category]) || 'rack';
         ))}
       </g>
     )}
-  </svg>
+  </svg>}
 
   {label && (
     <span class="absolute top-2 left-3 text-[10px] font-medium tracking-wider uppercase text-brand-300">

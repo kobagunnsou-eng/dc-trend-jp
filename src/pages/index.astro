@@ -27,6 +27,7 @@ const articles = (await getCollection('articles'))
     category: a.data.category,
     tags: a.data.tags,
     publishedAt: a.data.published_at,
+    thumbnail: a.data.thumbnail,
     isGlossary: false,
   }));
 
@@ -135,7 +136,7 @@ function formatDate(s: string) {
                   href={`/articles/${feature.slug}`}
                   class="group grid grid-cols-1 sm:grid-cols-2 gap-5 mb-4 no-underline"
                 >
-                  <Thumbnail category={feature.category} ratio="16/9" />
+                  <Thumbnail src={feature.thumbnail} category={feature.category} ratio="16/9" />
                   <div class="flex flex-col justify-center">
                     <div class="mb-2">
                       <span class="inline-block text-[10px] font-medium uppercase tracking-wider text-brand-700 dark:text-brand-400">
