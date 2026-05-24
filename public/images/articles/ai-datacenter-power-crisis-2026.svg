@@ -1,24 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#0f172a"/>
-  <g stroke="#1e293b" stroke-width="1">
-    <line x1="0" y1="157" x2="1200" y2="157"/><line x1="0" y1="315" x2="1200" y2="315"/>
-    <line x1="0" y1="472" x2="1200" y2="472"/>
-    <line x1="300" y1="0" x2="300" y2="630"/><line x1="600" y1="0" x2="600" y2="630"/>
-    <line x1="900" y1="0" x2="900" y2="630"/>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1c0533"/>
+      <stop offset="50%" stop-color="#7c2d12"/>
+      <stop offset="100%" stop-color="#dc2626"/>
+    </linearGradient>
+    <radialGradient id="flash" cx="50%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#dc2626" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="6" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <rect width="1200" height="630" fill="url(#flash)"/>
+  <!-- storm clouds -->
+  <ellipse cx="300" cy="120" rx="220" ry="90" fill="#1c0533" opacity="0.8"/>
+  <ellipse cx="700" cy="80" rx="300" ry="100" fill="#1c0533" opacity="0.9"/>
+  <ellipse cx="1050" cy="130" rx="200" ry="80" fill="#1c0533" opacity="0.7"/>
+  <!-- lightning bolt main -->
+  <polygon points="620,60 580,280 615,280 565,570 680,260 640,260 695,60" fill="#fef08a" filter="url(#glow)"/>
+  <!-- lightning glow -->
+  <polygon points="620,60 580,280 615,280 565,570 680,260 640,260 695,60" fill="white" opacity="0.4" filter="url(#glow)"/>
+  <!-- secondary lightning -->
+  <polyline points="400,100 370,220 385,220 350,350" fill="none" stroke="#fbbf24" stroke-width="3" opacity="0.6"/>
+  <polyline points="850,80 880,200 865,200 900,320" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.5"/>
+  <!-- data center silhouette -->
+  <rect x="100" y="420" width="220" height="160" fill="#0f0f0f"/>
+  <rect x="340" y="380" width="180" height="200" fill="#111"/>
+  <rect x="680" y="400" width="200" height="180" fill="#0f0f0f"/>
+  <rect x="900" y="360" width="240" height="220" fill="#111"/>
+  <!-- DC windows glowing orange from fire -->
+  <g fill="#f97316" opacity="0.8">
+    <rect x="120" y="440" width="25" height="20" rx="2"/>
+    <rect x="160" y="440" width="25" height="20" rx="2"/>
+    <rect x="200" y="440" width="25" height="20" rx="2"/>
+    <rect x="360" y="400" width="25" height="20" rx="2"/>
+    <rect x="700" y="420" width="25" height="20" rx="2"/>
+    <rect x="920" y="385" width="25" height="20" rx="2"/>
+    <rect x="960" y="385" width="25" height="20" rx="2"/>
   </g>
-  <rect x="0" y="0" width="12" height="630" fill="#dc2626"/>
-  <!-- lightning bolt -->
-  <polygon points="640,100 580,320 620,320 560,530 700,270 650,270 720,100" fill="#2563eb" opacity="0.9"/>
-  <!-- power wave lines -->
-  <path d="M 50 420 Q 150 380 250 420 T 450 420 T 650 420 T 850 420 T 1050 420 T 1200 420" fill="none" stroke="#60a5fa" stroke-width="2.5" opacity="0.7"/>
-  <path d="M 50 450 Q 150 410 250 450 T 450 450 T 650 450 T 850 450 T 1050 450 T 1200 450" fill="none" stroke="#3b82f6" stroke-width="1.5" opacity="0.4"/>
-  <!-- glow effect behind lightning -->
-  <ellipse cx="620" cy="315" rx="120" ry="200" fill="#1d4ed8" opacity="0.15"/>
-  <!-- dots -->
-  <circle cx="560" cy="530" r="6" fill="#fbbf24"/>
-  <circle cx="720" cy="100" r="6" fill="#fbbf24"/>
-  <rect x="0" y="555" width="1200" height="75" fill="#0f172a" opacity="0.9"/>
-  <rect x="0" y="553" width="1200" height="3" fill="#dc2626"/>
-  <text x="40" y="600" font-family="sans-serif" font-size="28" font-weight="700" fill="#f1f5f9">AIデータセンターの電力危機 2026</text>
-  <text x="40" y="618" font-family="sans-serif" font-size="16" fill="#64748b">AI・HPCインフラ ｜ DCトレンド研究</text>
+  <!-- ground flash -->
+  <ellipse cx="620" cy="570" rx="120" ry="25" fill="#fef08a" opacity="0.5" filter="url(#glow)"/>
+  <rect x="0" y="560" width="1200" height="70" fill="#1c0533" opacity="0.9"/>
+  <rect x="0" y="558" width="1200" height="4" fill="#dc2626"/>
+  <text x="40" y="605" font-family="sans-serif" font-size="30" font-weight="900" fill="white">AIデータセンター電力危機 — 現場の実態</text>
+  <text x="40" y="622" font-family="sans-serif" font-size="15" fill="#fca5a5">AI・HPCインフラ ｜ DCトレンド研究</text>
 </svg>

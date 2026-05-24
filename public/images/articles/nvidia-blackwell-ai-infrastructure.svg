@@ -1,45 +1,50 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#0f172a"/>
-  <!-- grid -->
-  <g stroke="#1e293b" stroke-width="1">
-    <line x1="0" y1="157" x2="1200" y2="157"/><line x1="0" y1="315" x2="1200" y2="315"/>
-    <line x1="0" y1="472" x2="1200" y2="472"/>
-    <line x1="300" y1="0" x2="300" y2="630"/><line x1="600" y1="0" x2="600" y2="630"/>
-    <line x1="900" y1="0" x2="900" y2="630"/>
+  <defs>
+    <radialGradient id="burst" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="40%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e879f9" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur1"><feGaussianBlur stdDeviation="8"/></filter>
+    <filter id="blur2"><feGaussianBlur stdDeviation="20"/></filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#burst)"/>
+  <!-- glow core -->
+  <ellipse cx="600" cy="315" rx="200" ry="200" fill="url(#glow)" filter="url(#blur2)"/>
+  <!-- energy rays -->
+  <g stroke="#e879f9" stroke-width="2" opacity="0.6">
+    <line x1="600" y1="315" x2="0" y2="0"/><line x1="600" y1="315" x2="400" y2="0"/>
+    <line x1="600" y1="315" x2="800" y2="0"/><line x1="600" y1="315" x2="1200" y2="0"/>
+    <line x1="600" y1="315" x2="0" y2="315"/><line x1="600" y1="315" x2="1200" y2="315"/>
+    <line x1="600" y1="315" x2="0" y2="630"/><line x1="600" y1="315" x2="600" y2="630"/>
+    <line x1="600" y1="315" x2="1200" y2="630"/>
   </g>
-  <!-- brand stripe -->
-  <rect x="0" y="0" width="12" height="630" fill="#2563eb"/>
-  <!-- GPU chip motif -->
-  <rect x="430" y="165" width="340" height="300" rx="8" fill="none" stroke="#3b82f6" stroke-width="3"/>
-  <rect x="480" y="215" width="240" height="200" rx="4" fill="#1e3a8a" opacity="0.7"/>
-  <rect x="510" y="245" width="180" height="140" rx="2" fill="#2563eb" opacity="0.5"/>
-  <!-- circuit lines left -->
-  <g stroke="#3b82f6" stroke-width="2" opacity="0.8">
-    <line x1="350" y1="230" x2="430" y2="230"/><line x1="350" y1="270" x2="430" y2="270"/>
-    <line x1="350" y1="310" x2="430" y2="310"/><line x1="350" y1="350" x2="430" y2="350"/>
-    <line x1="350" y1="390" x2="430" y2="390"/>
+  <!-- GPU chip -->
+  <rect x="460" y="175" width="280" height="280" rx="12" fill="#1e1b4b" stroke="#a855f7" stroke-width="3"/>
+  <rect x="490" y="205" width="220" height="220" rx="6" fill="#0f0f2e" stroke="#7c3aed" stroke-width="2"/>
+  <!-- chip die -->
+  <rect x="530" y="245" width="140" height="140" rx="4" fill="#312e81"/>
+  <rect x="550" y="265" width="100" height="100" rx="2" fill="#4c1d95"/>
+  <!-- bright center -->
+  <circle cx="600" cy="315" r="30" fill="#e879f9" opacity="0.9"/>
+  <circle cx="600" cy="315" r="15" fill="white" opacity="0.95"/>
+  <!-- connection pins -->
+  <g fill="#a855f7">
+    {[480,510,540,570,600,630,660,690,720].map(x=>`<rect x="${x-4}" y="167" width="8" height="14" rx="2"/><rect x="${x-4}" y="449" width="8" height="14" rx="2"/>`).join('')}
+    {[205,235,265,295,325,355,385,415].map(y=>`<rect x="452" y="${y-4}" width="14" height="8" rx="2"/><rect x="734" y="${y-4}" width="14" height="8" rx="2"/>`).join('')}
   </g>
-  <!-- circuit lines right -->
-  <g stroke="#3b82f6" stroke-width="2" opacity="0.8">
-    <line x1="770" y1="230" x2="850" y2="230"/><line x1="770" y1="270" x2="850" y2="270"/>
-    <line x1="770" y1="310" x2="850" y2="310"/><line x1="770" y1="350" x2="850" y2="350"/>
-    <line x1="770" y1="390" x2="850" y2="390"/>
+  <!-- sparks -->
+  <g fill="#fbbf24" opacity="0.9">
+    <polygon points="200,100 210,130 195,125"/><polygon points="950,80 965,115 945,108"/>
+    <polygon points="150,400 165,435 148,428"/><polygon points="1000,450 1018,485 998,478"/>
+    <polygon points="300,520 312,548 296,542"/><polygon points="880,200 895,230 878,224"/>
   </g>
-  <!-- circuit lines top -->
-  <g stroke="#60a5fa" stroke-width="2" opacity="0.6">
-    <line x1="510" y1="100" x2="510" y2="165"/><line x1="560" y1="100" x2="560" y2="165"/>
-    <line x1="640" y1="100" x2="640" y2="165"/><line x1="690" y1="100" x2="690" y2="165"/>
-  </g>
-  <!-- glow dots -->
-  <circle cx="600" cy="315" r="6" fill="#fbbf24"/>
-  <circle cx="350" cy="230" r="4" fill="#34d399"/>
-  <circle cx="350" cy="310" r="4" fill="#34d399"/>
-  <circle cx="350" cy="390" r="4" fill="#34d399"/>
-  <circle cx="850" cy="270" r="4" fill="#f87171"/>
-  <circle cx="850" cy="350" r="4" fill="#f87171"/>
-  <!-- label area -->
-  <rect x="0" y="555" width="1200" height="75" fill="#0f172a" opacity="0.9"/>
-  <rect x="0" y="553" width="1200" height="3" fill="#2563eb"/>
-  <text x="40" y="600" font-family="sans-serif" font-size="28" font-weight="700" fill="#f1f5f9">NVIDIA Blackwell（GB200）AIインフラ</text>
-  <text x="40" y="618" font-family="sans-serif" font-size="16" fill="#64748b">AI・HPCインフラ ｜ DCトレンド研究</text>
+  <rect x="0" y="560" width="1200" height="70" fill="#0f0f2e" opacity="0.85"/>
+  <rect x="0" y="558" width="1200" height="4" fill="#a855f7"/>
+  <text x="40" y="605" font-family="sans-serif" font-size="30" font-weight="900" fill="white">NVIDIA Blackwell GB200 — AIインフラ革命</text>
+  <text x="40" y="622" font-family="sans-serif" font-size="15" fill="#c084fc">AI・HPCインフラ ｜ DCトレンド研究</text>
 </svg>

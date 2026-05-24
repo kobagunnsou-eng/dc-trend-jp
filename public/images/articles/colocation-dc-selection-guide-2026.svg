@@ -1,37 +1,164 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#0f172a"/>
-  <g stroke="#1e293b" stroke-width="1">
-    <line x1="0" y1="157" x2="1200" y2="157"/><line x1="0" y1="315" x2="1200" y2="315"/>
-    <line x1="0" y1="472" x2="1200" y2="472"/>
-    <line x1="300" y1="0" x2="300" y2="630"/><line x1="600" y1="0" x2="600" y2="630"/>
-    <line x1="900" y1="0" x2="900" y2="630"/>
+  <defs>
+    <linearGradient id="dcfloor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#0c1445"/>
+      <stop offset="100%" stop-color="#0e4f6b"/>
+    </linearGradient>
+    <radialGradient id="centerglow" cx="50%" cy="55%" r="45%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="floorreflect" cx="50%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="ledglow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="softglow"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#dcfloor)"/>
+  <rect width="1200" height="630" fill="url(#centerglow)"/>
+  <!-- perspective floor lines vanishing to center -->
+  <g stroke="#0e4f6b" stroke-width="1" opacity="0.5">
+    <line x1="600" y1="320" x2="0" y2="560"/><line x1="600" y1="320" x2="200" y2="560"/>
+    <line x1="600" y1="320" x2="400" y2="560"/><line x1="600" y1="320" x2="600" y2="560"/>
+    <line x1="600" y1="320" x2="800" y2="560"/><line x1="600" y1="320" x2="1000" y2="560"/>
+    <line x1="600" y1="320" x2="1200" y2="560"/>
+    <!-- horizontal lines on floor -->
+    <line x1="0" y1="400" x2="1200" y2="400"/><line x1="0" y1="440" x2="1200" y2="440"/>
+    <line x1="0" y1="480" x2="1200" y2="480"/><line x1="0" y1="520" x2="1200" y2="520"/>
   </g>
-  <rect x="0" y="0" width="12" height="630" fill="#2563eb"/>
-  <!-- server rack -->
-  <rect x="460" y="130" width="140" height="340" rx="4" fill="none" stroke="#475569" stroke-width="2.5"/>
-  <rect x="600" y="130" width="140" height="340" rx="4" fill="none" stroke="#475569" stroke-width="2.5"/>
-  <!-- rack units -->
-  {[150,175,200,225,250,275,300,325,350,375,400,425].map((y,i) => `
-  <rect x="468" y="${y}" width="124" height="18" rx="1" fill="#1e40af" opacity="${0.4 + (i%3)*0.15}"/>
-  <circle cx="${576}" cy="${y+9}" r="3" fill="${i%2===0?'#34d399':'#fbbf24'}"/>
-  `).join('')}
-  {[150,175,200,225,250,275,300,325,350,375,400,425].map((y,i) => `
-  <rect x="608" y="${y}" width="124" height="18" rx="1" fill="#1e3a8a" opacity="${0.4 + (i%3)*0.15}"/>
-  <circle cx="${716}" cy="${y+9}" r="3" fill="${i%3===0?'#34d399':i%3===1?'#fbbf24':'#f87171'}"/>
-  `).join('')}
-  <!-- checklist overlay -->
-  <rect x="760" y="200" width="260" height="220" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1.5" opacity="0.9"/>
-  <line x1="780" y1="240" x2="1000" y2="240" stroke="#1e293b" stroke-width="1"/>
-  <line x1="780" y1="280" x2="1000" y2="280" stroke="#1e293b" stroke-width="1"/>
-  <line x1="780" y1="320" x2="1000" y2="320" stroke="#1e293b" stroke-width="1"/>
-  <line x1="780" y1="360" x2="1000" y2="360" stroke="#1e293b" stroke-width="1"/>
-  <!-- check marks -->
-  <polyline points="790,225 800,235 820,215" fill="none" stroke="#34d399" stroke-width="2.5"/>
-  <polyline points="790,265 800,275 820,255" fill="none" stroke="#34d399" stroke-width="2.5"/>
-  <polyline points="790,305 800,315 820,295" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
-  <circle cx="800" cy="345" r="6" fill="none" stroke="#64748b" stroke-width="2"/>
-  <rect x="0" y="555" width="1200" height="75" fill="#0f172a" opacity="0.9"/>
-  <rect x="0" y="553" width="1200" height="3" fill="#2563eb"/>
-  <text x="40" y="600" font-family="sans-serif" font-size="28" font-weight="700" fill="#f1f5f9">コロケーションDC選定チェックリスト 2026年版</text>
-  <text x="40" y="618" font-family="sans-serif" font-size="16" fill="#64748b">国内DC動向 ｜ DCトレンド研究</text>
+  <!-- server racks - left row -->
+  <g>
+    <!-- rack 1 far left -->
+    <rect x="60" y="160" width="90" height="360" rx="3" fill="#0f172a" stroke="#1e40af" stroke-width="2"/>
+    <g fill="#1e40af">
+      <rect x="68" y="175" width="74" height="10" rx="1"/><rect x="68" y="192" width="74" height="10" rx="1"/>
+      <rect x="68" y="209" width="74" height="10" rx="1"/><rect x="68" y="226" width="74" height="10" rx="1"/>
+      <rect x="68" y="243" width="74" height="10" rx="1"/><rect x="68" y="260" width="74" height="10" rx="1"/>
+      <rect x="68" y="277" width="74" height="10" rx="1"/><rect x="68" y="294" width="74" height="10" rx="1"/>
+      <rect x="68" y="311" width="74" height="10" rx="1"/><rect x="68" y="328" width="74" height="10" rx="1"/>
+      <rect x="68" y="345" width="74" height="10" rx="1"/><rect x="68" y="362" width="74" height="10" rx="1"/>
+    </g>
+    <g fill="#22d3ee" filter="url(#ledglow)">
+      <circle cx="135" cy="180" r="3"/><circle cx="135" cy="197" r="3"/><circle cx="135" cy="214" r="3"/>
+      <circle cx="135" cy="231" r="3"/><circle cx="135" cy="248" r="3"/><circle cx="135" cy="265" r="3"/>
+    </g>
+    <g fill="#34d399" filter="url(#ledglow)">
+      <circle cx="135" cy="282" r="3"/><circle cx="135" cy="299" r="3"/><circle cx="135" cy="316" r="3"/>
+    </g>
+    <circle cx="135" cy="333" r="3" fill="#fbbf24" filter="url(#ledglow)"/>
+    <!-- rack 2 -->
+    <rect x="175" y="140" width="90" height="380" rx="3" fill="#0f172a" stroke="#2563eb" stroke-width="2"/>
+    <g fill="#1e3a8a">
+      <rect x="183" y="155" width="74" height="10" rx="1"/><rect x="183" y="172" width="74" height="10" rx="1"/>
+      <rect x="183" y="189" width="74" height="10" rx="1"/><rect x="183" y="206" width="74" height="10" rx="1"/>
+      <rect x="183" y="223" width="74" height="10" rx="1"/><rect x="183" y="240" width="74" height="10" rx="1"/>
+      <rect x="183" y="257" width="74" height="10" rx="1"/><rect x="183" y="274" width="74" height="10" rx="1"/>
+      <rect x="183" y="291" width="74" height="10" rx="1"/><rect x="183" y="308" width="74" height="10" rx="1"/>
+      <rect x="183" y="325" width="74" height="10" rx="1"/><rect x="183" y="342" width="74" height="10" rx="1"/>
+      <rect x="183" y="359" width="74" height="10" rx="1"/><rect x="183" y="376" width="74" height="10" rx="1"/>
+    </g>
+    <g fill="#22d3ee" filter="url(#ledglow)">
+      <circle cx="250" cy="160" r="3"/><circle cx="250" cy="177" r="3"/><circle cx="250" cy="194" r="3"/>
+      <circle cx="250" cy="211" r="3"/><circle cx="250" cy="228" r="3"/><circle cx="250" cy="245" r="3"/>
+      <circle cx="250" cy="262" r="3"/><circle cx="250" cy="279" r="3"/>
+    </g>
+    <!-- rack 3 -->
+    <rect x="290" y="120" width="90" height="400" rx="3" fill="#0f172a" stroke="#3b82f6" stroke-width="2"/>
+    <g fill="#1e3a8a">
+      <rect x="298" y="135" width="74" height="10" rx="1"/><rect x="298" y="152" width="74" height="10" rx="1"/>
+      <rect x="298" y="169" width="74" height="10" rx="1"/><rect x="298" y="186" width="74" height="10" rx="1"/>
+      <rect x="298" y="203" width="74" height="10" rx="1"/><rect x="298" y="220" width="74" height="10" rx="1"/>
+      <rect x="298" y="237" width="74" height="10" rx="1"/><rect x="298" y="254" width="74" height="10" rx="1"/>
+      <rect x="298" y="271" width="74" height="10" rx="1"/><rect x="298" y="288" width="74" height="10" rx="1"/>
+      <rect x="298" y="305" width="74" height="10" rx="1"/><rect x="298" y="322" width="74" height="10" rx="1"/>
+      <rect x="298" y="339" width="74" height="10" rx="1"/><rect x="298" y="356" width="74" height="10" rx="1"/>
+      <rect x="298" y="373" width="74" height="10" rx="1"/>
+    </g>
+    <g fill="#34d399" filter="url(#ledglow)">
+      <circle cx="365" cy="140" r="3"/><circle cx="365" cy="157" r="3"/><circle cx="365" cy="174" r="3"/>
+      <circle cx="365" cy="191" r="3"/><circle cx="365" cy="208" r="3"/>
+    </g>
+  </g>
+  <!-- center aisle glow -->
+  <rect x="430" y="80" width="340" height="460" fill="url(#centerglow)" opacity="0.4"/>
+  <rect x="490" y="80" width="220" height="460" fill="#22d3ee" opacity="0.04" filter="url(#softglow)"/>
+  <!-- server racks - right row -->
+  <g>
+    <!-- rack right 3 -->
+    <rect x="820" y="120" width="90" height="400" rx="3" fill="#0f172a" stroke="#3b82f6" stroke-width="2"/>
+    <g fill="#1e3a8a">
+      <rect x="828" y="135" width="74" height="10" rx="1"/><rect x="828" y="152" width="74" height="10" rx="1"/>
+      <rect x="828" y="169" width="74" height="10" rx="1"/><rect x="828" y="186" width="74" height="10" rx="1"/>
+      <rect x="828" y="203" width="74" height="10" rx="1"/><rect x="828" y="220" width="74" height="10" rx="1"/>
+      <rect x="828" y="237" width="74" height="10" rx="1"/><rect x="828" y="254" width="74" height="10" rx="1"/>
+      <rect x="828" y="271" width="74" height="10" rx="1"/><rect x="828" y="288" width="74" height="10" rx="1"/>
+      <rect x="828" y="305" width="74" height="10" rx="1"/><rect x="828" y="322" width="74" height="10" rx="1"/>
+      <rect x="828" y="339" width="74" height="10" rx="1"/><rect x="828" y="356" width="74" height="10" rx="1"/>
+      <rect x="828" y="373" width="74" height="10" rx="1"/>
+    </g>
+    <g fill="#22d3ee" filter="url(#ledglow)">
+      <circle cx="836" cy="140" r="3"/><circle cx="836" cy="157" r="3"/><circle cx="836" cy="174" r="3"/>
+      <circle cx="836" cy="191" r="3"/><circle cx="836" cy="208" r="3"/>
+    </g>
+    <!-- rack right 2 -->
+    <rect x="935" y="140" width="90" height="380" rx="3" fill="#0f172a" stroke="#2563eb" stroke-width="2"/>
+    <g fill="#1e3a8a">
+      <rect x="943" y="155" width="74" height="10" rx="1"/><rect x="943" y="172" width="74" height="10" rx="1"/>
+      <rect x="943" y="189" width="74" height="10" rx="1"/><rect x="943" y="206" width="74" height="10" rx="1"/>
+      <rect x="943" y="223" width="74" height="10" rx="1"/><rect x="943" y="240" width="74" height="10" rx="1"/>
+      <rect x="943" y="257" width="74" height="10" rx="1"/><rect x="943" y="274" width="74" height="10" rx="1"/>
+      <rect x="943" y="291" width="74" height="10" rx="1"/><rect x="943" y="308" width="74" height="10" rx="1"/>
+      <rect x="943" y="325" width="74" height="10" rx="1"/><rect x="943" y="342" width="74" height="10" rx="1"/>
+      <rect x="943" y="359" width="74" height="10" rx="1"/><rect x="943" y="376" width="74" height="10" rx="1"/>
+    </g>
+    <g fill="#34d399" filter="url(#ledglow)">
+      <circle cx="1018" cy="160" r="3"/><circle cx="1018" cy="177" r="3"/><circle cx="1018" cy="194" r="3"/>
+      <circle cx="1018" cy="211" r="3"/>
+    </g>
+    <!-- rack right 1 far right -->
+    <rect x="1050" y="160" width="90" height="360" rx="3" fill="#0f172a" stroke="#1e40af" stroke-width="2"/>
+    <g fill="#1e40af">
+      <rect x="1058" y="175" width="74" height="10" rx="1"/><rect x="1058" y="192" width="74" height="10" rx="1"/>
+      <rect x="1058" y="209" width="74" height="10" rx="1"/><rect x="1058" y="226" width="74" height="10" rx="1"/>
+      <rect x="1058" y="243" width="74" height="10" rx="1"/><rect x="1058" y="260" width="74" height="10" rx="1"/>
+      <rect x="1058" y="277" width="74" height="10" rx="1"/><rect x="1058" y="294" width="74" height="10" rx="1"/>
+      <rect x="1058" y="311" width="74" height="10" rx="1"/>
+    </g>
+    <g fill="#22d3ee" filter="url(#ledglow)">
+      <circle cx="1058" cy="180" r="3"/><circle cx="1058" cy="197" r="3"/><circle cx="1058" cy="214" r="3"/>
+    </g>
+    <circle cx="1058" cy="231" r="3" fill="#fbbf24" filter="url(#ledglow)"/>
+  </g>
+  <!-- floor reflection glow -->
+  <rect x="0" y="520" width="1200" height="110" fill="url(#floorreflect)"/>
+  <!-- ceiling cable trays -->
+  <g stroke="#1e3a8a" stroke-width="3" opacity="0.6">
+    <line x1="400" y1="0" x2="400" y2="120"/><line x1="500" y1="0" x2="500" y2="100"/>
+    <line x1="600" y1="0" x2="600" y2="80"/><line x1="700" y1="0" x2="700" y2="100"/>
+    <line x1="800" y1="0" x2="800" y2="120"/>
+    <line x1="400" y1="50" x2="800" y2="50"/>
+  </g>
+  <!-- checklist overlay panel - top right -->
+  <rect x="420" y="90" width="360" height="240" rx="8" fill="#020617" fill-opacity="0.85" stroke="#22d3ee" stroke-width="2"/>
+  <text x="445" y="125" font-family="sans-serif" font-size="18" font-weight="700" fill="#22d3ee">選定チェックリスト 2026</text>
+  <line x1="440" y1="135" x2="760" y2="135" stroke="#1e40af" stroke-width="1"/>
+  <!-- check items -->
+  <polyline points="448,155 458,165 478,145" fill="none" stroke="#34d399" stroke-width="3"/>
+  <text x="490" y="163" font-family="sans-serif" font-size="14" fill="#e2e8f0">Tier III / IV 認定</text>
+  <polyline points="448,185 458,195 478,175" fill="none" stroke="#34d399" stroke-width="3"/>
+  <text x="490" y="193" font-family="sans-serif" font-size="14" fill="#e2e8f0">電力冗長性 (N+1 / 2N)</text>
+  <polyline points="448,215 458,225 478,205" fill="none" stroke="#34d399" stroke-width="3"/>
+  <text x="490" y="223" font-family="sans-serif" font-size="14" fill="#e2e8f0">PUE &lt; 1.4</text>
+  <polyline points="448,245 458,255 478,235" fill="none" stroke="#fbbf24" stroke-width="3"/>
+  <text x="490" y="253" font-family="sans-serif" font-size="14" fill="#e2e8f0">SLA 99.999%</text>
+  <circle cx="458" cy="283" r="8" fill="none" stroke="#64748b" stroke-width="2"/>
+  <text x="490" y="290" font-family="sans-serif" font-size="14" fill="#64748b">RE100 / カーボンニュートラル</text>
+  <!-- bottom bar -->
+  <rect x="0" y="558" width="1200" height="72" fill="#020617" opacity="0.95"/>
+  <rect x="0" y="556" width="1200" height="4" fill="#22d3ee"/>
+  <text x="40" y="600" font-family="sans-serif" font-size="30" font-weight="900" fill="white">コロケーションDC選定チェックリスト 2026年版</text>
+  <text x="40" y="618" font-family="sans-serif" font-size="15" fill="#67e8f9">国内DC動向 ｜ DCトレンド研究</text>
 </svg>

@@ -1,33 +1,58 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#0f172a"/>
-  <g stroke="#1e293b" stroke-width="1">
-    <line x1="0" y1="157" x2="1200" y2="157"/><line x1="0" y1="315" x2="1200" y2="315"/>
-    <line x1="0" y1="472" x2="1200" y2="472"/>
-    <line x1="300" y1="0" x2="300" y2="630"/><line x1="600" y1="0" x2="600" y2="630"/>
-    <line x1="900" y1="0" x2="900" y2="630"/>
+  <defs>
+    <linearGradient id="sunrise" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="50%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#fef08a"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="45%" r="30%">
+      <stop offset="0%" stop-color="#fef9c3" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#fbbf24" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow2"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#sunrise)"/>
+  <!-- sun glow -->
+  <ellipse cx="600" cy="280" rx="300" ry="200" fill="url(#sun)"/>
+  <ellipse cx="600" cy="280" rx="150" ry="100" fill="#fef9c3" opacity="0.6" filter="url(#glow2)"/>
+  <!-- clouds -->
+  <ellipse cx="200" cy="150" rx="180" ry="60" fill="white" opacity="0.3"/>
+  <ellipse cx="900" cy="120" rx="200" ry="55" fill="white" opacity="0.25"/>
+  <ellipse cx="600" cy="100" rx="250" ry="50" fill="white" opacity="0.2"/>
+  <!-- DC campus buildings aerial -->
+  <rect x="150" y="360" width="200" height="130" rx="4" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="370" y="320" width="200" height="170" rx="4" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="590" y="340" width="200" height="150" rx="4" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="810" y="300" width="220" height="190" rx="4" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <!-- cooling towers on buildings -->
+  <g fill="#94a3b8">
+    <circle cx="200" cy="355" r="18"/><circle cx="230" cy="355" r="18"/>
+    <circle cx="420" cy="315" r="20"/><circle cx="455" cy="315" r="20"/>
+    <circle cx="640" cy="335" r="18"/><circle cx="670" cy="335" r="18"/>
+    <circle cx="870" cy="295" r="22"/><circle cx="910" cy="295" r="22"/>
   </g>
-  <rect x="0" y="0" width="12" height="630" fill="#2563eb"/>
-  <!-- globe -->
-  <circle cx="600" cy="290" r="180" fill="none" stroke="#3b82f6" stroke-width="2.5" opacity="0.8"/>
-  <ellipse cx="600" cy="290" rx="180" ry="70" fill="none" stroke="#3b82f6" stroke-width="1.5" opacity="0.5"/>
-  <ellipse cx="600" cy="290" rx="70" ry="180" fill="none" stroke="#3b82f6" stroke-width="1.5" opacity="0.5"/>
-  <ellipse cx="600" cy="290" rx="180" ry="110" fill="none" stroke="#1e40af" stroke-width="1" opacity="0.4"/>
-  <!-- connection nodes -->
-  <circle cx="600" cy="110" r="10" fill="#2563eb"/>
-  <circle cx="440" cy="200" r="8" fill="#60a5fa"/>
-  <circle cx="760" cy="200" r="8" fill="#60a5fa"/>
-  <circle cx="380" cy="340" r="8" fill="#3b82f6"/>
-  <circle cx="820" cy="340" r="8" fill="#3b82f6"/>
-  <circle cx="600" cy="470" r="10" fill="#fbbf24"/>
-  <!-- connection lines -->
-  <line x1="600" y1="110" x2="440" y2="200" stroke="#60a5fa" stroke-width="1.5" opacity="0.6"/>
-  <line x1="600" y1="110" x2="760" y2="200" stroke="#60a5fa" stroke-width="1.5" opacity="0.6"/>
-  <line x1="440" y1="200" x2="380" y2="340" stroke="#3b82f6" stroke-width="1.5" opacity="0.5"/>
-  <line x1="760" y1="200" x2="820" y2="340" stroke="#3b82f6" stroke-width="1.5" opacity="0.5"/>
-  <line x1="380" y1="340" x2="600" y2="470" stroke="#fbbf24" stroke-width="2" opacity="0.7"/>
-  <line x1="820" y1="340" x2="600" y2="470" stroke="#fbbf24" stroke-width="2" opacity="0.7"/>
-  <rect x="0" y="555" width="1200" height="75" fill="#0f172a" opacity="0.9"/>
-  <rect x="0" y="553" width="1200" height="3" fill="#2563eb"/>
-  <text x="40" y="600" font-family="sans-serif" font-size="28" font-weight="700" fill="#f1f5f9">MicrosoftのAI向け日本DC投資 4400億円</text>
-  <text x="40" y="618" font-family="sans-serif" font-size="16" fill="#64748b">海外DC動向 ｜ DCトレンド研究</text>
+  <!-- steam from cooling towers -->
+  <g fill="white" opacity="0.5">
+    <ellipse cx="200" cy="330" rx="15" ry="25"/><ellipse cx="230" cy="328" rx="15" ry="28"/>
+    <ellipse cx="420" cy="288" rx="18" ry="28"/><ellipse cx="455" cy="285" rx="18" ry="30"/>
+    <ellipse cx="870" cy="265" rx="20" ry="32"/><ellipse cx="910" cy="262" rx="20" ry="35"/>
+  </g>
+  <!-- solar panels on rooftops -->
+  <g fill="#1e40af" opacity="0.6">
+    <rect x="165" y="375" width="20" height="14" rx="1"/><rect x="190" y="375" width="20" height="14" rx="1"/>
+    <rect x="215" y="375" width="20" height="14" rx="1"/>
+    <rect x="610" y="358" width="20" height="14" rx="1"/><rect x="635" y="358" width="20" height="14" rx="1"/>
+  </g>
+  <!-- money/investment arrows -->
+  <g stroke="#16a34a" stroke-width="4" fill="none" opacity="0.8">
+    <path d="M 100 200 Q 300 100 600 150 Q 900 200 1100 130"/>
+    <polygon points="1090,118 1108,130 1090,142" fill="#16a34a"/>
+  </g>
+  <!-- ¥ symbol hint -->
+  <text x="480" y="230" font-family="sans-serif" font-size="80" font-weight="900" fill="#16a34a" opacity="0.25">¥4,400億</text>
+  <rect x="0" y="560" width="1200" height="70" fill="#0c4a6e" opacity="0.85"/>
+  <rect x="0" y="558" width="1200" height="4" fill="#0ea5e9"/>
+  <text x="40" y="602" font-family="sans-serif" font-size="30" font-weight="900" fill="white">Microsoft 日本DC投資4400億円の衝撃</text>
+  <text x="40" y="620" font-family="sans-serif" font-size="15" fill="#7dd3fc">海外DC動向 ｜ DCトレンド研究</text>
 </svg>

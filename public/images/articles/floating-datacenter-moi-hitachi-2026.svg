@@ -1,36 +1,63 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#0f172a"/>
-  <g stroke="#1e293b" stroke-width="1">
-    <line x1="0" y1="157" x2="1200" y2="157"/><line x1="0" y1="315" x2="1200" y2="315"/>
-    <line x1="0" y1="472" x2="1200" y2="472"/>
-    <line x1="300" y1="0" x2="300" y2="630"/><line x1="600" y1="0" x2="600" y2="630"/>
-    <line x1="900" y1="0" x2="900" y2="630"/>
+  <defs>
+    <linearGradient id="ocean" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c1445"/>
+      <stop offset="50%" stop-color="#0e4f6b"/>
+      <stop offset="100%" stop-color="#164e63"/>
+    </linearGradient>
+    <radialGradient id="moonlight" cx="75%" cy="20%" r="35%">
+      <stop offset="0%" stop-color="#e0f2fe" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0c1445" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="waveglow"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#ocean)"/>
+  <rect width="1200" height="630" fill="url(#moonlight)"/>
+  <!-- stars -->
+  <g fill="white">
+    {[[100,50],[200,80],[350,30],[500,60],[650,40],[750,70],[850,25],[1000,55],[1100,35],[150,120],[450,100],[750,130],[1050,90]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="1.5"/>`).join('')}
   </g>
-  <rect x="0" y="0" width="12" height="630" fill="#0ea5e9"/>
-  <!-- sea waves -->
-  <path d="M 0 420 Q 150 390 300 420 T 600 420 T 900 420 T 1200 420" fill="#0c4a6e" opacity="0.5"/>
-  <path d="M 0 450 Q 150 420 300 450 T 600 450 T 900 450 T 1200 450" fill="#0c4a6e" opacity="0.7"/>
-  <path d="M 0 480 Q 150 450 300 480 T 600 480 T 900 480 T 1200 480" fill="#0c4a6e" opacity="0.9"/>
-  <rect x="0" y="480" width="1200" height="75" fill="#083344"/>
+  <!-- moon -->
+  <circle cx="900" cy="120" r="45" fill="#fef9c3" opacity="0.9"/>
+  <circle cx="880" cy="110" r="42" fill="#0c1445"/>
+  <!-- moon reflection on water -->
+  <ellipse cx="900" cy="520" rx="80" ry="20" fill="#fef9c3" opacity="0.15" filter="url(#waveglow)"/>
+  <!-- waves -->
+  <path d="M 0 400 Q 150 375 300 400 T 600 400 T 900 400 T 1200 400" fill="#0e4f6b" opacity="0.6"/>
+  <path d="M 0 430 Q 200 405 400 430 T 800 430 T 1200 430" fill="#065f7d" opacity="0.8"/>
+  <path d="M 0 460 Q 200 435 400 460 T 800 460 T 1200 460" fill="#0e7490" opacity="0.5"/>
+  <!-- bioluminescent waves -->
+  <path d="M 0 415 Q 150 395 300 415 T 600 415 T 900 415 T 1200 415" fill="none" stroke="#22d3ee" stroke-width="1.5" opacity="0.4"/>
   <!-- ship hull -->
-  <rect x="320" y="350" width="560" height="80" rx="4" fill="#1e293b" stroke="#334155" stroke-width="2"/>
-  <polygon points="320,430 280,430 250,480 880,480 850,430 880,430" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
-  <!-- server modules on deck -->
-  <rect x="360" y="290" width="90" height="65" rx="3" fill="#1e3a8a" stroke="#3b82f6" stroke-width="1.5"/>
-  <rect x="470" y="290" width="90" height="65" rx="3" fill="#1e3a8a" stroke="#3b82f6" stroke-width="1.5"/>
-  <rect x="580" y="290" width="90" height="65" rx="3" fill="#1e3a8a" stroke="#3b82f6" stroke-width="1.5"/>
-  <rect x="690" y="290" width="90" height="65" rx="3" fill="#1e3a8a" stroke="#3b82f6" stroke-width="1.5"/>
-  <!-- LED dots on modules -->
-  <circle cx="440" cy="320" r="4" fill="#34d399"/>
-  <circle cx="550" cy="320" r="4" fill="#34d399"/>
-  <circle cx="660" cy="320" r="4" fill="#fbbf24"/>
-  <circle cx="770" cy="320" r="4" fill="#34d399"/>
-  <!-- antenna -->
-  <line x1="600" y1="290" x2="600" y2="200" stroke="#64748b" stroke-width="2"/>
-  <line x1="600" y1="200" x2="560" y2="230" stroke="#64748b" stroke-width="1.5"/>
-  <line x1="600" y1="200" x2="640" y2="230" stroke="#64748b" stroke-width="1.5"/>
-  <rect x="0" y="555" width="1200" height="75" fill="#0f172a" opacity="0.9"/>
-  <rect x="0" y="553" width="1200" height="3" fill="#0ea5e9"/>
-  <text x="40" y="600" font-family="sans-serif" font-size="28" font-weight="700" fill="#f1f5f9">浮体式データセンター 商船三井×日立の挑戦</text>
-  <text x="40" y="618" font-family="sans-serif" font-size="16" fill="#64748b">国内DC動向 ｜ DCトレンド研究</text>
+  <rect x="200" y="350" width="800" height="100" rx="6" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <polygon points="200,450 150,490 1050,490 1000,450" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+  <!-- ship deck superstructure -->
+  <rect x="300" y="290" width="180" height="65" rx="4" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+  <rect x="330" y="260" width="100" height="35" rx="3" fill="#334155"/>
+  <!-- server modules on deck glowing -->
+  <g>
+    <rect x="520" y="290" width="110" height="65" rx="3" fill="#1e3a8a" stroke="#3b82f6" stroke-width="2"/>
+    <rect x="645" y="290" width="110" height="65" rx="3" fill="#1e3a8a" stroke="#3b82f6" stroke-width="2"/>
+    <rect x="770" y="290" width="110" height="65" rx="3" fill="#1e3a8a" stroke="#3b82f6" stroke-width="2"/>
+  </g>
+  <!-- LED strips on modules -->
+  <g fill="#22d3ee" filter="url(#waveglow)">
+    <rect x="522" y="345" width="106" height="4" rx="2"/>
+    <rect x="647" y="345" width="106" height="4" rx="2"/>
+    <rect x="772" y="345" width="106" height="4" rx="2"/>
+  </g>
+  <!-- status lights -->
+  <circle cx="575" cy="308" r="5" fill="#34d399"/><circle cx="700" cy="308" r="5" fill="#34d399"/>
+  <circle cx="825" cy="308" r="5" fill="#fbbf24"/>
+  <!-- radar/antenna -->
+  <line x1="380" y1="260" x2="380" y2="150" stroke="#64748b" stroke-width="3"/>
+  <line x1="380" y1="150" x2="320" y2="190" stroke="#64748b" stroke-width="2"/>
+  <line x1="380" y1="150" x2="440" y2="190" stroke="#64748b" stroke-width="2"/>
+  <circle cx="380" cy="150" r="8" fill="#22d3ee" opacity="0.8"/>
+  <!-- reflection of ship in water -->
+  <rect x="200" y="490" width="800" height="40" fill="#1e3a8a" opacity="0.2"/>
+  <rect x="0" y="558" width="1200" height="72" fill="#0c1445" opacity="0.9"/>
+  <rect x="0" y="556" width="1200" height="4" fill="#0ea5e9"/>
+  <text x="40" y="600" font-family="sans-serif" font-size="30" font-weight="900" fill="white">浮体式データセンター — 商船三井×日立の挑戦</text>
+  <text x="40" y="618" font-family="sans-serif" font-size="15" fill="#7dd3fc">国内DC動向 ｜ DCトレンド研究</text>
 </svg>
