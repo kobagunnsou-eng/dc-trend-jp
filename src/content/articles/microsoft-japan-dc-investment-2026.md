@@ -5,7 +5,7 @@ category: "海外DC動向"
 tags: ["Microsoft", "Azure", "日本", "DC投資", "AI", "ハイパースケーラー"]
 published_at: "2026-05-13"
 summary: "Microsoftが発表した日本向けデータセンター投資4400億円（29億ドル）の実態と背景を解説。国内DC業界・IT調達担当者への影響を現役エンジニア視点で分析します。"
-thumbnail: "/images/articles/microsoft-japan-dc-investment-2026.svg"
+thumbnail: "/images/articles/microsoft-japan-dc-investment-2026.png"
 author: "DCトレンド研究編集部（現役DCエンジニア監修）"
 draft: false
 ---

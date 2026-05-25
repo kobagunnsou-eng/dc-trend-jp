@@ -5,7 +5,7 @@ category: "国内DC動向"
 tags: ["NEXTDC", "東京タワー", "住民訴訟", "都心立地", "コロケーション", "CBRE", "DC建設", "社会的受容性", "JDCC"]
 published_at: "2026-05-24"
 summary: "NHKが「東京タワーのすぐ近くでデータセンター建設」と報じ、Xで大拡散。港区芝公園に建設中のNEXTDC TK1 Tokyoは28MW・Tier IV・2030年稼働予定の大型施設です。なぜ都心の一等地にDCが建つのか。住民訴訟の争点と、都心立地ラッシュの構造的背景を解説します。"
-thumbnail: "/images/articles/nextdc-tk1-tokyo-nhk-resident-lawsuit-2026.svg"
+thumbnail: "/images/articles/nextdc-tk1-tokyo-nhk-resident-lawsuit-2026.png"
 author: "DCトレンド研究編集部（現役DCエンジニア監修）"
 draft: false
 ---

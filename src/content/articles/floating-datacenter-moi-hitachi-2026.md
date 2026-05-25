@@ -5,7 +5,7 @@ category: "国内DC動向"
 tags: ["浮体式データセンター", "FDC", "商船三井", "日立", "船舶DC", "冷却技術", "国内DC"]
 published_at: "2026-05-16"
 summary: "商船三井・日立製作所・日立システムズが2026年3月にMOUを締結した浮体式データセンター（FDC）構想。中古船改造で開発期間を最大3年短縮という主張の現実性を、現役DCエンジニアの視点で検証します。"
-thumbnail: "/images/articles/floating-datacenter-moi-hitachi-2026.svg"
+thumbnail: "/images/articles/floating-datacenter-moi-hitachi-2026.png"
 author: "DCトレンド研究編集部（現役DCエンジニア監修）"
 draft: false
 ---

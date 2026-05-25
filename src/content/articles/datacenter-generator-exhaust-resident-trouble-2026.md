@@ -5,7 +5,7 @@ category: "国内DC動向"
 tags: ["非常用発電機", "排煙", "住民トラブル", "大気汚染防止法", "騒音", "DC立地", "社会的受容性"]
 published_at: "2026-05-22"
 summary: "全国のDC建設ラッシュが続く中、非常用ディーゼル発電機の月次点検運転による黒煙・騒音が住民問題化しています。大気汚染防止法の「適用外」という30年以上続く法の抜け穴と、現場の実態を現役エンジニア視点で解説します。"
-thumbnail: "/images/articles/datacenter-generator-exhaust-resident-trouble-2026.svg"
+thumbnail: "/images/articles/datacenter-generator-exhaust-resident-trouble-2026.png"
 author: "DCトレンド研究編集部（現役DCエンジニア監修）"
 draft: false
 ---

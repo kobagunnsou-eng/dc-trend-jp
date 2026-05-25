@@ -5,7 +5,7 @@ category: "AI・HPCインフラ"
 tags: ["AI", "電力", "データセンター", "GPU", "エネルギー政策", "2026年"]
 published_at: "2026-05-12"
 summary: "ChatGPTショック以降のAIブームが引き起こしたデータセンターの電力危機。「電力が足りない」という言葉の裏側で、現場では何が起きているのか。現役DCエンジニアの視点で読み解きます。"
-thumbnail: "/images/articles/ai-datacenter-power-crisis-2026.svg"
+thumbnail: "/images/articles/ai-datacenter-power-crisis-2026.png"
 author: "DCトレンド研究編集部（現役DCエンジニア監修）"
 ---
 
