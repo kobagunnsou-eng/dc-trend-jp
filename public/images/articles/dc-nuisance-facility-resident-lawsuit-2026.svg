@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <!-- Photo: angry protest crowd in front of large DC building under construction -->
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a0a00"/>
+      <stop offset="40%" stop-color="#2d1200"/>
+      <stop offset="70%" stop-color="#4a1e00"/>
+      <stop offset="100%" stop-color="#6b2800"/>
+    </linearGradient>
+    <radialGradient id="protest" cx="38%" cy="65%" r="45%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#dc2626" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#1a0a00" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vgn" cx="50%" cy="50%" r="72%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.75)"/>
+    </radialGradient>
+    <linearGradient id="tov" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(0,0,0,0)"/>
+      <stop offset="35%" stop-color="rgba(0,0,0,0.55)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.93)"/>
+    </linearGradient>
+    <filter id="ts"><feDropShadow dx="0" dy="2" stdDeviation="8" flood-color="rgba(0,0,0,1)"/></filter>
+    <filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#protest)"/>
+
+  <!-- Sky with haze -->
+  <ellipse cx="600" cy="80" rx="500" ry="150" fill="#3d1200" opacity="0.6" filter="url(#blur8)"/>
+
+  <!-- Large DC building (imposing, looming) -->
+  <rect x="480" y="80" width="380" height="440" fill="#1a0f05" stroke="#5c3a1a" stroke-width="2.5"/>
+  <!-- Building glass windows (cold blue against warm background) -->
+  <g fill="#1e3a8a" opacity="0.8">
+    <rect x="498" y="100" width="50" height="35" rx="2"/><rect x="558" y="100" width="50" height="35" rx="2"/>
+    <rect x="618" y="100" width="50" height="35" rx="2"/><rect x="678" y="100" width="50" height="35" rx="2"/>
+    <rect x="738" y="100" width="50" height="35" rx="2"/>
+    <rect x="498" y="148" width="50" height="35" rx="2"/><rect x="558" y="148" width="50" height="35" rx="2"/>
+    <rect x="618" y="148" width="50" height="35" rx="2"/><rect x="678" y="148" width="50" height="35" rx="2"/>
+    <rect x="738" y="148" width="50" height="35" rx="2"/>
+    <rect x="498" y="196" width="50" height="35" rx="2"/><rect x="558" y="196" width="50" height="35" rx="2"/>
+    <rect x="618" y="196" width="50" height="35" rx="2"/><rect x="678" y="196" width="50" height="35" rx="2"/>
+    <rect x="498" y="244" width="50" height="35" rx="2"/><rect x="558" y="244" width="50" height="35" rx="2"/>
+    <rect x="618" y="244" width="50" height="35" rx="2"/>
+    <rect x="498" y="292" width="50" height="35" rx="2"/><rect x="558" y="292" width="50" height="35" rx="2"/>
+  </g>
+  <!-- Cooling units on roof -->
+  <g fill="#2d1a08" stroke="#5c3a1a" stroke-width="1.5">
+    <rect x="495" y="60" width="55" height="24" rx="2"/><rect x="560" y="55" width="55" height="28" rx="2"/>
+    <rect x="625" y="60" width="55" height="24" rx="2"/><rect x="690" y="55" width="55" height="28" rx="2"/>
+    <rect x="755" y="60" width="55" height="24" rx="2"/>
+  </g>
+  <!-- Heat exhaust wisps -->
+  <g fill="#f97316" opacity="0.15" filter="url(#blur8)">
+    <ellipse cx="522" cy="45" rx="20" ry="30"/><ellipse cx="587" cy="40" rx="20" ry="32"/>
+    <ellipse cx="652" cy="45" rx="20" ry="30"/><ellipse cx="717" cy="40" rx="20" ry="32"/>
+  </g>
+
+  <!-- Construction crane -->
+  <line x1="870" y1="520" x2="870" y2="120" stroke="#4a3010" stroke-width="6"/>
+  <line x1="870" y1="120" x2="1020" y2="142" stroke="#4a3010" stroke-width="5"/>
+  <line x1="870" y1="120" x2="780" y2="135" stroke="#4a3010" stroke-width="4"/>
+  <circle cx="870" cy="115" r="7" fill="#dc2626"/>
+
+  <!-- Residential houses (small, dwarfed) -->
+  <g fill="#2d1508">
+    <rect x="60" y="380" width="80" height="140" rx="2"/>
+    <polygon points="60,380 100,340 140,380"/>
+    <rect x="170" y="390" width="70" height="130" rx="2"/>
+    <polygon points="170,390 205,355 240,390"/>
+    <rect x="1050" y="375" width="80" height="145" rx="2"/>
+    <polygon points="1050,375 1090,338 1130,375"/>
+    <rect x="1140" y="388" width="65" height="132" rx="2"/>
+    <polygon points="1140,388 1172,352 1205,388"/>
+  </g>
+  <!-- House windows lit warm -->
+  <g fill="#fbbf24" opacity="0.6">
+    <rect x="75" y="400" width="18" height="14" rx="1"/><rect x="103" y="400" width="18" height="14" rx="1"/>
+    <rect x="1062" y="395" width="18" height="14" rx="1"/><rect x="1092" y="395" width="18" height="14" rx="1"/>
+  </g>
+
+  <!-- Protest signs (foreground) -->
+  <!-- Sign 1 -->
+  <rect x="200" y="390" width="110" height="55" rx="3" fill="#fef9c3" stroke="#f59e0b" stroke-width="2"/>
+  <text x="255" y="418" font-family="sans-serif" font-size="14" font-weight="900" fill="#1c0a00" text-anchor="middle">建設反対！</text>
+  <text x="255" y="436" font-family="sans-serif" font-size="11" fill="#1c0a00" text-anchor="middle">住民の声を聞け</text>
+  <line x1="255" y1="445" x2="255" y2="490" stroke="#5c3a1a" stroke-width="3"/>
+  <!-- Sign 2 -->
+  <rect x="330" y="370" width="120" height="55" rx="3" fill="#fef9c3" stroke="#dc2626" stroke-width="2"/>
+  <text x="390" y="398" font-family="sans-serif" font-size="13" font-weight="900" fill="#dc2626" text-anchor="middle">排熱・騒音NO!</text>
+  <text x="390" y="416" font-family="sans-serif" font-size="11" fill="#1c0a00" text-anchor="middle">環境破壊を止めろ</text>
+  <line x1="390" y1="425" x2="390" y2="490" stroke="#5c3a1a" stroke-width="3"/>
+  <!-- Sign 3 -->
+  <rect x="860" y="375" width="120" height="55" rx="3" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="920" y="403" font-family="sans-serif" font-size="13" font-weight="900" fill="#dc2626" text-anchor="middle">迷惑施設お断り</text>
+  <text x="920" y="421" font-family="sans-serif" font-size="11" fill="#1c0a00" text-anchor="middle">法整備を求める</text>
+  <line x1="920" y1="430" x2="920" y2="490" stroke="#5c3a1a" stroke-width="3"/>
+
+  <!-- Crowd silhouettes -->
+  <g fill="#0f0705" opacity="0.85">
+    <ellipse cx="150" cy="510" rx="22" ry="50"/><ellipse cx="190" cy="505" rx="20" ry="52"/>
+    <ellipse cx="230" cy="512" rx="22" ry="48"/><ellipse cx="270" cy="508" rx="20" ry="50"/>
+    <ellipse cx="310" cy="510" rx="22" ry="50"/><ellipse cx="350" cy="506" rx="20" ry="52"/>
+    <ellipse cx="390" cy="510" rx="22" ry="48"/><ellipse cx="430" cy="507" rx="20" ry="50"/>
+    <ellipse cx="800" cy="510" rx="22" ry="50"/><ellipse cx="840" cy="505" rx="20" ry="52"/>
+    <ellipse cx="880" cy="510" rx="22" ry="50"/><ellipse cx="920" cy="507" rx="20" ry="52"/>
+    <ellipse cx="960" cy="510" rx="22" ry="48"/><ellipse cx="1000" cy="508" rx="20" ry="50"/>
+    <ellipse cx="1040" cy="510" rx="22" ry="50"/>
+  </g>
+
+  <!-- Vignette -->
+  <rect width="1200" height="630" fill="url(#vgn)"/>
+
+  <!-- Text overlay -->
+  <rect x="0" y="320" width="1200" height="310" fill="url(#tov)"/>
+
+  <!-- Category badge -->
+  <rect x="40" y="36" width="165" height="38" rx="19" fill="#b91c1c"/>
+  <text x="122" y="61" font-family="sans-serif" font-size="15" font-weight="700" fill="white" text-anchor="middle">国内DC動向</text>
+
+  <!-- JDCC badge top right -->
+  <rect x="980" y="32" width="180" height="44" rx="8" fill="#dc2626" opacity="0.9"/>
+  <text x="1070" y="60" font-family="sans-serif" font-size="16" font-weight="900" fill="white" text-anchor="middle">⚠ 全国で訴訟多発</text>
+
+  <!-- Accent bar -->
+  <rect x="40" y="415" width="5" height="125" rx="2.5" fill="#f97316"/>
+
+  <!-- Kicker -->
+  <text x="60" y="474" font-family="sans-serif" font-size="54" font-weight="900" fill="#fde68a" filter="url(#ts)">DC＝迷惑施設？</text>
+
+  <!-- Main headline -->
+  <text x="60" y="547" font-family="sans-serif" font-size="34" font-weight="900" fill="white" filter="url(#ts)">住民訴訟・国会審議・法的空白の三重苦</text>
+
+  <!-- Sub-line -->
+  <text x="60" y="596" font-family="sans-serif" font-size="17" fill="#fdba74" filter="url(#ts)">JDCCガイドライン公表も「法整備なき自主規制」に限界の声</text>
+
+  <text x="1160" y="618" font-family="sans-serif" font-size="13" fill="rgba(255,255,255,0.4)" text-anchor="end">DCトレンド研究</text>
+</svg>
