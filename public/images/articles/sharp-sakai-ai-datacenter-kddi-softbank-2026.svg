@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <!-- Photo: huge factory complex at golden dusk transforming into glowing AI DC -->
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c1235"/>
+      <stop offset="45%" stop-color="#33256b"/>
+      <stop offset="75%" stop-color="#b4530e"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <radialGradient id="sunset" cx="22%" cy="72%" r="40%">
+      <stop offset="0%" stop-color="#fef3c7" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#fb923c" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0c1235" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="aiglow" cx="72%" cy="52%" r="35%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0c1235" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vgn" cx="50%" cy="50%" r="72%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.72)"/>
+    </radialGradient>
+    <linearGradient id="tov" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(0,0,0,0)"/>
+      <stop offset="35%" stop-color="rgba(0,0,0,0.55)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.93)"/>
+    </linearGradient>
+    <filter id="ts"><feDropShadow dx="0" dy="2" stdDeviation="8" flood-color="rgba(0,0,0,1)"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#sunset)"/>
+  <rect width="1200" height="630" fill="url(#aiglow)"/>
+
+  <!-- Setting sun over Osaka bay -->
+  <circle cx="265" cy="455" r="55" fill="#fef9c3" opacity="0.95"/>
+  <circle cx="265" cy="455" r="38" fill="white"/>
+  <!-- Sea horizon -->
+  <rect x="0" y="460" width="1200" height="170" fill="#1e1407" opacity="0.85"/>
+  <!-- Sun reflection on water -->
+  <ellipse cx="265" cy="490" rx="50" ry="10" fill="#fde68a" opacity="0.4" filter="url(#blur8)"/>
+
+  <!-- MASSIVE factory complex (Sakai plant silhouette) -->
+  <!-- Left old factory section -->
+  <rect x="60" y="330" width="280" height="135" fill="#191024" stroke="#3a2a50" stroke-width="1.5"/>
+  <!-- Sawtooth factory roof -->
+  <polygon points="60,330 95,295 95,330" fill="#191024"/>
+  <polygon points="95,330 130,295 130,330" fill="#191024"/>
+  <polygon points="130,330 165,295 165,330" fill="#191024"/>
+  <polygon points="165,330 200,295 200,330" fill="#191024"/>
+  <polygon points="200,330 235,295 235,330" fill="#191024"/>
+  <polygon points="235,330 270,295 270,330" fill="#191024"/>
+  <polygon points="270,330 305,295 305,330" fill="#191024"/>
+  <polygon points="305,330 340,295 340,330" fill="#191024"/>
+  <!-- Old factory smokestack -->
+  <rect x="100" y="200" width="22" height="130" fill="#191024"/>
+  <rect x="96" y="190" width="30" height="14" rx="3" fill="#241636"/>
+
+  <!-- Central main building (the giant LCD fab → AI DC) -->
+  <rect x="380" y="230" width="460" height="235" fill="#160e26" stroke="#4338ca" stroke-width="2"/>
+  <!-- Building top utility level -->
+  <rect x="395" y="205" width="430" height="28" fill="#1e1433" stroke="#3a2a50" stroke-width="1.5"/>
+  <!-- Cooling units on roof -->
+  <g fill="#241a3d" stroke="#4338ca" stroke-width="1">
+    <rect x="410" y="182" width="48" height="22" rx="2"/><rect x="470" y="178" width="48" height="26" rx="2"/>
+    <rect x="530" y="182" width="48" height="22" rx="2"/><rect x="590" y="178" width="48" height="26" rx="2"/>
+    <rect x="650" y="182" width="48" height="22" rx="2"/><rect x="710" y="178" width="48" height="26" rx="2"/>
+    <rect x="770" y="182" width="48" height="22" rx="2"/>
+  </g>
+  <!-- Server windows: half dark (factory past) half glowing cyan (AI future) -->
+  <g fill="#241a3d" opacity="0.9">
+    <rect x="400" y="250" width="44" height="30" rx="2"/><rect x="454" y="250" width="44" height="30" rx="2"/>
+    <rect x="400" y="295" width="44" height="30" rx="2"/><rect x="454" y="295" width="44" height="30" rx="2"/>
+    <rect x="400" y="340" width="44" height="30" rx="2"/><rect x="454" y="340" width="44" height="30" rx="2"/>
+    <rect x="400" y="385" width="44" height="30" rx="2"/><rect x="454" y="385" width="44" height="30" rx="2"/>
+  </g>
+  <g fill="#0e7490" opacity="0.9">
+    <rect x="508" y="250" width="44" height="30" rx="2"/><rect x="562" y="250" width="44" height="30" rx="2"/>
+    <rect x="508" y="295" width="44" height="30" rx="2"/><rect x="562" y="295" width="44" height="30" rx="2"/>
+    <rect x="508" y="340" width="44" height="30" rx="2"/><rect x="562" y="340" width="44" height="30" rx="2"/>
+    <rect x="508" y="385" width="44" height="30" rx="2"/>
+  </g>
+  <g fill="#22d3ee" opacity="0.95" filter="url(#glow)">
+    <rect x="616" y="250" width="44" height="30" rx="2"/><rect x="670" y="250" width="44" height="30" rx="2"/>
+    <rect x="724" y="250" width="44" height="30" rx="2"/><rect x="778" y="250" width="44" height="30" rx="2"/>
+    <rect x="616" y="295" width="44" height="30" rx="2"/><rect x="670" y="295" width="44" height="30" rx="2"/>
+    <rect x="724" y="295" width="44" height="30" rx="2"/><rect x="778" y="295" width="44" height="30" rx="2"/>
+    <rect x="616" y="340" width="44" height="30" rx="2"/><rect x="670" y="340" width="44" height="30" rx="2"/>
+    <rect x="724" y="340" width="44" height="30" rx="2"/><rect x="778" y="340" width="44" height="30" rx="2"/>
+    <rect x="616" y="385" width="44" height="30" rx="2"/><rect x="670" y="385" width="44" height="30" rx="2"/>
+    <rect x="724" y="385" width="44" height="30" rx="2"/><rect x="778" y="385" width="44" height="30" rx="2"/>
+  </g>
+
+  <!-- Right second building -->
+  <rect x="880" y="280" width="250" height="185" fill="#160e26" stroke="#0e7490" stroke-width="2"/>
+  <g fill="#22d3ee" opacity="0.8" filter="url(#glow)">
+    <rect x="895" y="298" width="36" height="24" rx="2"/><rect x="941" y="298" width="36" height="24" rx="2"/>
+    <rect x="987" y="298" width="36" height="24" rx="2"/><rect x="1033" y="298" width="36" height="24" rx="2"/>
+    <rect x="1079" y="298" width="36" height="24" rx="2"/>
+    <rect x="895" y="336" width="36" height="24" rx="2"/><rect x="941" y="336" width="36" height="24" rx="2"/>
+    <rect x="987" y="336" width="36" height="24" rx="2"/><rect x="1033" y="336" width="36" height="24" rx="2"/>
+    <rect x="895" y="374" width="36" height="24" rx="2"/><rect x="941" y="374" width="36" height="24" rx="2"/>
+    <rect x="987" y="374" width="36" height="24" rx="2"/>
+  </g>
+
+  <!-- Transmission towers (the power legacy) -->
+  <polygon points="935,275 925,150 945,150" fill="#0f0a1c"/>
+  <line x1="898" y1="165" x2="972" y2="165" stroke="#0f0a1c" stroke-width="4"/>
+  <line x1="905" y1="195" x2="965" y2="195" stroke="#0f0a1c" stroke-width="3.5"/>
+  <line x1="912" y1="225" x2="958" y2="225" stroke="#0f0a1c" stroke-width="3"/>
+  <circle cx="935" cy="148" r="5" fill="#ef4444" filter="url(#glow)"/>
+  <!-- power lines sweeping -->
+  <path d="M 0 130 Q 400 175 898 165" fill="none" stroke="#0f0a1c" stroke-width="2.5" opacity="0.8"/>
+  <path d="M 0 165 Q 420 210 905 195" fill="none" stroke="#0f0a1c" stroke-width="2" opacity="0.7"/>
+
+  <!-- Data stream particles rising from DC -->
+  <g fill="#22d3ee" opacity="0.7" filter="url(#glow)">
+    <circle cx="650" cy="160" r="3"/><circle cx="700" cy="130" r="2.5"/><circle cx="745" cy="105" r="2"/>
+    <circle cx="780" cy="140" r="2.5"/><circle cx="830" cy="110" r="2"/><circle cx="690" cy="90" r="1.8"/>
+  </g>
+
+  <!-- Vignette -->
+  <rect width="1200" height="630" fill="url(#vgn)"/>
+
+  <!-- Text overlay -->
+  <rect x="0" y="320" width="1200" height="310" fill="url(#tov)"/>
+
+  <!-- Category badge -->
+  <rect x="40" y="36" width="165" height="38" rx="19" fill="#1d4ed8"/>
+  <text x="122" y="61" font-family="sans-serif" font-size="15" font-weight="700" fill="white" text-anchor="middle">国内DC動向</text>
+
+  <!-- Operation badge top right -->
+  <rect x="930" y="32" width="230" height="44" rx="8" fill="#0e7490" opacity="0.93"/>
+  <text x="1045" y="60" font-family="sans-serif" font-size="17" font-weight="900" fill="white" text-anchor="middle">KDDI 1月稼働開始</text>
+
+  <!-- Accent bar -->
+  <rect x="40" y="415" width="5" height="125" rx="2.5" fill="#22d3ee"/>
+
+  <!-- Kicker -->
+  <text x="60" y="474" font-family="sans-serif" font-size="52" font-weight="900" fill="#67e8f9" filter="url(#ts)">液晶の聖地 → AIの聖地</text>
+
+  <!-- Main headline -->
+  <text x="60" y="547" font-family="sans-serif" font-size="34" font-weight="900" fill="white" filter="url(#ts)">シャープ堺工場跡地 — KDDI×ソフトバンクの全貌</text>
+
+  <!-- Sub-line -->
+  <text x="60" y="596" font-family="sans-serif" font-size="17" fill="#a5f3fc" filter="url(#ts)">GB200×液冷で半年稼働の衝撃 ソフトバンク150MWは2026年中へ</text>
+
+  <text x="1160" y="618" font-family="sans-serif" font-size="13" fill="rgba(255,255,255,0.4)" text-anchor="end">DCトレンド研究</text>
+</svg>
