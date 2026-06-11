@@ -5,7 +5,7 @@ category: "電力・冷却技術"
 tags: ["電気料金", "託送料金", "容量拠出金", "電力需要", "AI", "送電網", "PJM"]
 published_at: "2026-06-11"
 summary: "米国ではDC集中地域の家庭向け電気料金が最大76%上昇したと報じられ、日本でも「電気代が上がるのでは」という不安が広がる。日本の料金制度の仕組みを踏まえ、家庭への影響がどの経路で・いつ・どの程度起こりうるのかを冷静に整理する。"
-thumbnail: "/images/articles/ai-datacenter-electricity-bill-impact-2026.svg"
+thumbnail: "/images/articles/ai-datacenter-electricity-bill-impact-2026.png"
 ---
 
 ## 米国発「電気代ショック」がXで拡散
