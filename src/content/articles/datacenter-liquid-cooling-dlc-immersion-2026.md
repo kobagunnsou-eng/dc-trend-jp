@@ -5,7 +5,7 @@ category: "電力・冷却技術"
 tags: ["液冷", "DLC", "液浸冷却", "PUE", "GB200", "NTTコミュニケーションズ", "KDDI", "冷却技術"]
 published_at: "2026-06-13"
 summary: "GB200のラックは1台で120kW。もはや空気では冷やせない。AIサーバーの爆発的な高発熱化で、データセンターの冷却は『液冷』へと不可逆的に移行しつつある。DLCと液浸冷却の仕組みから国内の採用事例まで、現役エンジニアが徹底解説する。"
-thumbnail: "/images/articles/datacenter-liquid-cooling-dlc-immersion-2026.svg"
+thumbnail: "/images/articles/datacenter-liquid-cooling-dlc-immersion-2026.png"
 ---
 
 ## 「1ラック120kW」——空気ではもう冷やせない
