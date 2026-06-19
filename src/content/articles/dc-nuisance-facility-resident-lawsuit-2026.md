@@ -5,7 +5,7 @@ category: "国内DC動向"
 tags: ["住民訴訟", "地域共生", "JDCC", "建築基準法", "用途地域", "排熱", "騒音"]
 published_at: "2026-05-30"
 summary: "日本全国でデータセンター建設への住民反発が激化している。印西市・日野市・白井市で訴訟が相次ぎ、5月15日には国会でも審議された。JDCCが地域共生ガイドラインを公表したが、根本的な法的空白は未解決のままだ。"
-thumbnail: "/images/articles/dc-nuisance-facility-resident-lawsuit-2026.svg"
+thumbnail: "/images/articles/dc-nuisance-facility-resident-lawsuit-2026.png"
 ---
 
 ## 「ゴミ処理場と同じ迷惑施設」——Xで広がる住民の怒り
