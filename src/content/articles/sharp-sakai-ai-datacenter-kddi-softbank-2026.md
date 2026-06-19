@@ -5,7 +5,7 @@ category: "国内DC動向"
 tags: ["KDDI", "ソフトバンク", "シャープ", "堺", "GB200", "液冷", "ソブリンAI", "GPUクラウド"]
 published_at: "2026-06-11"
 summary: "かつて世界最大級の液晶パネル工場だったシャープ堺工場が、日本最大級のAIデータセンター集積地に生まれ変わりつつある。1月に稼働したKDDI「大阪堺データセンター」と、2026年中の稼働を目指すソフトバンクの150MW級AI DCの全貌を解説する。"
-thumbnail: "/images/articles/sharp-sakai-ai-datacenter-kddi-softbank-2026.svg"
+thumbnail: "/images/articles/sharp-sakai-ai-datacenter-kddi-softbank-2026.png"
 ---
 
 ## 「世界最大の液晶工場」が歩んだ20年
