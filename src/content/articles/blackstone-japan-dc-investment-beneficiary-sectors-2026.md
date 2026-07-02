@@ -5,7 +5,7 @@ category: "海外DC動向"
 tags: ["ブラックストーン", "外資投資", "データセンター", "関連銘柄", "サプライチェーン", "AirTrunk", "建設", "電力", "冷却"]
 published_at: "2026-06-23"
 summary: "米ブラックストーンが日本のデータセンターに今後3〜5年で4.8兆円を投じる方針を表明。グローバル48兆円構想の一角だ。この巨額マネーは日本のどの産業に落ちるのか。建設から運営まで5つの工程に分け、恩恵を受ける代表的セクターと上場企業を解説する。"
-thumbnail: "/images/articles/blackstone-japan-dc-investment-beneficiary-sectors-2026.svg"
+thumbnail: "/images/articles/blackstone-japan-dc-investment-beneficiary-sectors-2026.png"
 ---
 
 > **ご注意：** 本記事は産業構造とサプライチェーンの解説を目的としたもので、特定の金融商品の購入を推奨するものではありません。企業名は各工程で恩恵が見込まれるセクターの「代表例」として挙げています。投資判断はご自身の責任で行ってください。
