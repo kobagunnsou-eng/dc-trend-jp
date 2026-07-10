@@ -6,7 +6,9 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "news": "node tools/news-collector/collect.mjs",
+    "news:draft": "node tools/news-collector/collect.mjs --draft"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^12.0.0",

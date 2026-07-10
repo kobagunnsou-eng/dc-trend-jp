@@ -1,0 +1,72 @@
+{
+  "penalties": [
+    { "pattern": "グローバルインフォメーション", "score": -6 },
+    { "pattern": "QYResearch", "score": -6 },
+    { "pattern": "Report Ocean", "score": -6 },
+    { "pattern": "市場調査レポート", "score": -5 },
+    { "pattern": "世界市場（", "score": -5 },
+    { "pattern": "分析レポートを発表", "score": -5 },
+    { "pattern": "市場レポート", "score": -4 },
+    { "pattern": "業界シェア", "score": -3 },
+    { "pattern": "セミナー", "score": -3 },
+    { "pattern": "ウェビナー", "score": -3 },
+    { "pattern": "受講", "score": -4 },
+    { "pattern": "AndTech", "score": -5 },
+    { "pattern": "と題して", "score": -3 },
+    { "pattern": "適時開示", "score": -2 }
+  ],
+  "sources": [
+    {
+      "name": "データセンターカフェ",
+      "url": "https://cafe-dc.com/feed/",
+      "lang": "ja",
+      "baseScore": 3
+    },
+    {
+      "name": "週刊データセンターWatch (Impress)",
+      "url": "https://cloud.watch.impress.co.jp/data/rss/1.0/clw/feed.rdf",
+      "lang": "ja",
+      "baseScore": 1
+    },
+    {
+      "name": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/rss/",
+      "lang": "en",
+      "baseScore": 3
+    },
+    {
+      "name": "Data Center Knowledge",
+      "url": "https://www.datacenterknowledge.com/rss.xml",
+      "lang": "en",
+      "baseScore": 3
+    },
+    {
+      "name": "Google News: データセンター",
+      "url": "https://news.google.com/rss/search?q=%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC&hl=ja&gl=JP&ceid=JP:ja",
+      "lang": "ja",
+      "baseScore": 0,
+      "search": true
+    },
+    {
+      "name": "Google News: 液冷・液浸冷却",
+      "url": "https://news.google.com/rss/search?q=%E6%B6%B2%E5%86%B7%20OR%20%E6%B6%B2%E6%B5%B8%E5%86%B7%E5%8D%B4&hl=ja&gl=JP&ceid=JP:ja",
+      "lang": "ja",
+      "baseScore": 0,
+      "search": true
+    },
+    {
+      "name": "Google News: データセンター 電力",
+      "url": "https://news.google.com/rss/search?q=%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%20%E9%9B%BB%E5%8A%9B&hl=ja&gl=JP&ceid=JP:ja",
+      "lang": "ja",
+      "baseScore": 0,
+      "search": true
+    },
+    {
+      "name": "Google News: AIインフラ 投資",
+      "url": "https://news.google.com/rss/search?q=AI%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9%20%E6%8A%95%E8%B3%87&hl=ja&gl=JP&ceid=JP:ja",
+      "lang": "ja",
+      "baseScore": 0,
+      "search": true
+    }
+  ]
+}
