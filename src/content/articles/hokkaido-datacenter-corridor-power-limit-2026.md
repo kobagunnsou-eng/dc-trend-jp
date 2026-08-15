@@ -5,7 +5,7 @@ category: "国内DC動向"
 tags: ["北海道", "苫小牧", "石狩", "地方分散", "ラピダス", "泊原発", "洋上風力", "電力需給"]
 published_at: "2026-07-15"
 summary: "ソフトバンクの国内最大級AI DC、ラピダス千歳工場、洋上風力——北海道が日本のAIインフラ拠点として急浮上している。だがその足元では『2030年代半ばに需要693万kW対供給694万kW』という綱渡りの電力事情が待つ。北海道DC回廊の可能性と限界を検証する。"
-thumbnail: "/images/articles/hokkaido-datacenter-corridor-power-limit-2026.svg"
+thumbnail: "/images/articles/hokkaido-datacenter-corridor-power-limit-2026.png"
 ---
 
 ## 石狩から苫小牧へ——「北海道データセンター回廊」の誕生
