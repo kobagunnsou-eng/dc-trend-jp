@@ -5,7 +5,7 @@ category: "電力・冷却技術"
 tags: ["SMR", "原子力", "小型モジュール炉", "電力", "GX", "BWRX-300", "カーボンフリー", "AI"]
 published_at: "2026-07-02"
 summary: "24時間365日、CO2を出さずに大電力を供給する——AIデータセンターが渇望する電源の条件を満たす存在として、小型モジュール炉（SMR）への注目が世界的に高まっている。『原子力の黄金時代』と呼ばれる2026年の最新動向と、日本での現実味を検証する。"
-thumbnail: "/images/articles/smr-nuclear-datacenter-power-2026.svg"
+thumbnail: "/images/articles/smr-nuclear-datacenter-power-2026.png"
 ---
 
 ## AIが欲しがる電気は「再エネだけ」では作れない
