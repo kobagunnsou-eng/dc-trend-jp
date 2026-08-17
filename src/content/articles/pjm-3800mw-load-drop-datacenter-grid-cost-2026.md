@@ -5,7 +5,7 @@ category: "電力・冷却技術"
 tags: ["PJM", "系統安定度", "ライドスルー", "バージニア", "テキサス", "ERCOT", "工事費負担金", "非常用発電機"]
 published_at: "2026-08-17"
 summary: "2026年7月22日、バージニア州アッシュバーンの送電線事故をきっかけに、約3,800MWのデータセンター負荷が数秒で電力系統から消えた。停電はゼロ。だが東部連系全体に周波数擾乱が広がり、PJMは需要側のライドスルー要件の検討に入った。同時進行する『誰が系統費用を払うのか』の議論と合わせ、日本のDC調達・設計に何が起きるのかを現役エンジニアの視点で解説する。"
-thumbnail: "/images/articles/pjm-3800mw-load-drop-datacenter-grid-cost-2026.svg"
+thumbnail: "/images/articles/pjm-3800mw-load-drop-datacenter-grid-cost-2026.png"
 ---
 
 ## アッシュバーンの朝、3,800MWが数秒で消えた
