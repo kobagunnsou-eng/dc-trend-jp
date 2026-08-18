@@ -5,7 +5,7 @@ category: "国内DC動向"
 tags: ["東京都", "認定制度", "補助金", "PUE", "地域還元", "データセキュリティ", "住民合意", "自治体"]
 published_at: "2026-08-17"
 summary: "東京都が2026年7月31日、データセンターをプラチナ〜ブロンズの4段階で格付けする認定制度の募集を開始した。都道府県で初。プラチナなら補助率2分の1・上限15億円の補助金がつく。だが東京都は2015年にも似た制度を作り、2年で終えている。何が違うのか、そして『地域還元』は本当に評価できるのかを現役エンジニアの視点で検証する。"
-thumbnail: "/images/articles/tokyo-datacenter-certification-subsidy-2026.svg"
+thumbnail: "/images/articles/tokyo-datacenter-certification-subsidy-2026.png"
 ---
 
 ## 都道府県で初 — 東京都がデータセンターを「格付け」する
