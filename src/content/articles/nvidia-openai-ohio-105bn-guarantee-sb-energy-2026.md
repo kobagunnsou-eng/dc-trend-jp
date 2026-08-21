@@ -5,7 +5,7 @@ category: "海外DC動向"
 tags: ["NVIDIA", "OpenAI", "SB Energy", "ソフトバンク", "オハイオ", "アンカーテナント", "ベンダーファイナンス", "跡地活用"]
 published_at: "2026-08-19"
 summary: "NVIDIAが2026年8月17日、OpenAIがオハイオ州で結ぶデータセンターのリース債務を最大1,050億ドル保証すると開示した。建設・保有・運営はソフトバンク傘下のSB Energy、立地は旧ウラン濃縮工場跡地の3,700エーカー。チップメーカーが顧客の信用を肩代わりするこの構造は何を意味するのか。跡地活用という現場視点と、ベンダーファイナンスの既視感から読み解く。"
-thumbnail: "/images/articles/nvidia-openai-ohio-105bn-guarantee-sb-energy-2026.svg"
+thumbnail: "/images/articles/nvidia-openai-ohio-105bn-guarantee-sb-energy-2026.png"
 ---
 
 ## 1,050億ドル — チップメーカーが保証人になった
