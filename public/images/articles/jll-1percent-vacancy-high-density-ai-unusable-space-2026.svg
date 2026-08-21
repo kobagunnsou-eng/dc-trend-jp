@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <!-- Photo: interior of a legacy data hall with half-empty low-density racks, one liquid-cooled AI rack in front -->
+    <linearGradient id="room" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e1420"/>
+      <stop offset="45%" stop-color="#151d2c"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b2434"/>
+      <stop offset="100%" stop-color="#0a0e17"/>
+    </linearGradient>
+    <linearGradient id="rackface" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2a3446"/>
+      <stop offset="100%" stop-color="#182130"/>
+    </linearGradient>
+    <linearGradient id="airack" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#243244"/>
+      <stop offset="55%" stop-color="#1a2636"/>
+      <stop offset="100%" stop-color="#0f1826"/>
+    </linearGradient>
+    <radialGradient id="aiglow" cx="76%" cy="56%" r="30%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#090d16" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vgn" cx="50%" cy="48%" r="70%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.82)"/>
+    </radialGradient>
+    <linearGradient id="tov" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(4,6,12,0)"/>
+      <stop offset="34%" stop-color="rgba(4,6,12,0.66)"/>
+      <stop offset="100%" stop-color="rgba(4,6,12,0.96)"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="hotglow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="ts"><feDropShadow dx="0" dy="2" stdDeviation="8" flood-color="rgba(0,0,0,1)"/></filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#room)"/>
+
+  <!-- Ceiling with linear luminaires receding to the vanishing point -->
+  <g stroke="#4b5a72" stroke-width="1" opacity="0.35">
+    <line x1="0" y1="30" x2="470" y2="196"/><line x1="1200" y1="30" x2="530" y2="196"/>
+  </g>
+  <g fill="#dbeafe" opacity="0.85" filter="url(#glow)">
+    <rect x="452" y="188" width="96" height="5" rx="2"/>
+    <rect x="416" y="160" width="168" height="6" rx="3"/>
+    <rect x="360" y="122" width="280" height="7" rx="3"/>
+    <rect x="278" y="74" width="444" height="9" rx="4"/>
+    <rect x="150" y="16" width="700" height="11" rx="5"/>
+  </g>
+
+  <!-- Raised floor with perspective tile lines -->
+  <rect x="0" y="380" width="1200" height="250" fill="url(#floor)"/>
+  <g stroke="#33415a" stroke-width="1" opacity="0.5">
+    <line x1="500" y1="380" x2="-160" y2="630"/><line x1="512" y1="380" x2="140" y2="630"/>
+    <line x1="524" y1="380" x2="392" y2="630"/><line x1="536" y1="380" x2="612" y2="630"/>
+    <line x1="548" y1="380" x2="880" y2="630"/><line x1="560" y1="380" x2="1180" y2="630"/>
+    <line x1="0" y1="440" x2="1200" y2="440"/><line x1="0" y1="512" x2="1200" y2="512"/>
+    <line x1="0" y1="600" x2="1200" y2="600"/>
+  </g>
+
+  <!-- LEGACY ROW, left side receding: low-density racks, several bays empty -->
+  <g>
+    <polygon points="40,236 300,268 300,470 40,530" fill="url(#rackface)"/>
+    <polygon points="300,268 470,290 470,432 300,470" fill="#131b28"/>
+  </g>
+  <!-- legacy rack bay dividers -->
+  <g stroke="#3d4a60" stroke-width="2" opacity="0.85">
+    <line x1="105" y1="244" x2="105" y2="515"/><line x1="170" y1="252" x2="170" y2="501"/>
+    <line x1="235" y1="260" x2="235" y2="486"/><line x1="300" y1="268" x2="300" y2="470"/>
+    <line x1="358" y1="275" x2="358" y2="457"/><line x1="414" y1="283" x2="414" y2="444"/>
+  </g>
+  <!-- sparse status LEDs: this is old, lightly loaded kit -->
+  <g fill="#93c5fd" opacity="0.55">
+    <rect x="52" y="268" width="40" height="4"/><rect x="52" y="286" width="40" height="4"/>
+    <rect x="52" y="342" width="40" height="4"/>
+    <rect x="116" y="278" width="42" height="4"/><rect x="116" y="330" width="42" height="4"/>
+    <rect x="182" y="290" width="40" height="3.5"/><rect x="182" y="332" width="40" height="3.5"/>
+    <rect x="248" y="298" width="40" height="3.5"/>
+    <rect x="366" y="308" width="34" height="3"/>
+  </g>
+  <!-- EMPTY BAYS: dark voids with blanking panels — the "1% vacancy" -->
+  <g fill="#070b12">
+    <rect x="116" y="352" width="46" height="120"/>
+    <rect x="248" y="330" width="44" height="126"/>
+    <rect x="366" y="330" width="42" height="106"/>
+  </g>
+  <g stroke="#1e293b" stroke-width="1.5" opacity="0.9">
+    <line x1="116" y1="380" x2="162" y2="382"/><line x1="116" y1="408" x2="162" y2="410"/>
+    <line x1="248" y1="366" x2="292" y2="368"/><line x1="248" y1="396" x2="292" y2="398"/>
+    <line x1="366" y1="362" x2="408" y2="364"/>
+  </g>
+  <!-- "空" tags hinting at scattered vacancy -->
+  <g fill="#f43f5e" opacity="0.85">
+    <rect x="128" y="356" width="22" height="7" rx="1.5"/>
+    <rect x="258" y="334" width="22" height="7" rx="1.5"/>
+    <rect x="374" y="334" width="20" height="6" rx="1.5"/>
+  </g>
+
+  <!-- LEGACY ROW, right side receding -->
+  <polygon points="700,292 560,272 560,430 700,452" fill="#131b28"/>
+  <g stroke="#3d4a60" stroke-width="1.6" opacity="0.6">
+    <line x1="600" y1="277" x2="600" y2="437"/><line x1="646" y1="283" x2="646" y2="444"/>
+  </g>
+  <g fill="#93c5fd" opacity="0.35">
+    <rect x="568" y="296" width="26" height="3"/><rect x="610" y="302" width="26" height="3"/>
+    <rect x="568" y="336" width="26" height="3"/>
+  </g>
+
+  <!-- THE AI RACK: foreground right, taller, denser, liquid-cooled -->
+  <rect x="800" y="196" width="252" height="330" rx="4" fill="url(#airack)" stroke="#22d3ee" stroke-width="2.5"/>
+  <rect width="1200" height="630" fill="url(#aiglow)"/>
+  <!-- dense compute trays -->
+  <g fill="#22d3ee" opacity="0.9" filter="url(#glow)">
+    <rect x="814" y="214" width="180" height="9" rx="1.5"/><rect x="814" y="230" width="180" height="9" rx="1.5"/>
+    <rect x="814" y="246" width="180" height="9" rx="1.5"/><rect x="814" y="262" width="180" height="9" rx="1.5"/>
+    <rect x="814" y="278" width="180" height="9" rx="1.5"/><rect x="814" y="294" width="180" height="9" rx="1.5"/>
+    <rect x="814" y="326" width="180" height="9" rx="1.5"/><rect x="814" y="342" width="180" height="9" rx="1.5"/>
+    <rect x="814" y="358" width="180" height="9" rx="1.5"/><rect x="814" y="374" width="180" height="9" rx="1.5"/>
+    <rect x="814" y="390" width="180" height="9" rx="1.5"/><rect x="814" y="406" width="180" height="9" rx="1.5"/>
+    <rect x="814" y="438" width="180" height="9" rx="1.5"/><rect x="814" y="454" width="180" height="9" rx="1.5"/>
+    <rect x="814" y="470" width="180" height="9" rx="1.5"/>
+  </g>
+  <!-- NVLink/switch band -->
+  <g fill="#f0abfc" opacity="0.9" filter="url(#glow)">
+    <rect x="814" y="308" width="180" height="12" rx="2"/>
+    <rect x="814" y="420" width="180" height="12" rx="2"/>
+  </g>
+  <!-- liquid cooling manifolds + quick-disconnect hoses -->
+  <g stroke="#38bdf8" stroke-width="7" fill="none" opacity="0.95" filter="url(#hotglow)">
+    <line x1="1012" y1="206" x2="1012" y2="516"/>
+    <line x1="1036" y1="206" x2="1036" y2="516"/>
+  </g>
+  <g stroke="#0ea5e9" stroke-width="3.5" fill="none" opacity="0.85">
+    <path d="M 994 232 Q 1006 232 1012 240"/><path d="M 994 272 Q 1006 272 1012 280"/>
+    <path d="M 994 336 Q 1006 336 1012 344"/><path d="M 994 392 Q 1006 392 1036 400"/>
+    <path d="M 994 448 Q 1006 448 1036 456"/>
+  </g>
+  <!-- heavy busbar feeding it -->
+  <g fill="#fb923c" opacity="0.9" filter="url(#glow)">
+    <rect x="786" y="200" width="12" height="322" rx="3"/>
+  </g>
+  <!-- floor loading marks under the AI rack -->
+  <g stroke="#f43f5e" stroke-width="2" opacity="0.55" fill="none">
+    <rect x="792" y="522" width="264" height="16" rx="2"/>
+  </g>
+
+  <!-- Vignette -->
+  <rect width="1200" height="630" fill="url(#vgn)"/>
+
+  <!-- Text overlay -->
+  <rect x="0" y="300" width="1200" height="330" fill="url(#tov)"/>
+
+  <!-- Category badge -->
+  <rect x="40" y="36" width="190" height="38" rx="19" fill="#7c3aed"/>
+  <text x="135" y="61" font-family="sans-serif" font-size="15" font-weight="700" fill="white" text-anchor="middle">AI・HPCインフラ</text>
+
+  <!-- Alert badge top right -->
+  <rect x="864" y="32" width="296" height="44" rx="8" fill="#be123c" opacity="0.96"/>
+  <text x="1012" y="60" font-family="sans-serif" font-size="16" font-weight="900" fill="white" text-anchor="middle">100kW対応は全施設の4%未満</text>
+
+  <!-- Accent bar -->
+  <rect x="40" y="418" width="5" height="122" rx="2.5" fill="#f43f5e"/>
+
+  <!-- Kicker -->
+  <text x="60" y="476" font-family="sans-serif" font-size="50" font-weight="900" fill="#fda4af" filter="url(#ts)">空室率1%なのに、置く場所がない</text>
+
+  <!-- Main headline -->
+  <text x="60" y="548" font-family="sans-serif" font-size="33" font-weight="900" fill="white" filter="url(#ts)">高密度AIが暴いた「使えない空きスペース」問題</text>
+
+  <!-- Sub-line -->
+  <text x="60" y="596" font-family="sans-serif" font-size="17" fill="#fecdd3" filter="url(#ts)">受電・配電・冷却・床荷重・断片化 — 既存の箱にAIラックが入らない5つの理由</text>
+
+  <text x="1160" y="618" font-family="sans-serif" font-size="13" fill="rgba(255,255,255,0.4)" text-anchor="end">DCトレンド研究</text>
+</svg>
