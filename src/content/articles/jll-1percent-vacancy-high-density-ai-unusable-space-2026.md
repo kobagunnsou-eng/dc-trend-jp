@@ -5,7 +5,7 @@ category: "AI・HPCインフラ"
 tags: ["JLL", "空室率", "電力密度", "液冷", "床荷重", "コロケーション", "ラック", "調達"]
 published_at: "2026-08-20"
 summary: "北米のデータセンター空室率は3年連続で1%。だがJLLによれば、その1%のうち高密度AIを収容できるのはごく一部で、100kW/ラック以上に対応できる施設は米国全体の4%未満にとどまる。なぜ「空いているのに置けない」のか。受電・配電・冷却・床荷重・断片化という5つの壁を、現役DCエンジニアの視点で分解する。"
-thumbnail: "/images/articles/jll-1percent-vacancy-high-density-ai-unusable-space-2026.svg"
+thumbnail: "/images/articles/jll-1percent-vacancy-high-density-ai-unusable-space-2026.png"
 ---
 
 ## 「空いています」は嘘ではない。だが、置けない
