@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <!-- Photo: overcast daylight over a decommissioned uranium enrichment plant being rebuilt as an AI campus -->
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7c8794"/>
+      <stop offset="45%" stop-color="#9aa5b1"/>
+      <stop offset="100%" stop-color="#c3cbd3"/>
+    </linearGradient>
+    <linearGradient id="hall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8b8f93"/>
+      <stop offset="100%" stop-color="#5e6367"/>
+    </linearGradient>
+    <linearGradient id="newbuild" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6b7259"/>
+      <stop offset="100%" stop-color="#3f4636"/>
+    </linearGradient>
+    <radialGradient id="vgn" cx="50%" cy="48%" r="72%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="rgba(10,14,18,0.72)"/>
+    </radialGradient>
+    <linearGradient id="tov" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(8,12,16,0)"/>
+      <stop offset="34%" stop-color="rgba(8,12,16,0.62)"/>
+      <stop offset="100%" stop-color="rgba(8,12,16,0.95)"/>
+    </linearGradient>
+    <filter id="ts"><feDropShadow dx="0" dy="2" stdDeviation="8" flood-color="rgba(0,0,0,0.95)"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="blur14"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#sky)"/>
+
+  <!-- Heavy overcast cloud banks -->
+  <g fill="#aab4bd" opacity="0.6" filter="url(#blur14)">
+    <ellipse cx="220" cy="80" rx="240" ry="46"/>
+    <ellipse cx="700" cy="54" rx="280" ry="40"/>
+    <ellipse cx="1080" cy="104" rx="200" ry="38"/>
+  </g>
+
+  <!-- THE OLD ENRICHMENT HALLS: enormous, low, endless -->
+  <g>
+    <rect x="60" y="238" width="440" height="126" fill="url(#hall)"/>
+    <rect x="500" y="252" width="330" height="112" fill="url(#hall)" opacity="0.92"/>
+    <rect x="830" y="262" width="250" height="102" fill="url(#hall)" opacity="0.85"/>
+  </g>
+  <!-- saw-tooth roofline + weathering bands -->
+  <g fill="#6f7478">
+    <rect x="60" y="230" width="440" height="10"/><rect x="500" y="244" width="330" height="9"/>
+    <rect x="830" y="255" width="250" height="8"/>
+  </g>
+  <g fill="#4e5357" opacity="0.55">
+    <rect x="60" y="286" width="440" height="7"/><rect x="60" y="322" width="440" height="7"/>
+    <rect x="500" y="296" width="330" height="6"/><rect x="830" y="304" width="250" height="6"/>
+  </g>
+  <!-- dark empty window rows: the plant is dead -->
+  <g fill="#2b3033" opacity="0.9">
+    <rect x="82" y="258" width="26" height="16"/><rect x="120" y="258" width="26" height="16"/>
+    <rect x="158" y="258" width="26" height="16"/><rect x="196" y="258" width="26" height="16"/>
+    <rect x="234" y="258" width="26" height="16"/><rect x="272" y="258" width="26" height="16"/>
+    <rect x="310" y="258" width="26" height="16"/><rect x="348" y="258" width="26" height="16"/>
+    <rect x="386" y="258" width="26" height="16"/><rect x="424" y="258" width="26" height="16"/>
+    <rect x="462" y="258" width="26" height="16"/>
+    <rect x="518" y="270" width="24" height="15"/><rect x="554" y="270" width="24" height="15"/>
+    <rect x="590" y="270" width="24" height="15"/><rect x="626" y="270" width="24" height="15"/>
+    <rect x="662" y="270" width="24" height="15"/><rect x="698" y="270" width="24" height="15"/>
+    <rect x="734" y="270" width="24" height="15"/><rect x="770" y="270" width="24" height="15"/>
+    <rect x="846" y="280" width="22" height="14"/><rect x="880" y="280" width="22" height="14"/>
+    <rect x="914" y="280" width="22" height="14"/><rect x="948" y="280" width="22" height="14"/>
+    <rect x="982" y="280" width="22" height="14"/><rect x="1016" y="280" width="22" height="14"/>
+  </g>
+  <!-- old stacks -->
+  <g fill="#767b7f">
+    <rect x="404" y="152" width="16" height="80"/><rect x="398" y="146" width="28" height="9"/>
+    <rect x="748" y="176" width="14" height="70"/><rect x="742" y="170" width="26" height="8"/>
+  </g>
+
+  <!-- NEW BUILD rising beside the ruins: steel frame + crane -->
+  <g>
+    <!-- completed new hall -->
+    <rect x="612" y="300" width="196" height="86" fill="url(#newbuild)" stroke="#7c8896" stroke-width="1.5"/>
+    <g fill="#22d3ee" opacity="0.55" filter="url(#glow)">
+      <rect x="626" y="322" width="26" height="14"/><rect x="662" y="322" width="26" height="14"/>
+      <rect x="698" y="322" width="26" height="14"/><rect x="734" y="322" width="26" height="14"/>
+      <rect x="770" y="322" width="26" height="14"/>
+    </g>
+    <!-- steel skeleton under construction -->
+    <g stroke="#e2762f" stroke-width="3.5" fill="none" opacity="0.95">
+      <rect x="856" y="308" width="180" height="78"/>
+      <line x1="916" y1="308" x2="916" y2="386"/><line x1="976" y1="308" x2="976" y2="386"/>
+      <line x1="856" y1="334" x2="1036" y2="334"/><line x1="856" y1="360" x2="1036" y2="360"/>
+    </g>
+  </g>
+  <!-- tower cranes -->
+  <g stroke="#dd6b20" stroke-width="4.5" fill="none">
+    <line x1="880" y1="308" x2="880" y2="128"/>
+    <line x1="768" y1="140" x2="1010" y2="140"/>
+    <line x1="880" y1="128" x2="880" y2="140"/>
+  </g>
+  <g stroke="#dd6b20" stroke-width="2.4" fill="none">
+    <line x1="880" y1="132" x2="790" y2="140"/><line x1="880" y1="132" x2="980" y2="140"/>
+    <line x1="948" y1="140" x2="948" y2="196"/>
+  </g>
+  <rect x="938" y="196" width="20" height="14" fill="#dd6b20"/>
+  <g stroke="#c2570f" stroke-width="3.5" fill="none">
+    <line x1="560" y1="300" x2="560" y2="176"/>
+    <line x1="474" y1="186" x2="654" y2="186"/>
+    <line x1="608" y1="186" x2="608" y2="228"/>
+  </g>
+
+  <!-- THE SWITCHYARD: the real asset — dense lattice steel in the foreground -->
+  <rect x="0" y="386" width="1200" height="244" fill="url(#ground)"/>
+  <g stroke="#3c4248" stroke-width="3" fill="none">
+    <!-- gantry frames -->
+    <line x1="90" y1="530" x2="90" y2="372"/><line x1="180" y1="530" x2="180" y2="372"/>
+    <line x1="60" y1="392" x2="210" y2="392"/><line x1="60" y1="424" x2="210" y2="424"/>
+    <line x1="300" y1="538" x2="300" y2="368"/><line x1="396" y1="538" x2="396" y2="368"/>
+    <line x1="268" y1="388" x2="428" y2="388"/><line x1="268" y1="422" x2="428" y2="422"/>
+    <line x1="520" y1="544" x2="520" y2="376"/><line x1="614" y1="544" x2="614" y2="376"/>
+    <line x1="490" y1="396" x2="644" y2="396"/><line x1="490" y1="428" x2="644" y2="428"/>
+  </g>
+  <!-- lattice cross-bracing -->
+  <g stroke="#333940" stroke-width="1.4" opacity="0.8">
+    <line x1="90" y1="392" x2="180" y2="424"/><line x1="180" y1="392" x2="90" y2="424"/>
+    <line x1="300" y1="388" x2="396" y2="422"/><line x1="396" y1="388" x2="300" y2="422"/>
+    <line x1="520" y1="396" x2="614" y2="428"/><line x1="614" y1="396" x2="520" y2="428"/>
+  </g>
+  <!-- insulator strings + busbars -->
+  <g stroke="#5a6169" stroke-width="2" fill="none">
+    <path d="M 60 392 Q 240 412 268 388"/><path d="M 210 424 Q 250 446 268 422"/>
+    <path d="M 428 388 Q 470 410 490 396"/><path d="M 428 422 Q 470 444 490 428"/>
+    <path d="M 644 396 Q 760 418 900 404"/><path d="M 644 428 Q 780 450 940 434"/>
+  </g>
+  <!-- transformers -->
+  <g fill="#454b52">
+    <rect x="700" y="450" width="66" height="52" rx="2"/><rect x="790" y="456" width="60" height="46" rx="2"/>
+    <rect x="876" y="450" width="66" height="52" rx="2"/>
+  </g>
+  <g fill="#586069">
+    <rect x="712" y="436" width="10" height="16"/><rect x="732" y="436" width="10" height="16"/>
+    <rect x="888" y="436" width="10" height="16"/><rect x="908" y="436" width="10" height="16"/>
+  </g>
+
+  <!-- gravel haul road + a lone truck for scale -->
+  <path d="M 0 566 Q 300 552 640 566 Q 920 578 1200 560 L 1200 630 L 0 630 Z" fill="#575e50"/>
+  <g fill="#2f353c"><rect x="1024" y="536" width="46" height="20" rx="2"/><rect x="1070" y="542" width="22" height="14" rx="2"/></g>
+
+  <!-- Vignette -->
+  <rect width="1200" height="630" fill="url(#vgn)"/>
+
+  <!-- Text overlay -->
+  <rect x="0" y="300" width="1200" height="330" fill="url(#tov)"/>
+
+  <!-- Category badge -->
+  <rect x="40" y="36" width="165" height="38" rx="19" fill="#0369a1"/>
+  <text x="122" y="61" font-family="sans-serif" font-size="15" font-weight="700" fill="white" text-anchor="middle">海外DC動向</text>
+
+  <!-- Money badge top right -->
+  <rect x="874" y="32" width="286" height="44" rx="8" fill="#15803d" opacity="0.96"/>
+  <text x="1017" y="60" font-family="sans-serif" font-size="16" font-weight="900" fill="white" text-anchor="middle">NVIDIAが1,050億ドルを保証</text>
+
+  <!-- Accent bar -->
+  <rect x="40" y="418" width="5" height="122" rx="2.5" fill="#22c55e"/>
+
+  <!-- Kicker -->
+  <text x="60" y="476" font-family="sans-serif" font-size="49" font-weight="900" fill="#86efac" filter="url(#ts)">チップ会社が「AI DCの銀行」になった</text>
+
+  <!-- Main headline -->
+  <text x="60" y="548" font-family="sans-serif" font-size="33" font-weight="900" fill="white" filter="url(#ts)">旧ウラン濃縮工場に建つ8GW、そして日本企業の名前</text>
+
+  <!-- Sub-line -->
+  <text x="60" y="596" font-family="sans-serif" font-size="17" fill="#bbf7d0" filter="url(#ts)">いま最も希少な資源は、土地でもGPUでもなく「すでに系統につながった受電点」</text>
+
+  <text x="1160" y="618" font-family="sans-serif" font-size="13" fill="rgba(255,255,255,0.4)" text-anchor="end">DCトレンド研究</text>
+</svg>
