@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <!-- Photo: inside a data center shell under fit-out — trades installing ducts, trays and switchgear -->
+    <linearGradient id="shell" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3b3a37"/>
+      <stop offset="50%" stop-color="#4a4844"/>
+      <stop offset="100%" stop-color="#2e2d2b"/>
+    </linearGradient>
+    <linearGradient id="slab" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5c5954"/>
+      <stop offset="100%" stop-color="#3a3835"/>
+    </linearGradient>
+    <linearGradient id="duct" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c3c8cd"/>
+      <stop offset="55%" stop-color="#9aa1a8"/>
+      <stop offset="100%" stop-color="#6f767d"/>
+    </linearGradient>
+    <linearGradient id="panelface" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8d939a"/>
+      <stop offset="100%" stop-color="#646a71"/>
+    </linearGradient>
+    <radialGradient id="worklight" cx="30%" cy="34%" r="46%">
+      <stop offset="0%" stop-color="#fff3d6" stop-opacity="0.5"/>
+      <stop offset="55%" stop-color="#ffd89a" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#2e2d2b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vgn" cx="50%" cy="46%" r="72%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.78)"/>
+    </radialGradient>
+    <linearGradient id="tov" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(10,9,8,0)"/>
+      <stop offset="34%" stop-color="rgba(10,9,8,0.64)"/>
+      <stop offset="100%" stop-color="rgba(10,9,8,0.96)"/>
+    </linearGradient>
+    <filter id="ts"><feDropShadow dx="0" dy="2" stdDeviation="8" flood-color="rgba(0,0,0,1)"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="drop"><feDropShadow dx="5" dy="7" stdDeviation="4" flood-color="rgba(0,0,0,0.5)"/></filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#shell)"/>
+
+  <!-- Structural bays: columns and beams of a bare concrete shell -->
+  <g fill="url(#slab)">
+    <rect x="0" y="0" width="1200" height="54"/>
+    <rect x="112" y="54" width="46" height="470"/>
+    <rect x="470" y="54" width="40" height="440"/>
+    <rect x="782" y="54" width="34" height="420"/>
+  </g>
+  <g fill="#57534e" opacity="0.5">
+    <rect x="0" y="54" width="1200" height="10"/>
+    <rect x="0" y="146" width="1200" height="7"/>
+  </g>
+
+  <!-- Overhead: large ducts and cable trays being run -->
+  <g filter="url(#drop)">
+    <rect x="150" y="86" width="1050" height="46" rx="4" fill="url(#duct)"/>
+    <rect x="150" y="150" width="1050" height="30" rx="3" fill="url(#duct)" opacity="0.92"/>
+  </g>
+  <!-- duct flange joints -->
+  <g fill="#7d848b">
+    <rect x="330" y="82" width="9" height="54"/><rect x="560" y="82" width="9" height="54"/>
+    <rect x="790" y="82" width="9" height="54"/><rect x="1020" y="82" width="9" height="54"/>
+    <rect x="400" y="146" width="7" height="38"/><rect x="700" y="146" width="7" height="38"/>
+    <rect x="1000" y="146" width="7" height="38"/>
+  </g>
+  <!-- cable tray with bundled cables -->
+  <g>
+    <rect x="150" y="198" width="1050" height="16" fill="#5f666d"/>
+    <g fill="#2f3336" opacity="0.9">
+      <rect x="156" y="200" width="1038" height="4"/><rect x="156" y="206" width="1038" height="4"/>
+    </g>
+    <g fill="#b45309" opacity="0.75"><rect x="156" y="204" width="1038" height="3"/></g>
+  </g>
+  <!-- threaded rod hangers -->
+  <g stroke="#6b6560" stroke-width="3">
+    <line x1="240" y1="64" x2="240" y2="86"/><line x1="420" y1="64" x2="420" y2="86"/>
+    <line x1="620" y1="64" x2="620" y2="86"/><line x1="860" y1="64" x2="860" y2="86"/>
+    <line x1="1080" y1="64" x2="1080" y2="86"/>
+    <line x1="300" y1="132" x2="300" y2="198"/><line x1="640" y1="132" x2="640" y2="198"/>
+    <line x1="960" y1="132" x2="960" y2="198"/>
+  </g>
+
+  <!-- SWITCHGEAR LINE-UP along the right wall -->
+  <g filter="url(#drop)">
+    <rect x="856" y="286" width="304" height="212" rx="3" fill="url(#panelface)" stroke="#4b5157" stroke-width="2"/>
+  </g>
+  <g stroke="#575e65" stroke-width="2">
+    <line x1="932" y1="290" x2="932" y2="494"/><line x1="1008" y1="290" x2="1008" y2="494"/>
+    <line x1="1084" y1="290" x2="1084" y2="494"/>
+  </g>
+  <g fill="#3f464d">
+    <rect x="870" y="306" width="48" height="20" rx="2"/><rect x="946" y="306" width="48" height="20" rx="2"/>
+    <rect x="1022" y="306" width="48" height="20" rx="2"/><rect x="1098" y="306" width="48" height="20" rx="2"/>
+    <rect x="870" y="394" width="48" height="20" rx="2"/><rect x="946" y="394" width="48" height="20" rx="2"/>
+    <rect x="1022" y="394" width="48" height="20" rx="2"/>
+  </g>
+  <!-- one cubicle open, wiring exposed -->
+  <rect x="1090" y="286" width="70" height="212" fill="#20252a"/>
+  <g stroke="#f59e0b" stroke-width="2" fill="none" opacity="0.8">
+    <path d="M 1098 306 Q 1122 340 1102 372 Q 1084 404 1108 442"/>
+    <path d="M 1116 306 Q 1140 344 1120 378 Q 1102 410 1126 448"/>
+  </g>
+  <g fill="#22c55e" filter="url(#glow)">
+    <circle cx="884" cy="342" r="3.5"/><circle cx="960" cy="342" r="3.5"/><circle cx="1036" cy="342" r="3.5"/>
+  </g>
+
+  <!-- Rolling scaffold tower, centre -->
+  <g stroke="#9ca3af" stroke-width="5" fill="none">
+    <rect x="486" y="250" width="176" height="238"/>
+    <line x1="486" y1="330" x2="662" y2="330"/><line x1="486" y1="410" x2="662" y2="410"/>
+    <line x1="486" y1="250" x2="662" y2="330"/><line x1="662" y1="250" x2="486" y2="330"/>
+  </g>
+  <rect x="478" y="244" width="192" height="10" fill="#b08d5a"/>
+  <g fill="#4b5563"><circle cx="500" cy="496" r="10"/><circle cx="648" cy="496" r="10"/></g>
+
+  <!-- WORKER 1: on the scaffold deck, fixing the duct overhead -->
+  <g>
+    <rect x="556" y="182" width="34" height="62" rx="7" fill="#f97316"/>
+    <rect x="558" y="196" width="30" height="9" fill="#fde68a" opacity="0.95"/>
+    <rect x="558" y="220" width="30" height="9" fill="#fde68a" opacity="0.95"/>
+    <circle cx="573" cy="170" r="15" fill="#e8dcc8"/>
+    <path d="M 556 168 A 17 17 0 0 1 590 168 L 590 172 L 556 172 Z" fill="#fbbf24"/>
+    <rect x="552" y="170" width="42" height="5" rx="2" fill="#f59e0b"/>
+    <rect x="586" y="140" width="8" height="52" rx="3" fill="#d6d3d1" transform="rotate(18 590 166)"/>
+    <rect x="540" y="244" width="14" height="30" rx="4" fill="#334155"/>
+    <rect x="580" y="244" width="14" height="30" rx="4" fill="#334155"/>
+  </g>
+
+  <!-- WORKER 2: on the slab, pulling cable near the switchgear -->
+  <g>
+    <rect x="760" y="366" width="36" height="66" rx="7" fill="#f97316"/>
+    <rect x="762" y="382" width="32" height="9" fill="#fde68a" opacity="0.95"/>
+    <rect x="762" y="408" width="32" height="9" fill="#fde68a" opacity="0.95"/>
+    <circle cx="778" cy="352" r="15" fill="#e8dcc8"/>
+    <path d="M 761 350 A 17 17 0 0 1 795 350 L 795 354 L 761 354 Z" fill="#fbbf24"/>
+    <rect x="757" y="352" width="42" height="5" rx="2" fill="#f59e0b"/>
+    <rect x="744" y="432" width="15" height="34" rx="4" fill="#334155"/>
+    <rect x="790" y="432" width="15" height="34" rx="4" fill="#334155"/>
+    <!-- arm reaching to the cable -->
+    <rect x="794" y="374" width="46" height="9" rx="4" fill="#f97316" transform="rotate(-14 794 378)"/>
+  </g>
+  <!-- cable being pulled from a drum -->
+  <g stroke="#1f2937" stroke-width="5" fill="none">
+    <path d="M 836 368 Q 900 352 962 330"/>
+  </g>
+  <g fill="#78716c"><circle cx="300" cy="470" r="44"/></g>
+  <g fill="#57534e"><circle cx="300" cy="470" r="16"/></g>
+  <g stroke="#1f2937" stroke-width="4" fill="none">
+    <path d="M 344 468 Q 470 486 620 496"/>
+  </g>
+
+  <!-- work light on a tripod, left -->
+  <g>
+    <rect x="176" y="330" width="10" height="150" fill="#57534e"/>
+    <g stroke="#57534e" stroke-width="6">
+      <line x1="181" y1="470" x2="146" y2="510"/><line x1="181" y1="470" x2="216" y2="510"/>
+    </g>
+    <rect x="152" y="306" width="60" height="28" rx="4" fill="#fbbf24"/>
+  </g>
+  <rect width="1200" height="630" fill="url(#worklight)"/>
+
+  <!-- material stacked on the slab -->
+  <g fill="#8a9199" opacity="0.9">
+    <rect x="352" y="486" width="120" height="14" rx="3"/><rect x="360" y="470" width="104" height="13" rx="3"/>
+    <rect x="368" y="455" width="88" height="12" rx="3"/>
+  </g>
+
+  <rect width="1200" height="630" fill="url(#vgn)"/>
+
+  <!-- Text overlay -->
+  <rect x="0" y="300" width="1200" height="330" fill="url(#tov)"/>
+
+  <!-- Category badge -->
+  <rect x="40" y="36" width="165" height="38" rx="19" fill="#1d4ed8"/>
+  <text x="122" y="61" font-family="sans-serif" font-size="15" font-weight="700" fill="white" text-anchor="middle">国内DC動向</text>
+
+  <!-- Stat badge top right -->
+  <rect x="872" y="32" width="288" height="44" rx="8" fill="#c2410c" opacity="0.96"/>
+  <text x="1016" y="60" font-family="sans-serif" font-size="16" font-weight="900" fill="white" text-anchor="middle">売上▲2.5%／営業利益＋49.7%</text>
+
+  <!-- Accent bar -->
+  <rect x="40" y="418" width="5" height="122" rx="2.5" fill="#f97316"/>
+
+  <!-- Kicker -->
+  <text x="60" y="476" font-family="sans-serif" font-size="49" font-weight="900" fill="#facc15" filter="url(#ts)">売上は減ったのに、利益は5割増</text>
+
+  <!-- Main headline -->
+  <text x="60" y="548" font-family="sans-serif" font-size="33" font-weight="900" fill="white" filter="url(#ts)">DC建設ラッシュでサブコンが「選ぶ側」に回った</text>
+
+  <!-- Sub-line -->
+  <text x="60" y="596" font-family="sans-serif" font-size="17" fill="#fed7aa" filter="url(#ts)">第4のボトルネックは施工能力 — 足りないのは金ではなく、人と工事枠</text>
+
+  <text x="1160" y="618" font-family="sans-serif" font-size="13" fill="rgba(255,255,255,0.4)" text-anchor="end">DCトレンド研究</text>
+</svg>
