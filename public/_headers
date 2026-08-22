@@ -1,0 +1,10 @@
+# Cloudflare Pages セキュリティヘッダー設定
+# すべてのパスに適用。CSP は AdSense / GA4 と競合しやすいため、
+# 広告表示が安定してから Content-Security-Policy-Report-Only で検証したうえで導入すること。
+
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), magnetometer=(), gyroscope=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
