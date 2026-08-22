@@ -5,7 +5,7 @@ category: "国内DC動向"
 tags: ["伊藤忠商事", "JR東日本", "総合商社", "ホールセール", "遊休地", "自営発電", "受電点", "ハイパースケーラー"]
 published_at: "2026-08-22"
 summary: "伊藤忠商事がデータセンター開発に参入すると報じられた。首都圏・関西・九州で2030年までに数千億円を投じ、50MW級を10棟。注目すべきは提携先のJR東日本だ。同社は信濃川と川崎に自前の発電所を持ち、首都圏の使用電力の9割を自給する『隠れた電力会社』でもある。この組み合わせが持つ意味を、受電点という視点から読み解く。"
-thumbnail: "/images/articles/itochu-datacenter-entry-jr-east-2026.svg"
+thumbnail: "/images/articles/itochu-datacenter-entry-jr-east-2026.png"
 ---
 
 ## 総合商社が「箱を持つ」側に回る
