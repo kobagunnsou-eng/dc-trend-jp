@@ -5,7 +5,7 @@ category: "国内DC動向"
 tags: ["サブコン", "ダイダン", "日揮", "空調設備", "受注残", "施工能力", "液冷", "建設2024年問題"]
 published_at: "2026-08-22"
 summary: "データセンター建設ラッシュの恩恵を受けているのは、DC事業者だけではない。設備工事を担うサブコンとエンジニアリング会社の決算に、共通した異変が起きている。売上高は減っているのに、利益が5割増えている。この「量より質」への転換が意味するもの、そしてDC開発の新たなボトルネックとしての施工能力を、現場視点で読み解く。"
-thumbnail: "/images/articles/japan-subcontractor-datacenter-boom-order-backlog-2026.svg"
+thumbnail: "/images/articles/japan-subcontractor-datacenter-boom-order-backlog-2026.png"
 ---
 
 ## 決算に現れた、奇妙な共通点
