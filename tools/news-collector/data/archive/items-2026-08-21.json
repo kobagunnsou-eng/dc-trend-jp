@@ -1,0 +1,1489 @@
+[
+  {
+    "title": "Synergy Reserch：20の市場がハイパースケールデータセンター容量の60％を占める",
+    "link": "https://cafe-dc.com/research/twenty-markets-account-60-percent-of-hyperscale-data-center-capacity-synergy/",
+    "date": "2026-08-21T06:27:22.000Z",
+    "description": "米国のバージニア州北部と中国の北京が最大の市場シェアを保有 世界のハイパースケールデータセンター容量の60％をわずか20の州・都... The post Synergy Reserch：20の市場がハイパースケールデータセンター容量の60％を占める first appeared on Data Center Café .",
+    "source": "データセンターカフェ",
+    "lang": "ja",
+    "category": "海外DC動向",
+    "score": 11,
+    "keywords": [
+      "米国",
+      "中国",
+      "ハイパースケール",
+      "バージニア",
+      "シェア"
+    ]
+  },
+  {
+    "title": "欧州でAI向けコロケーション契約が1年で4倍に増加ーCBRE調査",
+    "link": "https://cafe-dc.com/research/ai-focused-colocation-signings-quadruple-in-one-year-across-europe-cbre/",
+    "date": "2026-08-21T00:05:14.000Z",
+    "description": "CBRE（商業用不動産サービスおよび投資を手掛けるグローバル企業）の最新調査によると、AIインフラへの需要拡大を背景に、欧州全域... The post 欧州でAI向けコロケーション契約が1年で4倍に増加ーCBRE調査 first appeared on Data Center Café .",
+    "source": "データセンターカフェ",
+    "lang": "ja",
+    "category": "海外DC動向",
+    "score": 10,
+    "keywords": [
+      "欧州",
+      "調査"
+    ]
+  },
+  {
+    "title": "TraneとEaton、AIデータセンターの電源・冷却システム向け統合設計を提案",
+    "link": "https://cafe-dc.com/energy/trane-and-eaton-tout-integrated-designs-for-ai-data-center-power-and-cooling-systems/",
+    "date": "2026-08-20T08:22:19.000Z",
+    "description": "デジタルインフラ事業者向けに大幅なコスト削減効果を訴求 冷却ソリューションを手掛けるTraneと電力技術企業のEatonは、 AI 人工知能（Artificial Intelligenceの略） \" href=\"https://cafe-dc.com/glossary/ai/\" data-gt-translate-attributes='[{\"attribute\":\"data-cmtooltip\", \"format\":\"html\"}]' tabindex='0' role='link'>AI ... The post TraneとEaton、AIデータセンターの電源・冷却システム向け統合設計を",
+    "source": "データセンターカフェ",
+    "lang": "ja",
+    "category": "電力・冷却技術",
+    "score": 10,
+    "keywords": [
+      "AIデータセンター",
+      "冷却",
+      "電力"
+    ]
+  },
+  {
+    "title": "AI Infrastructure Pushes Data Center Capex Forecast Above $3 Trillion",
+    "link": "https://www.datacenterknowledge.com/ai-data-centers/ai-infrastructure-pushes-data-center-capex-forecast-above-3-trillion",
+    "date": "2026-08-21T09:00:00.000Z",
+    "description": "AI infrastructure spending is forecast to push global data center capex beyond $3 trillion by 2030, driven by hyperscalers and AI-specialized clouds.",
+    "source": "Data Center Knowledge",
+    "lang": "en",
+    "category": "AI・HPC インフラ",
+    "score": 8,
+    "keywords": [
+      "AI infrastructure",
+      "forecast"
+    ]
+  },
+  {
+    "title": "Prometheus Hyperscale partners with Istmo to develop up to 2.5GW gas powered data center in Reeves County, Texas",
+    "link": "https://www.datacenterdynamics.com/en/news/prometheus-hyperscale-partners-with-istmo-to-develop-up-to-25gw-gas-powered-data-center-in-reeves-county-texas/",
+    "date": "2026-08-21T10:33:49.000Z",
+    "description": "First power is slated for next year",
+    "source": "Data Center Dynamics",
+    "lang": "en",
+    "category": "海外DC動向",
+    "score": 7,
+    "keywords": [
+      "power",
+      "hyperscale",
+      "Texas"
+    ]
+  },
+  {
+    "title": "Singapore gov't allocates 200MW of power for four data center developers on Jurong Island",
+    "link": "https://www.datacenterdynamics.com/en/news/singapore-govt-allocates-200mw-of-power-for-four-data-center-developers-on-jurong-island/",
+    "date": "2026-08-21T09:43:54.000Z",
+    "description": "Digital Realty, Equinix, Keppel Data Centers, and ST Telemedia Global Data Centers will each be allocated 50MW of new capacity",
+    "source": "Data Center Dynamics",
+    "lang": "en",
+    "category": "海外DC動向",
+    "score": 7,
+    "keywords": [
+      "power",
+      "Equinix",
+      "Digital Realty"
+    ]
+  },
+  {
+    "title": "Nvidia Backs OpenAI’s Ohio Data Center Buildout With $105B Guarantee",
+    "link": "https://www.datacenterknowledge.com/data-center-construction/nvidia-backs-openai-s-ohio-data-center-buildout-with-105b-guarantee",
+    "date": "2026-08-19T13:44:35.000Z",
+    "description": "The chipmaker is tying its financial support to long-lived infrastructure and the residual value of the hardware that will operate within it.",
+    "source": "Data Center Knowledge",
+    "lang": "en",
+    "category": "海外DC動向",
+    "score": 7,
+    "keywords": [
+      "NVIDIA",
+      "OpenAI",
+      "Ohio"
+    ]
+  },
+  {
+    "title": "AWS launches new availability zone for UK cloud region",
+    "link": "https://www.datacenterdynamics.com/en/news/aws-launches-new-availability-zone-for-uk-cloud-region/",
+    "date": "2026-08-21T12:00:39.000Z",
+    "description": "Also adds AWS Local Zone in Las Vegas, Nevada",
+    "source": "Data Center Dynamics",
+    "lang": "en",
+    "category": "海外DC動向",
+    "score": 6,
+    "keywords": [
+      "AWS"
+    ]
+  },
+  {
+    "title": "US utility TVA imposes new rates on data center firms",
+    "link": "https://www.datacenterdynamics.com/en/news/us-utility-tva-imposes-new-rates-on-data-center-firms/",
+    "date": "2026-08-21T10:19:17.000Z",
+    "description": "Will have to pay approximately 10 percent higher charges for power use",
+    "source": "Data Center Dynamics",
+    "lang": "en",
+    "category": "電力・冷却技術",
+    "score": 6,
+    "keywords": [
+      "power",
+      "utility"
+    ]
+  },
+  {
+    "title": "DCD Talks: Rethinking data center power resilience with Eric Dupont, PowerSecure",
+    "link": "https://www.datacenterdynamics.com/en/videos/dcd-talks-rethinking-data-center-power-resilience-with-eric-dupont-powersecure/",
+    "date": "2026-08-21T06:52:57.000Z",
+    "description": "PowerSecure’s SVP of Customer Care, Eric Dupont, speaks to DCD’s Emma Strutton about long-term data center resilience, and the changing role of bridging power within this.",
+    "source": "Data Center Dynamics",
+    "lang": "en",
+    "category": "電力・冷却技術",
+    "score": 6,
+    "keywords": [
+      "power"
+    ]
+  },
+  {
+    "title": "ソフトバンクとエリクソン、無線アクセスネットワークにおけるAIの有効性を検証",
+    "link": "https://cloud.watch.impress.co.jp/docs/news/2134306.html",
+    "date": "2026-08-20T23:30:00.000Z",
+    "description": "ソフトバンク株式会社とエリクソン・ジャパン株式会社（以下、エリクソン）は20日、ソフトバンクの5G商用ネットワークにおいて、エリクソンの「AI in RAN」ソフトウェアの機能である、AIネイティブリンクアダプテーション用スケジューラーの有効性を日本で初めて実証したと発表した。",
+    "source": "週刊データセンターWatch (Impress)",
+    "lang": "ja",
+    "category": "国内DC動向",
+    "score": 6,
+    "keywords": [
+      "ソフトバンク",
+      "日本"
+    ]
+  },
+  {
+    "title": "Bitdeer AI、マレーシアにNvidia GB300 NVL72クラスターを導入",
+    "link": "https://cafe-dc.com/hpc/bitdeer-ai-deploys-nvidia-gb300-nvl72-cluster-in-malaysi/",
+    "date": "2026-08-21T06:46:52.000Z",
+    "description": "マレーシアのデータセンター容量の約半分が契約済み Bitdeer Technologies Groupの子会社であるBitdee... The post Bitdeer AI、マレーシアにNvidia GB300 NVL72クラスターを導入 first appeared on Data Center Café .",
+    "source": "データセンターカフェ",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 6,
+    "keywords": [
+      "NVIDIA"
+    ]
+  },
+  {
+    "title": "Itochu to begin data center development, plans 10 new facilities by 2030",
+    "link": "https://www.datacenterdynamics.com/en/news/itochu-to-begin-data-center-development-plans-10-new-facilities-by-2030/",
+    "date": "2026-08-21T10:26:24.000Z",
+    "description": "To invest several hundred billion yen",
+    "source": "Data Center Dynamics",
+    "lang": "en",
+    "category": "海外DC動向",
+    "score": 5,
+    "keywords": [
+      "billion"
+    ]
+  },
+  {
+    "title": "ITエンジニアの73.1％が「2030年時点でAIエージェントが一定程度業務を自律実行する」と予想、サーバーワークス調査",
+    "link": "https://cloud.watch.impress.co.jp/docs/news/2134290.html",
+    "date": "2026-08-20T21:00:00.000Z",
+    "description": "株式会社サーバーワークスは20日、ITエンジニアを対象にした、AIエージェントに関する調査結果を公表した。調査によると、回答者の勤務先の52.7％がAIエージェントを全社または一部部署に導入済みで、81.1％がAIエージェントには人間より優れた判断をする場面が「多くある」「一部ある」と回答している。また、73.1％が2030年時点でAIエージェントが一定程度業務を自律実行すると予想している。",
+    "source": "週刊データセンターWatch (Impress)",
+    "lang": "ja",
+    "category": "市場データ・統計",
+    "score": 5,
+    "keywords": [
+      "調査"
+    ]
+  },
+  {
+    "title": "PJM 5-Year Strategy Wrestles With Data Center Boom",
+    "link": "https://www.datacenterknowledge.com/energy-power-supply/pjm-5-year-strategy-wrestles-with-data-center-boom",
+    "date": "2026-08-21T11:13:14.000Z",
+    "description": "The grid operator calls for faster generation and transmission development and greater Large Load visibility, but major questions remain.",
+    "source": "Data Center Knowledge",
+    "lang": "en",
+    "category": "電力・冷却技術",
+    "score": 5,
+    "keywords": [
+      "grid"
+    ]
+  },
+  {
+    "title": "House Bill Would Put Federal Electricity Tax on Data Centers",
+    "link": "https://www.datacenterknowledge.com/regulations/house-bill-would-put-federal-electricity-tax-on-data-centers",
+    "date": "2026-08-19T14:03:01.000Z",
+    "description": "H.R. 10102 would tax data center electricity at 1 cent per kWh, raising an estimated $1.76 billion annually for housing, conservation, and infrastructure.",
+    "source": "Data Center Knowledge",
+    "lang": "en",
+    "category": "海外DC動向",
+    "score": 5,
+    "keywords": [
+      "billion"
+    ]
+  },
+  {
+    "title": "The what, where, and why of high-temperature superconducting feeders in data centers",
+    "link": "https://www.datacenterdynamics.com/en/opinions/the-what-where-and-why-of-high-temperature-superconducting-feeders-in-data-centers/",
+    "date": "2026-08-21T13:30:29.000Z",
+    "description": "Is HTS starting to make sense for data center operators?",
+    "source": "Data Center Dynamics",
+    "lang": "en",
+    "category": "海外DC動向",
+    "score": 4,
+    "keywords": []
+  },
+  {
+    "title": "STT GDC backs out of planned Vietnam data center project",
+    "link": "https://www.datacenterdynamics.com/en/news/stt-gdc-backs-out-of-planned-vietnam-data-center-project/",
+    "date": "2026-08-21T12:35:58.000Z",
+    "description": "VNG looks to acquire STT GDC's portion of Ho Chi Minh City JV, aims to develop others and other facilities instead",
+    "source": "Data Center Dynamics",
+    "lang": "en",
+    "category": "海外DC動向",
+    "score": 4,
+    "keywords": []
+  },
+  {
+    "title": "Evolution DC secures long-term lease for land in Ho Chi Minh City, Vietnam",
+    "link": "https://www.datacenterdynamics.com/en/news/evolution-dc-secures-long-term-lease-for-land-in-ho-chi-minh-city-vietnam/",
+    "date": "2026-08-21T12:31:26.000Z",
+    "description": "Company planning 52MW data center on site in Saigon Hi-Tech Park",
+    "source": "Data Center Dynamics",
+    "lang": "en",
+    "category": "海外DC動向",
+    "score": 4,
+    "keywords": []
+  },
+  {
+    "title": "Harworth enters exclusivity agreement with unnamed data center provider for powered land site in UK",
+    "link": "https://www.datacenterdynamics.com/en/news/harworth-enters-exclusivity-agreement-with-unnamed-data-center-provider-for-powered-land-site-in-uk/",
+    "date": "2026-08-21T12:28:30.000Z",
+    "description": "Company targeting several other sites across the UK, eying potential for colo and Edge sites as well",
+    "source": "Data Center Dynamics",
+    "lang": "en",
+    "category": "海外DC動向",
+    "score": 4,
+    "keywords": []
+  },
+  {
+    "title": "Alibaba Cloud plans to lean on its self-developed chips moving forward",
+    "link": "https://www.datacenterdynamics.com/en/news/alibaba-cloud-plans-to-lean-on-its-self-developed-chips-moving-forward/",
+    "date": "2026-08-21T11:52:24.000Z",
+    "description": "Hopes this will improve its margin and profitability",
+    "source": "Data Center Dynamics",
+    "lang": "en",
+    "category": "海外DC動向",
+    "score": 4,
+    "keywords": []
+  },
+  {
+    "title": "Nvidia and South Korean chip startup Rebellions discussing potential collaboration – report",
+    "link": "https://www.datacenterdynamics.com/en/news/nvidia-and-south-korean-chip-startup-rebellions-discussing-potential-collaboration-report/",
+    "date": "2026-08-21T10:36:51.000Z",
+    "description": "Comes as chip giant denies claims it's been developing China-specific LPU",
+    "source": "Data Center Dynamics",
+    "lang": "en",
+    "category": "AI・HPC インフラ",
+    "score": 4,
+    "keywords": [
+      "NVIDIA"
+    ]
+  },
+  {
+    "title": "Telecom Argentina prepares to offload fiber assets to push through $1.2bn of Telefónica Movistar unit in country",
+    "link": "https://www.datacenterdynamics.com/en/news/telecom-argentina-prepares-to-offload-fiber-assets-to-push-through-12bn-of-telef%C3%B3nica-movistar-unit-in-country/",
+    "date": "2026-08-21T10:29:39.000Z",
+    "description": "The carrier wants to ease fears of anti-competition in the Argentine telecoms market",
+    "source": "Data Center Dynamics",
+    "lang": "en",
+    "category": "市場データ・統計",
+    "score": 4,
+    "keywords": [
+      "market"
+    ]
+  },
+  {
+    "title": "Firmus Technologies to acquire Benmax's fabrication, design and projects business",
+    "link": "https://www.datacenterdynamics.com/en/news/firmus-technologies-to-acquire-benmaxs-fabrication-design-and-projects-business/",
+    "date": "2026-08-21T09:49:51.000Z",
+    "description": "Hoped to strengthen Firmus' AI cloud and data center value chain",
+    "source": "Data Center Dynamics",
+    "lang": "en",
+    "category": "海外DC動向",
+    "score": 4,
+    "keywords": []
+  },
+  {
+    "title": "AI data center approved for construction in Lazio, Italy",
+    "link": "https://www.datacenterdynamics.com/en/news/ai-data-center-approved-for-construction-in-lazio-italy/",
+    "date": "2026-08-21T09:49:17.000Z",
+    "description": "The facility in Colleferro will employ up to 220 people, developer claims",
+    "source": "Data Center Dynamics",
+    "lang": "en",
+    "category": "海外DC動向",
+    "score": 4,
+    "keywords": []
+  },
+  {
+    "title": "80 percent of Democratic and Republican candidates for governor have expressed a stance on data centers",
+    "link": "https://www.datacenterdynamics.com/en/news/80-percent-of-democratic-and-republican-candidates-for-governor-have-expressed-a-stance-on-data-centers/",
+    "date": "2026-08-21T09:46:51.000Z",
+    "description": "Data centers are on the ballot – and people don't like them",
+    "source": "Data Center Dynamics",
+    "lang": "en",
+    "category": "海外DC動向",
+    "score": 4,
+    "keywords": [
+      "governor"
+    ]
+  },
+  {
+    "title": "Sponsored: Liquid cooling is here. Time to scale it",
+    "link": "https://www.datacenterdynamics.com/en/marketwatch/liquid-cooling-is-here-time-to-scale-it/",
+    "date": "2026-08-21T07:00:00.000Z",
+    "description": "Innovation in cooling performance must go hand in hand with manufacturing systems reliably, repeatedly, and globally at scale",
+    "source": "Data Center Dynamics",
+    "lang": "en",
+    "category": "電力・冷却技術",
+    "score": 4,
+    "keywords": [
+      "liquid cooling"
+    ]
+  },
+  {
+    "title": "The Edge of tomorrow",
+    "link": "https://www.datacenterdynamics.com/en/analysis/the-edge-of-tomorrow/",
+    "date": "2026-08-20T18:38:39.000Z",
+    "description": "Axelera AI founder Fabrizio del Maffeo wants to bring Edge AI hardware to the world",
+    "source": "Data Center Dynamics",
+    "lang": "en",
+    "category": "海外DC動向",
+    "score": 4,
+    "keywords": []
+  },
+  {
+    "title": "中国、余剰電力を活用するためAIデータセンターを西部農村地域に推進 - BigGo ファイナンス",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBrcFBBQWJNTE1TbjNRSkZQZmhZZjk0NWY4QXY5YlZLX3o0TjhWX2NwbVo5aWpiSWowdEJ6ZFdsY21ZVWNmU3d2eTlNa0dkaGZDMF9tWWdnWTN4QmotNWJaYVNzRzB2b2tWZTV2TUtfVDJmWDFD?oc=5",
+    "date": "2026-08-19T18:39:31.000Z",
+    "description": "",
+    "source": "Google News: データセンター 電力",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 4,
+    "keywords": [
+      "AIデータセンター",
+      "電力",
+      "中国"
+    ]
+  },
+  {
+    "title": "石狩市でデータセンターの企業連合 NTT東やさくらインターネットら11社 - 日経クロステック",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9BVTE4cmVpOUotaHdxbnZTdC1KV2tpenZFc3VhM0FUUEd5YktOSXRLY3A0VnN1XzRUZlhleDhhNE5KdDVwVTMtdlVTSU1vRzVJa0o5OUtHdGUxLUY2NGNWUm4ycXhrRlBOMlk3SGpYbGhPUQ?oc=5",
+    "date": "2026-08-19T22:05:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター 電力",
+    "lang": "ja",
+    "category": "国内DC動向",
+    "score": 4,
+    "keywords": [
+      "NTT",
+      "さくらインターネット",
+      "石狩"
+    ]
+  },
+  {
+    "title": "OKI、生成AIを活用した課題分析システム「議事プロAI」を開発 議事録から顧客の課題やタスクを自動抽出・分析",
+    "link": "https://cloud.watch.impress.co.jp/docs/news/2134269.html",
+    "date": "2026-08-21T05:27:00.000Z",
+    "description": "沖電気工業株式会社（以下、OKI）は20日、生成AIを活用した顧客課題分析AIシステム「議事プロAI」を開発したと発表した。2026年9月1日からEMS（Electronics Manufacturing Services：電子機器受託製造サービス）関連業務へ試験導入し、2027年4月の「まるごとEMS」顧客向け事業への本格導入を目指す計画だ。",
+    "source": "週刊データセンターWatch (Impress)",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 4,
+    "keywords": [
+      "生成AI"
+    ]
+  },
+  {
+    "title": "米国市場の展望：エヌビディア、OpenAIが2030年までAIインフラを大規模導入へ インテュイティブ・マシーンズ、6億ドルの衛星契約獲得で材料 オムニアブ、リリーとの新薬開発契約で株価上昇 - Moomoo",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNLTJpbFVKQS1laE5hemc1SnBIeG00MUctLWo1b0RhVnM2OENadkRhbXEzRFZrMDRBTzgwSE9OMEZrRUJ3SjFVYUVZX19BVE05SHRfaWxiS2YtWHFEd0hCOFphSzNmQWJHTS1neXlwTjhVYlJ1Vnd2NmZ6ejZCcEgwemNLU25OQUxKYVJRQ1h2a3hMUEJVZnVUYnd6MV9ZVlRPS1EwNjl1dEM?oc=5",
+    "date": "2026-08-17T13:35:23.000Z",
+    "description": "",
+    "source": "Google News: AIインフラ 投資",
+    "lang": "ja",
+    "category": "海外DC動向",
+    "score": 4,
+    "keywords": [
+      "エヌビディア",
+      "OpenAI",
+      "米国"
+    ]
+  },
+  {
+    "title": "富士キメラ総研、2030年の国内データセンターサービス市場は6兆8189億円へ拡大と予測 - オートメーション新聞WEB",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE05VEhHMGZQVFotT016Q0ZpZ2tuenhzZlZkeWFCdEwzQVIwckNyYi1MNnAtWWV2RkpkTFZNMU5QMVV0WWVmY3d6TUlXMVNmM0tXaV9pV1hoTmpiUQ?oc=5",
+    "date": "2026-08-20T08:35:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "市場データ・統計",
+    "score": 4,
+    "keywords": [
+      "国内",
+      "予測",
+      "富士キメラ"
+    ]
+  },
+  {
+    "title": "東急不「再エネ×施設」一体で 北海道のデータセンターや産業団地 「渋谷の大家」から地方へ - 日本経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBtdUdwdXNkazVfcm9oMEFrMVdXdHVwSjBwWE44NHNMM3BmalNRSTMydDNyQm96VzNBTmZYdEhEQXh3b2xBTnl2MG0yMmhHM1kzLWJycTFoNE9obmtyWk9WdVYzbmpURDcwVTdadA?oc=5",
+    "date": "2026-08-19T17:00:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "国内DC動向",
+    "score": 4,
+    "keywords": [
+      "再エネ",
+      "北海道",
+      "日本"
+    ]
+  },
+  {
+    "title": "Micron Puts $10B Behind US AI Memory Research",
+    "link": "https://www.datacenterknowledge.com/data-center-chips/micron-puts-10b-behind-us-ai-memory-research",
+    "date": "2026-08-20T14:11:06.000Z",
+    "description": "The new Idaho research hub will target memory, compute, and packaging as AI systems push existing technologies.",
+    "source": "Data Center Knowledge",
+    "lang": "en",
+    "category": "海外DC動向",
+    "score": 4,
+    "keywords": []
+  },
+  {
+    "title": "AI Data Center Networking: Scaling Up, Out, and Across with 102.4T Ethernet",
+    "link": "https://www.datacenterknowledge.com/networking/ai-data-center-networking-scaling-up-out-and-across-with-102-4t-ethernet",
+    "date": "2026-08-20T09:00:00.000Z",
+    "description": "As AI clusters scale and network silicon becomes the bottleneck, next-generation switching architecture targets latency and multi-site connectivity.",
+    "source": "Data Center Knowledge",
+    "lang": "en",
+    "category": "海外DC動向",
+    "score": 4,
+    "keywords": []
+  },
+  {
+    "title": "Can Large-Load Flexibility Ease Data Center Energy Concerns?",
+    "link": "https://www.datacenterknowledge.com/energy-power-supply/can-large-load-flexibility-ease-data-center-energy-concerns",
+    "date": "2026-08-19T09:00:00.000Z",
+    "description": "Can data centers stabilize energy grids rather than strain them? Large-load flexibility could be the key to reducing blackouts and costs.",
+    "source": "Data Center Knowledge",
+    "lang": "en",
+    "category": "海外DC動向",
+    "score": 4,
+    "keywords": []
+  },
+  {
+    "title": "AirJoule、NZIHと提携しデータセンター向け廃熱から水を生成する技術の実証実験へ",
+    "link": "https://cafe-dc.com/sustainable/airjoule-nzih-partner-to-trial-waste-heat-to-water-tech-in-data-centers/",
+    "date": "2026-08-20T08:45:02.000Z",
+    "description": "NZIHが推進する廃熱再利用およびHeat-to-Xソリューション開発の一環として実施 AirJoule Technologie... The post AirJoule、NZIHと提携しデータセンター向け廃熱から水を生成する技術の実証実験へ first appeared on Data Center Café .",
+    "source": "データセンターカフェ",
+    "lang": "ja",
+    "category": "未分類",
+    "score": 4,
+    "keywords": []
+  },
+  {
+    "title": "オーストラリアのDXN、メルボルン空港向けにプレハブ式モジュール型データセンターを供給へ",
+    "link": "https://cafe-dc.com/design/australias-dxn-to-supply-prefabricated-modular-data-center-to-melbourne-airport/",
+    "date": "2026-08-20T07:35:36.000Z",
+    "description": "同社が新たな契約を獲得 オーストラリアのデータセンター企業DXNは、ビクトリア州のメルボルン空港向けにプレハブ式モジュール型デー... The post オーストラリアのDXN、メルボルン空港向けにプレハブ式モジュール型データセンターを供給へ first appeared on Data Center Café .",
+    "source": "データセンターカフェ",
+    "lang": "ja",
+    "category": "未分類",
+    "score": 4,
+    "keywords": []
+  },
+  {
+    "title": "Gramercy Networks、低遅延のグローバル金融ネットワーク構想を発表",
+    "link": "https://cafe-dc.com/network/gramercy-networks-unveils-plans-for-low-latency-global-financial-backbone/",
+    "date": "2026-08-19T09:45:32.000Z",
+    "description": "3大陸の金融センターを結ぶ統合型の高速接続基盤で、トレーディング企業をターゲットに Gramercy Networksは、主要な... The post Gramercy Networks、低遅延のグローバル金融ネットワーク構想を発表 first appeared on Data Center Café .",
+    "source": "データセンターカフェ",
+    "lang": "ja",
+    "category": "未分類",
+    "score": 4,
+    "keywords": []
+  },
+  {
+    "title": "アマゾン、電力逼迫でデータセンターを分散化…「リージョン・フレックス」とは？【社内文書を入手】 - Business Insider Japan",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSUxMeUFISHRDWDA1X1M2QzhBTG9udnlUR1pTUjN2TlFSRk5JTHRqa19rNEZ2NkhhYnhyRDBmeW02clcyMmdCU1F0VmpOa0JlX3RoZVN3TXZfQkFjU0NjOF9vZE50TE8wWGhrRFZWSnYzSWV5bDhoZndkQ19OZ3FkLVpDN0RkR0t4OE1Gc2tXVnE?oc=5",
+    "date": "2026-08-20T21:40:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター 電力",
+    "lang": "ja",
+    "category": "電力・冷却技術",
+    "score": 3,
+    "keywords": [
+      "電力",
+      "Japan"
+    ]
+  },
+  {
+    "title": "AIインフラ株で探す 次のデータセンター電力需要候補3選 - simplywall.st",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa3ZZU01pa1diUUIyQzgzVkxFM3R4anlMSEh0ZkwwZmJTNW96SU5lc29VQzNtb2N3NklTN0UwaDJad0p2SDJxVktybk03dGF2Y01hOHpoVnJJWHR1VGxpTEdzTXlqTEdXdHBiQkhsVENLSlJoTkh3UEFTNnZ3ZEUzLUlWT1otT2RlNFNnTVhERzZMMEdXWFRGbnhqaG9XRkpGNDVnOV84R2dzT2PSAasBQVVfeXFMTWt2WVNNaWtXYlFCMkM4M1ZMRTN0eGp5TEhIdGZMMGZiUzVveklOZXNvVUMzbW9jdzZJUzdFMGgyWndKdkgycVZLcm5NN3RhdmNNYTh6aFZySVh0dVRsaUxHc015akxHV3RwYkJIbFRDS0pSaE5Id1BBUzZ2d2RFMy1JVk9aLU9kZTRTZ01YREc2TDBHV1hURm54amhvV0ZKRjQ1ZzlfOEdnc09j?oc=5",
+    "date": "2026-08-20T05:52:39.000Z",
+    "description": "AIインフラ株で探す 次のデータセンター電力需要候補3選 &nbsp;&nbsp; simplywall.st",
+    "source": "Google News: データセンター 電力",
+    "lang": "ja",
+    "category": "電力・冷却技術",
+    "score": 3,
+    "keywords": [
+      "電力"
+    ]
+  },
+  {
+    "title": "AI拡大の制約は電力 アルトマン氏の警鐘に再び注目 - 디지털투데이",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPT1N6SVlSVlBNMkxQdUJxeHR4eXFqVTVaaVJIc0IwcGdrLXZtNThyZjhlZnJyekYxN3FfUmN4b1pBWlJCcHBZaHZJLXhrNHpRdnl0ZjBuZml0RDZyV3AzRlhqMlo3TUl4aHFpZFpwS0dUZ3EwR2pRUFRoek80bkNQc1BfVERNclZKVEtmc1ZwcFpNV3JRdFRJTzJtaDVFYXN6V18tZWNjVEEwQjF0c2FCRjYxdkZmMlZvR091T3hDNWN2clNNRUpfTmhzdmhNRVRTeWhKSDFUcm0tM2U2?oc=5",
+    "date": "2026-08-21T10:30:00.000Z",
+    "description": "AI拡大の制約は電力 アルトマン氏の警鐘に再び注目 &nbsp;&nbsp; 디지털투데이",
+    "source": "Google News: データセンター 電力",
+    "lang": "ja",
+    "category": "電力・冷却技術",
+    "score": 3,
+    "keywords": [
+      "電力"
+    ]
+  },
+  {
+    "title": "秋田AIデータセンター、県訪問のUAE大使も熱視線 洋上風力が命綱 - 日本経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE13RHVBTHZ2dzZxdUp5MEFWV2RUVzFuYVlqV2VKbi1xb3RRSjRNWXR4dWtLdThzOFJGRWdmSjBWck03aEl5VlozcHYtWDJLOEk2Z05SRXpaZHJZUDJmMmJpd1JWLWZSc21RZXoyMg?oc=5",
+    "date": "2026-08-18T20:00:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター 電力",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 3,
+    "keywords": [
+      "AIデータセンター",
+      "日本"
+    ]
+  },
+  {
+    "title": "スペースX、軌道上AIデータセンター「スターマインド」構想を発表 最大100万機規模 - BigGo ファイナンス",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBiNFBEenBwNTg3NF9HdTBKb0ZrcGE0WnlhQ0pORkRwWDdKVmVGektBVnFzU3N3RTh4VWxmQlJOaEk4Nm04b3hpTnJMQ0Z3MnZheVBhOVl2YWY1U2lKcGVRd1pDeDJLTERoT0I4RC1SeFVYVk5z?oc=5",
+    "date": "2026-08-21T01:05:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター 電力",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 3,
+    "keywords": [
+      "AIデータセンター",
+      "インド"
+    ]
+  },
+  {
+    "title": "テキサス州知事、データセンター承認に一時停止命令 送電網への影響懸念 - ロイター",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAybGpIWERyc2w5OXlLMFBXc3pWczhmMmRZbkR2WndZbHhoQlFiZ1hTem5FY2hSeEJOVkFxcDZURnIyR3pKelpaQW93Y3JTVm9jeXR2eE1aQ1p5UmhYVER2Q1AxTjhzZ3FrVmhib3VmX2dFNkxWVDdDMGVB?oc=5",
+    "date": "2026-08-04T07:00:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター 電力",
+    "lang": "ja",
+    "category": "電力・冷却技術",
+    "score": 3,
+    "keywords": [
+      "送電",
+      "テキサス"
+    ]
+  },
+  {
+    "title": "AIデータセンター建設に「物理的壁」 巨額資金を積み増すも電力確保や部材調達が難航（小久保重信） - エキスパート - Yahoo!ニュース",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPd2x4clplOEt2RnVHbF9SMm9zRG8xV3YwWDMySDgzYTFLbDJrMUJwTWdYcHRmS2lrNW5PRHNZZk14cWVlcGdJdXFlY3pBVlBJeDVZLURSMC1ieldlbnQtbWVDRG9uMGFzeG54ZUlUTW1qajBTLVFZcGZuZEJEYXMwTnBrVzhiaGp1?oc=5",
+    "date": "2026-08-10T07:00:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター 電力",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 3,
+    "keywords": [
+      "AIデータセンター",
+      "電力"
+    ]
+  },
+  {
+    "title": "〈データセンターEconomy〉パラダイムシフト(5)グーグルが電力会社に 発電所、データ拠点と一体建設 - 日本経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vc2FmcXhsVEhDMlZRYmFVTVRXYkhKSGhud2ZqRFZhNUNtMTBhem8xS2dFdUpsZERTZUNNS3lLcjJldTV5UERPaE80cVZ2TG11WFdqTFY2aW9vOGNOaU9rM3IzQkExaE4tVHh2VA?oc=5",
+    "date": "2026-07-28T07:00:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター 電力",
+    "lang": "ja",
+    "category": "電力・冷却技術",
+    "score": 3,
+    "keywords": [
+      "電力",
+      "日本"
+    ]
+  },
+  {
+    "title": "上ノ国に電源開発初のデータセンター建設【上ノ国】 - 北海道ニュースリンク",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5VUU1ubkw2V1MzQ3pXZG5nbkVkcV9VdnM0a3l0SkZTUllIUjQxTk5RY1VyRmNxdWpham5OS3VxNVBOQS1vVHNMNGJQeVI?oc=5",
+    "date": "2026-08-19T01:32:37.000Z",
+    "description": "上ノ国に電源開発初のデータセンター建設【上ノ国】 &nbsp;&nbsp; 北海道ニュースリンク",
+    "source": "Google News: データセンター 電力",
+    "lang": "ja",
+    "category": "国内DC動向",
+    "score": 3,
+    "keywords": [
+      "北海道"
+    ]
+  },
+  {
+    "title": "AI競争の新たなボトルネックは「冷却」…データセンター冷却市場、544億ドル（約8.7兆円）規模へ成長 - BigGo ファイナンス",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUQTYtV3p4aWZsaHllQ0NWTTlNaUZ1U0x3cDA1c2FRY1ZvX1E3NHJtaGE4ZzNtYlNmbUhEOGo1bHM0OTItUE54RjEzdll0a3dUZEdxTkNOVTR6NWJDR3o1bHRqU0ZSbVJUTXFBVmI2ZVpRUFRR?oc=5",
+    "date": "2026-08-19T01:56:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター 電力",
+    "lang": "ja",
+    "category": "電力・冷却技術",
+    "score": 3,
+    "keywords": [
+      "冷却"
+    ]
+  },
+  {
+    "title": "日立ソリューションズ、AIとチャットしながら業務アプリケーションを生成できるプラットフォームを提供",
+    "link": "https://cloud.watch.impress.co.jp/docs/news/2134260.html",
+    "date": "2026-08-21T04:21:00.000Z",
+    "description": "株式会社日立ソリューションズは20日、Allganize Japan株式会社（以下、Allganize）の「対話型AIによる業務アプリケーション生成プラットフォーム」を提供開始すると発表した。",
+    "source": "週刊データセンターWatch (Impress)",
+    "lang": "ja",
+    "category": "国内DC動向",
+    "score": 3,
+    "keywords": [
+      "Japan"
+    ]
+  },
+  {
+    "title": "日東工業、直接液冷・高密度対応の「OCP ORV3ラック」がAIインフラ検証施設「DRIL」に採用 - 日本経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE81dWNhUm45TENydGl4ZG9McGs1Zy04LVdpS1JqNFZWaWZWanJEdlBDOVROemdtNDVFVVZOYjItdVRKa0xxcWh4UEJUV1o4VXd2S1pfeEtfZ0tMWDRfRXREZFhIZ05hRXd2cV83QQ?oc=5",
+    "date": "2026-08-20T03:05:28.000Z",
+    "description": "",
+    "source": "Google News: 液冷・液浸冷却",
+    "lang": "ja",
+    "category": "電力・冷却技術",
+    "score": 3,
+    "keywords": [
+      "液冷",
+      "日本"
+    ]
+  },
+  {
+    "title": "日東工業の液冷ラックがAI検証施設DRILに採用 - ニュースメディアVOIX",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjZEtQckxpR09kMGw5cWdsbmdib09zVllzS0JfLVNaMWgxRi1KM0xuR0cyYnowVDNDa0N0RVdrMktDMlBSQms4eTBwNnF5RGN1MDIw?oc=5",
+    "date": "2026-08-20T02:05:43.000Z",
+    "description": "日東工業の液冷ラックがAI検証施設DRILに採用 &nbsp;&nbsp; ニュースメディアVOIX",
+    "source": "Google News: 液冷・液浸冷却",
+    "lang": "ja",
+    "category": "電力・冷却技術",
+    "score": 3,
+    "keywords": [
+      "液冷"
+    ]
+  },
+  {
+    "title": "中国の英特科技、上期は増収も赤字転落 液冷需要は値下げ圧力を相殺できず - BigGo ファイナンス",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jdldFdUZrTlVWRU4xNVlXcUNycmE0X1BNcUVSVkR0c2VJYnJoNjV6YzAxa0RPM0k5YjlfQ1JBeXg0SkFZM005bXh1dW4tTUlUNVFvN2ZnblZ4T21FeExyZERCcXlfSDFyaUpqdjEwTXZSdFFu?oc=5",
+    "date": "2026-08-19T05:36:00.000Z",
+    "description": "",
+    "source": "Google News: 液冷・液浸冷却",
+    "lang": "ja",
+    "category": "電力・冷却技術",
+    "score": 3,
+    "keywords": [
+      "液冷",
+      "中国"
+    ]
+  },
+  {
+    "title": "AI半導体の“爆熱”を誰が冷やすのか…8兆円データセンター冷却市場、日本勢の逆襲 - ビジネスジャーナル",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Bdl9Ma1dTUUtxTy1BbzJPMkhsc1dISEdscFYwVFNZMndVVDloV0NqcGUzcW1oaDVFTXdHQWdyX3VVSm91OHJNOVdsdGRZOGlPR3BYSHJlSm5QRjg?oc=5",
+    "date": "2026-07-27T07:00:00.000Z",
+    "description": "",
+    "source": "Google News: 液冷・液浸冷却",
+    "lang": "ja",
+    "category": "電力・冷却技術",
+    "score": 3,
+    "keywords": [
+      "冷却",
+      "日本"
+    ]
+  },
+  {
+    "title": "S-OIL、データセンターの熱問題を解決する液浸冷却ソリューションを初公開 - BigGo ファイナンス",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBsWnpfcjBEX0pfWDBlUTRxaVlMZmFVWGtRQnc3UlhzNzhnbDdUVG8wTVYtZlZmNDlxcHdkMFg1NlppdTZCaXZISnlmT0lvNlZlVHJhQ00xRWU4NXMzQUpB?oc=5",
+    "date": "2026-05-12T07:00:00.000Z",
+    "description": "",
+    "source": "Google News: 液冷・液浸冷却",
+    "lang": "ja",
+    "category": "電力・冷却技術",
+    "score": 3,
+    "keywords": [
+      "液浸",
+      "冷却"
+    ]
+  },
+  {
+    "title": "ブラックストーン（BX）は、NVIDIAが支援するAIインフラへの資金提供を通じて、ひそかに投資戦略を再定義しようとしているのだろうか？ - simplywall.st",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNelFnYlNqQ1ZqaGduSTMyWWc2V2YyZEREV2YwdHcwSmhDaG01Wk1ldm9FSnJOYXZtOHUzek54WTA0WXg3NW1GVHFYdHROTW54TklUQzcwLTQ4TkhyVW5tRUZXME44UTI0MDh1Ylczd2RRUzV3MDJCUS1OQ0ZqMl8wLWxxbmJyMTBRMDNBZVBLSHBtQWVLNDYxUzNzSlZnV1JBbVc4ctIBpAFBVV95cUxNelFnYlNqQ1ZqaGduSTMyWWc2V2YyZEREV2YwdHcwSmhDaG01Wk1ldm9FSnJOYXZtOHUzek54WTA0WXg3NW1GVHFYdHROTW54TklUQzcwLTQ4TkhyVW5tRUZXME44UTI0MDh1Ylczd2RRUzV3MDJCUS1OQ0ZqMl8wLWxxbmJyMTBRMDNBZVBLSHBtQWVLNDYxUzNzSlZnV1JBbVc4cg?oc=5",
+    "date": "2026-08-21T10:06:11.000Z",
+    "description": "",
+    "source": "Google News: AIインフラ 投資",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 3,
+    "keywords": [
+      "NVIDIA",
+      "ブラックストーン"
+    ]
+  },
+  {
+    "title": "エヌビディア、AIインフラ金融に本格参入 SBエナジー出資と保証で支援 - 東京報道新聞",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBQNWdJbDFMNzZOSzVsVDFQLXVpeDZrLVpEOFZ3MXBFdk1DOG9QS3FYWW9aa19NNl8xQ2RyYmUxd0RwSVE1dUwzZEVwVzFhX0Zib2pn?oc=5",
+    "date": "2026-08-19T22:11:17.000Z",
+    "description": "",
+    "source": "Google News: AIインフラ 投資",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 3,
+    "keywords": [
+      "エヌビディア",
+      "東京"
+    ]
+  },
+  {
+    "title": "GPUが担保になる時代 エヌビディアとウォール街が築くAI資金循環の実像と死角 - BigGo ファイナンス",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1sNC1Ga193Wl9OQk9mc2JZOEY0SHJWeFd0Zk9xOXNpdUh4MFdlUFJ5SnhCWUIzTXJvQlgwM3JxaEJJRVN3ZU9SU29FOU9fbXY0X0xwQ19CQmNDbzNhV05nRGhDVzVaVzJHaGtGRUtxZGYydWNn?oc=5",
+    "date": "2026-08-20T00:06:00.000Z",
+    "description": "",
+    "source": "Google News: AIインフラ 投資",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 3,
+    "keywords": [
+      "GPU",
+      "エヌビディア"
+    ]
+  },
+  {
+    "title": "日本と東アジアに伸びるAIバブルの導火線 - ダイヤモンド・オンライン",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9SN1RsbURXdmZyM3FkclZ4OXI2U25admZRYVRpTGZ5TVRhMmd4VDlMNnVvNWxqUWlrU2FpRFFnSklvS3c0aFdmWDF2b1bSAU9BVV95cUxPQXpXNFVKU200Ulh1MmhGZVE0LUVrUF90TW9Qdk1ISi0yelZSelNwMWtydG1CaFR4ZlNUQlFzT3p4ZV90a2tiYlNiQzlhdVlZ?oc=5",
+    "date": "2026-08-01T07:00:00.000Z",
+    "description": "日本と東アジアに伸びるAIバブルの導火線 &nbsp;&nbsp; ダイヤモンド・オンライン",
+    "source": "Google News: AIインフラ 投資",
+    "lang": "ja",
+    "category": "国内DC動向",
+    "score": 3,
+    "keywords": [
+      "日本"
+    ]
+  },
+  {
+    "title": "秋田AIデータセンター｢洋上風力開発の核に｣ UAEが視察 - 日本経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSWVRd21pWTFKTXFCS29XTzEwU3lieVVjb3RqNXhhMUZFZVFDdWNvcWMzX2MtS3djYUdNczRPT0V4Q1hRZm5KV281eF80Zk5Fam5CdHdqLWh5SlZzMl9hSzdQbDNkSWI1Z01LZG9NaE5icmpicHk4TTVQMjZIY2V5Tk5sZmdFTFBEOWhJclBmX2d1ZkExUnpWLVZTcTM?oc=5",
+    "date": "2026-08-20T20:00:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 3,
+    "keywords": [
+      "AIデータセンター",
+      "日本"
+    ]
+  },
+  {
+    "title": "日本最大級データセンター 計画のカギ握る洋上風力発電 - テレ東BIZ",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5FU0hYMlRtV2hOaTVFOXdXanlpdEc2RVhIbWs3M1RNT0FDMG5jVFJUNHc4Ti16ODNicEY5cThTTjVKcXV3eDF2bnRhdlBPa3VpamZpbktLTUxrZjJkUkFr?oc=5",
+    "date": "2026-08-20T13:00:00.000Z",
+    "description": "日本最大級データセンター 計画のカギ握る洋上風力発電 &nbsp;&nbsp; テレ東BIZ",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "国内DC動向",
+    "score": 3,
+    "keywords": [
+      "日本"
+    ]
+  },
+  {
+    "title": "伊藤忠商事の株価反発 「データセンター開発に参入」報道 - 日本経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGMFp6c2lIajNHWVk5MTZxVTI2bXBOamYxY0ZvelJ0VEdHU19hSHJncWNJaHVuV0czOENubHMxcGpBclhHN2N3SUs5dTllLVhiMHNSUzNfR3lNbWxIU01FOFRoN0V3a1ctZFZpTQ?oc=5",
+    "date": "2026-08-20T01:07:40.000Z",
+    "description": "伊藤忠商事の株価反発 「データセンター開発に参入」報道 &nbsp;&nbsp; 日本経済新聞",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "国内DC動向",
+    "score": 3,
+    "keywords": [
+      "日本"
+    ]
+  },
+  {
+    "title": "日東電工、HDD部材増産に280億円投資 AIデータセンター需要に対応 - 日本経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3Tzh0QnU4eTlZdlUybWc1UFh1aUd3b2R1eGRnYXQ4ekp1YTZJaTJnWW9hdjJKUjdQRWthVnFZYkNfemNwSEE4MWZwRk1LZEdoc0xpNnNNVnd6RVRQa0otd3FpTWVRZmRuTU9WYQ?oc=5",
+    "date": "2026-08-19T09:30:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 3,
+    "keywords": [
+      "AIデータセンター",
+      "日本"
+    ]
+  },
+  {
+    "title": "JA共済連、富士通の国内データセンターに情報系システムの新基盤を構築 - ZDNET Japan",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCcjBGR0pUMUQyNmZxZlFjcEEwVUpOalQzNkdFMmczdjM4dmRzUnl4TXlqcGxZLTFQYWhpNXJhay1EUjhDS0NRZDJoTGxHMk41X3A4?oc=5",
+    "date": "2026-08-19T07:00:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "国内DC動向",
+    "score": 3,
+    "keywords": [
+      "国内",
+      "Japan"
+    ]
+  },
+  {
+    "title": "NVIDIA、OpenAIのデータセンター建設に対する財務保証額を1,200億ドル未満に縮小（ビジネス＋IT） - Yahoo!ニュース",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JZ2JIT1pSRnQ1aXVTc3JFMFNhZVVXcWMtaFpjS0FKWnUwTkRmMFNOLU90RDRyZ0JnTm9yVU5xLXZMX3VUOUNjdy12U2ZjekZqVzFNU3VDVDdwcTYydVRjeU1RLVlPaFp5Ml9KcHg1TUxUYmVOaWt1enhwcmdnWG8?oc=5",
+    "date": "2026-08-17T05:05:06.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 3,
+    "keywords": [
+      "NVIDIA",
+      "OpenAI"
+    ]
+  },
+  {
+    "title": "【マレーシアのデータセンター】ＡＩ需要急増、誘致で成長 - 中国新聞デジタル",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSYmd6RmJVLWRQbWVjcFVNWlBnYWpHZDFHRkYwR01NNEhpRWpOMlFLUWg0bWw4SHlfajUyRGZSTURrcXFZd3BSaHdxYXYxb3ZhYVVhQlExeHA1UQ?oc=5",
+    "date": "2026-08-21T01:28:05.000Z",
+    "description": "【マレーシアのデータセンター】ＡＩ需要急増、誘致で成長 &nbsp;&nbsp; 中国新聞デジタル",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "海外DC動向",
+    "score": 3,
+    "keywords": [
+      "中国"
+    ]
+  },
+  {
+    "title": "UAE大使が秋田訪問 鈴木知事「AIデータセンター、大きな一歩」 - 日本経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYM3I5TXMxeXZQMHlvaG84SVNBYkw4UDUyUW9ueXJIOUhSdWJEMXJxQVBpdmpCd2Q5NlpBa2JJdXN6OTdPZG9nMXRpQVdhWERBWU5uRzE4UUE2Z2ZpUTZCaE1JT0VVeGcxdU5BNg?oc=5",
+    "date": "2026-08-19T10:30:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 3,
+    "keywords": [
+      "AIデータセンター",
+      "日本"
+    ]
+  },
+  {
+    "title": "グリーンデータセンター市場：構成要素別、データセンターの種類別、冷却方式別、エンドユーザー別―2026年～2032年の世界市場予測 - アットプレス",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1SVXVaalNmR1RjeXFBN2YyQlQ0TTJQVzlhS214VDJOakVYR2szM3RiNFBfb0lpUXdGOU81Y2Y4QklqUWRIWjRrYmNkRmNLYTA?oc=5",
+    "date": "2026-08-19T08:16:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "電力・冷却技術",
+    "score": 3,
+    "keywords": [
+      "冷却",
+      "予測"
+    ]
+  },
+  {
+    "title": "北海道上ノ国町におけるデータセンター事業の実施を決定しました | プレスリリース | ニュース - jpower.co.jp",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9veE53QWlLMXNjdDdPUFRSSFpEQWhSbE1vc1llaDIzVDVTd3VIaFFwOWFJN2NBMHJwc1NQX010V1YyYjVzVU53VFdoNjlDVE00WTUzS202WnhuNVVqOVFPRnJwSQ?oc=5",
+    "date": "2026-08-17T04:04:49.000Z",
+    "description": "",
+    "source": "Google News: データセンター 電力",
+    "lang": "ja",
+    "category": "国内DC動向",
+    "score": 2,
+    "keywords": [
+      "北海道"
+    ]
+  },
+  {
+    "title": "AIデータセンター活況で「熟練ブルーカラー」争奪戦…韓国通信3社の採用地図が変わる - BigGo ファイナンス",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9OYXA5VDhNNTlHN0JnZWZWc19pMUZZcFgtWThvemVIVktIMldpbEgwcjJQQWlpQUk0X3AySnR4ODRiRTJNZHhnemhXM0FSa1BXSmUzcHVRRXRuVXdjbTBTdTZuc1JkM0ZVOFVNbldhb3g1Smha?oc=5",
+    "date": "2026-08-20T23:55:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター 電力",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 2,
+    "keywords": [
+      "AIデータセンター"
+    ]
+  },
+  {
+    "title": "韓国のKNS子会社ウンソンFA、米AIデータセンター向けバスダクト自動化設備を受注 - BigGo ファイナンス",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1FNXhDa2piZzF1VUNZSV85djZDZl9SNkFfSnlQQ1RYajNxaHBGZlNVd3JGRzBOYTVGVnFwU0JhVUdoRk1PbDRzY1p6Nm9CVTFJeGlfTXRwUXhyaFl1Ql9CeFItd2FYVmd5a2hfZE9OSW14S0tS?oc=5",
+    "date": "2026-08-20T02:36:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター 電力",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 2,
+    "keywords": [
+      "AIデータセンター"
+    ]
+  },
+  {
+    "title": "韓国の現代製鉄、HanmiGlobalと組みAIデータセンター向け鉄骨構造市場を攻略 - BigGo ファイナンス",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5DSk1mRFRmU19QUzJQTjVMN0NIWjhpNFFYV0xOTW1TM3BTbjFyS2NCdTJUMmVfV2J6MHNWejNqNHZDb0RBdWUzYlVOQjZpRlZxa1lkRmk5TEtzcHR6RlFKVkpnQ2hKUDJUQzF3N2lyOHBIcVB4?oc=5",
+    "date": "2026-08-20T03:26:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター 電力",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 2,
+    "keywords": [
+      "AIデータセンター"
+    ]
+  },
+  {
+    "title": "AIデータセンター向けの高帯域幅光インターコネクトソリューションを提供開始 - valuepress",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1qd0xrWmx6UXE4a2hTYzZaWWZxMG5nNTJfeXBaVE9EVFY5dWdKSy0zd0RUSlg5Vk94NFZSQXBxNnBldHRGTkE5emVlRWJTRXBGeVdlWFV2eWplZVE?oc=5",
+    "date": "2026-08-19T04:00:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター 電力",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 2,
+    "keywords": [
+      "AIデータセンター"
+    ]
+  },
+  {
+    "title": "「電力不足」と言われる裏でAI企業が発電設備を買い占めている実態 - XenoSpectrum",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1KeFBSZkREVC1KTjFfV3JLMng4aDB0RFVSeWVFNHJlbkpBQ3VRNkZ0VXZqMGpjX0MyRF9PNDlQUG96ZW5OR0ZYS1JlZEZDMmN5Y1RkbHl5Y2JMck1kQmhZTw?oc=5",
+    "date": "2026-08-20T04:17:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター 電力",
+    "lang": "ja",
+    "category": "電力・冷却技術",
+    "score": 2,
+    "keywords": [
+      "電力"
+    ]
+  },
+  {
+    "title": "AIデータセンターに求められる新しいパワーアーキテクチャとは - クラウド Watch",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FaUp0V19GdnJSXzlDV09sNkltTlhPRmdvVnEzZUxYZjZpaUhWMXZjLVk0LUpQM3hkajRYd2JEYUJRMFFtdXRiWG5iT0FsN1hQNkNTa1p3b3lONmNXUW9BdVRVUTRUbGc?oc=5",
+    "date": "2026-08-05T07:00:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター 電力",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 2,
+    "keywords": [
+      "AIデータセンター"
+    ]
+  },
+  {
+    "title": "CBHエンジニアリング、ジョホールのデータセンター向け変電所工事で2億4600万リンギの契約を獲得 - BigGo ファイナンス",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBBN2pLY1Q5azFiQ0s3NjlGVEJFMEF5UTRCTXNTbzdXVThzeXVqTm5BLXVIMFhwV2NqNEoxdzdNcnYxZVJSRlYzdHN3ZkRjSmV4ZjIwbW1GR1J1Z0w4SW9LNVh0QXFlaGJlMzU0T256dFYzc25D?oc=5",
+    "date": "2026-08-19T23:25:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター 電力",
+    "lang": "ja",
+    "category": "電力・冷却技術",
+    "score": 2,
+    "keywords": [
+      "変電"
+    ]
+  },
+  {
+    "title": "西南圏半導体クラスター、人工知能(AI)データセンターのような「メガプロジェクト」が相次いで推進され、2040年の電力需要が既存展望値対比27.5%急増したことが分かった。 太陽光·風力のような再生エ.. - 매일경제",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1DWGNpTEhYN3REaFhUZTk0Rk0yWWMwd1dWRDBoSXdXb0kxT08tVUxhNDZ1aUxWRnJxeS1DYWR1R041WkkxN1VsanNDZFI0ZVFoTmc?oc=5",
+    "date": "2026-08-20T08:52:11.000Z",
+    "description": "",
+    "source": "Google News: データセンター 電力",
+    "lang": "ja",
+    "category": "電力・冷却技術",
+    "score": 2,
+    "keywords": [
+      "電力"
+    ]
+  },
+  {
+    "title": "米ペンシルベニア州、データセンター建設規制へ－NYやテキサスに続き - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5kRlhCYl9XbWx3V2FLSVZKeFhPZENWVUxycFV3eTZHZnZkTEhQa29naDVqYWlDS05VcW9GRVZvaTcxSHdsTU1tb0h4amJoSmc4b0hsV2lEM3l2VFpBMGRyNzVHcUR0dXdwQjVIdll3XzNINllIZzdJ?oc=5",
+    "date": "2026-08-19T08:23:23.000Z",
+    "description": "",
+    "source": "Google News: データセンター 電力",
+    "lang": "ja",
+    "category": "海外DC動向",
+    "score": 2,
+    "keywords": [
+      "テキサス"
+    ]
+  },
+  {
+    "title": "世界のデータセンター高速銅ケーブル市場動向、年平均成長率28.0%で拡大継続2026-2032 - ドリームニュース",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuU21NbUF4VGtVSm5WNV9zVFJMa010OEJablY3dkNYazBXZVlhMmdBYVRmSTdOYkNmLS11bWxXOGJSZFExQ3dIOWVBaE9CZlRVS25z?oc=5",
+    "date": "2026-08-18T03:30:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター 電力",
+    "lang": "ja",
+    "category": "市場データ・統計",
+    "score": 2,
+    "keywords": [
+      "成長率"
+    ]
+  },
+  {
+    "title": "日東工業の「直接液冷・高密度対応のOCP ORV3ラック」がAIインフラ検証施設「DRIL」に採用 - PR TIMES",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9iVGV5TUxYU0pLQ3VFUnBwYVVEZlc1Wm1NTFNFb3pzSGJTVjZHcWRsaHFxNUFtSzJpRnpnY2lIbEhpU3NYNjUzeG43ZXJGYlJJc1NQWG9JRzNVS2NnbTZWX29MZElwb3kwN0E?oc=5",
+    "date": "2026-08-20T02:00:02.000Z",
+    "description": "",
+    "source": "Google News: 液冷・液浸冷却",
+    "lang": "ja",
+    "category": "電力・冷却技術",
+    "score": 2,
+    "keywords": [
+      "液冷"
+    ]
+  },
+  {
+    "title": "【栄恵-KY創 FY2026 Q2 決算説明会】液冷モジュール急拡大で純利益が前年同期比409%増 上半期EPS 4.31台湾ドルで前年通年に迫る - BigGo ファイナンス",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5nUHp4OXhIbi1HVDk4a2w5TFMzMFh3dXNHQ0hWMko0QVJyWlhfemhfeTh5MDJ5WUtQNWVuTnV1UnVUUk1kRFVSZHhXVmtGMUlidko1b2FTVDZ5WF9nNUt3dQ?oc=5",
+    "date": "2026-08-20T09:44:00.000Z",
+    "description": "",
+    "source": "Google News: 液冷・液浸冷却",
+    "lang": "ja",
+    "category": "電力・冷却技術",
+    "score": 2,
+    "keywords": [
+      "液冷"
+    ]
+  },
+  {
+    "title": "ユニシスとRefroid、AIインフラ向け液冷サービスで提携 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0zeFN6N3NtazRYeXZMTWtxSDQyNG1HOXJXVVdsZkNCMGRzUnE0dTNsanJId25mUHJ1TnkyNl9YeUpHalZaZ1ktRGN0NDhfeGpRMHAzYlFTcEp2WUVuVno0d3IyTVotZFg0aHA5QlFaVUQ?oc=5",
+    "date": "2026-08-20T12:05:00.000Z",
+    "description": "",
+    "source": "Google News: 液冷・液浸冷却",
+    "lang": "ja",
+    "category": "電力・冷却技術",
+    "score": 2,
+    "keywords": [
+      "液冷"
+    ]
+  },
+  {
+    "title": "液冷ソリューション | ニデックデータセンターソリューション - nidec.com",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Oc3VHT3FKOXJNV2VHWlJHdWJZTXNjeU1FWnZkNG5KdHo4bFU5WU45WjdUZHE5MnFmZXRjNDREZTRQR3dSX3dOVUhXUkhLMGJpY1BFRVZlOExuNktPTHI3MmoyWTZHZU1kZF9DdmZKV2tGOGl6a2Vv?oc=5",
+    "date": "2026-06-30T07:00:00.000Z",
+    "description": "",
+    "source": "Google News: 液冷・液浸冷却",
+    "lang": "ja",
+    "category": "電力・冷却技術",
+    "score": 2,
+    "keywords": [
+      "液冷"
+    ]
+  },
+  {
+    "title": "中堅中小企業のIT投資が回復基調に、AI・インフラ投資を拡大 - デルが調査 - ｄメニューニュース",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5OQXdZb0t5VF9uVF9IczVFendsU2RFcEw5ZFZMMzRGRlNFZ2pzWFdfNjlmNHNwTk5NdVFFdXZoSXFYMGxCajlOZEc1Y0tvX3RYLTdkX0ZKTHM5VWozN2xKemNOeHlyNDJuS1hGZ2JGU0lhem9ldXlv0gF8QVVfeXFMTUJUOHVROFd1REQ5OFNPdHBNckZfa2kweXR1RXh2Y0huaThxS2VjM0VodnV3R2ZxQlpxV3pMLTBoYjhaYXlNVzUyR09fTXVkRjc5U1dRT2NqZGM2bU5FUUc0dGUza2Q5RURVOGxhTWFYVktSWW4zcmkwN0FfMg?oc=5",
+    "date": "2026-08-21T08:56:00.000Z",
+    "description": "",
+    "source": "Google News: AIインフラ 投資",
+    "lang": "ja",
+    "category": "市場データ・統計",
+    "score": 2,
+    "keywords": [
+      "調査"
+    ]
+  },
+  {
+    "title": "アリババ、AI投資を加速 純利益76％減もクラウド事業は45％成長 - 中国経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1wc205bllDRmxjcjN0YzJVWXVJMU5oODZabGVEaVNZZldPMF81dGkzUTcxQzFVY3dzZEdfNE1jaDRoV0I3WUxENkZoSQ?oc=5",
+    "date": "2026-08-21T08:30:00.000Z",
+    "description": "",
+    "source": "Google News: AIインフラ 投資",
+    "lang": "ja",
+    "category": "海外DC動向",
+    "score": 2,
+    "keywords": [
+      "中国"
+    ]
+  },
+  {
+    "title": "【米国株動向】エヌビディア［NVDA］を上回る「次のスーパー半導体銘柄」: クレド・テクノロジー・グループ・ホールディング［CRDO］とコーニング［GLW］に注目 - マネクリ",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5uNEVEcW1IT1JSLXlRdjJJa2RzZktSemJMVzk0QXZoT1RZWTlGd1RnMkJiTHJ4MnFkMDJ3VElzZndoaTRtLTRnSUpXU01JWnQtQk1Ob9IBV0FVX3lxTE9ZOHI0LUVTNXNISHJXV3NYanhTRWU3dDZXSXhsdDRFTE50Y2VSeHhTRUtsdmU5QnVoVFRVVUxUQVp4OGZlbUYxc2Rlb29zMFZPM01yM0JsUQ?oc=5",
+    "date": "2026-08-20T06:26:58.000Z",
+    "description": "",
+    "source": "Google News: AIインフラ 投資",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 2,
+    "keywords": [
+      "エヌビディア",
+      "米国"
+    ]
+  },
+  {
+    "title": "インフラ投資：未来を支えるシステムに賭ける - Forbes JAPAN",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95SFE3NmlSbmtxYTM1Um91bVNZS25JNXhKN29YQ0dFNDRTLVZYcVhveG5WTEdwU0w0QXIxT2dwSVVSTkx5bkFFWG5xVGtfYmNHeWNaNktBdjVEQQ?oc=5",
+    "date": "2026-08-17T03:04:00.000Z",
+    "description": "インフラ投資：未来を支えるシステムに賭ける &nbsp;&nbsp; Forbes JAPAN",
+    "source": "Google News: AIインフラ 投資",
+    "lang": "ja",
+    "category": "国内DC動向",
+    "score": 2,
+    "keywords": [
+      "Japan"
+    ]
+  },
+  {
+    "title": "エヌビディア、金融大手6社と提携 AI投資に80兆円調達へ - newspicks.com",
+    "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9Ga3NMX0ZNUHRsN3dZcktqSnhpTmlPNkpZQzVOR0V6V0VqNUxlbEl1Qlo0aC1YRWwtSkZFQ0EzUXRjaWFhYzl0Q1ZR?oc=5",
+    "date": "2026-08-10T23:46:49.000Z",
+    "description": "",
+    "source": "Google News: AIインフラ 投資",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 2,
+    "keywords": [
+      "エヌビディア"
+    ]
+  },
+  {
+    "title": "マイクロソフト株が直面する利益率低下の正体 AIインフラ投資が招くコスト増 (Forbes JAPAN) - newspicks.com",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBuSkhaS2VPZEFnNUFsN1R3YzZYSmVFa204ZkFZZmlENHdpLUhSeWNJemZzN3JhOU9rc1l2S0JLWl9ibVlyalVUYS10U2Zid05hZ3c5cVdYNno?oc=5",
+    "date": "2026-08-11T07:00:00.000Z",
+    "description": "",
+    "source": "Google News: AIインフラ 投資",
+    "lang": "ja",
+    "category": "国内DC動向",
+    "score": 2,
+    "keywords": [
+      "Japan"
+    ]
+  },
+  {
+    "title": "伊藤忠がデータセンター参入 数千億円投じ10棟開発、JR東と協業視野 - 日本経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE15eXlDdlRtYjk2cnJHNXc2SmZuODFSSTktTnpXQ01DaGlUcE4xbHUzRHB6WHRUQkJ1SlJUU2tXRmhoaDVCYWNBblBKWTNaWVhCSU81eXA0TlQ4OUhiU2N5VlBaMVBpVWMwUkw5SQ?oc=5",
+    "date": "2026-08-19T20:00:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "国内DC動向",
+    "score": 2,
+    "keywords": [
+      "日本"
+    ]
+  },
+  {
+    "title": "着工から半年、レストランで初の説明会 住民「不信感増しただけ」【つくば市に日本最大級のデータセンター】 - NEWSつくば",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE13M1VObFdGejRRTTRQMDlIeUh3TEdTbmsyWmxNcjhvSkxnd0hFRWNnWDYtc0w4LXFkYmdSc0hsNHlqR0U1cVo5X3RQSQ?oc=5",
+    "date": "2026-08-21T01:46:47.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "国内DC動向",
+    "score": 2,
+    "keywords": [
+      "日本"
+    ]
+  },
+  {
+    "title": "データセンター巡り意見交換 国内最大、ＵＡＥ大使が秋田知事・市長と - 時事ドットコム",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5iN0xLaDR6WWQ3Q0RUMS1NQ0J5c3R5eS1xN1c4b2NMMXp2ZjRUcDdkMnNNSHVTTkswUktsY0M4cHp0bHMyTnFQWFJVdVNVV3FGMWo5b080WUZpaFI2NzFmclRGWQ?oc=5",
+    "date": "2026-08-19T08:30:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "国内DC動向",
+    "score": 2,
+    "keywords": [
+      "国内"
+    ]
+  },
+  {
+    "title": "オキサイド---反発、生成AIの普及拡大に伴うデータセンター向け部品の増産に向けた設備投資実施を発表 - 株探",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ubzB2SlluQ2xFRW5ITEdUMGpUNlJRdGNJcXNVQS1oY1AyMDBsRGF4Y0lqa0hJMXo2a3J4Mmxxc2JtRTdUcHhrQ1JlTV80Z3R6dXhVWlBfOXpXQ2pqNHBNdg?oc=5",
+    "date": "2026-08-20T00:39:22.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 2,
+    "keywords": [
+      "生成AI"
+    ]
+  },
+  {
+    "title": "AIデータセンターは地方を救うか UAE大使が秋田を訪問、協議も [秋田県] [AIの時代] - 朝日新聞",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBxdXRuTU0zQTFvVy04WDBaR0hmZGc2eThveE1lZHNJa3l5cHZFeUZHQWlsX0ZLcHIyUjh1Q0VnWFpqeGFaaUF5b01HZVJSWncyQUVZZXgtWWdwUUVjODJFQWZpUkFBc1k?oc=5",
+    "date": "2026-08-19T02:44:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 2,
+    "keywords": [
+      "AIデータセンター"
+    ]
+  },
+  {
+    "title": "AIデータセンター、オープン設計が標準に…OCP Koreaに1500人集結 - BigGo ファイナンス",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5CSVgtald4VkR3Z2l1NzQwblNNT1plSjliOFZzSGhBNFNTWXBBTklPUFloYXpkUmZFSVdyX1AwZ2ltWnQ4RU5VQmc5cDdaU3J5ZVNwTWRGVE1Uc0kwaHptczBxYjZpWFhyV0o2YXBMaWpReU5M?oc=5",
+    "date": "2026-08-21T05:25:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 2,
+    "keywords": [
+      "AIデータセンター"
+    ]
+  },
+  {
+    "title": "NTT・スカパーJSATが挑む「衛星間光通信」、宇宙データセンターに向け開発 - 日経クロステック",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVQlVDb25sVzVNZFZSU29QX1p4Y3hiSTI4b20yMGlxWG1uVUpfeFFISk8tVXotZk90eEZPMUFPU0dnZ1dTUndWMUJVekRyc05ZN3doMlgxRkZCc0dyal9jc0pBSUhYeWJtZFNyeg?oc=5",
+    "date": "2026-08-20T20:00:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "国内DC動向",
+    "score": 2,
+    "keywords": [
+      "NTT"
+    ]
+  },
+  {
+    "title": "秋田に国内最大ＡＩデータセンター 整備費２兆円、企業・人材集積―洋上風力活用、国の支援も - 時事ドットコム",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8xb3QxaFA3SWxuSV9zaW5wdXl5Um15Mkxoc2RQNWpfekpJcjJDU1JqVmRFSHN5THI2aWZpcDhTakFKdnhDMm9IS0RuT0w4Zko2aWFNYmRuMkdUTm02aUl5bjBtaw?oc=5",
+    "date": "2026-08-16T22:06:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "国内DC動向",
+    "score": 2,
+    "keywords": [
+      "国内"
+    ]
+  },
+  {
+    "title": "中国Dreame、ロボット掃除機から生活家電へ全方位拡大…韓国データセンターへ移転 - BigGo ファイナンス",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1DU3FNZEoxU2JwSmRyMURwRm1MYWQ4UW5CakRfSGN0T09WQS1ac256YWhObDN6ZE9BZnlPazhvUnhIams1T1E5aXBzUDUwSkxvN2dNYmlCa3ZDeHJ5UldpT3hhVWx6LVd6TE9QWXJITXd0cWg4?oc=5",
+    "date": "2026-08-21T07:36:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "海外DC動向",
+    "score": 2,
+    "keywords": [
+      "中国"
+    ]
+  },
+  {
+    "title": "キオクシア、CXL対応のフラッシュメモリー AIデータセンター狙う - 日経クロステック",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBVNDlWVGljR1M3eHF0eGdWREN5eFZpUXdqUWNwdFFsTUVyWmIwVmtYRXFDb2c1MzcxT19CazE3RUgyVDR3dGNLMmxOYTd2c29KSXRJTG9McWZyZVgzV0c2dDdZYkYzRlU?oc=5",
+    "date": "2026-08-18T20:00:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 2,
+    "keywords": [
+      "AIデータセンター"
+    ]
+  },
+  {
+    "title": "【石狩】データセンター誘致で特別用途地区設定へ／関連施設の設置可能に - e-kensin.net",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE41eEJaRlJlai1uczBVOFdPLUVrVmJfQWZ2ampfVjl0bXJZNVF3NE13b2h3WEtpaDZnRFlGcy1HUXRqbHdKTHdsV3VOa24?oc=5",
+    "date": "2026-08-20T20:30:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "国内DC動向",
+    "score": 2,
+    "keywords": [
+      "石狩"
+    ]
+  },
+  {
+    "title": "BMOがイートン株をアウトパフォームで開始、AIデータセンター需要の拡大を評価 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5nRFE0MTdYTzk4UVZfRDBjS0pNRW4weUJtVmJwR1QwV2t0OVpBekJUSFBmZERBYmt2LXhwYnZNak9SRXVHSnRXX1hVOXRqaDhNY0FOdXN0Z2UwTWdsZG1oZGQ0MGxmelhCXzhSZ1NKd0pIZk8w?oc=5",
+    "date": "2026-08-21T10:23:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 2,
+    "keywords": [
+      "AIデータセンター"
+    ]
+  },
+  {
+    "title": "SpaceX、100万機のAI衛星「スターマインド」計画は実現するか? - Impress Watch",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE45LVlWVFdCa3N0TW1oTWF0dENtV2tNWVNRX0x2WlgtX2RvYU9vXzd2UkROVE80azlyNFNZZXRjSV9nalAtbnNxc2dPZEF1VEh2UXVPWTRuMXVMNjloc2FRUDZUdE4wZw?oc=5",
+    "date": "2026-08-21T00:00:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "海外DC動向",
+    "score": 2,
+    "keywords": [
+      "インド"
+    ]
+  },
+  {
+    "title": "今日の株価材料（新聞など、20日）伊藤忠がデータセンター参入 - 日本経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1WTFhSaHFDVTNOa2dDbDFBZ2k5dXFzX0pqcGh6NVBlRTdMWURreXBlSkZPc1VwZlp4Z2VzcHJXSGJmV3BVTWFTa3hpR2N0LTVXZ1BTVHFzLVBRbkV3aGNleEJlTDNvQlhRNk9DNw?oc=5",
+    "date": "2026-08-19T22:10:24.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "国内DC動向",
+    "score": 2,
+    "keywords": [
+      "日本"
+    ]
+  },
+  {
+    "title": "秋田市に建設計画のAIデータセンターめぐり UAEの駐日大使が来県し鈴木知事と会談 知事「大きな一歩」データセンター建設の実現に期待感示す - 日テレNEWS NNN",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZWxRek5XY1ZONEtZN29PNlNWUm1LR0J0VUNtb3hfYlFmaUlBaXF3TTdXVkM0aWxIWGF5OWVZcGJmZ0FJaTJzODJONmlOQXZWR0ZQV29faW15Mk9NVm1vU1lGemROSFR1dDZPMjRvc0l1OUVVN2hqUlU4OFZDc3hYLVpPcHlsV0U?oc=5",
+    "date": "2026-08-19T08:58:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 2,
+    "keywords": [
+      "AIデータセンター"
+    ]
+  },
+  {
+    "title": "UAEのアル・ファヒーム大使が、AIデータセンターの開発について協議するため秋田を訪問 - arabnews.jp",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ZeWRDWnh2QnAtR25BWlFnOXNkLWNvNWJlQzcyVERnNTVMcmF0M3BGd3JwSFVfLU5WcWZpZVU4R0tabDk2WThJWk9kT1Mtd1ZzZjJXamdDOUZMeXMxbFVPa0hqcw?oc=5",
+    "date": "2026-08-19T03:08:47.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 2,
+    "keywords": [
+      "AIデータセンター"
+    ]
+  },
+  {
+    "title": "人工知能のデータセンターは再生水で冷却できるのか、広告が水問題を提起 - Межа. Новини України.",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5hZ2p3T1VyMVJoRlJWc001dGxkRkpyYUFBeTRGRFJFc29KUGpwREVxZ1lJRUh5bDQtZFQzVTlEc3lhTXNYaDZrUzYyYzNCYXA4Um5xcG4tMXJEbGxVb2VqUS1Sc24?oc=5",
+    "date": "2026-08-20T21:22:31.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "電力・冷却技術",
+    "score": 2,
+    "keywords": [
+      "冷却"
+    ]
+  },
+  {
+    "title": "AIデータセンター計画に沸く秋田､投資検討のUAE大使が訪問－経済効果期待 - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE40b2hralRkdWQzVDZadlptS1BuNV9RQk1EYkdZVmtPU1VmYTRaTHRXV1lsRVJ3akVScXI5OEI3MldYNjRjT2JwNUdmUzBCZjdGUEcxdmFBMU41THZxSkZkcl90bXFnVkNCU1R6b1Z4YzVCV0Q5TVVF?oc=5",
+    "date": "2026-08-19T08:56:49.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 2,
+    "keywords": [
+      "AIデータセンター"
+    ]
+  },
+  {
+    "title": "米ペンシルベニア州、データセンター建設規制へ－NYやテキサスに続き（Bloomberg） - Yahoo!ニュース",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1faDNQc0ozZEhyeXp0T3RSbHE5VE5MZFc3MnFQTnNrWTVqekFEaV95VTB2a1Rhc2x3SThWZUZVTk5LWHUzU2JMWXZMQmEyUmtCcmxHdUtaZ28tSjQxeWs2WG9Xc0VKZ0NoTlFKMEJ2bkQ5RnBEVm5UOG1nWGhValk?oc=5",
+    "date": "2026-08-19T08:23:23.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "海外DC動向",
+    "score": 2,
+    "keywords": [
+      "テキサス"
+    ]
+  },
+  {
+    "title": "AIデータセンター、投資実現へ「第一歩」 UAE大使が秋田訪問（朝日新聞） - Yahoo!ニュース",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5iakZqdk80MWl1YTNmWjdiaFhHbzdTMWpUdjBNQTFiT2thQmtpVnpCeXl2TEJKMERzZFpVRXExRFN1bW00UGpWeWV1cmpNMDlkSUtEbzZJU19OWHAxcVBvRnc1QVRlVjRKYmoxMVBHREVGMHBmc3VQWHZwa0F3RzQ?oc=5",
+    "date": "2026-08-20T01:00:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 2,
+    "keywords": [
+      "AIデータセンター"
+    ]
+  },
+  {
+    "title": "「つなぐ」から「託せる」基盤へ 地域AIインフラの未来 | 日本経済新聞 電子版特集（PR） - ps.nikkei.com",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5YR1Z6ZG8tX2dFYk02cXZ4cms4QUE0NVRvalFOREQ4UmNJd3EySjB6blBvWklZNDhfb1RiSjdzdEtqYk9vQkRNV2ZGS1pZZGxBbGc?oc=5",
+    "date": "2026-08-20T15:13:06.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "国内DC動向",
+    "score": 2,
+    "keywords": [
+      "日本"
+    ]
+  },
+  {
+    "title": "オキサイド---反発、生成AIの普及拡大に伴うデータセンター向け部品の増産に向けた設備投資実施を発表(フィスコ) - Yahoo!ファイナンス",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUWc2UVQ5WUdDME93NEl6cjF1b0VabUJCRlFBOHB5YlFiSEw3WktHNGhoTGc4WTdkY3laeHl3a1JQQ1V6WGM4NGNuamVFZHo3QnNBWFZnZmJQQ2R1ZkNKWUdEd0JUa3dQMTdadTBaMVljanVseUtMRGVnaDJEN3RoZGhlTzhqZDQ?oc=5",
+    "date": "2026-08-20T00:39:00.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 2,
+    "keywords": [
+      "生成AI"
+    ]
+  },
+  {
+    "title": "AIデータセンター計画に沸く秋田､投資検討のUAE大使が訪問－経済効果期待（Bloomberg） - Yahoo!ニュース",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4NFNLa2ZaUGJzZjhrNDRGNkM0WjhndUU0WEtfTEtCbndVOWtWandEbVFXejVDaW1fUkNkRHhyOTFiUHVkUmRpWE1wMXRWVmxERllmQXdhRmM1aGJ4U3AzZ3l1Uk1UM3JuZGNuMWhkSDlQdlhBR094aVJTSGdndFE?oc=5",
+    "date": "2026-08-19T05:56:56.000Z",
+    "description": "",
+    "source": "Google News: データセンター",
+    "lang": "ja",
+    "category": "AI・HPC インフラ",
+    "score": 2,
+    "keywords": [
+      "AIデータセンター"
+    ]
+  }
+]
