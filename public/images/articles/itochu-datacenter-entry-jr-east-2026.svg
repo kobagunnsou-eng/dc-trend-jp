@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <!-- Photo: midday aerial over a suburban rail corridor — tracks, substation and a new data center on trackside land -->
+    <linearGradient id="land" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7d8b6a"/>
+      <stop offset="50%" stop-color="#6d7c5c"/>
+      <stop offset="100%" stop-color="#55634a"/>
+    </linearGradient>
+    <linearGradient id="dcroof" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#aab6c4"/>
+    </linearGradient>
+    <linearGradient id="ballast" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8d8478"/>
+      <stop offset="100%" stop-color="#6f6759"/>
+    </linearGradient>
+    <radialGradient id="sunwash" cx="24%" cy="12%" r="60%">
+      <stop offset="0%" stop-color="#fffbeb" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vgn" cx="50%" cy="46%" r="72%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="rgba(12,16,20,0.6)"/>
+    </radialGradient>
+    <linearGradient id="tov" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(8,11,18,0)"/>
+      <stop offset="34%" stop-color="rgba(8,11,18,0.6)"/>
+      <stop offset="100%" stop-color="rgba(8,11,18,0.95)"/>
+    </linearGradient>
+    <filter id="ts"><feDropShadow dx="0" dy="2" stdDeviation="8" flood-color="rgba(0,0,0,0.95)"/></filter>
+    <filter id="drop"><feDropShadow dx="7" dy="9" stdDeviation="5" flood-color="rgba(0,0,0,0.42)"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="2.5"/></filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#land)"/>
+
+  <!-- field / lot texture, seen from above -->
+  <g opacity="0.3">
+    <rect x="0" y="0" width="240" height="180" fill="#8a9873"/>
+    <rect x="880" y="40" width="320" height="150" fill="#75845f"/>
+    <rect x="60" y="470" width="300" height="160" fill="#7f8e69"/>
+    <rect x="900" y="470" width="300" height="160" fill="#6b7a57"/>
+  </g>
+  <!-- tree clusters -->
+  <g fill="#42542f" opacity="0.85" filter="url(#soft)">
+    <circle cx="86" cy="122" r="26"/><circle cx="130" cy="98" r="20"/><circle cx="52" cy="96" r="17"/>
+    <circle cx="1130" cy="126" r="24"/><circle cx="1082" cy="102" r="18"/>
+    <circle cx="150" cy="556" r="22"/><circle cx="196" cy="588" r="17"/>
+    <circle cx="1042" cy="560" r="21"/><circle cx="1096" cy="590" r="16"/>
+  </g>
+
+  <!-- Suburban blocks, small roofs seen from above -->
+  <g opacity="0.92">
+    <g fill="#b9553f"><rect x="40" y="212" width="30" height="22"/><rect x="86" y="216" width="26" height="20"/><rect x="132" y="210" width="28" height="22"/></g>
+    <g fill="#4a5a6b"><rect x="42" y="248" width="28" height="20"/><rect x="88" y="250" width="26" height="20"/><rect x="134" y="246" width="26" height="20"/></g>
+    <g fill="#93826a"><rect x="40" y="282" width="30" height="20"/><rect x="88" y="284" width="24" height="19"/></g>
+    <g fill="#b9553f"><rect x="1064" y="232" width="28" height="20"/><rect x="1110" y="228" width="26" height="20"/></g>
+    <g fill="#4a5a6b"><rect x="1062" y="266" width="28" height="20"/><rect x="1112" y="262" width="24" height="19"/></g>
+  </g>
+  <!-- suburban streets -->
+  <g stroke="#a9a496" stroke-width="7" opacity="0.65">
+    <line x1="20" y1="196" x2="196" y2="190"/><line x1="20" y1="272" x2="190" y2="266"/>
+    <line x1="1046" y1="216" x2="1180" y2="210"/><line x1="1046" y1="292" x2="1180" y2="286"/>
+  </g>
+
+  <!-- THE RAIL CORRIDOR: ballast strip cutting diagonally across the frame -->
+  <polygon points="0,340 1200,246 1200,314 0,410" fill="url(#ballast)"/>
+  <!-- four rails -->
+  <g stroke="#cfd6dd" stroke-width="3.2" opacity="0.92">
+    <line x1="0" y1="356" x2="1200" y2="262"/>
+    <line x1="0" y1="372" x2="1200" y2="278"/>
+    <line x1="0" y1="388" x2="1200" y2="294"/>
+    <line x1="0" y1="404" x2="1200" y2="310"/>
+  </g>
+  <!-- sleepers -->
+  <g stroke="#4a4438" stroke-width="2" opacity="0.5">
+    <line x1="40" y1="348" x2="40" y2="406"/><line x1="120" y1="342" x2="120" y2="400"/>
+    <line x1="200" y1="336" x2="200" y2="394"/><line x1="280" y1="330" x2="280" y2="388"/>
+    <line x1="360" y1="323" x2="360" y2="381"/><line x1="440" y1="317" x2="440" y2="375"/>
+    <line x1="520" y1="311" x2="520" y2="369"/><line x1="600" y1="305" x2="600" y2="363"/>
+    <line x1="680" y1="298" x2="680" y2="356"/><line x1="760" y1="292" x2="760" y2="350"/>
+    <line x1="840" y1="286" x2="840" y2="344"/><line x1="920" y1="280" x2="920" y2="338"/>
+    <line x1="1000" y1="273" x2="1000" y2="331"/><line x1="1080" y1="267" x2="1080" y2="325"/>
+    <line x1="1160" y1="261" x2="1160" y2="319"/>
+  </g>
+  <!-- a train on the near track -->
+  <g filter="url(#drop)">
+    <rect x="196" y="374" width="86" height="17" rx="3" fill="#dbe3ea" transform="rotate(-4.5 239 382)"/>
+    <rect x="286" y="367" width="86" height="17" rx="3" fill="#dbe3ea" transform="rotate(-4.5 329 375)"/>
+    <rect x="376" y="360" width="86" height="17" rx="3" fill="#dbe3ea" transform="rotate(-4.5 419 368)"/>
+  </g>
+  <g fill="#16a34a" opacity="0.95">
+    <rect x="198" y="380" width="82" height="4" transform="rotate(-4.5 239 382)"/>
+    <rect x="288" y="373" width="82" height="4" transform="rotate(-4.5 329 375)"/>
+    <rect x="378" y="366" width="82" height="4" transform="rotate(-4.5 419 368)"/>
+  </g>
+  <!-- catenary masts along the line -->
+  <g fill="#5b6470">
+    <rect x="150" y="330" width="4" height="14"/><rect x="330" y="316" width="4" height="14"/>
+    <rect x="510" y="302" width="4" height="14"/><rect x="690" y="288" width="4" height="14"/>
+    <rect x="870" y="274" width="4" height="14"/><rect x="1050" y="260" width="4" height="14"/>
+  </g>
+
+  <!-- TRACKSIDE SUBSTATION: the real asset, left of centre -->
+  <rect x="286" y="176" width="216" height="132" rx="2" fill="#7e8a72" stroke="#5c6853" stroke-width="2"/>
+  <g stroke="#39414b" stroke-width="2.6" fill="none">
+    <line x1="306" y1="188" x2="306" y2="296"/><line x1="348" y1="186" x2="348" y2="294"/>
+    <line x1="390" y1="184" x2="390" y2="292"/><line x1="432" y1="182" x2="432" y2="290"/>
+    <line x1="296" y1="206" x2="486" y2="198"/><line x1="296" y1="242" x2="486" y2="234"/>
+    <line x1="296" y1="278" x2="486" y2="270"/>
+  </g>
+  <g fill="#4b5560">
+    <rect x="446" y="196" width="34" height="30" rx="2"/><rect x="446" y="240" width="34" height="30" rx="2"/>
+  </g>
+  <g fill="#98a48c" opacity="0.7"><rect x="286" y="176" width="216" height="6"/></g>
+
+  <!-- THE DATA CENTER: large rectangular roof on trackside land, right of centre -->
+  <g filter="url(#drop)">
+    <rect x="604" y="120" width="404" height="184" rx="3" fill="url(#dcroof)" stroke="#8b97a5" stroke-width="2"/>
+  </g>
+  <!-- rooftop chiller arrays in neat rows -->
+  <g fill="#8e9bab" stroke="#6f7c8c" stroke-width="1">
+    <rect x="624" y="140" width="52" height="26" rx="2"/><rect x="688" y="140" width="52" height="26" rx="2"/>
+    <rect x="752" y="140" width="52" height="26" rx="2"/><rect x="816" y="140" width="52" height="26" rx="2"/>
+    <rect x="880" y="140" width="52" height="26" rx="2"/><rect x="944" y="140" width="46" height="26" rx="2"/>
+    <rect x="624" y="180" width="52" height="26" rx="2"/><rect x="688" y="180" width="52" height="26" rx="2"/>
+    <rect x="752" y="180" width="52" height="26" rx="2"/><rect x="816" y="180" width="52" height="26" rx="2"/>
+    <rect x="880" y="180" width="52" height="26" rx="2"/><rect x="944" y="180" width="46" height="26" rx="2"/>
+    <rect x="624" y="220" width="52" height="26" rx="2"/><rect x="688" y="220" width="52" height="26" rx="2"/>
+    <rect x="752" y="220" width="52" height="26" rx="2"/><rect x="816" y="220" width="52" height="26" rx="2"/>
+  </g>
+  <!-- roof walkways -->
+  <g stroke="#c9d3de" stroke-width="4" opacity="0.85">
+    <line x1="612" y1="262" x2="1000" y2="262"/><line x1="612" y1="284" x2="1000" y2="284"/>
+  </g>
+  <!-- yard / parking beside it -->
+  <rect x="604" y="308" width="404" height="26" fill="#9a9587" opacity="0.7"/>
+  <g fill="#3f4750" opacity="0.75">
+    <rect x="616" y="314" width="14" height="8"/><rect x="638" y="314" width="14" height="8"/>
+    <rect x="660" y="314" width="14" height="8"/><rect x="682" y="314" width="14" height="8"/>
+    <rect x="704" y="314" width="14" height="8"/>
+  </g>
+
+  <!-- Feeder line: substation -> data center, the point of the picture -->
+  <g stroke="#2b323b" stroke-width="3" fill="none" opacity="0.9">
+    <path d="M 486 214 Q 550 176 604 168"/>
+    <path d="M 486 250 Q 552 206 604 196"/>
+  </g>
+  <g fill="#2b323b">
+    <rect x="524" y="180" width="5" height="34"/><rect x="562" y="168" width="5" height="30"/>
+  </g>
+
+  <rect width="1200" height="630" fill="url(#sunwash)"/>
+  <rect width="1200" height="630" fill="url(#vgn)"/>
+
+  <!-- Text overlay -->
+  <rect x="0" y="300" width="1200" height="330" fill="url(#tov)"/>
+
+  <!-- Category badge -->
+  <rect x="40" y="36" width="165" height="38" rx="19" fill="#1d4ed8"/>
+  <text x="122" y="61" font-family="sans-serif" font-size="15" font-weight="700" fill="white" text-anchor="middle">国内DC動向</text>
+
+  <!-- Scale badge top right -->
+  <rect x="878" y="32" width="282" height="44" rx="8" fill="#3730a3" opacity="0.96"/>
+  <text x="1019" y="60" font-family="sans-serif" font-size="16" font-weight="900" fill="white" text-anchor="middle">50MW級を10棟、数千億円規模</text>
+
+  <!-- Accent bar -->
+  <rect x="40" y="418" width="5" height="122" rx="2.5" fill="#6366f1"/>
+
+  <!-- Kicker -->
+  <text x="60" y="476" font-family="sans-serif" font-size="49" font-weight="900" fill="#c7d2fe" filter="url(#ts)">伊藤忠がDC開発に参入</text>
+
+  <!-- Main headline -->
+  <text x="60" y="548" font-family="sans-serif" font-size="33" font-weight="900" fill="white" filter="url(#ts)">JR東日本という「隠れた電力会社」と組む意味</text>
+
+  <!-- Sub-line -->
+  <text x="60" y="596" font-family="sans-serif" font-size="17" fill="#ddd6fe" filter="url(#ts)">信濃川449MW・自営送電網・沿線の遊休地 — 土地と電気を同時に持つ稀な事業者</text>
+
+  <text x="1160" y="618" font-family="sans-serif" font-size="13" fill="rgba(255,255,255,0.4)" text-anchor="end">DCトレンド研究</text>
+</svg>
