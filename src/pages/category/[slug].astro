@@ -60,11 +60,12 @@ const breadcrumbs = [
         {articles.map(article => (
           <ArticleCard
             title={article.data.title}
-            slug={article.data.slug}
+            slug={article.id.replace(/\.mdx?$/, '')}
             summary={article.data.summary}
             category={article.data.category}
             tags={article.data.tags}
             publishedAt={article.data.published_at}
+            thumbnail={article.data.thumbnail}
           />
         ))}
       </div>
