@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <!-- Infographic: the nine prefectures shortlisted for the GX "data centre cluster" designation -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#071018"/>
+      <stop offset="55%" stop-color="#0b1a24"/>
+      <stop offset="100%" stop-color="#06131a"/>
+    </linearGradient>
+    <linearGradient id="landfill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1d3a44"/>
+      <stop offset="100%" stop-color="#12262e"/>
+    </linearGradient>
+    <radialGradient id="mapglow" cx="74%" cy="42%" r="42%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#06131a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tov" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(4,10,14,0)"/>
+      <stop offset="36%" stop-color="rgba(4,10,14,0.68)"/>
+      <stop offset="100%" stop-color="rgba(4,10,14,0.96)"/>
+    </linearGradient>
+    <filter id="pin"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="ts"><feDropShadow dx="0" dy="2" stdDeviation="8" flood-color="rgba(0,0,0,1)"/></filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#mapglow)"/>
+
+  <!-- faint coordinate grid -->
+  <g stroke="#2dd4bf" stroke-width="0.6" opacity="0.08">
+    <line x1="0" y1="90" x2="1200" y2="90"/><line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="270" x2="1200" y2="270"/><line x1="0" y1="360" x2="1200" y2="360"/>
+    <line x1="0" y1="450" x2="1200" y2="450"/>
+    <line x1="640" y1="0" x2="640" y2="630"/><line x1="760" y1="0" x2="760" y2="630"/>
+    <line x1="880" y1="0" x2="880" y2="630"/><line x1="1000" y1="0" x2="1000" y2="630"/>
+    <line x1="1120" y1="0" x2="1120" y2="630"/>
+  </g>
+
+  <!-- ===== stylised Japanese archipelago ===== -->
+  <g fill="url(#landfill)" stroke="#3f7f7a" stroke-width="1.6" opacity="0.95">
+    <!-- Hokkaido -->
+    <path d="M 1024 62 Q 1080 40 1128 70 Q 1150 96 1132 128 Q 1104 158 1062 150 Q 1020 140 1012 108 Q 1008 80 1024 62 Z"/>
+    <!-- Honshu -->
+    <path d="M 1016 176 Q 1040 200 1024 232 Q 1002 268 962 292 Q 926 314 892 306 Q 862 298 838 318
+             Q 810 342 776 356 Q 744 370 716 362 Q 692 354 686 334 Q 682 312 706 302
+             Q 742 288 772 268 Q 806 244 844 234 Q 884 222 916 200 Q 952 174 984 166 Q 1006 162 1016 176 Z"/>
+    <!-- Shikoku -->
+    <path d="M 736 392 Q 772 380 800 392 Q 812 404 798 414 Q 764 424 736 414 Q 724 402 736 392 Z"/>
+    <!-- Kyushu -->
+    <path d="M 636 366 Q 672 352 694 372 Q 706 396 692 420 Q 676 448 650 456 Q 626 460 616 440 Q 608 412 618 388 Q 624 372 636 366 Z"/>
+  </g>
+
+  <!-- ===== nine highlighted prefectures ===== -->
+  <g>
+    <!-- Hokkaido -->
+    <circle cx="1072" cy="104" r="16" fill="#10b981" opacity="0.25"/>
+    <circle cx="1072" cy="104" r="7" fill="#6ee7b7" filter="url(#pin)"/>
+    <text x="1096" y="100" font-family="sans-serif" font-size="15" font-weight="700" fill="#d1fae5">北海道</text>
+
+    <!-- Akita -->
+    <circle cx="988" cy="196" r="14" fill="#10b981" opacity="0.25"/>
+    <circle cx="988" cy="196" r="6.5" fill="#6ee7b7" filter="url(#pin)"/>
+    <text x="1008" y="192" font-family="sans-serif" font-size="15" font-weight="700" fill="#d1fae5">秋田</text>
+
+    <!-- Miyagi -->
+    <circle cx="1008" cy="238" r="14" fill="#10b981" opacity="0.25"/>
+    <circle cx="1008" cy="238" r="6.5" fill="#6ee7b7" filter="url(#pin)"/>
+    <text x="1028" y="243" font-family="sans-serif" font-size="15" font-weight="700" fill="#d1fae5">宮城</text>
+
+    <!-- Toyama -->
+    <circle cx="880" cy="284" r="14" fill="#10b981" opacity="0.25"/>
+    <circle cx="880" cy="284" r="6.5" fill="#6ee7b7" filter="url(#pin)"/>
+    <text x="846" y="272" font-family="sans-serif" font-size="15" font-weight="700" fill="#d1fae5" text-anchor="end">富山</text>
+
+    <!-- Tochigi -->
+    <circle cx="944" cy="296" r="14" fill="#10b981" opacity="0.25"/>
+    <circle cx="944" cy="296" r="6.5" fill="#6ee7b7" filter="url(#pin)"/>
+    <text x="962" y="292" font-family="sans-serif" font-size="15" font-weight="700" fill="#d1fae5">栃木</text>
+
+    <!-- Ibaraki -->
+    <circle cx="972" cy="318" r="14" fill="#10b981" opacity="0.25"/>
+    <circle cx="972" cy="318" r="6.5" fill="#6ee7b7" filter="url(#pin)"/>
+    <text x="992" y="332" font-family="sans-serif" font-size="15" font-weight="700" fill="#d1fae5">茨城</text>
+
+    <!-- Kagawa -->
+    <circle cx="768" cy="400" r="14" fill="#10b981" opacity="0.25"/>
+    <circle cx="768" cy="400" r="6.5" fill="#6ee7b7" filter="url(#pin)"/>
+    <text x="788" y="416" font-family="sans-serif" font-size="15" font-weight="700" fill="#d1fae5">香川</text>
+
+    <!-- Fukuoka -->
+    <circle cx="664" cy="378" r="14" fill="#10b981" opacity="0.25"/>
+    <circle cx="664" cy="378" r="6.5" fill="#6ee7b7" filter="url(#pin)"/>
+    <text x="638" y="364" font-family="sans-serif" font-size="15" font-weight="700" fill="#d1fae5" text-anchor="end">福岡</text>
+
+    <!-- Kagoshima -->
+    <circle cx="640" cy="440" r="14" fill="#10b981" opacity="0.25"/>
+    <circle cx="640" cy="440" r="6.5" fill="#6ee7b7" filter="url(#pin)"/>
+    <text x="614" y="456" font-family="sans-serif" font-size="15" font-weight="700" fill="#d1fae5" text-anchor="end">鹿児島</text>
+  </g>
+
+  <!-- greyed-out metro areas: Tokyo / Osaka are NOT on the list -->
+  <g opacity="0.55">
+    <circle cx="960" cy="330" r="5" fill="none" stroke="#64748b" stroke-width="2"/>
+    <circle cx="836" cy="330" r="5" fill="none" stroke="#64748b" stroke-width="2"/>
+  </g>
+
+  <!-- big count marker -->
+  <g>
+    <text x="700" y="150" font-family="sans-serif" font-size="86" font-weight="900" fill="#10b981" opacity="0.85">9</text>
+    <text x="762" y="150" font-family="sans-serif" font-size="28" font-weight="900" fill="#6ee7b7" opacity="0.9">道県</text>
+    <text x="700" y="180" font-family="sans-serif" font-size="15" font-weight="700" fill="#5eead4" opacity="0.75">データセンター集積型・1次審査通過</text>
+    <rect x="700" y="192" width="230" height="2" fill="#10b981" opacity="0.5"/>
+  </g>
+
+  <!-- Text overlay -->
+  <rect x="0" y="300" width="1200" height="330" fill="url(#tov)"/>
+
+  <!-- Category badge -->
+  <rect x="40" y="36" width="165" height="38" rx="19" fill="#1d4ed8"/>
+  <text x="122" y="61" font-family="sans-serif" font-size="15" font-weight="700" fill="white" text-anchor="middle">国内DC動向</text>
+
+  <!-- Status badge top right -->
+  <rect x="880" y="32" width="280" height="44" rx="8" fill="#047857" opacity="0.96"/>
+  <text x="1020" y="60" font-family="sans-serif" font-size="16" font-weight="900" fill="white" text-anchor="middle">最終認定は2026年夏の予定</text>
+
+  <!-- Accent bar -->
+  <rect x="40" y="418" width="5" height="122" rx="2.5" fill="#10b981"/>
+
+  <!-- Kicker -->
+  <text x="60" y="476" font-family="sans-serif" font-size="50" font-weight="900" fill="#6ee7b7" filter="url(#ts)">国が9道県を選んだ</text>
+
+  <!-- Main headline -->
+  <text x="60" y="548" font-family="sans-serif" font-size="33" font-weight="900" fill="white" filter="url(#ts)">GX戦略地域「データセンター集積型」とは何か</text>
+
+  <!-- Sub-line -->
+  <text x="60" y="596" font-family="sans-serif" font-size="17" fill="#a7f3d0" filter="url(#ts)">市町村名が伏せられている理由は「空押さえ」対策 — 前提知識ゼロから解説</text>
+
+  <text x="1160" y="618" font-family="sans-serif" font-size="13" fill="rgba(255,255,255,0.4)" text-anchor="end">DCトレンド研究</text>
+</svg>
