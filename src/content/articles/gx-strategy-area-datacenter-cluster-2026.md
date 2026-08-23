@@ -5,7 +5,7 @@ category: "国内DC動向"
 tags: ["GX戦略地域", "データセンター集積型", "地方分散", "ワット・ビット連携", "経済産業省", "空押さえ", "系統接続"]
 published_at: "2026-08-23"
 summary: "経産省のGX戦略地域制度で、データセンター集積型の有望地域として9道県が選ばれた。最終認定は2026年夏の予定。制度の仕組みと「なぜ地方なのか」を初心者向けに解説する。あわせて、国が市町村名をあえて公表していない理由——『空押さえ』対策という、この制度の隠れた論点にも踏み込む。"
-thumbnail: "/images/articles/gx-strategy-area-datacenter-cluster-2026.svg"
+thumbnail: "/images/articles/gx-strategy-area-datacenter-cluster-2026.png"
 ---
 
 いま国内のデータセンター（DC）業界で、最終結果が最も待たれている政策があります。経済産業省の「GX戦略地域制度」、なかでも**「データセンター集積型」**という枠組みです。
