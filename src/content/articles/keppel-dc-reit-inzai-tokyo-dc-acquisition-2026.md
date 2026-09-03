@@ -5,7 +5,7 @@ category: "市場データ・統計"
 tags: ["Keppel DC REIT", "印西", "REIT", "M&A", "ハイパースケール", "コロケーション", "不動産投資", "利回り"]
 published_at: "2026-09-03"
 summary: "シンガポールのKeppel DC REITが、千葉県印西市のハイパースケールDC2棟の持分を取得すると発表した。物件評価額は100%ベースで1,900億円、REITの支払額は約1,684億円。日本の比率は賃料収入の9%から23%へ跳ね上がる。開発ではなく『完成して満床の物件』が国際的な価格で売買される——この取引が示す、日本のDCの新しい立ち位置を読み解く。"
-thumbnail: "/images/articles/keppel-dc-reit-inzai-tokyo-dc-acquisition-2026.svg"
+thumbnail: "/images/articles/keppel-dc-reit-inzai-tokyo-dc-acquisition-2026.png"
 ---
 
 ## 印西の2棟が、1,900億円で動いた
