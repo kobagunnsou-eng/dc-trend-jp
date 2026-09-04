@@ -90,9 +90,9 @@ IT基盤の設置場所は大きく3つに分かれます。
 ---
 
 ### 関連記事・用語
-- [コロケーションDC選定の勘所2026年版](/articles/colocation-dc-selection-guide-2026)
-- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026)
-- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026)
-- [直接液冷（DLC）とは](/glossary/what-is-dlc)
-- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue)
-- [ハイパースケーラーとは](/glossary/what-is-hyperscaler)
+- [コロケーションDC選定の勘所2026年版](/articles/colocation-dc-selection-guide-2026/)
+- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026/)
+- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026/)
+- [直接液冷（DLC）とは](/glossary/what-is-dlc/)
+- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue/)
+- [ハイパースケーラーとは](/glossary/what-is-hyperscaler/)

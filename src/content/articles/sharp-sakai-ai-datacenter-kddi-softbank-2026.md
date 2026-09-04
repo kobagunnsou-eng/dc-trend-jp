@@ -66,7 +66,7 @@ KDDIの半年稼働は、AI開発競争において時間がいかに重要か�
 
 ## 残された課題 — 電力と地域への説明
 
-明るい話題の多い堺だが、課題もある。150MW級のDCが本格稼働すれば、関西電力管内の電力需給に無視できないインパクトを与える。また、[全国で住民反発が相次ぐ](/articles/dc-nuisance-facility-resident-lawsuit-2026)なか、臨海工業地帯という立地は住宅との距離がある点で恵まれているものの、地域への丁寧な説明と便益還元は引き続き求められる。
+明るい話題の多い堺だが、課題もある。150MW級のDCが本格稼働すれば、関西電力管内の電力需給に無視できないインパクトを与える。また、[全国で住民反発が相次ぐ](/articles/dc-nuisance-facility-resident-lawsuit-2026/)なか、臨海工業地帯という立地は住宅との距離がある点で恵まれているものの、地域への丁寧な説明と便益還元は引き続き求められる。
 
 ## まとめ：構造転換の象徴として
 
@@ -76,6 +76,6 @@ KDDIの半年稼働は、AI開発競争において時間がいかに重要か�
 
 ---
 
-**関連記事：** [国内DCマーケット 空前の投資ラッシュ2026](/articles/japan-dc-market-2026) ／ [あなたの電気代は上がるのか？](/articles/ai-datacenter-electricity-bill-impact-2026)
+**関連記事：** [国内DCマーケット 空前の投資ラッシュ2026](/articles/japan-dc-market-2026/) ／ [あなたの電気代は上がるのか？](/articles/ai-datacenter-electricity-bill-impact-2026/)
 
-**関連用語：** [GPU](/glossary/what-is-gpu) ／ [LLM（大規模言語モデル）](/glossary/what-is-llm) ／ [HPC](/glossary/what-is-hpc)
+**関連用語：** [GPU](/glossary/what-is-gpu/) ／ [LLM（大規模言語モデル）](/glossary/what-is-llm/) ／ [HPC](/glossary/what-is-hpc/)

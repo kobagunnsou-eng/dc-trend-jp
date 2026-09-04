@@ -100,9 +100,9 @@ SLAはデータセンター・クラウドサービスを選ぶ際の「保険�
 
 ## 関連記事・用語
 
-- [コロケーションDCの選び方——2026年版チェックリスト](/articles/colocation-dc-selection-guide-2026)
-- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026)
-- [用語：Tier認定（I〜IV）とは](/glossary/what-is-tier-certification)
-- [用語：UPS（無停電電源装置）とは](/glossary/what-is-ups)
-- [用語：BCP（事業継続計画）とは](/glossary/what-is-bcp)
-- [用語：コロケーションとは](/glossary/what-is-colocation)
+- [コロケーションDCの選び方——2026年版チェックリスト](/articles/colocation-dc-selection-guide-2026/)
+- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026/)
+- [用語：Tier認定（I〜IV）とは](/glossary/what-is-tier-certification/)
+- [用語：UPS（無停電電源装置）とは](/glossary/what-is-ups/)
+- [用語：BCP（事業継続計画）とは](/glossary/what-is-bcp/)
+- [用語：コロケーションとは](/glossary/what-is-colocation/)

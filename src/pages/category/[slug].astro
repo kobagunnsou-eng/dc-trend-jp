@@ -29,7 +29,7 @@ const articles = allArticles
   .sort((a, b) => b.data.published_at.localeCompare(a.data.published_at));
 
 const breadcrumbs = [
-  { name: category?.name ?? categorySlug, url: `/category/${categorySlug}` },
+  { name: category?.name ?? categorySlug, url: `/category/${categorySlug}/` },
 ];
 ---
 

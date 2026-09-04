@@ -88,8 +88,8 @@ GPU・AIサーバーが普及する現在、フリークーリングには新た
 
 ## 関連記事・用語
 
-- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026)
-- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026)
-- [用語：PUEとは](/glossary/what-is-pue)
-- [用語：液冷（Liquid Cooling）とは](/glossary/what-is-liquid-cooling)
-- [用語：直接液冷（DLC）とは](/glossary/what-is-dlc)
+- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026/)
+- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026/)
+- [用語：PUEとは](/glossary/what-is-pue/)
+- [用語：液冷（Liquid Cooling）とは](/glossary/what-is-liquid-cooling/)
+- [用語：直接液冷（DLC）とは](/glossary/what-is-dlc/)

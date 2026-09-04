@@ -112,7 +112,7 @@ DLC（直接液冷）は、AI/GPU時代のデータセンター冷却におい�
 ---
 
 ### 関連記事・用語
-- [液浸冷却（Liquid Immersion Cooling）とは](/glossary/what-is-liquid-immersion-cooling)
-- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue)
-- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure)
-- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026)
+- [液浸冷却（Liquid Immersion Cooling）とは](/glossary/what-is-liquid-immersion-cooling/)
+- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue/)
+- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure/)
+- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026/)

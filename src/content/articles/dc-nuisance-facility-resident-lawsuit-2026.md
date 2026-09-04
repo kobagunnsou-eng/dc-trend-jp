@@ -86,4 +86,4 @@ AI時代のインフラとして不可欠なDCだが、「どこに、どのよ�
 
 ---
 
-**関連用語：** [SLA（サービス水準合意）](/glossary/what-is-sla) ／ [BCP（事業継続計画）](/glossary/what-is-bcp) ／ [カーボンニュートラル](/glossary/what-is-carbon-neutral)
+**関連用語：** [SLA（サービス水準合意）](/glossary/what-is-sla/) ／ [BCP（事業継続計画）](/glossary/what-is-bcp/) ／ [カーボンニュートラル](/glossary/what-is-carbon-neutral/)

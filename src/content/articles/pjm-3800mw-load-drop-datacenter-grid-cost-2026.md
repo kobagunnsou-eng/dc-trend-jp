@@ -41,7 +41,7 @@ thumbnail: "/images/articles/pjm-3800mw-load-drop-datacenter-grid-cost-2026.png"
 
 ここが、この事象の最も厄介な点だ。
 
-データセンター側の視点に立てば、**各施設は何ひとつ間違っていない**。系統電圧に異常を検知したら[UPS](/glossary/what-is-ups)がサーバーを保持し、非常用発電機が立ち上がり、負荷を系統から切り離す——これは[SLA](/glossary/what-is-sla)を守るための、設計どおりの正常動作である。むしろ切り替わらなかったら、それこそ設計不良だ。
+データセンター側の視点に立てば、**各施設は何ひとつ間違っていない**。系統電圧に異常を検知したら[UPS](/glossary/what-is-ups/)がサーバーを保持し、非常用発電機が立ち上がり、負荷を系統から切り離す——これは[SLA](/glossary/what-is-sla/)を守るための、設計どおりの正常動作である。むしろ切り替わらなかったら、それこそ設計不良だ。
 
 問題は、**個々の施設にとって正しい動作が、200施設分同時に起きると系統にとっては脅威になる**という構造にある。
 
@@ -97,7 +97,7 @@ PJMの信頼度エンジニアリング担当は「既存および将来の業�
 
 | | 目的 | 時間軸 |
 |---|---|---|
-| **[UPS](/glossary/what-is-ups)・非常用発電機** | 系統から**切り離して**自前で生き延びる | 数分〜数十時間 |
+| **[UPS](/glossary/what-is-ups/)・非常用発電機** | 系統から**切り離して**自前で生き延びる | 数分〜数十時間 |
 | **ウルトラキャパシタ** | 系統に**つながったまま**、瞬間的な擾乱を吸収する | **ミリ秒〜数秒** |
 
 UPSは「逃げるための装置」、ウルトラキャパシタは「踏みとどまるための装置」であり、目的が正反対と言っていい。ウルトラキャパシタは蓄電量こそ小さいが、**大電流を瞬時に出し入れでき、充放電を繰り返しても劣化しにくい**。「0.5秒だけ全力で支える」用途に適している。
@@ -184,19 +184,19 @@ BNEFの試算では、この監査により最大49.8GW分のデータセンタ�
 - **UPS容量と方式**：踏みとどまる時間が延びれば、必要な蓄電容量も変わる
 - **蓄電池（BESS）の役割拡大**：非常用発電機の起動を待たずに擾乱を吸収する層が必要になる
 
-これは既存施設の改修を伴う話であり、**コストとして跳ね返る**。[電気料金への波及](/articles/ai-datacenter-electricity-bill-impact-2026)を論じるとき、燃料費や再エネ賦課金だけでなく、こうした信頼度対策のコストも視野に入れておくべきだ。
+これは既存施設の改修を伴う話であり、**コストとして跳ね返る**。[電気料金への波及](/articles/ai-datacenter-electricity-bill-impact-2026/)を論じるとき、燃料費や再エネ賦課金だけでなく、こうした信頼度対策のコストも視野に入れておくべきだ。
 
 ## DX担当者・調達担当者が、今から確認しておくべきこと
 
 エンジニア以外の読者に向けて、実務的な話に落とし込んでおきたい。
 
-[コロケーション](/glossary/what-is-colocation)やホスティングを調達する立場であれば、次の3点を事業者に確認しておくと、数年後に効いてくる。
+[コロケーション](/glossary/what-is-colocation/)やホスティングを調達する立場であれば、次の3点を事業者に確認しておくと、数年後に効いてくる。
 
 1. **系統擾乱時の切替方針** — どの閾値で系統から離脱する設計になっているか。将来ライドスルー要件が課された場合、改修は必要か
 2. **改修コストの負担区分** — 規制変更に伴う設備改修費用を、事業者と利用者のどちらが負担する契約になっているか
 3. **系統接続の確度** — 増設計画がある場合、その電力はすでに契約済みか、申込中か。日本でも接続手続きの厳格化が進んでいるため、「計画あり」と「接続確定」の差は大きい
 
-特に3点目は、[秋田の2兆円構想](/articles/akita-uae-500mw-ai-datacenter-2026)や[北海道の電力制約](/articles/hokkaido-datacenter-corridor-power-limit-2026)でも触れたとおり、**日本の大型DC計画に共通する最大のリスク**だ。
+特に3点目は、[秋田の2兆円構想](/articles/akita-uae-500mw-ai-datacenter-2026/)や[北海道の電力制約](/articles/hokkaido-datacenter-corridor-power-limit-2026/)でも触れたとおり、**日本の大型DC計画に共通する最大のリスク**だ。
 
 ## まとめ：データセンターは「電気を買う側」ではなくなった
 
@@ -209,12 +209,12 @@ BNEFの試算では、この監査により最大49.8GW分のデータセンタ�
 - **費用の変化**：系統増強のコストは、大口需要家自身が負担する方向へ（バージニアの義務的CIAC、テキサスの監査、日本の接続手続き厳格化）
 - **責任の変化**：系統擾乱時に踏みとどまる義務を、需要側も負う方向へ（**アイルランドはすでに義務化**、PJMの検討、2027年のNERC基準）
 
-日本はこのうち費用面ではすでに動き出しているが、責任面はこれからだ。印西・白井の集積が進み、[北海道](/articles/hokkaido-datacenter-corridor-power-limit-2026)や[秋田](/articles/akita-uae-500mw-ai-datacenter-2026)に数百MW級の計画が並ぶいま、「日本でも3.8GWが一斉に消える日」は、決してあり得ない想定ではない。
+日本はこのうち費用面ではすでに動き出しているが、責任面はこれからだ。印西・白井の集積が進み、[北海道](/articles/hokkaido-datacenter-corridor-power-limit-2026/)や[秋田](/articles/akita-uae-500mw-ai-datacenter-2026/)に数百MW級の計画が並ぶいま、「日本でも3.8GWが一斉に消える日」は、決してあり得ない想定ではない。
 
 そのとき慌てないために、いま議論を始めておくべきだと考えている。
 
 ---
 
-**関連記事：** [AIデータセンター急増であなたの電気代は上がるのか](/articles/ai-datacenter-electricity-bill-impact-2026) ／ [AI時代の電力危機](/articles/ai-datacenter-power-crisis-2026) ／ [秋田に2兆円、中東マネーが北を選んだ](/articles/akita-uae-500mw-ai-datacenter-2026) ／ [北の大地がAI立国を支える — 北海道DC回廊](/articles/hokkaido-datacenter-corridor-power-limit-2026)
+**関連記事：** [AIデータセンター急増であなたの電気代は上がるのか](/articles/ai-datacenter-electricity-bill-impact-2026/) ／ [AI時代の電力危機](/articles/ai-datacenter-power-crisis-2026/) ／ [秋田に2兆円、中東マネーが北を選んだ](/articles/akita-uae-500mw-ai-datacenter-2026/) ／ [北の大地がAI立国を支える — 北海道DC回廊](/articles/hokkaido-datacenter-corridor-power-limit-2026/)
 
-**関連用語：** [UPS](/glossary/what-is-ups) ／ [SLA](/glossary/what-is-sla) ／ [コロケーション](/glossary/what-is-colocation) ／ [PPA](/glossary/what-is-ppa)
+**関連用語：** [UPS](/glossary/what-is-ups/) ／ [SLA](/glossary/what-is-sla/) ／ [コロケーション](/glossary/what-is-colocation/) ／ [PPA](/glossary/what-is-ppa/)

@@ -79,7 +79,7 @@ DCエンジニアの視点から見ると、この立地には明確な経済的
 
 大型空調設備（CRAC/CRAHユニット）、冷却塔ファン、非常用ディーゼル発電機の月次試験運転は、稼働後に継続的な騒音源になる可能性がある。
 
-発電機の試験運転騒音問題は[国内各地のDCで既に社会問題化](/articles/datacenter-generator-exhaust-resident-trouble-2026)しており、大気汚染防止法・騒音規制法の「適用外」という制度的な抜け穴が指摘されている。
+発電機の試験運転騒音問題は[国内各地のDCで既に社会問題化](/articles/datacenter-generator-exhaust-resident-trouble-2026/)しており、大気汚染防止法・騒音規制法の「適用外」という制度的な抜け穴が指摘されている。
 
 ### 3. 景観・電磁波
 
@@ -162,9 +162,9 @@ NHKの報道拡散が示すのは、データセンターがもはやエンジ�
 
 ## 関連記事・用語
 
-- [データセンターの発電機「排煙・騒音」問題——法律の穴と住民トラブルの実態](/articles/datacenter-generator-exhaust-resident-trouble-2026)
-- [日本のデータセンター市場2026——AI需要爆発と3大課題](/articles/japan-dc-market-2026)
-- [コロケーションDCの選び方——2026年版チェックリスト](/articles/colocation-dc-selection-guide-2026)
-- [用語：コロケーションとは](/glossary/what-is-colocation)
-- [用語：ハイパースケーラーとは](/glossary/what-is-hyperscaler)
-- [用語：液冷（Liquid Cooling）とは](/glossary/what-is-liquid-cooling)
+- [データセンターの発電機「排煙・騒音」問題——法律の穴と住民トラブルの実態](/articles/datacenter-generator-exhaust-resident-trouble-2026/)
+- [日本のデータセンター市場2026——AI需要爆発と3大課題](/articles/japan-dc-market-2026/)
+- [コロケーションDCの選び方——2026年版チェックリスト](/articles/colocation-dc-selection-guide-2026/)
+- [用語：コロケーションとは](/glossary/what-is-colocation/)
+- [用語：ハイパースケーラーとは](/glossary/what-is-hyperscaler/)
+- [用語：液冷（Liquid Cooling）とは](/glossary/what-is-liquid-cooling/)

@@ -16,7 +16,7 @@ thumbnail: "/images/articles/tokyo-datacenter-certification-subsidy-2026.png"
 |------|------|
 | **制度の位置づけ** | 地域・環境に配慮した優良DCを都が認定。都道府県で初 |
 | **認定ランク** | **プラチナ／ゴールド／シルバー／ブロンズ**の4段階 |
-| **評価項目** | ①エネルギー効率（[PUE](/glossary/what-is-pue)）②再生可能エネルギー利用状況 ③地域還元への取組 ④データセキュリティ |
+| **評価項目** | ①エネルギー効率（[PUE](/glossary/what-is-pue/)）②再生可能エネルギー利用状況 ③地域還元への取組 ④データセキュリティ |
 | **インセンティブ** | 補助率**2分の1**、プラチナ認定で上限**15億円** |
 | **申請** | 任意（義務化はしない）。認定と補助金の同時申請が可能 |
 | **募集開始** | 2026年7月31日 |
@@ -27,7 +27,7 @@ thumbnail: "/images/articles/tokyo-datacenter-certification-subsidy-2026.png"
 
 ## なぜいま「認定」なのか — 反対運動の次に来たもの
 
-当サイトではこれまで、[DCが「迷惑施設」と見なされ住民訴訟に発展する動き](/articles/dc-nuisance-facility-resident-lawsuit-2026)や、[非常用発電機の排気をめぐる地元とのトラブル](/articles/datacenter-generator-exhaust-resident-trouble-2026)を繰り返し取り上げてきた。
+当サイトではこれまで、[DCが「迷惑施設」と見なされ住民訴訟に発展する動き](/articles/dc-nuisance-facility-resident-lawsuit-2026/)や、[非常用発電機の排気をめぐる地元とのトラブル](/articles/datacenter-generator-exhaust-resident-trouble-2026/)を繰り返し取り上げてきた。
 
 DC建設をめぐる地域の反発は、いまや世界共通の現象だ。2026年に入ってからも、米ミシガン州マーシャルでは建設計画をめぐって地元当局への脅迫事件が起き、ポーランド・ワルシャワ郊外では水不足を懸念する住民が抗議行動を展開している。AWSがメリーランド州の計画を撤回した背景にも、地域の政治的な逆風があった。
 
@@ -77,11 +77,11 @@ DC建設をめぐる地域の反発は、いまや世界共通の現象だ。202
 
 評価項目の筆頭にPUEが来るのは自然だが、**AI時代のPUEは扱いが難しい指標**になりつつある。
 
-PUEは「施設全体の消費電力 ÷ IT機器の消費電力」で計算される。分母のIT負荷が大きいほど数値は良く出るため、**GPUを詰め込んだ高密度AI DCは、それだけでPUEが有利に出る**。[液冷（DLC）](/glossary/what-is-dlc)を採用すればさらに改善する。
+PUEは「施設全体の消費電力 ÷ IT機器の消費電力」で計算される。分母のIT負荷が大きいほど数値は良く出るため、**GPUを詰め込んだ高密度AI DCは、それだけでPUEが有利に出る**。[液冷（DLC）](/glossary/what-is-dlc/)を採用すればさらに改善する。
 
 つまりPUEが良いことは、必ずしも「環境負荷が小さい」ことを意味しない。**PUE 1.1で500MWを使う施設と、PUE 1.5で50MWの施設**では、地域の系統に与える影響も、CO2排出の絶対量も前者が圧倒的に大きい。
 
-さらに水の問題がある。冷却に蒸発を使えばPUEは下がるが、水消費（WUE）は増える。PUEとWUEはしばしばトレードオフの関係にあり、**PUEだけを見ていると水を大量に使う施設を高評価してしまう**。この点は、[秋田の500MW構想](/articles/akita-uae-500mw-ai-datacenter-2026)で地元から水の懸念が上がったことにも通じる。
+さらに水の問題がある。冷却に蒸発を使えばPUEは下がるが、水消費（WUE）は増える。PUEとWUEはしばしばトレードオフの関係にあり、**PUEだけを見ていると水を大量に使う施設を高評価してしまう**。この点は、[秋田の500MW構想](/articles/akita-uae-500mw-ai-datacenter-2026/)で地元から水の懸念が上がったことにも通じる。
 
 4段階の格付けを実効性のあるものにするなら、**総量とWUEを含めた多軸の設計**が必要になるはずだ。ここは今後の運用を注視したい。
 
@@ -95,7 +95,7 @@ DCの非常用発電機は、あくまで**自施設の負荷を賄うために�
 
 - **燃料備蓄**：多くの施設は72時間程度の備蓄で設計されている。自施設を守りながら地域に供給すれば、その分だけ持続時間は短くなる。「どちらを優先するのか」という設計思想の問題になる
 - **系統連系と逆潮流**：構内の電気を外部に出すには、系統連系の協議と保護装置が必要になる。非常時に系統が生きていない状況で、どう安全に配電するのかという技術課題がある
-- **[BCP](/glossary/what-is-bcp)との整合**：顧客と結んだ[SLA](/glossary/what-is-sla)を守る義務と、地域への供給は競合しうる。災害時に自施設の稼働を落としてまで地域に電気を回すことを、テナントは許容するのか
+- **[BCP](/glossary/what-is-bcp/)との整合**：顧客と結んだ[SLA](/glossary/what-is-sla/)を守る義務と、地域への供給は競合しうる。災害時に自施設の稼働を落としてまで地域に電気を回すことを、テナントは許容するのか
 
 だからこそ、**地域還元を「避難所への電源提供」「非常用電源のコンセント開放」といった小規模で確実な形に落とし込めるか**が実務的な鍵になる。認定基準がどこまで具体的に踏み込むかで、この項目は「実質的な評価軸」にも「単なる作文」にもなりうる。
 
@@ -105,15 +105,15 @@ DCの非常用発電機は、あくまで**自施設の負荷を賄うために�
 
 義務でない以上、認定を取る気のない事業者には何の効力もない。都内で問題を起こしているのが必ずしも認定を取りに来る事業者とは限らないことを考えると、**反対運動の実効的な解決策としては限界がある**。
 
-一方で、任意にした合理性もある。義務化すれば既存施設の改修負担が生じ、都外への流出を招きかねない。すでに[国内のDC投資は地方分散に向かっている](/articles/japan-dc-market-2026)なかで、都が規制を強めれば[北海道](/articles/hokkaido-datacenter-corridor-power-limit-2026)や[秋田](/articles/akita-uae-500mw-ai-datacenter-2026)への流出を加速させるだけだ。
+一方で、任意にした合理性もある。義務化すれば既存施設の改修負担が生じ、都外への流出を招きかねない。すでに[国内のDC投資は地方分散に向かっている](/articles/japan-dc-market-2026/)なかで、都が規制を強めれば[北海道](/articles/hokkaido-datacenter-corridor-power-limit-2026/)や[秋田](/articles/akita-uae-500mw-ai-datacenter-2026/)への流出を加速させるだけだ。
 
 **アメとムチのうち、アメだけを選んだ**——これが東京都の判断である。その是非は、11月の最初の認定でどのレベルの事業者が手を挙げるかで見えてくる。
 
 ## DX担当者・調達担当者はこの制度をどう使うか
 
-[コロケーション](/glossary/what-is-colocation)を調達する立場から見ると、この認定制度は**ベンダー選定の新しい物差し**になる可能性がある。
+[コロケーション](/glossary/what-is-colocation/)を調達する立場から見ると、この認定制度は**ベンダー選定の新しい物差し**になる可能性がある。
 
-これまで日本には、DCの品質を外形的に示す指標として[Tier認定](/glossary/what-is-tier-certification)くらいしかなかった。だがTierは可用性の指標であって、環境性能や地域との関係は測らない。自社のサステナビリティ報告書に「[RE100](/glossary/what-is-re100)対応のDCを利用しています」と書きたい企業にとって、**都の認定ランクは分かりやすい根拠になる**。
+これまで日本には、DCの品質を外形的に示す指標として[Tier認定](/glossary/what-is-tier-certification/)くらいしかなかった。だがTierは可用性の指標であって、環境性能や地域との関係は測らない。自社のサステナビリティ報告書に「[RE100](/glossary/what-is-re100/)対応のDCを利用しています」と書きたい企業にとって、**都の認定ランクは分かりやすい根拠になる**。
 
 実務的には、次のような使い方が考えられる。
 
@@ -135,6 +135,6 @@ DCの非常用発電機は、あくまで**自施設の負荷を賄うために�
 
 ---
 
-**関連記事：** [DC＝迷惑施設の波紋 — 住民訴訟・国会審議・法的空白](/articles/dc-nuisance-facility-resident-lawsuit-2026) ／ [非常用発電機の排気をめぐる住民トラブル](/articles/datacenter-generator-exhaust-resident-trouble-2026) ／ [カーボンニュートラル RE100・PPA・CFE最前線](/articles/dc-carbon-neutral-re100-ppa-2026) ／ [国内DCマーケット 空前の投資ラッシュ2026](/articles/japan-dc-market-2026)
+**関連記事：** [DC＝迷惑施設の波紋 — 住民訴訟・国会審議・法的空白](/articles/dc-nuisance-facility-resident-lawsuit-2026/) ／ [非常用発電機の排気をめぐる住民トラブル](/articles/datacenter-generator-exhaust-resident-trouble-2026/) ／ [カーボンニュートラル RE100・PPA・CFE最前線](/articles/dc-carbon-neutral-re100-ppa-2026/) ／ [国内DCマーケット 空前の投資ラッシュ2026](/articles/japan-dc-market-2026/)
 
-**関連用語：** [PUE](/glossary/what-is-pue) ／ [RE100](/glossary/what-is-re100) ／ [BCP](/glossary/what-is-bcp) ／ [Tier認定](/glossary/what-is-tier-certification) ／ [コロケーション](/glossary/what-is-colocation)
+**関連用語：** [PUE](/glossary/what-is-pue/) ／ [RE100](/glossary/what-is-re100/) ／ [BCP](/glossary/what-is-bcp/) ／ [Tier認定](/glossary/what-is-tier-certification/) ／ [コロケーション](/glossary/what-is-colocation/)

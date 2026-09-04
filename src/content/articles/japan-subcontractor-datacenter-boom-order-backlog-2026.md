@@ -65,9 +65,9 @@ thumbnail: "/images/articles/japan-subcontractor-datacenter-boom-order-backlog-2
 
 ### 電気設備工事：最大のボトルネック
 
-受変電設備、キュービクル、幹線、[UPS](/glossary/what-is-ups)、非常用発電機、そしてラックまでの配電。DC建設費に占める電気設備の比率は、一般的なオフィスビルとは比較にならない。
+受変電設備、キュービクル、幹線、[UPS](/glossary/what-is-ups/)、非常用発電機、そしてラックまでの配電。DC建設費に占める電気設備の比率は、一般的なオフィスビルとは比較にならない。
 
-しかも[1ラック120kW級のAIラック](/articles/jll-1percent-vacancy-high-density-ai-unusable-space-2026)が前提になると、ブスバーの容量も遮断器の定格もすべて上がる。**扱う電力が大きくなるほど、有資格者でなければできない作業の比率が上がる**。
+しかも[1ラック120kW級のAIラック](/articles/jll-1percent-vacancy-high-density-ai-unusable-space-2026/)が前提になると、ブスバーの容量も遮断器の定格もすべて上がる。**扱う電力が大きくなるほど、有資格者でなければできない作業の比率が上がる**。
 
 ### 空調衛生設備工事：液冷化で仕事が増えた
 
@@ -81,7 +81,7 @@ thumbnail: "/images/articles/japan-subcontractor-datacenter-boom-order-backlog-2
 
 **配管工事のウェイトが劇的に上がる**のだ。裏づけもある。配管大手のGeorg Fischerは、2026年上半期の液冷関連受注が**倍増**したと発表している。
 
-つまり[液冷への移行](/articles/datacenter-liquid-cooling-dlc-immersion-2026)は、冷却技術の話であると同時に、**設備工事会社にとっての追い風**でもある。サムスンがCDU・HVAC機器の生産強化に約270億円を投じるのも、同じ流れの中にある。
+つまり[液冷への移行](/articles/datacenter-liquid-cooling-dlc-immersion-2026/)は、冷却技術の話であると同時に、**設備工事会社にとっての追い風**でもある。サムスンがCDU・HVAC機器の生産強化に約270億円を投じるのも、同じ流れの中にある。
 
 ### 技能者という、増やせない資源
 
@@ -97,9 +97,9 @@ DC建設ラッシュ、半導体工場の新増設、都市再開発——**同�
 
 当サイトではこれまで、DC開発のボトルネックとして次を挙げてきた。
 
-- [系統接続の待ち行列](/articles/pjm-3800mw-load-drop-datacenter-grid-cost-2026)（テキサスのERCOTでは接続待ちが474GW）
-- [高密度に対応できる箱がない](/articles/jll-1percent-vacancy-high-density-ai-unusable-space-2026)（100kW/ラック対応は米国全施設の4%未満）
-- [電源そのものが未完成](/articles/akita-uae-500mw-ai-datacenter-2026)（秋田では本命の洋上風力が事業者不在）
+- [系統接続の待ち行列](/articles/pjm-3800mw-load-drop-datacenter-grid-cost-2026/)（テキサスのERCOTでは接続待ちが474GW）
+- [高密度に対応できる箱がない](/articles/jll-1percent-vacancy-high-density-ai-unusable-space-2026/)（100kW/ラック対応は米国全施設の4%未満）
+- [電源そのものが未完成](/articles/akita-uae-500mw-ai-datacenter-2026/)（秋田では本命の洋上風力が事業者不在）
 
 そこに、**第4のボトルネックとして「施工能力」**を加える必要がある。
 
@@ -107,11 +107,11 @@ DC建設ラッシュ、半導体工場の新増設、都市再開発——**同�
 
 北米で「いま契約するテナントの多くが2028年納品」となっている理由は、用地や電力だけではない。**建てる人が足りない**という、きわめて物理的な制約も効いている。
 
-[伊藤忠が年1〜2カ所というペースでDC開発を計画している](/articles/itochu-datacenter-entry-jr-east-2026)のも、投資余力の問題というより、**それが施工能力の現実的な上限に近い**からだと読むほうが自然だろう。
+[伊藤忠が年1〜2カ所というペースでDC開発を計画している](/articles/itochu-datacenter-entry-jr-east-2026/)のも、投資余力の問題というより、**それが施工能力の現実的な上限に近い**からだと読むほうが自然だろう。
 
 ## ブラックストーン記事の「5工程」を、数字で答え合わせする
 
-当サイトでは以前、[ブラックストーンが日本に4.8兆円を投資する構想](/articles/blackstone-japan-dc-investment-beneficiary-sectors-2026)を扱った際に、恩恵が波及する5つの工程を整理した。
+当サイトでは以前、[ブラックストーンが日本に4.8兆円を投資する構想](/articles/blackstone-japan-dc-investment-beneficiary-sectors-2026/)を扱った際に、恩恵が波及する5つの工程を整理した。
 
 **建設 → 電源 → 冷却 → 接続 → 運営**
 
@@ -129,7 +129,7 @@ DC建設ラッシュ、半導体工場の新増設、都市再開発——**同�
 
 ## まとめ：ボトルネックは「金」から「人と枠」へ
 
-AIデータセンターへの投資額は、報道されるたびに桁が上がっている。[オハイオでは1,050億ドルの保証](/articles/nvidia-openai-ohio-105bn-guarantee-sb-energy-2026)、[秋田では2兆円](/articles/akita-uae-500mw-ai-datacenter-2026)、伊藤忠は数千億円。
+AIデータセンターへの投資額は、報道されるたびに桁が上がっている。[オハイオでは1,050億ドルの保証](/articles/nvidia-openai-ohio-105bn-guarantee-sb-energy-2026/)、[秋田では2兆円](/articles/akita-uae-500mw-ai-datacenter-2026/)、伊藤忠は数千億円。
 
 だが今回の決算が示すのは、**もはや制約は資金ではない**ということだ。金は世界中から集まっている。足りないのは、それを建物と設備に変換する能力のほうである。
 
@@ -145,6 +145,6 @@ DX担当者・経営企画の立場からは、次の点を押さえておきた
 
 ---
 
-**関連記事：** [ブラックストーン「日本に4.8兆円」の衝撃 — 恩恵が波及する5つの工程](/articles/blackstone-japan-dc-investment-beneficiary-sectors-2026) ／ [空室率1%なのに、置く場所がない](/articles/jll-1percent-vacancy-high-density-ai-unusable-space-2026) ／ [伊藤忠が50MW×10棟のDC開発へ](/articles/itochu-datacenter-entry-jr-east-2026) ／ [空冷の限界、液冷の時代へ](/articles/datacenter-liquid-cooling-dlc-immersion-2026)
+**関連記事：** [ブラックストーン「日本に4.8兆円」の衝撃 — 恩恵が波及する5つの工程](/articles/blackstone-japan-dc-investment-beneficiary-sectors-2026/) ／ [空室率1%なのに、置く場所がない](/articles/jll-1percent-vacancy-high-density-ai-unusable-space-2026/) ／ [伊藤忠が50MW×10棟のDC開発へ](/articles/itochu-datacenter-entry-jr-east-2026/) ／ [空冷の限界、液冷の時代へ](/articles/datacenter-liquid-cooling-dlc-immersion-2026/)
 
-**関連用語：** [DLC](/glossary/what-is-dlc) ／ [UPS](/glossary/what-is-ups) ／ [コロケーション](/glossary/what-is-colocation) ／ [PUE](/glossary/what-is-pue)
+**関連用語：** [DLC](/glossary/what-is-dlc/) ／ [UPS](/glossary/what-is-ups/) ／ [コロケーション](/glossary/what-is-colocation/) ／ [PUE](/glossary/what-is-pue/)

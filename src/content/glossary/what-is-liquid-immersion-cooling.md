@@ -141,8 +141,8 @@ DX担当者・IT調達担当者にとっては、AI推論基盤やGPUクラス�
 ---
 
 ### 関連記事・用語
-- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026)
-- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure)
-- [コロケーションDC選定の勘所2026年版](/articles/colocation-dc-selection-guide-2026)
-- [直接液冷（DLC）とは](/glossary/what-is-dlc)
-- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue)
+- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026/)
+- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure/)
+- [コロケーションDC選定の勘所2026年版](/articles/colocation-dc-selection-guide-2026/)
+- [直接液冷（DLC）とは](/glossary/what-is-dlc/)
+- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue/)

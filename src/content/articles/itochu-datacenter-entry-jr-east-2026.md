@@ -20,7 +20,7 @@ thumbnail: "/images/articles/itochu-datacenter-entry-jr-east-2026.png"
 | **規模** | **50MW級**を**10棟**ほど |
 | **投資額** | 2030年までに**数千億円** |
 | **ペース** | 年1〜2カ所 |
-| **貸出先** | 米テック大手などの[ハイパースケーラー](/glossary/what-is-hyperscaler) |
+| **貸出先** | 米テック大手などの[ハイパースケーラー](/glossary/what-is-hyperscaler/) |
 | **位置づけ** | 不動産事業の新たな収益源 |
 | **協業** | **JR東日本**との連携を視野 |
 
@@ -32,7 +32,7 @@ thumbnail: "/images/articles/itochu-datacenter-entry-jr-east-2026.png"
 
 まず規模感を押さえたい。50MW級を10棟なら、合計で**約500MW**になる。
 
-これは偶然にも、当サイトが先日検証した[秋田の2兆円構想（受電容量500MW）](/articles/akita-uae-500mw-ai-datacenter-2026)と同じ規模だ。だが**戦略はまったく逆**である。
+これは偶然にも、当サイトが先日検証した[秋田の2兆円構想（受電容量500MW）](/articles/akita-uae-500mw-ai-datacenter-2026/)と同じ規模だ。だが**戦略はまったく逆**である。
 
 | | 秋田型 | 伊藤忠型 |
 |---|---|---|
@@ -44,7 +44,7 @@ thumbnail: "/images/articles/itochu-datacenter-entry-jr-east-2026.png"
 
 50MWというサイズは、実務的に見て**きわめて現実的な選択**だ。理由は3つある。
 
-1. **系統接続が現実的** — 500MWを一度に受電しようとすれば、送電線の新設や大規模な変電設備が必要になり、[数年単位の待ち行列](/articles/pjm-3800mw-load-drop-datacenter-grid-cost-2026)に入る。50MWなら既存系統の余力で収まる可能性が残る
+1. **系統接続が現実的** — 500MWを一度に受電しようとすれば、送電線の新設や大規模な変電設備が必要になり、[数年単位の待ち行列](/articles/pjm-3800mw-load-drop-datacenter-grid-cost-2026/)に入る。50MWなら既存系統の余力で収まる可能性が残る
 2. **用地が確保しやすい** — 500MWを収める敷地は日本ではほぼ工業団地級だが、50MWなら都市近郊でも成立する
 3. **段階的に撤退・縮小できる** — 年1〜2カ所というペースは、需要を見ながら投資判断を刻めるということでもある
 
@@ -77,7 +77,7 @@ JR東日本は、日本有数の**自前の電力インフラ**を持つ事業�
 
 ### 「すでに系統につながった受電点」という希少資源
 
-当サイトでは先日、[NVIDIAとSB Energyがオハイオの旧ウラン濃縮工場跡地を選んだ理由](/articles/nvidia-openai-ohio-105bn-guarantee-sb-energy-2026)を解説し、こう書いた。
+当サイトでは先日、[NVIDIAとSB Energyがオハイオの旧ウラン濃縮工場跡地を選んだ理由](/articles/nvidia-openai-ohio-105bn-guarantee-sb-energy-2026/)を解説し、こう書いた。
 
 > **いま世界で最も希少な資源は、土地でもGPUでもなく「すでに系統につながっている大容量の受電点」なのだ。**
 
@@ -106,7 +106,7 @@ JR東日本は、日本有数の**自前の電力インフラ**を持つ事業�
 
 つまり今回のDC参入報道は、**10月に発足する統合新会社の事業メニューのひとつ**として読むのが自然だ。「不動産事業の新たな収益源」という位置づけも、この文脈なら腑に落ちる。
 
-沿線の用地情報を持つJR東日本と、[海外投資やエネルギー事業のネットワークを持つ伊藤忠](/articles/akita-uae-500mw-ai-datacenter-2026)——役割分担は明快である。なお伊藤忠は、秋田県沖の洋上風力事業（男鹿市・潟上市・秋田市沖）にもJERA・J-POWER・東北電力とともに参画しており、**電源側にもすでに足場を持っている**。
+沿線の用地情報を持つJR東日本と、[海外投資やエネルギー事業のネットワークを持つ伊藤忠](/articles/akita-uae-500mw-ai-datacenter-2026/)——役割分担は明快である。なお伊藤忠は、秋田県沖の洋上風力事業（男鹿市・潟上市・秋田市沖）にもJERA・J-POWER・東北電力とともに参画しており、**電源側にもすでに足場を持っている**。
 
 ## 現場から見た、3つの論点
 
@@ -116,15 +116,15 @@ JR東日本は、日本有数の**自前の電力インフラ**を持つ事業�
 
 50MW級というサイズは、クラウド用途のホールセールとしては十分に大きい。だが**AI学習用途としては、必ずしも大きくない**。
 
-当サイトで解説したとおり、[現行世代のAIラックは1本で120〜140kWを消費する](/articles/jll-1percent-vacancy-high-density-ai-unusable-space-2026)。50MWをすべてIT負荷に充てても、単純計算で数百ラック規模だ。ハイパースケーラーが求める大規模学習クラスタは、いまやGW級の議論をしている。
+当サイトで解説したとおり、[現行世代のAIラックは1本で120〜140kWを消費する](/articles/jll-1percent-vacancy-high-density-ai-unusable-space-2026/)。50MWをすべてIT負荷に充てても、単純計算で数百ラック規模だ。ハイパースケーラーが求める大規模学習クラスタは、いまやGW級の議論をしている。
 
-したがってこの10棟が狙うのは、**学習ではなく推論やクラウド一般用途**と見るのが妥当だろう。首都圏・関西・九州という立地選定も、[低遅延が求められる推論向き](/articles/sharp-sakai-ai-datacenter-kddi-softbank-2026)であることを示唆している。これは戦略として合理的だが、**「AI DCに参入」という見出しから受ける印象とは、中身がやや異なる**点は押さえておきたい。
+したがってこの10棟が狙うのは、**学習ではなく推論やクラウド一般用途**と見るのが妥当だろう。首都圏・関西・九州という立地選定も、[低遅延が求められる推論向き](/articles/sharp-sakai-ai-datacenter-kddi-softbank-2026/)であることを示唆している。これは戦略として合理的だが、**「AI DCに参入」という見出しから受ける印象とは、中身がやや異なる**点は押さえておきたい。
 
 ### 論点2：ラック密度の設計をどうするか
 
 50MWの箱を作るとして、**1ラック10kWで設計するのか、100kWで設計するのか**で、建物はまったく別物になる。
 
-[JLLの調査では、100kW/ラック以上に対応できる施設は米国全体の4%未満](/articles/jll-1percent-vacancy-high-density-ai-unusable-space-2026)にとどまる。日本の既存施設も大半がレガシー設計だ。新設するなら液冷対応を織り込むのが当然だが、それは建設コストと工期に跳ね返る。
+[JLLの調査では、100kW/ラック以上に対応できる施設は米国全体の4%未満](/articles/jll-1percent-vacancy-high-density-ai-unusable-space-2026/)にとどまる。日本の既存施設も大半がレガシー設計だ。新設するなら液冷対応を織り込むのが当然だが、それは建設コストと工期に跳ね返る。
 
 **新規参入者の強みは、最初から高密度前提で建てられること**にある。レトロフィットの制約がないからだ。ここをどこまで攻めるかが、10棟の競争力を決める。
 
@@ -132,7 +132,7 @@ JR東日本は、日本有数の**自前の電力インフラ**を持つ事業�
 
 貸出先を「米テック大手などのハイパースケーラー」に置く戦略は、収益の安定という意味では強い。相手の信用力は高く、契約期間も長い。
 
-一方で、**テナントが数社に集中する**ことは構造的なリスクでもある。[オハイオの案件でNVIDIAが1,050億ドルの保証を差し入れた](/articles/nvidia-openai-ohio-105bn-guarantee-sb-energy-2026)ように、いまのAIインフラ市場では「誰の信用で需要が支えられているのか」が問われ始めている。
+一方で、**テナントが数社に集中する**ことは構造的なリスクでもある。[オハイオの案件でNVIDIAが1,050億ドルの保証を差し入れた](/articles/nvidia-openai-ohio-105bn-guarantee-sb-energy-2026/)ように、いまのAIインフラ市場では「誰の信用で需要が支えられているのか」が問われ始めている。
 
 10棟という分散は、地理的なリスク分散にはなる。だが**テナント構成が同じなら、分散の効果は限定的**だ。ここは今後の契約構造を注視したい。
 
@@ -142,8 +142,8 @@ JR東日本は、日本有数の**自前の電力インフラ**を持つ事業�
 
 そこにいま、**不動産・インフラの資本が本格的に入ってきている**。
 
-- [ブラックストーンなどの海外投資ファンド](/articles/blackstone-japan-dc-investment-beneficiary-sectors-2026)
-- [UAEの政府系ファンド](/articles/akita-uae-500mw-ai-datacenter-2026)
+- [ブラックストーンなどの海外投資ファンド](/articles/blackstone-japan-dc-investment-beneficiary-sectors-2026/)
+- [UAEの政府系ファンド](/articles/akita-uae-500mw-ai-datacenter-2026/)
 - 総合商社
 - そして鉄道会社
 
@@ -157,6 +157,6 @@ JR東日本は、日本有数の**自前の電力インフラ**を持つ事業�
 
 ---
 
-**関連記事：** [秋田に2兆円、中東マネーが北を選んだ](/articles/akita-uae-500mw-ai-datacenter-2026) ／ [NVIDIAが1,050億ドルを保証した — 旧ウラン濃縮工場に建つ8GW](/articles/nvidia-openai-ohio-105bn-guarantee-sb-energy-2026) ／ [空室率1%なのに、置く場所がない](/articles/jll-1percent-vacancy-high-density-ai-unusable-space-2026) ／ [国内DCマーケット 空前の投資ラッシュ2026](/articles/japan-dc-market-2026)
+**関連記事：** [秋田に2兆円、中東マネーが北を選んだ](/articles/akita-uae-500mw-ai-datacenter-2026/) ／ [NVIDIAが1,050億ドルを保証した — 旧ウラン濃縮工場に建つ8GW](/articles/nvidia-openai-ohio-105bn-guarantee-sb-energy-2026/) ／ [空室率1%なのに、置く場所がない](/articles/jll-1percent-vacancy-high-density-ai-unusable-space-2026/) ／ [国内DCマーケット 空前の投資ラッシュ2026](/articles/japan-dc-market-2026/)
 
-**関連用語：** [ハイパースケーラー](/glossary/what-is-hyperscaler) ／ [コロケーション](/glossary/what-is-colocation) ／ [PPA](/glossary/what-is-ppa) ／ [BCP](/glossary/what-is-bcp)
+**関連用語：** [ハイパースケーラー](/glossary/what-is-hyperscaler/) ／ [コロケーション](/glossary/what-is-colocation/) ／ [PPA](/glossary/what-is-ppa/) ／ [BCP](/glossary/what-is-bcp/)

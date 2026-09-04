@@ -60,7 +60,7 @@ GB200搭載の NVL72 システムは、1ラックあたり 120kW超という消�
 
 空冷では追いつかないGPUラックに対し、液冷（直接液冷・液浸冷却）の採用が急速に進んでいます。液冷化により、同じ受電容量でより多くのGPUを稼働させることが可能になります。
 
-また、冷却電力の削減（PUEの改善）により、トータルの電力消費を抑えられる点も重要です。→ [液浸冷却とは](/glossary/what-is-liquid-immersion-cooling)
+また、冷却電力の削減（PUEの改善）により、トータルの電力消費を抑えられる点も重要です。→ [液浸冷却とは](/glossary/what-is-liquid-immersion-cooling/)
 
 ### 3. 再生可能エネルギー・自家発電の活用
 
@@ -91,12 +91,12 @@ AIデータセンターの電力問題は、「電力が作れない」という
 ---
 
 ### 関連記事・用語
-- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure)
-- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026)
-- [コロケーションDC選定の勘所2026年版](/articles/colocation-dc-selection-guide-2026)
-- [液冷（Liquid Cooling）とは](/glossary/what-is-liquid-cooling)
-- [直接液冷（DLC）とは](/glossary/what-is-dlc)
-- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue)
-- [液浸冷却（Liquid Immersion Cooling）とは](/glossary/what-is-liquid-immersion-cooling)
-- [SMR（小型モジュール炉）とは](/glossary/what-is-smr)
-- [エッジコンピューティングとは——5G時代にDCが分散する理由](/glossary/what-is-edge-computing)
+- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure/)
+- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026/)
+- [コロケーションDC選定の勘所2026年版](/articles/colocation-dc-selection-guide-2026/)
+- [液冷（Liquid Cooling）とは](/glossary/what-is-liquid-cooling/)
+- [直接液冷（DLC）とは](/glossary/what-is-dlc/)
+- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue/)
+- [液浸冷却（Liquid Immersion Cooling）とは](/glossary/what-is-liquid-immersion-cooling/)
+- [SMR（小型モジュール炉）とは](/glossary/what-is-smr/)
+- [エッジコンピューティングとは——5G時代にDCが分散する理由](/glossary/what-is-edge-computing/)

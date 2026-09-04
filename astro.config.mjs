@@ -14,6 +14,13 @@ export default defineConfig({
   // Cloudflareアダプターは不要（static モードは CDN で配信するため）
   output: 'static',
 
+  // URLは末尾スラッシュありに統一する
+  // Cloudflare Pages は /articles/foo/index.html を配信するため、
+  // スラッシュなしのURLは 301 で /articles/foo/ にリダイレクトされる。
+  // canonical・sitemap・内部リンクをすべてスラッシュありに揃えないと、
+  // Search Console で「ページにリダイレクトがあります」として除外される。
+  trailingSlash: 'always',
+
   integrations: [
     // MDX対応（記事内でコンポーネント使用可能）
     mdx(),

@@ -61,11 +61,11 @@ export function getCategoryBySlug(slug: string) {
 // ナビゲーションリンク
 export const NAV_LINKS = [
   { href: '/', label: 'トップ' },
-  { href: '/category/ai-hpc', label: 'AI・HPC' },
-  { href: '/category/power-cooling', label: '電力・冷却' },
-  { href: '/category/japan-dc', label: '国内DC' },
-  { href: '/category/global-dc', label: '海外DC' },
-  { href: '/glossary', label: '用語解説' },
-  { href: '/category/market-data', label: '市場データ' },
-  { href: '/about', label: 'このサイトについて' },
+  { href: '/category/ai-hpc/', label: 'AI・HPC' },
+  { href: '/category/power-cooling/', label: '電力・冷却' },
+  { href: '/category/japan-dc/', label: '国内DC' },
+  { href: '/category/global-dc/', label: '海外DC' },
+  { href: '/glossary/', label: '用語解説' },
+  { href: '/category/market-data/', label: '市場データ' },
+  { href: '/about/', label: 'このサイトについて' },
 ] as const;

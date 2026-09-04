@@ -136,9 +136,9 @@ DCには必ずといっていいほど非常用ディーゼル発電機（バッ
 ---
 
 ### 関連記事・用語
-- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026)
-- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026)
-- [コロケーションDC選定の勘所2026年版](/articles/colocation-dc-selection-guide-2026)
-- [データセンターとカーボンニュートラル——RE100・PPA・CFE最前線](/articles/dc-carbon-neutral-re100-ppa-2026)
-- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue)
-- [コロケーション（Colocation）とは](/glossary/what-is-colocation)
+- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026/)
+- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026/)
+- [コロケーションDC選定の勘所2026年版](/articles/colocation-dc-selection-guide-2026/)
+- [データセンターとカーボンニュートラル——RE100・PPA・CFE最前線](/articles/dc-carbon-neutral-re100-ppa-2026/)
+- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue/)
+- [コロケーション（Colocation）とは](/glossary/what-is-colocation/)

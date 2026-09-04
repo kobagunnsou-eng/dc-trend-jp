@@ -31,8 +31,8 @@ const {
 
 // 記事URLの絶対パス
 const articleUrl = isGlossary
-  ? `${SITE_CONFIG.url}/glossary/${slug}`
-  : `${SITE_CONFIG.url}/articles/${slug}`;
+  ? `${SITE_CONFIG.url}/glossary/${slug}/`
+  : `${SITE_CONFIG.url}/articles/${slug}/`;
 
 // カテゴリのスラッグ（パンくず用）
 const categorySlug = category ? getCategorySlug(category) : null;
@@ -43,11 +43,11 @@ const breadcrumbs = [
     ? [
         {
           name: isGlossary ? '用語解説' : category,
-          url: isGlossary ? '/glossary' : `/category/${categorySlug}`,
+          url: isGlossary ? '/glossary/' : `/category/${categorySlug}/`,
         },
       ]
     : []),
-  { name: title, url: isGlossary ? `/glossary/${slug}` : `/articles/${slug}` },
+  { name: title, url: isGlossary ? `/glossary/${slug}/` : `/articles/${slug}/` },
 ];
 
 // Article JSON-LD 構造化データ
@@ -116,7 +116,7 @@ function formatDate(dateStr: string): string {
     {category && (
       <div class="mb-4">
         <a
-          href={isGlossary ? '/glossary' : `/category/${categorySlug}`}
+          href={isGlossary ? '/glossary/' : `/category/${categorySlug}/`}
           class="category-badge"
         >
           {category}

@@ -31,10 +31,10 @@ thumbnail: "/images/articles/keppel-dc-reit-inzai-tokyo-dc-acquisition-2026.png"
 
 当サイトはこれまで、日本のDCをめぐる資本の動きを追ってきました。
 
-- [ブラックストーンが日本に4.8兆円を投資する構想](/articles/blackstone-japan-dc-investment-beneficiary-sectors-2026)
-- [UAEの政府系ファンドが秋田に最大1兆円](/articles/akita-uae-500mw-ai-datacenter-2026)
-- [伊藤忠とJR東日本が50MW×10棟を開発](/articles/itochu-datacenter-entry-jr-east-2026)
-- [NVIDIAが1,050億ドルのリース債務保証](/articles/nvidia-openai-ohio-105bn-guarantee-sb-energy-2026)
+- [ブラックストーンが日本に4.8兆円を投資する構想](/articles/blackstone-japan-dc-investment-beneficiary-sectors-2026/)
+- [UAEの政府系ファンドが秋田に最大1兆円](/articles/akita-uae-500mw-ai-datacenter-2026/)
+- [伊藤忠とJR東日本が50MW×10棟を開発](/articles/itochu-datacenter-entry-jr-east-2026/)
+- [NVIDIAが1,050億ドルのリース債務保証](/articles/nvidia-openai-ohio-105bn-guarantee-sb-energy-2026/)
 
 これらはいずれも**「これから建てる」話**でした。開発資金をどう集めるか、電源をどう確保するか、テナントをどう押さえるか——つまり**開発リスクを取る側**の議論です。
 
@@ -60,7 +60,7 @@ thumbnail: "/images/articles/keppel-dc-reit-inzai-tokyo-dc-acquisition-2026.png"
 - **長期契約と高い稼働率** — ハイパースケーラーやエンタープライズが長期で借り、途中解約が起きにくい
 - **投資適格のテナント** — 賃料の取りっぱぐれリスクが低い
 - **政治的・法制度的な安定性** — 20年単位で保有する資産として計算が立つ
-- **[新規供給の制約](/articles/jll-1percent-vacancy-high-density-ai-unusable-space-2026)** — 電力・用地・施工能力の制約で簡単には増えない
+- **[新規供給の制約](/articles/jll-1percent-vacancy-high-density-ai-unusable-space-2026/)** — 電力・用地・施工能力の制約で簡単には増えない
 
 最後の点が、実は最も効いています。
 
@@ -68,10 +68,10 @@ thumbnail: "/images/articles/keppel-dc-reit-inzai-tokyo-dc-acquisition-2026.png"
 
 ここが本記事で最も伝えたい論理です。
 
-当サイトでは、[北米の空室率が3年連続1%で、しかもその空きの大半は高密度AIに使えない](/articles/jll-1percent-vacancy-high-density-ai-unusable-space-2026)という現実を解説しました。そして日本でも、
+当サイトでは、[北米の空室率が3年連続1%で、しかもその空きの大半は高密度AIに使えない](/articles/jll-1percent-vacancy-high-density-ai-unusable-space-2026/)という現実を解説しました。そして日本でも、
 
-- [系統接続の待ち行列](/articles/pjm-3800mw-load-drop-datacenter-grid-cost-2026)
-- [施工能力の限界](/articles/japan-subcontractor-datacenter-boom-order-backlog-2026)（サブコンの受注残は数年先まで満杯）
+- [系統接続の待ち行列](/articles/pjm-3800mw-load-drop-datacenter-grid-cost-2026/)
+- [施工能力の限界](/articles/japan-subcontractor-datacenter-boom-order-backlog-2026/)（サブコンの受注残は数年先まで満杯）
 - 用地と住民合意
 
 という制約が重なり、**新しいDCは簡単に建ちません**。
@@ -88,9 +88,9 @@ thumbnail: "/images/articles/keppel-dc-reit-inzai-tokyo-dc-acquisition-2026.png"
 
 **フリーホールド（所有権）** — 土地を借りているのではなく、所有しています。定期借地だと契約期限が資産価値の天井になりますが、所有権なら20年、30年と保有し続けられます。長期保有を前提とするREITにとって、これは大きな差です。
 
-**フルフィット（設備込み）** — 建物の箱だけでなく、受変電設備・空調・[UPS](/glossary/what-is-ups)といった設備一式が入った状態です。テナントはサーバーを持ち込めばすぐ使える。**買う側から見れば、追加投資なしで初日からキャッシュフローが立つ**ということでもあります。
+**フルフィット（設備込み）** — 建物の箱だけでなく、受変電設備・空調・[UPS](/glossary/what-is-ups/)といった設備一式が入った状態です。テナントはサーバーを持ち込めばすぐ使える。**買う側から見れば、追加投資なしで初日からキャッシュフローが立つ**ということでもあります。
 
-**すでに系統につながり、設備が入り、満床で回っている——** これは当サイトが繰り返し書いてきた「[いま最も希少な資源は、すでに系統につながっている大容量の受電点だ](/articles/nvidia-openai-ohio-105bn-guarantee-sb-energy-2026)」という命題の、最も完成した形です。
+**すでに系統につながり、設備が入り、満床で回っている——** これは当サイトが繰り返し書いてきた「[いま最も希少な資源は、すでに系統につながっている大容量の受電点だ](/articles/nvidia-openai-ohio-105bn-guarantee-sb-energy-2026/)」という命題の、最も完成した形です。
 
 ### オペレーターが10%残す意味
 
@@ -126,7 +126,7 @@ DCは建物ではなく**「動き続けている設備」**です。24時間365
 2棟を4社が満床で使っている状態です。稼働率100%は理想的ですが、**1社が退去すると影響が大きい**構造でもあります。契約期間と更新条件が生命線になります。
 
 **3. 高密度AIへの対応余地**
-現行のハイパースケール・コロケーション物件が、[1ラック120kW級のAIラック](/articles/jll-1percent-vacancy-high-density-ai-unusable-space-2026)にどこまで対応できるかは別問題です。液冷へのレトロフィットには相応の投資が要ります。**安定利回り資産として買った物件に、将来どれだけ追加投資が必要になるか**は、REITにとって難しい判断になります。
+現行のハイパースケール・コロケーション物件が、[1ラック120kW級のAIラック](/articles/jll-1percent-vacancy-high-density-ai-unusable-space-2026/)にどこまで対応できるかは別問題です。液冷へのレトロフィットには相応の投資が要ります。**安定利回り資産として買った物件に、将来どれだけ追加投資が必要になるか**は、REITにとって難しい判断になります。
 
 **4. 金利**
 REITは借入で資産を買います。金利が上がれば取得利回りとの差が縮まります。日本の金利環境の変化は、この種の取引の前提を変えうる要素です。
@@ -137,7 +137,7 @@ REITは借入で資産を買います。金利が上がれば取得利回りと�
 
 **第一に、自社が借りているDCの「大家」が変わることがある。** 今回のようにオペレーターは継続しても、所有者は変わります。契約自体は承継されるのが通常ですが、**増床交渉や設備更新の意思決定プロセスが変わる**可能性はあります。契約更新のタイミングで、所有形態を確認しておく価値はあります。
 
-**第二に、「既存の優良物件は値上がりする」という前提で調達を考える。** 新築の供給が制約されている以上、条件の良いスペースの賃料は上がる方向です。[必要になってから探すのでは間に合わない](/articles/jll-1percent-vacancy-high-density-ai-unusable-space-2026)という市場環境は、当面続くと見るべきでしょう。
+**第二に、「既存の優良物件は値上がりする」という前提で調達を考える。** 新築の供給が制約されている以上、条件の良いスペースの賃料は上がる方向です。[必要になってから探すのでは間に合わない](/articles/jll-1percent-vacancy-high-density-ai-unusable-space-2026/)という市場環境は、当面続くと見るべきでしょう。
 
 ## まとめ
 
@@ -151,8 +151,8 @@ REITは借入で資産を買います。金利が上がれば取得利回りと�
 
 ---
 
-**関連記事：** [伊藤忠が50MW×10棟のDC開発へ](/articles/itochu-datacenter-entry-jr-east-2026) ／ [空室率1%なのに、置く場所がない](/articles/jll-1percent-vacancy-high-density-ai-unusable-space-2026) ／ [ブラックストーン「日本に4.8兆円」の衝撃](/articles/blackstone-japan-dc-investment-beneficiary-sectors-2026) ／ [売上は減ったのに、利益は5割増 — サブコンが「選ぶ側」に回った](/articles/japan-subcontractor-datacenter-boom-order-backlog-2026)
+**関連記事：** [伊藤忠が50MW×10棟のDC開発へ](/articles/itochu-datacenter-entry-jr-east-2026/) ／ [空室率1%なのに、置く場所がない](/articles/jll-1percent-vacancy-high-density-ai-unusable-space-2026/) ／ [ブラックストーン「日本に4.8兆円」の衝撃](/articles/blackstone-japan-dc-investment-beneficiary-sectors-2026/) ／ [売上は減ったのに、利益は5割増 — サブコンが「選ぶ側」に回った](/articles/japan-subcontractor-datacenter-boom-order-backlog-2026/)
 
-**関連用語：** [コロケーション](/glossary/what-is-colocation) ／ [ハイパースケーラー](/glossary/what-is-hyperscaler) ／ [UPS](/glossary/what-is-ups) ／ [Tier認定](/glossary/what-is-tier-certification)
+**関連用語：** [コロケーション](/glossary/what-is-colocation/) ／ [ハイパースケーラー](/glossary/what-is-hyperscaler/) ／ [UPS](/glossary/what-is-ups/) ／ [Tier認定](/glossary/what-is-tier-certification/)
 
 > 本記事は業界動向の解説であり、特定の投資商品への投資を勧誘するものではありません。投資判断はご自身の責任でお願いします。

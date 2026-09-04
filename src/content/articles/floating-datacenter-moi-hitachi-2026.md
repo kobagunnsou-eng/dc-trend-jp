@@ -28,7 +28,7 @@ draft: false
 
 ### 電力系統の接続申請難
 
-東京電力・関西電力管内では、DCからの系統接続申請が殺到し、新規大型DC向けの電力確保に3〜5年かかるケースが続出しています（関連記事：[AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026)）。船舶を港湾や洋上に係留してDCを運用する場合、陸上の系統に縛られない独立型電源（発電船・洋上再エネ）との組み合わせが理論上は可能です。
+東京電力・関西電力管内では、DCからの系統接続申請が殺到し、新規大型DC向けの電力確保に3〜5年かかるケースが続出しています（関連記事：[AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026/)）。船舶を港湾や洋上に係留してDCを運用する場合、陸上の系統に縛られない独立型電源（発電船・洋上再エネ）との組み合わせが理論上は可能です。
 
 ### 開発スピードの優位性
 
@@ -138,11 +138,11 @@ FDCは現時点では「新興の選択肢候補」であり、今すぐ調達�
 ---
 
 ### 関連記事・用語
-- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026)
-- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026)
-- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure)
-- [データセンターとカーボンニュートラル——RE100・PPA・CFE最前線](/articles/dc-carbon-neutral-re100-ppa-2026)
-- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue)
-- [液浸冷却（Liquid Immersion Cooling）とは](/glossary/what-is-liquid-immersion-cooling)
-- [FDC（浮体式データセンター）とは](/glossary/what-is-fdc)
-- [直接液冷（DLC）とは](/glossary/what-is-dlc)
+- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026/)
+- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026/)
+- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure/)
+- [データセンターとカーボンニュートラル——RE100・PPA・CFE最前線](/articles/dc-carbon-neutral-re100-ppa-2026/)
+- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue/)
+- [液浸冷却（Liquid Immersion Cooling）とは](/glossary/what-is-liquid-immersion-cooling/)
+- [FDC（浮体式データセンター）とは](/glossary/what-is-fdc/)
+- [直接液冷（DLC）とは](/glossary/what-is-dlc/)

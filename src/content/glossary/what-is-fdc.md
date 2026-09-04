@@ -93,8 +93,8 @@ FDC（浮体式データセンター）は、日本特有の用地・電力問�
 ---
 
 ### 関連記事・用語
-- [中古船を改造する浮体式データセンター（FDC）——商船三井×日立の挑戦は本物か](/articles/floating-datacenter-moi-hitachi-2026)
-- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026)
-- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026)
-- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue)
-- [液浸冷却（Liquid Immersion Cooling）とは](/glossary/what-is-liquid-immersion-cooling)
+- [中古船を改造する浮体式データセンター（FDC）——商船三井×日立の挑戦は本物か](/articles/floating-datacenter-moi-hitachi-2026/)
+- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026/)
+- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026/)
+- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue/)
+- [液浸冷却（Liquid Immersion Cooling）とは](/glossary/what-is-liquid-immersion-cooling/)

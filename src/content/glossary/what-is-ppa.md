@@ -22,7 +22,7 @@ PPA（Power Purchase Agreement）は、再生可能エネルギーの発電事�
 
 データセンターは「電力の大口消費者」であると同時に、顧客企業のScope 3（サプライチェーン排出量）に含まれます。そのため、ESG経営を推進する大手企業からクラウドやコロケーションを選ぶ際に「DC側の再エネ対応」が問われるようになっています。
 
-PPAを通じた再エネ調達は、[RE100](/glossary/what-is-re100)の達成手段として最も信頼性が高い方法の一つです。
+PPAを通じた再エネ調達は、[RE100](/glossary/what-is-re100/)の達成手段として最も信頼性が高い方法の一つです。
 
 ---
 
@@ -36,7 +36,7 @@ PPAには大きく2種類あります。
 
 特徴：
 - 調達した電力が「実際にどこで・いつ発電されたか」の追跡性が高い
-- [CFE（Carbon-Free Energy）](/glossary/what-is-cfe)の観点で最も評価が高い
+- [CFE（Carbon-Free Energy）](/glossary/what-is-cfe/)の観点で最も評価が高い
 - 国内例：さくらインターネットが北海道の風力・太陽光発電事業者とフィジカルPPAを締結し、石狩DCへの再エネ供給を実現
 
 ### バーチャルPPA（Virtual PPA）
@@ -100,8 +100,8 @@ AI需要の拡大で電力消費がさらに増える中、DCの再エネ調達�
 ---
 
 ### 関連記事・用語
-- [データセンターとカーボンニュートラル——RE100・PPA・CFE最前線](/articles/dc-carbon-neutral-re100-ppa-2026)
-- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026)
-- [RE100とは](/glossary/what-is-re100)
-- [CFE（Carbon-Free Energy）とは](/glossary/what-is-cfe)
-- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue)
+- [データセンターとカーボンニュートラル——RE100・PPA・CFE最前線](/articles/dc-carbon-neutral-re100-ppa-2026/)
+- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026/)
+- [RE100とは](/glossary/what-is-re100/)
+- [CFE（Carbon-Free Energy）とは](/glossary/what-is-cfe/)
+- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue/)

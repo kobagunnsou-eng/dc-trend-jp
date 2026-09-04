@@ -114,8 +114,8 @@ DX担当者・IT調達担当者の視点では、DCベンダー選定時にPUE�
 ---
 
 ### 関連記事・用語
-- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026)
-- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure)
-- [データセンターとカーボンニュートラル——RE100・PPA・CFE最前線](/articles/dc-carbon-neutral-re100-ppa-2026)
-- [液浸冷却（Liquid Immersion Cooling）とは](/glossary/what-is-liquid-immersion-cooling)
-- [直接液冷（DLC）とは](/glossary/what-is-dlc)
+- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026/)
+- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure/)
+- [データセンターとカーボンニュートラル——RE100・PPA・CFE最前線](/articles/dc-carbon-neutral-re100-ppa-2026/)
+- [液浸冷却（Liquid Immersion Cooling）とは](/glossary/what-is-liquid-immersion-cooling/)
+- [直接液冷（DLC）とは](/glossary/what-is-dlc/)

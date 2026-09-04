@@ -158,9 +158,9 @@ AWS Local Zones・Azure Edge Zones は、既にクラウドを活用している
 ---
 
 ### 関連記事・用語
-- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026)
-- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026)
-- [コロケーションDC選定の勘所2026年版](/articles/colocation-dc-selection-guide-2026)
-- [ハイパースケーラーとは](/glossary/what-is-hyperscaler)
-- [コロケーション（Colocation）とは](/glossary/what-is-colocation)
-- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue)
+- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026/)
+- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026/)
+- [コロケーションDC選定の勘所2026年版](/articles/colocation-dc-selection-guide-2026/)
+- [ハイパースケーラーとは](/glossary/what-is-hyperscaler/)
+- [コロケーション（Colocation）とは](/glossary/what-is-colocation/)
+- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue/)

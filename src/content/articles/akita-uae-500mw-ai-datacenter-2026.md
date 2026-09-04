@@ -28,7 +28,7 @@ thumbnail: "/images/articles/akita-uae-500mw-ai-datacenter-2026.png"
 
 ## なぜ中東マネーが「秋田」を選んだのか
 
-日本のDC投資といえば、これまでは[ブラックストーンのような米系資本](/articles/blackstone-japan-dc-investment-beneficiary-sectors-2026)が主役だった。そこに中東のソブリンマネーが、しかも東北の一都市に登場した。この構図には明確な理由がある。
+日本のDC投資といえば、これまでは[ブラックストーンのような米系資本](/articles/blackstone-japan-dc-investment-beneficiary-sectors-2026/)が主役だった。そこに中東のソブリンマネーが、しかも東北の一都市に登場した。この構図には明確な理由がある。
 
 ### 1. 地政学リスクの分散
 
@@ -36,11 +36,11 @@ UAEにとってAIインフラは国家戦略資産だ。だが中東は地政学
 
 ### 2. 再生可能エネルギーの供給ポテンシャル
 
-秋田県は日本有数の風力発電適地だ。事業者側は「秋田沖の洋上風力」を電力調達の柱に据えている。[RE100やカーボンフリー電源](/articles/dc-carbon-neutral-re100-ppa-2026)を求める[ハイパースケーラー](/glossary/what-is-hyperscaler)や大口テナントにとって、再エネを地産地消できる立地は極めて強い訴求力を持つ。
+秋田県は日本有数の風力発電適地だ。事業者側は「秋田沖の洋上風力」を電力調達の柱に据えている。[RE100やカーボンフリー電源](/articles/dc-carbon-neutral-re100-ppa-2026/)を求める[ハイパースケーラー](/glossary/what-is-hyperscaler/)や大口テナントにとって、再エネを地産地消できる立地は極めて強い訴求力を持つ。
 
 ### 3. 冷涼な気候と水
 
-秋田の冷涼な気候は[フリークーリング](/glossary/what-is-free-cooling)の適用期間を延ばし、[PUE](/glossary/what-is-pue)を押し下げる。豊富な水資源も冷却に使える。この構図は[北海道DC回廊](/articles/hokkaido-datacenter-corridor-power-limit-2026)とまったく同じであり、**日本の地方分散は「冷涼＋再エネ」の軸で進んでいる**ことがはっきり見えてきた。
+秋田の冷涼な気候は[フリークーリング](/glossary/what-is-free-cooling/)の適用期間を延ばし、[PUE](/glossary/what-is-pue/)を押し下げる。豊富な水資源も冷却に使える。この構図は[北海道DC回廊](/articles/hokkaido-datacenter-corridor-power-limit-2026/)とまったく同じであり、**日本の地方分散は「冷涼＋再エネ」の軸で進んでいる**ことがはっきり見えてきた。
 
 ## 500MWとは、どれくらいの電気なのか
 
@@ -51,7 +51,7 @@ UAEにとってAIインフラは国家戦略資産だ。だが中東は地政学
 > - 一般家庭に換算して：**約88万世帯分**
 > - 秋田県の総世帯数（約39万世帯）の **2倍以上**
 
-つまりこのデータセンター1つで、**秋田県全体の家庭が使う電気の2倍を消費する**計算になる。当サイトが以前解説した[NVIDIA Noetraの140MW級AIファクトリー](/articles/ai-datacenter-power-crisis-2026)ですら国内最大級と言われた中で、500MWという数字がいかに突出しているかがわかる。
+つまりこのデータセンター1つで、**秋田県全体の家庭が使う電気の2倍を消費する**計算になる。当サイトが以前解説した[NVIDIA Noetraの140MW級AIファクトリー](/articles/ai-datacenter-power-crisis-2026/)ですら国内最大級と言われた中で、500MWという数字がいかに突出しているかがわかる。
 
 これは「大きな工場が1つできる」という話ではない。**県単位の電力バランスを書き換える規模の需要**が、1か所に出現するということだ。
 
@@ -89,13 +89,13 @@ UAEにとってAIインフラは国家戦略資産だ。だが中東は地政学
 
 したがって現実には、
 
-- 系統からの安定電源（東北電力ネットワークとの[大口契約・PPA](/glossary/what-is-ppa)）
+- 系統からの安定電源（東北電力ネットワークとの[大口契約・PPA](/glossary/what-is-ppa/)）
 - 大容量蓄電池（BESS）による出力変動の吸収
-- 非常用発電機・[UPS](/glossary/what-is-ups)によるバックアップ
+- 非常用発電機・[UPS](/glossary/what-is-ups/)によるバックアップ
 
 これらの組み合わせが不可欠になる。田沢湖の水力も電源に挙がっているが、規模的には500MWに対して補完的な位置づけだ。
 
-「再エネ100%のグリーンなAI DC」という看板は魅力的だが、**技術的には系統との深い結合が前提になる**。この構図は[北海道が直面している電力の壁](/articles/hokkaido-datacenter-corridor-power-limit-2026)や、[安定電源としてのSMR議論](/articles/smr-nuclear-datacenter-power-2026)とまったく同じ地平にある。
+「再エネ100%のグリーンなAI DC」という看板は魅力的だが、**技術的には系統との深い結合が前提になる**。この構図は[北海道が直面している電力の壁](/articles/hokkaido-datacenter-corridor-power-limit-2026/)や、[安定電源としてのSMR議論](/articles/smr-nuclear-datacenter-power-2026/)とまったく同じ地平にある。
 
 ### 前提3：「最終決定ではない」という言葉の重み
 
@@ -114,10 +114,10 @@ UAEにとってAIインフラは国家戦略資産だ。だが中東は地政学
 現実的に検討すべき論点は3つある。
 
 1. **固定資産税**：巨額のサーバー・電源設備は課税対象となり、自治体財政へのインパクトは大きい。ただし償却資産は年々簿価が下がるため、税収はピークアウトする
-2. **水の確保**：地元経済界からも電力と並んで水の供給が課題として挙がっている。500MW級であれば[液冷（DLC）](/glossary/what-is-liquid-cooling)の採用が前提になるはずで、空冷＋蒸発冷却より水消費を抑えられる。事業者はこの点を早期に説明すべきだ
+2. **水の確保**：地元経済界からも電力と並んで水の供給が課題として挙がっている。500MW級であれば[液冷（DLC）](/glossary/what-is-liquid-cooling/)の採用が前提になるはずで、空冷＋蒸発冷却より水消費を抑えられる。事業者はこの点を早期に説明すべきだ
 3. **人材**：24時間365日の運用を担う電気主任技術者や施設管理者を、秋田県内でどう育てるか。ここに投資しなければ、運用は県外・国外企業に握られたままになる
 
-[住民との摩擦が各地で顕在化している](/articles/dc-nuisance-facility-resident-lawsuit-2026)いま、「歓迎ムード」のうちに還元設計を固められるかが分かれ目になる。
+[住民との摩擦が各地で顕在化している](/articles/dc-nuisance-facility-resident-lawsuit-2026/)いま、「歓迎ムード」のうちに還元設計を固められるかが分かれ目になる。
 
 ## 今後の最大の注目点 —「誰が運営し、誰が使うのか」
 
@@ -143,11 +143,11 @@ UAEにとってAIインフラは国家戦略資産だ。だが中東は地政学
 データセンターの設計は、テナント要件が決まって初めて確定する。
 
 - **ラック当たり電力密度**（10kW級か、AI向けの100kW超級か）
-- **冷却方式**（空冷か、[DLC](/glossary/what-is-dlc)か、[液浸](/glossary/what-is-liquid-immersion-cooling)か）
-- **冗長構成**（[Tier](/glossary/what-is-tier-certification)相当のどのレベルまで作り込むか）
+- **冷却方式**（空冷か、[DLC](/glossary/what-is-dlc/)か、[液浸](/glossary/what-is-liquid-immersion-cooling/)か）
+- **冗長構成**（[Tier](/glossary/what-is-tier-certification/)相当のどのレベルまで作り込むか）
 - **ネットワーク要件**（学習用途か推論用途か、どこと繋ぐか）
 
-これらはすべてテナントが決める。逆に言えば、**アンカーテナントの確約なしに2兆円のファイナンスは成立しない**。大規模[コロケーション](/glossary/what-is-colocation)/ホールセール案件では、着工前に容量の大半が契約済みになっているのが通例だ。「建ててから客を探す」モデルは、この規模では成り立たない。
+これらはすべてテナントが決める。逆に言えば、**アンカーテナントの確約なしに2兆円のファイナンスは成立しない**。大規模[コロケーション](/glossary/what-is-colocation/)/ホールセール案件では、着工前に容量の大半が契約済みになっているのが通例だ。「建ててから客を探す」モデルは、この規模では成り立たない。
 
 ### 想定される4つの座組み
 
@@ -168,7 +168,7 @@ UAEにとってAIインフラは国家戦略資産だ。だが中東は地政学
 
 1. **運営事業者（オペレーター）の決定** — 国内勢か、海外勢か
 2. **アンカーテナントの発表** — 誰が容量を押さえるのか
-3. **電力の契約形態** — 系統からの大口契約か、[PPA](/glossary/what-is-ppa)か、その組み合わせか
+3. **電力の契約形態** — 系統からの大口契約か、[PPA](/glossary/what-is-ppa/)か、その組み合わせか
 
 この3つが出てきたとき、初めて「構想」が「プロジェクト」になる。逆にこれらが1年経っても出てこないようなら、計画の実現性を疑う材料になる。
 
@@ -178,7 +178,7 @@ UAEにとってAIインフラは国家戦略資産だ。だが中東は地政学
 
 総事業費2兆円のうち最大1兆円をUAEの政府系ファンドが出す——これは**日本国内に建つAI計算基盤の過半を、外国の政府系資本が保有する**可能性を意味する。
 
-もちろん海外資本の投資自体は歓迎すべきことだ。[国内DC投資は空前のラッシュ](/articles/japan-dc-market-2026)にあり、2兆円規模の資金を国内だけで賄うのは容易ではない。日本が「安定した第三国」として選ばれたこと自体、立地競争力の証明でもある。
+もちろん海外資本の投資自体は歓迎すべきことだ。[国内DC投資は空前のラッシュ](/articles/japan-dc-market-2026/)にあり、2兆円規模の資金を国内だけで賄うのは容易ではない。日本が「安定した第三国」として選ばれたこと自体、立地競争力の証明でもある。
 
 だが同時に、**AIの計算能力は電力や通信と同じく国家インフラの領域に入りつつある**。誰がその設備を保有し、誰が優先的に計算資源を使えるのか。有事にどう扱われるのか。経済安全保障の議論として、これは避けて通れない。
 
@@ -198,6 +198,6 @@ UAEにとってAIインフラは国家戦略資産だ。だが中東は地政学
 
 ---
 
-**関連記事：** [北の大地がAI立国を支える — 北海道DC回廊の光と影](/articles/hokkaido-datacenter-corridor-power-limit-2026) ／ [ブラックストーン「日本に4.8兆円」の衝撃](/articles/blackstone-japan-dc-investment-beneficiary-sectors-2026) ／ [AI電力危機の救世主か — 小型原子炉SMR](/articles/smr-nuclear-datacenter-power-2026) ／ [国内DCマーケット 空前の投資ラッシュ2026](/articles/japan-dc-market-2026)
+**関連記事：** [北の大地がAI立国を支える — 北海道DC回廊の光と影](/articles/hokkaido-datacenter-corridor-power-limit-2026/) ／ [ブラックストーン「日本に4.8兆円」の衝撃](/articles/blackstone-japan-dc-investment-beneficiary-sectors-2026/) ／ [AI電力危機の救世主か — 小型原子炉SMR](/articles/smr-nuclear-datacenter-power-2026/) ／ [国内DCマーケット 空前の投資ラッシュ2026](/articles/japan-dc-market-2026/)
 
-**関連用語：** [PPA](/glossary/what-is-ppa) ／ [フリークーリング](/glossary/what-is-free-cooling) ／ [PUE](/glossary/what-is-pue) ／ [ハイパースケーラー](/glossary/what-is-hyperscaler) ／ [液冷（DLC）](/glossary/what-is-liquid-cooling)
+**関連用語：** [PPA](/glossary/what-is-ppa/) ／ [フリークーリング](/glossary/what-is-free-cooling/) ／ [PUE](/glossary/what-is-pue/) ／ [ハイパースケーラー](/glossary/what-is-hyperscaler/) ／ [液冷（DLC）](/glossary/what-is-liquid-cooling/)

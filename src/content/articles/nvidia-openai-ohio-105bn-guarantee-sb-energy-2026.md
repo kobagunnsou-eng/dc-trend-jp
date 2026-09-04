@@ -34,7 +34,7 @@ thumbnail: "/images/articles/nvidia-openai-ohio-105bn-guarantee-sb-energy-2026.p
 
 ここが本質だ。
 
-当サイトでは[秋田の2兆円構想を検証した記事](/articles/akita-uae-500mw-ai-datacenter-2026)で、こう書いた。
+当サイトでは[秋田の2兆円構想を検証した記事](/articles/akita-uae-500mw-ai-datacenter-2026/)で、こう書いた。
 
 > **アンカーテナントの確約なしに2兆円のファイナンスは成立しない**。大規模ホールセール案件では、着工前に容量の大半が契約済みになっているのが通例だ。
 
@@ -71,7 +71,7 @@ SB Energyは8GW級の施設を建設・保有・運営する。これには途�
 
 という条件が揃っている。実際、SB Energyがパイクトンに惹かれた理由として**既存送電インフラの密度**が挙げられている。
 
-これが決定的に重要な理由は、[テキサスのERCOTで接続待ちキューが474GWまで膨れ上がっている](/articles/pjm-3800mw-load-drop-datacenter-grid-cost-2026)という現状にある。**いま世界で最も希少な資源は、土地でもGPUでもなく「すでに系統につながっている大容量の受電点」なのだ。**
+これが決定的に重要な理由は、[テキサスのERCOTで接続待ちキューが474GWまで膨れ上がっている](/articles/pjm-3800mw-load-drop-datacenter-grid-cost-2026/)という現状にある。**いま世界で最も希少な資源は、土地でもGPUでもなく「すでに系統につながっている大容量の受電点」なのだ。**
 
 新規に送電線を引けば数年から十年単位の時間がかかる。だが**かつて大電力を使っていた産業の跡地なら、その時間を買える**。
 
@@ -81,9 +81,9 @@ SB Energyは8GW級の施設を建設・保有・運営する。これには途�
 
 日本にも、かつて膨大な電力を消費した産業の跡地がある。**休止・閉鎖されたアルミ精錬所、電炉、製錬所、大規模化学プラント**——これらはいずれも特別高圧の受電設備を持っていた場所だ。
 
-当サイトが取り上げた[シャープ堺工場跡地のKDDI・ソフトバンクによるAI DC転用](/articles/sharp-sakai-ai-datacenter-kddi-softbank-2026)は、まさにこの発想の日本版である。液晶工場もまた、大電力・大量の冷却水・広大な敷地を持っていた。
+当サイトが取り上げた[シャープ堺工場跡地のKDDI・ソフトバンクによるAI DC転用](/articles/sharp-sakai-ai-datacenter-kddi-softbank-2026/)は、まさにこの発想の日本版である。液晶工場もまた、大電力・大量の冷却水・広大な敷地を持っていた。
 
-[秋田](/articles/akita-uae-500mw-ai-datacenter-2026)や[北海道](/articles/hokkaido-datacenter-corridor-power-limit-2026)のように「これから電源を作る」アプローチと、堺やパイクトンのように「かつての大需要地を継承する」アプローチ。**後者のほうが、時間という最も高価な資源を節約できる。**
+[秋田](/articles/akita-uae-500mw-ai-datacenter-2026/)や[北海道](/articles/hokkaido-datacenter-corridor-power-limit-2026/)のように「これから電源を作る」アプローチと、堺やパイクトンのように「かつての大需要地を継承する」アプローチ。**後者のほうが、時間という最も高価な資源を節約できる。**
 
 日本の大型DC計画を評価するとき、「その場所は以前、何に使われていたか」を確認する価値は大きい。
 
@@ -113,7 +113,7 @@ SB Energyは8GW級の施設を建設・保有・運営する。これには途�
 
 建設・保有・運営を担うSB Energyはソフトバンクグループ傘下であり、NVIDIAは同社に15億ドルを直接出資している。つまり、**米国最大級のAIインフラの資産保有者として、日本企業が座っている**。
 
-当サイトでは最近、[UAEの政府系ファンドが秋田に最大1兆円を出資する構想](/articles/akita-uae-500mw-ai-datacenter-2026)を扱った。そこでは「日本国内に建つAI計算基盤の過半を外国資本が保有する」という論点を提起した。
+当サイトでは最近、[UAEの政府系ファンドが秋田に最大1兆円を出資する構想](/articles/akita-uae-500mw-ai-datacenter-2026/)を扱った。そこでは「日本国内に建つAI計算基盤の過半を外国資本が保有する」という論点を提起した。
 
 オハイオの案件は、その**裏返し**である。日本企業が米国のAI計算基盤を保有する側に回っている。
 
@@ -126,8 +126,8 @@ SB Energyは8GW級の施設を建設・保有・運営する。これには途�
 今後この案件を追ううえで、注視すべきは次の3点だ。
 
 1. **保証条件の変更** — 1,050億ドルという上限や発動条件は、今後の交渉で動きうる。縮小報道が出たこともある
-2. **AEP Ohioの系統増強の進捗** — 42億ドルの投資と「顧客料金は上げない」という説明が、実際に守られるか。[誰が系統費用を払うのかという議論](/articles/pjm-3800mw-load-drop-datacenter-grid-cost-2026)の試金石になる
-3. **地元の反応** — 10GW級の開発に対し、地域では反対の動きも出ている。[米国では住民の反発が各地で顕在化しており](/articles/dc-nuisance-facility-resident-lawsuit-2026)、この案件も例外ではない
+2. **AEP Ohioの系統増強の進捗** — 42億ドルの投資と「顧客料金は上げない」という説明が、実際に守られるか。[誰が系統費用を払うのかという議論](/articles/pjm-3800mw-load-drop-datacenter-grid-cost-2026/)の試金石になる
+3. **地元の反応** — 10GW級の開発に対し、地域では反対の動きも出ている。[米国では住民の反発が各地で顕在化しており](/articles/dc-nuisance-facility-resident-lawsuit-2026/)、この案件も例外ではない
 
 そして日本の実務者にとっての持ち帰りは、シンプルだ。**「かつて大電力を使っていた場所」は、これからのAIインフラにとって最も価値のある土地になる。**
 
@@ -135,6 +135,6 @@ SB Energyは8GW級の施設を建設・保有・運営する。これには途�
 
 ---
 
-**関連記事：** [秋田に2兆円、中東マネーが北を選んだ](/articles/akita-uae-500mw-ai-datacenter-2026) ／ [3.8GWが数秒で消えた日 — DCが電力系統を揺らした](/articles/pjm-3800mw-load-drop-datacenter-grid-cost-2026) ／ [液晶の聖地がAIの聖地へ — シャープ堺工場跡地](/articles/sharp-sakai-ai-datacenter-kddi-softbank-2026) ／ [ブラックストーン「日本に4.8兆円」の衝撃](/articles/blackstone-japan-dc-investment-beneficiary-sectors-2026)
+**関連記事：** [秋田に2兆円、中東マネーが北を選んだ](/articles/akita-uae-500mw-ai-datacenter-2026/) ／ [3.8GWが数秒で消えた日 — DCが電力系統を揺らした](/articles/pjm-3800mw-load-drop-datacenter-grid-cost-2026/) ／ [液晶の聖地がAIの聖地へ — シャープ堺工場跡地](/articles/sharp-sakai-ai-datacenter-kddi-softbank-2026/) ／ [ブラックストーン「日本に4.8兆円」の衝撃](/articles/blackstone-japan-dc-investment-beneficiary-sectors-2026/)
 
-**関連用語：** [ハイパースケーラー](/glossary/what-is-hyperscaler) ／ [GPU](/glossary/what-is-gpu) ／ [PPA](/glossary/what-is-ppa) ／ [コロケーション](/glossary/what-is-colocation)
+**関連用語：** [ハイパースケーラー](/glossary/what-is-hyperscaler/) ／ [GPU](/glossary/what-is-gpu/) ／ [PPA](/glossary/what-is-ppa/) ／ [コロケーション](/glossary/what-is-colocation/)

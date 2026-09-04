@@ -107,8 +107,8 @@ UPSはデータセンターの電源品質を守る最前線の装置です。AI
 
 ## 関連記事・用語
 
-- [コロケーションDCの選び方——2026年版チェックリスト](/articles/colocation-dc-selection-guide-2026)
-- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure)
-- [用語：Tier認定（I〜IV）とは](/glossary/what-is-tier-certification)
-- [用語：SLAとは](/glossary/what-is-sla)
-- [用語：PUEとは](/glossary/what-is-pue)
+- [コロケーションDCの選び方——2026年版チェックリスト](/articles/colocation-dc-selection-guide-2026/)
+- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure/)
+- [用語：Tier認定（I〜IV）とは](/glossary/what-is-tier-certification/)
+- [用語：SLAとは](/glossary/what-is-sla/)
+- [用語：PUEとは](/glossary/what-is-pue/)

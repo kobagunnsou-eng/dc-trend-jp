@@ -94,10 +94,10 @@ PUE（Power Usage Effectiveness）を下げることは、同じIT処理量に�
 
 ## 関連記事・用語
 
-- [データセンターとカーボンニュートラル——2026年のRE100・PPA・CFE最前線](/articles/dc-carbon-neutral-re100-ppa-2026)
-- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026)
-- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026)
-- [用語：RE100とは](/glossary/what-is-re100)
-- [用語：PPA（電力購入契約）とは](/glossary/what-is-ppa)
-- [用語：CFE（カーボンフリー電力）とは](/glossary/what-is-cfe)
-- [用語：PUEとは](/glossary/what-is-pue)
+- [データセンターとカーボンニュートラル——2026年のRE100・PPA・CFE最前線](/articles/dc-carbon-neutral-re100-ppa-2026/)
+- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026/)
+- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026/)
+- [用語：RE100とは](/glossary/what-is-re100/)
+- [用語：PPA（電力購入契約）とは](/glossary/what-is-ppa/)
+- [用語：CFE（カーボンフリー電力）とは](/glossary/what-is-cfe/)
+- [用語：PUEとは](/glossary/what-is-pue/)

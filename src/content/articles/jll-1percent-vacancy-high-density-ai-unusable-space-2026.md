@@ -51,7 +51,7 @@ JLLの2026年中間期レポートが、データセンター業界の現実を�
 
 床面積が同じでも、必要な電力が20倍になる。すると建物への引込設備、受変電設備、キュービクルがまるごと足りない。
 
-これは「分電盤を増設すれば済む」話ではなく、**特別高圧の受電設備そのものを作り直す**規模になる。しかも増設には電力会社との協議が要り、[系統側に余裕がなければ数年待ち](/articles/pjm-3800mw-load-drop-datacenter-grid-cost-2026)になる。
+これは「分電盤を増設すれば済む」話ではなく、**特別高圧の受電設備そのものを作り直す**規模になる。しかも増設には電力会社との協議が要り、[系統側に余裕がなければ数年待ち](/articles/pjm-3800mw-load-drop-datacenter-grid-cost-2026/)になる。
 
 **建物は空いている。だが、その建物に流し込む電気がない。** これが「使えない空きスペース」の正体の大部分だ。
 
@@ -59,7 +59,7 @@ JLLの2026年中間期レポートが、データセンター業界の現実を�
 
 受電できたとしても、次はラックまでどう届けるかだ。
 
-1ラック120kWとなると、従来の分電盤とケーブルでは扱えない。ブスバーの容量、ケーブルサイズ、遮断器の定格、[UPS](/glossary/what-is-ups)の容量——**電気室からラックまでの経路すべてが設計し直し**になる。
+1ラック120kWとなると、従来の分電盤とケーブルでは扱えない。ブスバーの容量、ケーブルサイズ、遮断器の定格、[UPS](/glossary/what-is-ups/)の容量——**電気室からラックまでの経路すべてが設計し直し**になる。
 
 既存施設は、当時の想定密度に合わせて最適化されている。「余裕を持って作ってある」施設でも、想定の2倍までは耐えても20倍は想定外だ。
 
@@ -67,7 +67,7 @@ JLLの2026年中間期レポートが、データセンター業界の現実を�
 
 密度が上がれば発熱も上がる。120kWのラックを空冷で冷やすのは、現実的ではない。
 
-だからJLLも**液冷インフラをAI展開の要件**と位置づけている。当サイトでも[空冷の限界と液冷への移行](/articles/datacenter-liquid-cooling-dlc-immersion-2026)を詳しく解説したが、既存施設への**後付け（レトロフィット）は想像以上に厄介**だ。
+だからJLLも**液冷インフラをAI展開の要件**と位置づけている。当サイトでも[空冷の限界と液冷への移行](/articles/datacenter-liquid-cooling-dlc-immersion-2026/)を詳しく解説したが、既存施設への**後付け（レトロフィット）は想像以上に厄介**だ。
 
 - **CDU（冷却液分配ユニット）の設置スペース**が要る。既存のフロアプランに余白はない
 - **二次側の配管ルート**を通す必要がある。天井裏・床下はすでに他の設備で埋まっている
@@ -108,20 +108,20 @@ JLLのレポートは北米が対象だが、**日本の状況はより厳しい
 
 だからこそ、いま国内で起きているのは**新設ラッシュと跡地活用**である。
 
-- [印西・白井エリアの大規模キャンパス開発](/articles/pjm-3800mw-load-drop-datacenter-grid-cost-2026)
-- [シャープ堺工場跡地のAI DC転用](/articles/sharp-sakai-ai-datacenter-kddi-softbank-2026)
-- [北海道・秋田といった地方の大型構想](/articles/hokkaido-datacenter-corridor-power-limit-2026)
-- [旧ウラン濃縮工場を使うオハイオの事例](/articles/nvidia-openai-ohio-105bn-guarantee-sb-energy-2026)
+- [印西・白井エリアの大規模キャンパス開発](/articles/pjm-3800mw-load-drop-datacenter-grid-cost-2026/)
+- [シャープ堺工場跡地のAI DC転用](/articles/sharp-sakai-ai-datacenter-kddi-softbank-2026/)
+- [北海道・秋田といった地方の大型構想](/articles/hokkaido-datacenter-corridor-power-limit-2026/)
+- [旧ウラン濃縮工場を使うオハイオの事例](/articles/nvidia-openai-ohio-105bn-guarantee-sb-energy-2026/)
 
 これらはすべて、**「既存の箱では無理だから、新しく作るか、大電力を使っていた場所を継承する」**という同じ判断の結果だ。AI DCの新設ラッシュは、投資家が浮かれているからではなく、**技術的な必然**として起きている。
 
 ## 調達担当者が確認すべき5つの質問
 
-ここからは実務の話だ。[コロケーション](/glossary/what-is-colocation)を検討する立場であれば、事業者の「空きがあります」という回答を、次の5点で必ず掘り下げてほしい。
+ここからは実務の話だ。[コロケーション](/glossary/what-is-colocation/)を検討する立場であれば、事業者の「空きがあります」という回答を、次の5点で必ず掘り下げてほしい。
 
 1. **ラック当たりの供給可能電力は何kWか** — 「高密度対応」という言葉だけでは意味がない。数字で確認する。10kWなのか、30kWなのか、100kW超なのか
 2. **その電力は契約済みか、申込中か** — 施設の受電容量に余裕があっても、系統側の接続が確定していなければ絵に描いた餅になる
-3. **冷却方式は何か。液冷は現時点で使えるか、これから工事か** — [DLC](/glossary/what-is-dlc)対応済みなのか、対応予定なのかで、稼働時期が1年以上変わる
+3. **冷却方式は何か。液冷は現時点で使えるか、これから工事か** — [DLC](/glossary/what-is-dlc/)対応済みなのか、対応予定なのかで、稼働時期が1年以上変わる
 4. **床荷重の上限は** — 導入予定機器の重量を伝えて、明確な可否をもらう。搬入経路の制約も併せて確認する
 5. **その空きは連続した区画か** — 複数フロア・複数棟に分かれていないか。AI用途なら隣接性は必須要件になる
 
@@ -143,6 +143,6 @@ JLLのレポートは北米が対象だが、**日本の状況はより厳しい
 
 ---
 
-**関連記事：** [空冷の限界、液冷の時代へ — AIサーバーを冷やす最新技術](/articles/datacenter-liquid-cooling-dlc-immersion-2026) ／ [3.8GWが数秒で消えた日 — DCが電力系統を揺らした](/articles/pjm-3800mw-load-drop-datacenter-grid-cost-2026) ／ [NVIDIAが1,050億ドルを保証した](/articles/nvidia-openai-ohio-105bn-guarantee-sb-energy-2026) ／ [液晶の聖地がAIの聖地へ — シャープ堺工場跡地](/articles/sharp-sakai-ai-datacenter-kddi-softbank-2026)
+**関連記事：** [空冷の限界、液冷の時代へ — AIサーバーを冷やす最新技術](/articles/datacenter-liquid-cooling-dlc-immersion-2026/) ／ [3.8GWが数秒で消えた日 — DCが電力系統を揺らした](/articles/pjm-3800mw-load-drop-datacenter-grid-cost-2026/) ／ [NVIDIAが1,050億ドルを保証した](/articles/nvidia-openai-ohio-105bn-guarantee-sb-energy-2026/) ／ [液晶の聖地がAIの聖地へ — シャープ堺工場跡地](/articles/sharp-sakai-ai-datacenter-kddi-softbank-2026/)
 
-**関連用語：** [コロケーション](/glossary/what-is-colocation) ／ [DLC](/glossary/what-is-dlc) ／ [液浸冷却](/glossary/what-is-liquid-immersion-cooling) ／ [PUE](/glossary/what-is-pue) ／ [UPS](/glossary/what-is-ups)
+**関連用語：** [コロケーション](/glossary/what-is-colocation/) ／ [DLC](/glossary/what-is-dlc/) ／ [液浸冷却](/glossary/what-is-liquid-immersion-cooling/) ／ [PUE](/glossary/what-is-pue/) ／ [UPS](/glossary/what-is-ups/)

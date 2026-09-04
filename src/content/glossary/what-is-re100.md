@@ -40,7 +40,7 @@ RE100ルール上はいずれの手段も認められていますが、実態へ
 
 RE100は「年間を通じた電力使用量に対して、年間の再エネ発電量が同量以上」という基準です。つまり、昼間に太陽光で発電した分を夜間の電力使用と相殺することが許されます。
 
-一方、Googleが提唱する[CFE（Carbon-Free Energy）](/glossary/what-is-cfe)の「24/7 CFE」は、1時間ごと・地域ごとに再エネ量と電力消費量を一致させることを求めます。
+一方、Googleが提唱する[CFE（Carbon-Free Energy）](/glossary/what-is-cfe/)の「24/7 CFE」は、1時間ごと・地域ごとに再エネ量と電力消費量を一致させることを求めます。
 
 | 指標 | 集計単位 | 厳格さ |
 |------|---------|--------|
@@ -65,7 +65,7 @@ DC利用企業のScope 3排出量にDC側の電力消費が含まれるため、
 
 日本国内では、2021年以降RE100加盟企業数が急増しました。背景には、東証プライム上場企業へのTCFD（気候関連財務情報開示タスクフォース）情報開示要求が強まったことがあります。
 
-一方で、日本の電力グリッドは再エネ比率がまだ低いため、「RE100を達成したい」という需要に対して「供給できる再エネ電力の量が足りない」という構造的な課題があります。これが[PPA](/glossary/what-is-ppa)や非化石証書市場の拡大につながっています。
+一方で、日本の電力グリッドは再エネ比率がまだ低いため、「RE100を達成したい」という需要に対して「供給できる再エネ電力の量が足りない」という構造的な課題があります。これが[PPA](/glossary/what-is-ppa/)や非化石証書市場の拡大につながっています。
 
 ---
 
@@ -76,8 +76,8 @@ RE100は、DCを含む企業のエネルギー調達の「再エネシフト」�
 ---
 
 ### 関連記事・用語
-- [データセンターとカーボンニュートラル——RE100・PPA・CFE最前線](/articles/dc-carbon-neutral-re100-ppa-2026)
-- [MicrosoftのAI向け日本DC投資4400億円を読み解く](/articles/microsoft-japan-dc-investment-2026)
-- [PPA（Power Purchase Agreement）とは](/glossary/what-is-ppa)
-- [CFE（Carbon-Free Energy）とは](/glossary/what-is-cfe)
-- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue)
+- [データセンターとカーボンニュートラル——RE100・PPA・CFE最前線](/articles/dc-carbon-neutral-re100-ppa-2026/)
+- [MicrosoftのAI向け日本DC投資4400億円を読み解く](/articles/microsoft-japan-dc-investment-2026/)
+- [PPA（Power Purchase Agreement）とは](/glossary/what-is-ppa/)
+- [CFE（Carbon-Free Energy）とは](/glossary/what-is-cfe/)
+- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue/)

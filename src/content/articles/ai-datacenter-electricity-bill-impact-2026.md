@@ -88,6 +88,6 @@ AIデータセンターは、日本の産業競争力に不可欠なインフラ
 
 ---
 
-**関連記事：** [AIデータセンター電力危機 — 現場の実態](/articles/ai-datacenter-power-crisis-2026) ／ [「DC＝迷惑施設」の波紋 — 全国で相次ぐ住民訴訟](/articles/dc-nuisance-facility-resident-lawsuit-2026)
+**関連記事：** [AIデータセンター電力危機 — 現場の実態](/articles/ai-datacenter-power-crisis-2026/) ／ [「DC＝迷惑施設」の波紋 — 全国で相次ぐ住民訴訟](/articles/dc-nuisance-facility-resident-lawsuit-2026/)
 
-**関連用語：** [カーボンニュートラル](/glossary/what-is-carbon-neutral) ／ [UPS（無停電電源装置）](/glossary/what-is-ups) ／ [フリークーリング](/glossary/what-is-free-cooling)
+**関連用語：** [カーボンニュートラル](/glossary/what-is-carbon-neutral/) ／ [UPS（無停電電源装置）](/glossary/what-is-ups/) ／ [フリークーリング](/glossary/what-is-free-cooling/)

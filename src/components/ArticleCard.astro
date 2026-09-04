@@ -37,7 +37,7 @@ const {
   thumbnail,
 } = Astro.props;
 
-const href = isGlossary ? `/glossary/${slug}` : `/articles/${slug}`;
+const href = isGlossary ? `/glossary/${slug}/` : `/articles/${slug}/`;
 
 function formatDate(s: string): string {
   return new Date(s)

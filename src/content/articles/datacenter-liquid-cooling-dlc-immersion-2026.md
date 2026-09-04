@@ -16,24 +16,24 @@ thumbnail: "/images/articles/datacenter-liquid-cooling-dlc-immersion-2026.png"
 
 ところが、生成AIがこの前提を破壊した。NVIDIAの最新AIサーバー「GB200 NVL72」は、**1ラックで約120kW**を消費する。従来の8〜20倍だ。これだけの熱を空気で吹き飛ばそうとすれば、ハリケーン級の風量が必要になり、現実的ではない。
 
-そこで主役に躍り出たのが**「[液冷（Liquid Cooling）](/glossary/what-is-liquid-cooling)」**である。
+そこで主役に躍り出たのが**「[液冷（Liquid Cooling）](/glossary/what-is-liquid-cooling/)」**である。
 
 ## なぜ液体は空気より圧倒的に優れているのか
 
 答えはシンプルで、**液体は空気より熱を運ぶ能力が桁違いに高い**からだ。
 
-水の比熱と密度を考えると、同じ体積で空気の約3,500倍もの熱を運べる。発熱源のすぐそばまで液体を届けて熱を奪えば、巨大な送風設備も、フロア全体を冷やす無駄な空調も要らなくなる。結果として、データセンターのエネルギー効率指標である[PUE](/glossary/what-is-pue)を劇的に改善できる。
+水の比熱と密度を考えると、同じ体積で空気の約3,500倍もの熱を運べる。発熱源のすぐそばまで液体を届けて熱を奪えば、巨大な送風設備も、フロア全体を冷やす無駄な空調も要らなくなる。結果として、データセンターのエネルギー効率指標である[PUE](/glossary/what-is-pue/)を劇的に改善できる。
 
 - **空冷**：PUE 1.4〜1.7 が一般的
 - **液冷**：PUE 1.1 前後まで低減可能
 
-PUEが1.1ということは、IT機器が使う電力1に対し、冷却などの付帯電力がわずか0.1で済むことを意味する。電気代の高騰が問題になるなか([関連記事](/articles/ai-datacenter-electricity-bill-impact-2026))、この差は事業者にとって死活問題だ。
+PUEが1.1ということは、IT機器が使う電力1に対し、冷却などの付帯電力がわずか0.1で済むことを意味する。電気代の高騰が問題になるなか([関連記事](/articles/ai-datacenter-electricity-bill-impact-2026/))、この差は事業者にとって死活問題だ。
 
 ## 液冷の2大方式：DLC と 液浸冷却
 
 液冷と一口に言っても、大きく2つの方式がある。仕組みも導入のしやすさも異なる。
 
-### ① [DLC（直接液体冷却）](/glossary/what-is-dlc) — 現在の主流
+### ① [DLC（直接液体冷却）](/glossary/what-is-dlc/) — 現在の主流
 
 **DLC（Direct Liquid Cooling）**は、CPUやGPUなど特に発熱する部品に「コールドプレート」と呼ばれる金属板を直接密着させ、その中に冷却液を流して熱を奪う方式だ。
 
@@ -44,9 +44,9 @@ PUEが1.1ということは、IT機器が使う電力1に対し、冷却など�
 | 対応電力密度 | 〜100kW超/ラック |
 | 発熱処理能力 | GB200では発熱の最大92%をDLCで処理 |
 
-DLCの最大の利点は、**既存のサーバー・ラック構造を大きく変えずに導入できる**点だ。NVIDIA GB200 NVL72も標準でDLC設計になっており、現在のAIデータセンターの主流方式となっている。先日稼働した[KDDI大阪堺データセンター](/articles/sharp-sakai-ai-datacenter-kddi-softbank-2026)も、このDLCを採用している。
+DLCの最大の利点は、**既存のサーバー・ラック構造を大きく変えずに導入できる**点だ。NVIDIA GB200 NVL72も標準でDLC設計になっており、現在のAIデータセンターの主流方式となっている。先日稼働した[KDDI大阪堺データセンター](/articles/sharp-sakai-ai-datacenter-kddi-softbank-2026/)も、このDLCを採用している。
 
-### ② [液浸冷却（Immersion Cooling）](/glossary/what-is-liquid-immersion-cooling) — 究極の冷却
+### ② [液浸冷却（Immersion Cooling）](/glossary/what-is-liquid-immersion-cooling/) — 究極の冷却
 
 **液浸冷却**は、その名の通り**サーバー本体を丸ごと、電気を通さない特殊な液体に浸してしまう**方式だ。フッ素系不活性液体やシリコンオイルなどが使われる。
 
@@ -75,7 +75,7 @@ KDDI・三菱重工業・NECネッツエスアイの3社が開発した液浸冷
 
 ### 1. 「廃熱」は捨てるものから売るものへ
 
-液冷で回収した熱は、空冷の排気より高温で扱いやすい。この温水を地域暖房や農業ハウス、温浴施設に供給する「廃熱利用」が欧州では一般化しつつある。日本でも、DCの廃熱を地域に還元することが、[住民との共生](/articles/dc-nuisance-facility-resident-lawsuit-2026)の切り札になりうる。
+液冷で回収した熱は、空冷の排気より高温で扱いやすい。この温水を地域暖房や農業ハウス、温浴施設に供給する「廃熱利用」が欧州では一般化しつつある。日本でも、DCの廃熱を地域に還元することが、[住民との共生](/articles/dc-nuisance-facility-resident-lawsuit-2026/)の切り札になりうる。
 
 ### 2. 水の確保という新たな制約
 
@@ -93,6 +93,6 @@ KDDI・三菱重工業・NECネッツエスアイの3社が開発した液浸冷
 
 ---
 
-**関連記事：** [NVIDIA Blackwell — AIインフラの新時代](/articles/nvidia-blackwell-ai-infrastructure) ／ [液晶の聖地がAIの聖地へ — シャープ堺工場跡地](/articles/sharp-sakai-ai-datacenter-kddi-softbank-2026)
+**関連記事：** [NVIDIA Blackwell — AIインフラの新時代](/articles/nvidia-blackwell-ai-infrastructure/) ／ [液晶の聖地がAIの聖地へ — シャープ堺工場跡地](/articles/sharp-sakai-ai-datacenter-kddi-softbank-2026/)
 
-**関連用語：** [フリークーリング](/glossary/what-is-free-cooling) ／ [GPU](/glossary/what-is-gpu) ／ [HPC](/glossary/what-is-hpc)
+**関連用語：** [フリークーリング](/glossary/what-is-free-cooling/) ／ [GPU](/glossary/what-is-gpu/) ／ [HPC](/glossary/what-is-hpc/)

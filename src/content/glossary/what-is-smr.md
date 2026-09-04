@@ -50,7 +50,7 @@ Amazonも2024年にX-energyのSMRから電力を調達する複数年契約を�
 
 ### カーボンフリー電源としての位置づけ
 
-原子力は発電中にCO₂を排出しない「カーボンフリー電源」です。[CFE（Carbon-Free Energy）](/glossary/what-is-cfe)の定義に含まれており、Googleが目指す24/7 CFEの達成において、太陽光・風力の時間変動を補完する「常時発電できるカーボンフリー電源」として期待されています。
+原子力は発電中にCO₂を排出しない「カーボンフリー電源」です。[CFE（Carbon-Free Energy）](/glossary/what-is-cfe/)の定義に含まれており、Googleが目指す24/7 CFEの達成において、太陽光・風力の時間変動を補完する「常時発電できるカーボンフリー電源」として期待されています。
 
 ### 安定した大容量電力
 
@@ -103,9 +103,9 @@ SMRは、AI/DCの電力問題を長期的に解決する可能性を持つ次世
 ---
 
 ### 関連記事・用語
-- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026)
-- [データセンターとカーボンニュートラル——RE100・PPA・CFE最前線](/articles/dc-carbon-neutral-re100-ppa-2026)
-- [MicrosoftのAI向け日本DC投資4400億円を読み解く](/articles/microsoft-japan-dc-investment-2026)
-- [CFE（Carbon-Free Energy）とは](/glossary/what-is-cfe)
-- [RE100とは](/glossary/what-is-re100)
-- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue)
+- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026/)
+- [データセンターとカーボンニュートラル——RE100・PPA・CFE最前線](/articles/dc-carbon-neutral-re100-ppa-2026/)
+- [MicrosoftのAI向け日本DC投資4400億円を読み解く](/articles/microsoft-japan-dc-investment-2026/)
+- [CFE（Carbon-Free Energy）とは](/glossary/what-is-cfe/)
+- [RE100とは](/glossary/what-is-re100/)
+- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue/)

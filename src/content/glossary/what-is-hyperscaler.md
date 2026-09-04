@@ -92,8 +92,8 @@ IIJ・IDCフロンティア・さくらインターネットなどの国内コ�
 ---
 
 ### 関連記事・用語
-- [MicrosoftのAI向け日本DC投資4400億円を読み解く](/articles/microsoft-japan-dc-investment-2026)
-- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026)
-- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure)
-- [コロケーション（Colocation）とは](/glossary/what-is-colocation)
-- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue)
+- [MicrosoftのAI向け日本DC投資4400億円を読み解く](/articles/microsoft-japan-dc-investment-2026/)
+- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026/)
+- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure/)
+- [コロケーション（Colocation）とは](/glossary/what-is-colocation/)
+- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue/)

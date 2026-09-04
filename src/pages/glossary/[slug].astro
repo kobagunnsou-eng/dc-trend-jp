@@ -38,7 +38,7 @@ const { Content } = await term.render();
       <div class="flex flex-wrap gap-2">
         {term.data.related_terms.map(s => (
           <a
-            href={`/glossary/${s}`}
+            href={`/glossary/${s}/`}
             class="text-sm px-3 py-1 bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600 rounded hover:border-brand-400 transition-colors text-brand-600 dark:text-brand-400"
           >
             {s}
@@ -56,7 +56,7 @@ const { Content } = await term.render();
         {term.data.related_articles.map(s => (
           <li>
             <a
-              href={`/articles/${s}`}
+              href={`/articles/${s}/`}
               class="text-sm text-brand-600 dark:text-brand-400 hover:underline"
             >
               → {s}

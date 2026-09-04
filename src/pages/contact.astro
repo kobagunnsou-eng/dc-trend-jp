@@ -11,7 +11,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xnjrdkbg';
 
-const breadcrumbs = [{ name: 'お問い合わせ', url: '/contact' }];
+const breadcrumbs = [{ name: 'お問い合わせ', url: '/contact/' }];
 ---
 
 <BaseLayout
@@ -157,7 +157,7 @@ const breadcrumbs = [{ name: 'お問い合わせ', url: '/contact' }];
           class="mt-1 h-4 w-4 rounded border-slate-300 text-brand-600 focus:ring-brand-500"
         />
         <label for="agree" class="text-sm text-slate-600 dark:text-slate-400">
-          <a href="/privacy" class="text-brand-600 dark:text-brand-400 hover:underline">
+          <a href="/privacy/" class="text-brand-600 dark:text-brand-400 hover:underline">
             プライバシーポリシー
           </a>
           に同意します <span class="text-red-500">*</span>

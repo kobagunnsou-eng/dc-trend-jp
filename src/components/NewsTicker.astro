@@ -16,8 +16,8 @@ export interface Props {
 const { article } = Astro.props;
 
 const href = article.isGlossary
-  ? `/glossary/${article.slug}`
-  : `/articles/${article.slug}`;
+  ? `/glossary/${article.slug}/`
+  : `/articles/${article.slug}/`;
 
 const dateStr = new Date(article.publishedAt)
   .toLocaleDateString('ja-JP', { year: 'numeric', month: '2-digit', day: '2-digit' })

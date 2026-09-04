@@ -43,7 +43,7 @@ NVIDIAのGB200 NVL72システムは1システムで120kW超を消費します。
 
 CPU/GPUなどの発熱部品に直接冷却水を当てる方式。コールドプレートと呼ばれる金属板をチップ表面に密着させ、冷却水で熱を運びます。
 
-詳しくは → [直接液冷（DLC）とは](/glossary/what-is-dlc)
+詳しくは → [直接液冷（DLC）とは](/glossary/what-is-dlc/)
 
 特徴：
 - 通常のサーバーに後付け対応が増えている
@@ -55,7 +55,7 @@ CPU/GPUなどの発熱部品に直接冷却水を当てる方式。コールド�
 
 サーバー全体を絶縁性の特殊液体（誘電性液体・冷却油）に浸して冷却する方式。
 
-詳しくは → [液浸冷却（Liquid Immersion Cooling）とは](/glossary/what-is-liquid-immersion-cooling)
+詳しくは → [液浸冷却（Liquid Immersion Cooling）とは](/glossary/what-is-liquid-immersion-cooling/)
 
 特徴：
 - PUE 1.02〜1.05の業界最高水準の効率
@@ -119,9 +119,9 @@ DLCはラックまで冷却水配管を引き込む工事が必要です。既�
 ---
 
 ### 関連記事・用語
-- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026)
-- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure)
-- [コロケーションDC選定の勘所2026年版](/articles/colocation-dc-selection-guide-2026)
-- [直接液冷（DLC）とは](/glossary/what-is-dlc)
-- [液浸冷却（Liquid Immersion Cooling）とは](/glossary/what-is-liquid-immersion-cooling)
-- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue)
+- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026/)
+- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure/)
+- [コロケーションDC選定の勘所2026年版](/articles/colocation-dc-selection-guide-2026/)
+- [直接液冷（DLC）とは](/glossary/what-is-dlc/)
+- [液浸冷却（Liquid Immersion Cooling）とは](/glossary/what-is-liquid-immersion-cooling/)
+- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue/)

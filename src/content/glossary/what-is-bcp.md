@@ -104,9 +104,9 @@ BCPはシステム単体の可用性だけでなく、データセンターの�
 
 ## 関連記事・用語
 
-- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026)
-- [コロケーションDCの選び方——2026年版チェックリスト](/articles/colocation-dc-selection-guide-2026)
-- [なぜ東京タワーの真横にデータセンターが建つのか](/articles/nextdc-tk1-tokyo-nhk-resident-lawsuit-2026)
-- [用語：SLA（サービスレベルアグリーメント）とは](/glossary/what-is-sla)
-- [用語：Tier認定（I〜IV）とは](/glossary/what-is-tier-certification)
-- [用語：コロケーションとは](/glossary/what-is-colocation)
+- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026/)
+- [コロケーションDCの選び方——2026年版チェックリスト](/articles/colocation-dc-selection-guide-2026/)
+- [なぜ東京タワーの真横にデータセンターが建つのか](/articles/nextdc-tk1-tokyo-nhk-resident-lawsuit-2026/)
+- [用語：SLA（サービスレベルアグリーメント）とは](/glossary/what-is-sla/)
+- [用語：Tier認定（I〜IV）とは](/glossary/what-is-tier-certification/)
+- [用語：コロケーションとは](/glossary/what-is-colocation/)

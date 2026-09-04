@@ -41,7 +41,7 @@ DC建設は工期が長く受注額も大きいため、ゼネコン・電気工
 
 ## 工程②：電源 — 受変電・無停電電源
 
-DCにとって電力は命綱だ。大容量の電気を受け入れる**受変電設備**、瞬断も許さない[UPS（無停電電源装置）](/glossary/what-is-ups)、非常用発電機——これらの電源インフラに巨額の資金が向かう。
+DCにとって電力は命綱だ。大容量の電気を受け入れる**受変電設備**、瞬断も許さない[UPS（無停電電源装置）](/glossary/what-is-ups/)、非常用発電機——これらの電源インフラに巨額の資金が向かう。
 
 | セクター | 役割 | 代表的な上場企業（例） |
 |---------|------|----------------------|
@@ -49,11 +49,11 @@ DCにとって電力は命綱だ。大容量の電気を受け入れる**受変�
 | 無停電電源（UPS） | 瞬断防止 | 山洋電気（6516）、GSユアサ |
 | 非常用発電 | バックアップ電源 | デンヨー |
 
-AIサーバーの高密度化（[1ラック120kW時代](/articles/datacenter-liquid-cooling-dlc-immersion-2026)）で、電源容量の要求はうなぎ登りだ。電力機器メーカーにとっては追い風が続く。
+AIサーバーの高密度化（[1ラック120kW時代](/articles/datacenter-liquid-cooling-dlc-immersion-2026/)）で、電源容量の要求はうなぎ登りだ。電力機器メーカーにとっては追い風が続く。
 
 ## 工程③：冷却 — 空調・液冷
 
-[前回の記事](/articles/datacenter-liquid-cooling-dlc-immersion-2026)で詳しく解説したとおり、AIデータセンターの冷却は空冷から液冷へと急速に移行している。冷却はDC消費電力の30〜40%を占める重要工程であり、ここにも特需が生まれている。
+[前回の記事](/articles/datacenter-liquid-cooling-dlc-immersion-2026/)で詳しく解説したとおり、AIデータセンターの冷却は空冷から液冷へと急速に移行している。冷却はDC消費電力の30〜40%を占める重要工程であり、ここにも特需が生まれている。
 
 | セクター | 役割 | 代表的な上場企業（例） |
 |---------|------|----------------------|
@@ -84,7 +84,7 @@ DC内部とDC間を結ぶ通信インフラも見逃せない。サーバー間�
 | 通信キャリア系 | 大規模DC運営 | KDDI、ソフトバンク |
 | インフラREIT | DC不動産の証券化 | 各種インフラファンド |
 
-国産クラウドのさくらインターネットは、政府の「ガバメントクラウド」採択を追い風に注目を集めている。AI主権([ソブリンAI](/articles/sharp-sakai-ai-datacenter-kddi-softbank-2026))の文脈でも、国内DC事業者の戦略的重要性は増している。
+国産クラウドのさくらインターネットは、政府の「ガバメントクラウド」採択を追い風に注目を集めている。AI主権([ソブリンAI](/articles/sharp-sakai-ai-datacenter-kddi-softbank-2026/))の文脈でも、国内DC事業者の戦略的重要性は増している。
 
 ## 恩恵の裏にあるリスクと留意点
 
@@ -96,11 +96,11 @@ DC内部とDC間を結ぶ通信インフラも見逃せない。サーバー間�
 
 ### 2. 電力制約という天井
 
-いくら資金があっても、[電力系統に接続できなければDCは動かない](/articles/ai-datacenter-power-crisis-2026)。首都圏では系統接続の順番待ちが深刻で、投資意欲がそのまま稼働に直結しない。電力制約は、すべての恩恵セクターにとっての「共通の天井」だ。
+いくら資金があっても、[電力系統に接続できなければDCは動かない](/articles/ai-datacenter-power-crisis-2026/)。首都圏では系統接続の順番待ちが深刻で、投資意欲がそのまま稼働に直結しない。電力制約は、すべての恩恵セクターにとっての「共通の天井」だ。
 
 ### 3. 地域との摩擦リスク
 
-[全国で住民訴訟が相次ぐ](/articles/dc-nuisance-facility-resident-lawsuit-2026)なか、計画が住民反対で頓挫すれば、関連受注も消える。「立地リスク」は投資マネーにとっても無視できない変数になっている。
+[全国で住民訴訟が相次ぐ](/articles/dc-nuisance-facility-resident-lawsuit-2026/)なか、計画が住民反対で頓挫すれば、関連受注も消える。「立地リスク」は投資マネーにとっても無視できない変数になっている。
 
 ## まとめ：日本は「AIインフラ大国」になれるか
 
@@ -112,6 +112,6 @@ DC内部とDC間を結ぶ通信インフラも見逃せない。サーバー間�
 
 ---
 
-**関連記事：** [Microsoft 日本DC投資4400億円の衝撃](/articles/microsoft-japan-dc-investment-2026) ／ [国内DCマーケット 空前の投資ラッシュ2026](/articles/japan-dc-market-2026) ／ [あなたの電気代は上がるのか？](/articles/ai-datacenter-electricity-bill-impact-2026)
+**関連記事：** [Microsoft 日本DC投資4400億円の衝撃](/articles/microsoft-japan-dc-investment-2026/) ／ [国内DCマーケット 空前の投資ラッシュ2026](/articles/japan-dc-market-2026/) ／ [あなたの電気代は上がるのか？](/articles/ai-datacenter-electricity-bill-impact-2026/)
 
-**関連用語：** [ハイパースケーラー](/glossary/what-is-hyperscaler) ／ [コロケーション](/glossary/what-is-colocation) ／ [UPS](/glossary/what-is-ups)
+**関連用語：** [ハイパースケーラー](/glossary/what-is-hyperscaler/) ／ [コロケーション](/glossary/what-is-colocation/) ／ [UPS](/glossary/what-is-ups/)

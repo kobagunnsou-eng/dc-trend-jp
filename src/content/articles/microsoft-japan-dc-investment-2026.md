@@ -85,10 +85,10 @@ Microsoftの4400億円投資は、単なる「企業の投資発表」ではな�
 ---
 
 ### 関連記事・用語
-- [ハイパースケーラーとは](/glossary/what-is-hyperscaler)
-- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026)
-- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure)
-- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026)
-- [データセンターとカーボンニュートラル——RE100・PPA・CFE最前線](/articles/dc-carbon-neutral-re100-ppa-2026)
-- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue)
-- [液浸冷却（Liquid Immersion Cooling）とは](/glossary/what-is-liquid-immersion-cooling)
+- [ハイパースケーラーとは](/glossary/what-is-hyperscaler/)
+- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026/)
+- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure/)
+- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026/)
+- [データセンターとカーボンニュートラル——RE100・PPA・CFE最前線](/articles/dc-carbon-neutral-re100-ppa-2026/)
+- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue/)
+- [液浸冷却（Liquid Immersion Cooling）とは](/glossary/what-is-liquid-immersion-cooling/)

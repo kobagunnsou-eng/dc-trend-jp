@@ -102,7 +102,7 @@ function formatDate(s: string) {
           label="最新記事"
           kicker="LATEST"
           more="すべての記事"
-          moreHref="/category/japan-dc"
+          moreHref="/category/japan-dc/"
         />
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
           {latestRow.map(a => <ArticleCard {...a} variant="standard" />)}
@@ -127,13 +127,13 @@ function formatDate(s: string) {
                 label={sec.name}
                 kicker={sec.kicker}
                 more="このカテゴリの記事一覧"
-                moreHref={`/category/${sec.slug}`}
+                moreHref={`/category/${sec.slug}/`}
               />
 
               {/* Featured row of this section: thumbnail + headline */}
               {feature && (
                 <a
-                  href={`/articles/${feature.slug}`}
+                  href={`/articles/${feature.slug}/`}
                   class="group grid grid-cols-1 sm:grid-cols-2 gap-5 mb-4 no-underline"
                 >
                   <Thumbnail src={feature.thumbnail} category={feature.category} ratio="16/9" />

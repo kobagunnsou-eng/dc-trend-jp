@@ -14,11 +14,11 @@ AIデータセンターの電源には、他の施設にはない特殊な条件
 
 1. **24時間365日、絶対に途切れない**こと（GPUクラスタは停止＝巨額損失）
 2. **大容量**であること（1施設で数十万kW級）
-3. **CO2フリー**であること（ハイパースケーラーは[RE100/カーボンフリー](/glossary/what-is-carbon-neutral)を公約）
+3. **CO2フリー**であること（ハイパースケーラーは[RE100/カーボンフリー](/glossary/what-is-carbon-neutral/)を公約）
 
-太陽光や風力は(3)を満たすが、天候に左右されるため(1)が弱い。火力は(1)(2)を満たすが(3)で失格。この「三重の条件」をすべて満たす電源として、世界のテック企業が一斉に目を向けたのが**原子力**であり、その本命が**[SMR（小型モジュール炉）](/glossary/what-is-smr)**だ。
+太陽光や風力は(3)を満たすが、天候に左右されるため(1)が弱い。火力は(1)(2)を満たすが(3)で失格。この「三重の条件」をすべて満たす電源として、世界のテック企業が一斉に目を向けたのが**原子力**であり、その本命が**[SMR（小型モジュール炉）](/glossary/what-is-smr/)**だ。
 
-日本でも、電力需要増加分の過半数をデータセンターが占めるとの試算があり、[電力不足への懸念](/articles/ai-datacenter-power-crisis-2026)は現実の経営課題になっている。
+日本でも、電力需要増加分の過半数をデータセンターが占めるとの試算があり、[電力不足への懸念](/articles/ai-datacenter-power-crisis-2026/)は現実の経営課題になっている。
 
 ## SMRとは何か — 「工場で作る原発」
 
@@ -68,11 +68,11 @@ AIのGPU投資は「今年・来年」の話だが、SMRの国内商用化は早
 
 ### 2. 「DC隣接立地」は日本では簡単ではない
 
-米国ではDC敷地内や隣接地にSMRを置く構想が語られるが、日本では原子炉立地審査・避難計画・住民合意のハードルが高い。[DC自体ですら住民反対が相次ぐ](/articles/dc-nuisance-facility-resident-lawsuit-2026)現状を考えれば、「原子炉付きDC」への合意形成は容易でない。現実的には**既存原発サイト周辺へのDC誘致**（美浜モデル）が先行するだろう。
+米国ではDC敷地内や隣接地にSMRを置く構想が語られるが、日本では原子炉立地審査・避難計画・住民合意のハードルが高い。[DC自体ですら住民反対が相次ぐ](/articles/dc-nuisance-facility-resident-lawsuit-2026/)現状を考えれば、「原子炉付きDC」への合意形成は容易でない。現実的には**既存原発サイト周辺へのDC誘致**（美浜モデル）が先行するだろう。
 
 ### 3. それでも「選択肢を持つ」価値は大きい
 
-[電気料金への転嫁圧力](/articles/ai-datacenter-electricity-bill-impact-2026)が強まるなか、安定・大容量・CO2フリーの電源選択肢を国内に持つことは、DC産業の国際競争力に直結する。「日本はAIを動かす電気を確保できる国か」——海外投資家のこの問いに答えられるかどうかが、[外資マネーの流入](/articles/blackstone-japan-dc-investment-beneficiary-sectors-2026)を左右する。
+[電気料金への転嫁圧力](/articles/ai-datacenter-electricity-bill-impact-2026/)が強まるなか、安定・大容量・CO2フリーの電源選択肢を国内に持つことは、DC産業の国際競争力に直結する。「日本はAIを動かす電気を確保できる国か」——海外投資家のこの問いに答えられるかどうかが、[外資マネーの流入](/articles/blackstone-japan-dc-investment-beneficiary-sectors-2026/)を左右する。
 
 ## まとめ：救世主は「すぐには来ない」が「確実に近づいている」
 
@@ -82,6 +82,6 @@ SMRは、AI電力危機を今すぐ解決する魔法の杖ではない。しか
 
 ---
 
-**関連記事：** [AIデータセンター電力危機 — 現場の実態](/articles/ai-datacenter-power-crisis-2026) ／ [あなたの電気代は上がるのか？](/articles/ai-datacenter-electricity-bill-impact-2026) ／ [カーボンニュートラル RE100・PPA・CFE最前線](/articles/dc-carbon-neutral-re100-ppa-2026)
+**関連記事：** [AIデータセンター電力危機 — 現場の実態](/articles/ai-datacenter-power-crisis-2026/) ／ [あなたの電気代は上がるのか？](/articles/ai-datacenter-electricity-bill-impact-2026/) ／ [カーボンニュートラル RE100・PPA・CFE最前線](/articles/dc-carbon-neutral-re100-ppa-2026/)
 
-**関連用語：** [SMR（小型モジュール炉）](/glossary/what-is-smr) ／ [CFE（カーボンフリー電力）](/glossary/what-is-cfe) ／ [PPA（電力購入契約）](/glossary/what-is-ppa)
+**関連用語：** [SMR（小型モジュール炉）](/glossary/what-is-smr/) ／ [CFE（カーボンフリー電力）](/glossary/what-is-cfe/) ／ [PPA（電力購入契約）](/glossary/what-is-ppa/)

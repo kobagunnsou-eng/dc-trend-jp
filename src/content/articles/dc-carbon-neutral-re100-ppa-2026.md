@@ -116,12 +116,12 @@ DCのカーボンニュートラル対応は、「再エネ証書を買えばOK�
 ---
 
 ### 関連記事・用語
-- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026)
-- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026)
-- [MicrosoftのAI向け日本DC投資4400億円を読み解く](/articles/microsoft-japan-dc-investment-2026)
-- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure)
-- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue)
-- [液浸冷却（Liquid Immersion Cooling）とは](/glossary/what-is-liquid-immersion-cooling)
-- [RE100とは](/glossary/what-is-re100)
-- [PPA（Power Purchase Agreement）とは](/glossary/what-is-ppa)
-- [CFE（Carbon-Free Energy）とは](/glossary/what-is-cfe)
+- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026/)
+- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026/)
+- [MicrosoftのAI向け日本DC投資4400億円を読み解く](/articles/microsoft-japan-dc-investment-2026/)
+- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure/)
+- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue/)
+- [液浸冷却（Liquid Immersion Cooling）とは](/glossary/what-is-liquid-immersion-cooling/)
+- [RE100とは](/glossary/what-is-re100/)
+- [PPA（Power Purchase Agreement）とは](/glossary/what-is-ppa/)
+- [CFE（Carbon-Free Energy）とは](/glossary/what-is-cfe/)

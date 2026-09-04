@@ -101,9 +101,9 @@ GPUはAI・データセンター業界のコアコンポーネントとなって
 
 ## 関連記事・用語
 
-- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure)
-- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026)
-- [コロケーションDCの選び方——2026年版チェックリスト](/articles/colocation-dc-selection-guide-2026)
-- [用語：HPC（高性能計算）とは](/glossary/what-is-hpc)
-- [用語：直接液冷（DLC）とは](/glossary/what-is-dlc)
-- [用語：PUEとは](/glossary/what-is-pue)
+- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure/)
+- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026/)
+- [コロケーションDCの選び方——2026年版チェックリスト](/articles/colocation-dc-selection-guide-2026/)
+- [用語：HPC（高性能計算）とは](/glossary/what-is-hpc/)
+- [用語：直接液冷（DLC）とは](/glossary/what-is-dlc/)
+- [用語：PUEとは](/glossary/what-is-pue/)

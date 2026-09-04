@@ -79,9 +79,9 @@ HPCはかつての「スパコン＝研究機関のもの」という位置付�
 
 ## 関連記事・用語
 
-- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure)
-- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026)
-- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026)
-- [用語：GPUとは](/glossary/what-is-gpu)
-- [用語：直接液冷（DLC）とは](/glossary/what-is-dlc)
-- [用語：液浸冷却とは](/glossary/what-is-liquid-immersion-cooling)
+- [NVIDIA Blackwell（GB200）が変えるAIインフラの常識](/articles/nvidia-blackwell-ai-infrastructure/)
+- [AIデータセンターの電力危機——2026年、何が変わったのか](/articles/ai-datacenter-power-crisis-2026/)
+- [国内データセンター市場2026年最新動向](/articles/japan-dc-market-2026/)
+- [用語：GPUとは](/glossary/what-is-gpu/)
+- [用語：直接液冷（DLC）とは](/glossary/what-is-dlc/)
+- [用語：液浸冷却とは](/glossary/what-is-liquid-immersion-cooling/)

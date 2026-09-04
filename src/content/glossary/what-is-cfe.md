@@ -90,8 +90,8 @@ CFE（Carbon-Free Energy）と24/7 CFEは、RE100よりも一歩進んだ「時�
 ---
 
 ### 関連記事・用語
-- [データセンターとカーボンニュートラル——RE100・PPA・CFE最前線](/articles/dc-carbon-neutral-re100-ppa-2026)
-- [MicrosoftのAI向け日本DC投資4400億円を読み解く](/articles/microsoft-japan-dc-investment-2026)
-- [RE100とは](/glossary/what-is-re100)
-- [PPA（Power Purchase Agreement）とは](/glossary/what-is-ppa)
-- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue)
+- [データセンターとカーボンニュートラル——RE100・PPA・CFE最前線](/articles/dc-carbon-neutral-re100-ppa-2026/)
+- [MicrosoftのAI向け日本DC投資4400億円を読み解く](/articles/microsoft-japan-dc-investment-2026/)
+- [RE100とは](/glossary/what-is-re100/)
+- [PPA（Power Purchase Agreement）とは](/glossary/what-is-ppa/)
+- [PUE（Power Usage Effectiveness）とは](/glossary/what-is-pue/)
