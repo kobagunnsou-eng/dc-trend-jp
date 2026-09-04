@@ -5,7 +5,7 @@ category: "海外DC動向"
 tags: ["AWS", "海底ケーブル", "Sta'O'Nuk", "陸揚局", "ワシントン州", "冗長化", "デジタルインフラ強靭化", "ワット・ビット連携"]
 published_at: "2026-09-04"
 summary: "AWSが自社初の太平洋横断海底ケーブル「Sta'O'Nuk」を発表した。420Tbps・20ファイバーペア、2029年運用開始。注目すべきは容量ではなく経路だ。米側はワシントン州に約30年ぶりの陸揚げ、日本側も既存の志摩・千葉とは別の地点を選ぶ。日本の海底ケーブルが2エリアに集中している構造的リスクと、いま進む地方分散を現場視点で解説する。"
-thumbnail: "/images/articles/aws-staonuk-transpacific-subsea-cable-japan-2026.svg"
+thumbnail: "/images/articles/aws-staonuk-transpacific-subsea-cable-japan-2026.png"
 ---
 
 ## AWSが自前で太平洋を渡る
