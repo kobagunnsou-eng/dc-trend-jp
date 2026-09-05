@@ -1,0 +1,217 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <!-- Photo: interior cooling plant room — large insulated closed-loop pipework, chillers, gauges, condensation. Chosen to break from the last three (coastal daylight / building exterior / construction fit-out). -->
+    <linearGradient id="room" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d2230"/>
+      <stop offset="55%" stop-color="#123244"/>
+      <stop offset="100%" stop-color="#0a1a24"/>
+    </linearGradient>
+    <linearGradient id="pipeA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7fd3e8"/>
+      <stop offset="30%" stop-color="#3d9cbb"/>
+      <stop offset="70%" stop-color="#1d5f79"/>
+      <stop offset="100%" stop-color="#123f52"/>
+    </linearGradient>
+    <linearGradient id="pipeB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f4b183"/>
+      <stop offset="30%" stop-color="#c9793f"/>
+      <stop offset="70%" stop-color="#8a4d25"/>
+      <stop offset="100%" stop-color="#5c331a"/>
+    </linearGradient>
+    <linearGradient id="chiller" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4a5f6c"/>
+      <stop offset="45%" stop-color="#6d8492"/>
+      <stop offset="100%" stop-color="#39505c"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a3240"/>
+      <stop offset="100%" stop-color="#08141c"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#cfeef8" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#cfeef8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vgn" cx="50%" cy="44%" r="74%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="rgba(2,10,16,0.72)"/>
+    </radialGradient>
+    <linearGradient id="tov" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(3,12,18,0)"/>
+      <stop offset="32%" stop-color="rgba(3,12,18,0.68)"/>
+      <stop offset="100%" stop-color="rgba(3,12,18,0.96)"/>
+    </linearGradient>
+    <filter id="ts"><feDropShadow dx="0" dy="2" stdDeviation="8" flood-color="rgba(0,0,0,0.95)"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="4"/></filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#room)"/>
+
+  <!-- ceiling structure -->
+  <g fill="#0a1e2a" opacity="0.85">
+    <rect x="0" y="0" width="1200" height="34"/>
+  </g>
+  <g fill="#14303f">
+    <rect x="80" y="34" width="14" height="58"/><rect x="360" y="34" width="14" height="58"/>
+    <rect x="700" y="34" width="14" height="58"/><rect x="1010" y="34" width="14" height="58"/>
+  </g>
+  <!-- ceiling luminaires -->
+  <g>
+    <rect x="150" y="30" width="190" height="9" rx="4" fill="#dff4fb" opacity="0.85"/>
+    <rect x="560" y="30" width="190" height="9" rx="4" fill="#dff4fb" opacity="0.85"/>
+    <rect x="930" y="30" width="190" height="9" rx="4" fill="#dff4fb" opacity="0.85"/>
+  </g>
+  <g filter="url(#soft)" opacity="0.55">
+    <ellipse cx="245" cy="70" rx="150" ry="46" fill="url(#lamp)"/>
+    <ellipse cx="655" cy="70" rx="150" ry="46" fill="url(#lamp)"/>
+    <ellipse cx="1025" cy="70" rx="150" ry="46" fill="url(#lamp)"/>
+  </g>
+
+  <!-- back wall chillers / CDU cabinets -->
+  <g>
+    <rect x="60" y="196" width="200" height="180" rx="3" fill="url(#chiller)" stroke="#2b3f4a" stroke-width="2"/>
+    <rect x="76" y="212" width="168" height="52" rx="2" fill="#22333d"/>
+    <g fill="#5ee0b8" opacity="0.9">
+      <rect x="88" y="228" width="42" height="6" rx="3"/><rect x="88" y="242" width="66" height="6" rx="3"/>
+    </g>
+    <g stroke="#425764" stroke-width="1.6">
+      <line x1="76" y1="288" x2="244" y2="288"/><line x1="76" y1="312" x2="244" y2="312"/><line x1="76" y1="336" x2="244" y2="336"/>
+    </g>
+
+    <rect x="286" y="216" width="176" height="160" rx="3" fill="url(#chiller)" stroke="#2b3f4a" stroke-width="2"/>
+    <circle cx="374" cy="268" r="30" fill="#22333d" stroke="#4d6472" stroke-width="2"/>
+    <g stroke="#7c96a4" stroke-width="3" fill="none">
+      <path d="M 356 268 A 18 18 0 0 1 392 268"/><path d="M 392 268 A 18 18 0 0 1 356 268"/>
+    </g>
+    <g stroke="#425764" stroke-width="1.6">
+      <line x1="300" y1="322" x2="448" y2="322"/><line x1="300" y1="344" x2="448" y2="344"/>
+    </g>
+  </g>
+
+  <!-- ===== MAIN CLOSED LOOP: supply (cold) and return (warm) headers ===== -->
+  <!-- cold supply header, upper -->
+  <rect x="0" y="150" width="1200" height="42" rx="6" fill="url(#pipeA)"/>
+  <rect x="0" y="150" width="1200" height="9" rx="4" fill="#a9e4f5" opacity="0.5"/>
+  <!-- insulation bands -->
+  <g fill="#0f4157" opacity="0.55">
+    <rect x="150" y="150" width="13" height="42"/><rect x="430" y="150" width="13" height="42"/>
+    <rect x="720" y="150" width="13" height="42"/><rect x="1000" y="150" width="13" height="42"/>
+  </g>
+  <!-- flow arrows: supply runs right -->
+  <g fill="#eafaff" opacity="0.9">
+    <path d="M 250 163 l 26 8 l -26 8 z"/><path d="M 560 163 l 26 8 l -26 8 z"/>
+    <path d="M 860 163 l 26 8 l -26 8 z"/>
+  </g>
+
+  <!-- warm return header, lower -->
+  <rect x="0" y="396" width="1200" height="46" rx="6" fill="url(#pipeB)"/>
+  <rect x="0" y="396" width="1200" height="9" rx="4" fill="#ffd9b8" opacity="0.45"/>
+  <g fill="#4a2712" opacity="0.5">
+    <rect x="210" y="396" width="14" height="46"/><rect x="520" y="396" width="14" height="46"/>
+    <rect x="820" y="396" width="14" height="46"/><rect x="1090" y="396" width="14" height="46"/>
+  </g>
+  <!-- flow arrows: return runs left -->
+  <g fill="#fff1e2" opacity="0.9">
+    <path d="M 330 411 l -26 8 l 26 8 z"/><path d="M 640 411 l -26 8 l 26 8 z"/>
+    <path d="M 940 411 l -26 8 l 26 8 z"/>
+  </g>
+
+  <!-- vertical risers tying the two headers into a loop -->
+  <g>
+    <rect x="646" y="186" width="30" height="216" fill="url(#pipeA)" opacity="0.95"/>
+    <rect x="646" y="186" width="8" height="216" fill="#9adcf0" opacity="0.35"/>
+    <rect x="1078" y="186" width="30" height="216" fill="url(#pipeB)" opacity="0.9"/>
+    <rect x="1078" y="186" width="8" height="216" fill="#ffcfa8" opacity="0.3"/>
+  </g>
+
+  <!-- elbows -->
+  <g fill="#2a6d88">
+    <rect x="638" y="182" width="46" height="16" rx="4"/>
+    <rect x="638" y="392" width="46" height="16" rx="4"/>
+  </g>
+  <g fill="#8a4d25">
+    <rect x="1070" y="182" width="46" height="16" rx="4"/>
+    <rect x="1070" y="392" width="46" height="16" rx="4"/>
+  </g>
+
+  <!-- valves + gauges on the headers -->
+  <g>
+    <!-- gate valve on supply -->
+    <rect x="482" y="126" width="16" height="26" fill="#7f97a4"/>
+    <circle cx="490" cy="118" r="15" fill="none" stroke="#9fb5c1" stroke-width="4"/>
+    <line x1="475" y1="118" x2="505" y2="118" stroke="#9fb5c1" stroke-width="3"/>
+    <line x1="490" y1="103" x2="490" y2="133" stroke="#9fb5c1" stroke-width="3"/>
+    <!-- pressure gauge -->
+    <rect x="790" y="128" width="7" height="24" fill="#7f97a4"/>
+    <circle cx="793" cy="116" r="19" fill="#e8f4f8" stroke="#5d7482" stroke-width="3"/>
+    <circle cx="793" cy="116" r="13" fill="#f7fcfe"/>
+    <line x1="793" y1="116" x2="802" y2="106" stroke="#c0392b" stroke-width="2.5"/>
+    <circle cx="793" cy="116" r="2.4" fill="#2c3e50"/>
+  </g>
+  <g>
+    <!-- valve on return -->
+    <rect x="392" y="442" width="18" height="28" fill="#8a6a52"/>
+    <circle cx="401" cy="480" r="17" fill="none" stroke="#b08a6c" stroke-width="4"/>
+    <line x1="384" y1="480" x2="418" y2="480" stroke="#b08a6c" stroke-width="3"/>
+    <line x1="401" y1="463" x2="401" y2="497" stroke="#b08a6c" stroke-width="3"/>
+  </g>
+
+  <!-- pump skid on the floor -->
+  <g>
+    <rect x="836" y="452" width="150" height="66" rx="3" fill="#3d525e" stroke="#243640" stroke-width="2"/>
+    <circle cx="878" cy="485" r="22" fill="#55707e" stroke="#263b45" stroke-width="2"/>
+    <circle cx="878" cy="485" r="9" fill="#1e2f38"/>
+    <rect x="912" y="466" width="60" height="38" rx="2" fill="#2c3e48"/>
+    <g fill="#5ee0b8" opacity="0.85">
+      <rect x="922" y="476" width="26" height="5" rx="2.5"/><rect x="922" y="488" width="40" height="5" rx="2.5"/>
+    </g>
+  </g>
+
+  <!-- condensation droplets on the cold supply header (macro detail) -->
+  <g fill="#dff6ff" opacity="0.62">
+    <ellipse cx="96" cy="196" rx="4" ry="6"/><ellipse cx="188" cy="199" rx="3" ry="5"/>
+    <ellipse cx="316" cy="197" rx="5" ry="7"/><ellipse cx="404" cy="200" rx="3.4" ry="5"/>
+    <ellipse cx="596" cy="197" rx="4.4" ry="6.4"/><ellipse cx="748" cy="199" rx="3" ry="4.6"/>
+    <ellipse cx="900" cy="196" rx="5" ry="7"/><ellipse cx="1020" cy="200" rx="3.4" ry="5"/>
+  </g>
+  <g fill="#dff6ff" opacity="0.35">
+    <ellipse cx="140" cy="214" rx="2.4" ry="3.4"/><ellipse cx="360" cy="216" rx="2" ry="3"/>
+    <ellipse cx="840" cy="215" rx="2.6" ry="3.6"/>
+  </g>
+
+  <!-- floor -->
+  <rect x="0" y="516" width="1200" height="114" fill="url(#floor)"/>
+  <g stroke="#20404f" stroke-width="1.4" opacity="0.5">
+    <line x1="0" y1="546" x2="1200" y2="546"/>
+    <line x1="150" y1="516" x2="96" y2="630"/><line x1="470" y1="516" x2="440" y2="630"/>
+    <line x1="790" y1="516" x2="806" y2="630"/><line x1="1090" y1="516" x2="1140" y2="630"/>
+  </g>
+  <!-- pipe supports -->
+  <g fill="#1c3644">
+    <rect x="240" y="442" width="16" height="78"/><rect x="700" y="442" width="16" height="78"/>
+  </g>
+
+  <rect width="1200" height="630" fill="url(#vgn)"/>
+  <rect x="0" y="286" width="1200" height="344" fill="url(#tov)"/>
+
+  <!-- Category badge -->
+  <rect x="40" y="36" width="188" height="38" rx="19" fill="#0f766e"/>
+  <text x="134" y="61" font-family="sans-serif" font-size="15" font-weight="700" fill="white" text-anchor="middle">電力・冷却技術</text>
+
+  <!-- Metric badge top right -->
+  <rect x="852" y="32" width="308" height="44" rx="8" fill="#134e4a" opacity="0.96"/>
+  <text x="1006" y="60" font-family="sans-serif" font-size="16" font-weight="900" fill="white" text-anchor="middle">WUE 0.12〜0.27 L/kWh</text>
+
+  <!-- Accent bar -->
+  <rect x="40" y="404" width="5" height="128" rx="2.5" fill="#2dd4bf"/>
+
+  <!-- Kicker -->
+  <text x="60" y="462" font-family="sans-serif" font-size="47" font-weight="900" fill="#5eead4" filter="url(#ts)">AIデータセンターは水を枯らすのか</text>
+
+  <!-- Main headline -->
+  <text x="60" y="534" font-family="sans-serif" font-size="31" font-weight="900" fill="white" filter="url(#ts)">「蒸発させるDC」と「循環させるDC」は、まるで別物だ</text>
+
+  <!-- Sub-line -->
+  <text x="60" y="582" font-family="sans-serif" font-size="17" fill="#99f6e4" filter="url(#ts)">冷却方式で答えは正反対 — 国内DCの水使用は年間取水量の0.01%未満（当サイト試算）</text>
+
+  <text x="1160" y="606" font-family="sans-serif" font-size="13" fill="rgba(255,255,255,0.4)" text-anchor="end">DCトレンド研究</text>
+</svg>
