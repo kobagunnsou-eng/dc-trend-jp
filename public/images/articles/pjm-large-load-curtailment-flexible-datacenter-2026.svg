@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <!-- Photo: a grid control room at night — video wall of load curves and a red curtailment alert, empty operator desks. Chosen to break from the last four (cooling plant interior / coastal daylight / building exterior / construction fit-out). -->
+    <linearGradient id="rm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1020"/>
+      <stop offset="60%" stop-color="#111a30"/>
+      <stop offset="100%" stop-color="#060a14"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e1830"/>
+      <stop offset="100%" stop-color="#0a1226"/>
+    </linearGradient>
+    <linearGradient id="scr" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#12315a"/>
+      <stop offset="100%" stop-color="#0b1e3c"/>
+    </linearGradient>
+    <linearGradient id="desk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2338"/>
+      <stop offset="100%" stop-color="#080d18"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="vgn" cx="50%" cy="42%" r="76%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="rgba(2,5,12,0.80)"/>
+    </radialGradient>
+    <linearGradient id="tov" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(3,6,14,0)"/>
+      <stop offset="30%" stop-color="rgba(3,6,14,0.70)"/>
+      <stop offset="100%" stop-color="rgba(3,6,14,0.97)"/>
+    </linearGradient>
+    <filter id="ts"><feDropShadow dx="0" dy="2" stdDeviation="8" flood-color="rgba(0,0,0,0.95)"/></filter>
+    <filter id="sf"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="gl"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#rm)"/>
+  <rect x="0" y="0" width="1200" height="470" fill="url(#wall)"/>
+
+  <!-- ===== VIDEO WALL ===== -->
+  <!-- main load-curve panel -->
+  <rect x="118" y="58" width="486" height="252" rx="4" fill="url(#scr)" stroke="#1d3a68" stroke-width="2"/>
+  <!-- grid lines -->
+  <g stroke="#1d3457" stroke-width="1" opacity="0.8">
+    <line x1="138" y1="110" x2="584" y2="110"/><line x1="138" y1="158" x2="584" y2="158"/>
+    <line x1="138" y1="206" x2="584" y2="206"/><line x1="138" y1="254" x2="584" y2="254"/>
+    <line x1="230" y1="80" x2="230" y2="292"/><line x1="322" y1="80" x2="322" y2="292"/>
+    <line x1="414" y1="80" x2="414" y2="292"/><line x1="506" y1="80" x2="506" y2="292"/>
+  </g>
+  <!-- demand curve rising into the peak -->
+  <path d="M 138 268 L 190 258 L 240 240 L 288 214 L 336 178 L 384 138 L 432 108 L 480 100 L 528 118 L 584 150"
+        fill="none" stroke="#38bdf8" stroke-width="3.4" filter="url(#gl)"/>
+  <!-- capacity ceiling -->
+  <line x1="138" y1="122" x2="584" y2="122" stroke="#f59e0b" stroke-width="2.4" stroke-dasharray="10 7" opacity="0.95"/>
+  <!-- exceedance shading -->
+  <path d="M 384 138 L 432 108 L 480 100 L 528 118 L 528 122 L 384 122 Z" fill="#ef4444" opacity="0.38"/>
+  <!-- axis ticks -->
+  <g fill="#4e6d99">
+    <rect x="138" y="296" width="30" height="4" rx="2"/><rect x="230" y="296" width="30" height="4" rx="2"/>
+    <rect x="322" y="296" width="30" height="4" rx="2"/><rect x="414" y="296" width="30" height="4" rx="2"/>
+    <rect x="506" y="296" width="30" height="4" rx="2"/>
+  </g>
+  <!-- panel header bar -->
+  <g fill="#2a4a80" opacity="0.9">
+    <rect x="134" y="68" width="120" height="7" rx="3.5"/>
+  </g>
+
+  <!-- right stack: alert panel -->
+  <rect x="626" y="58" width="264" height="118" rx="4" fill="#2a0d10" stroke="#8f2a2a" stroke-width="2"/>
+  <g fill="#ef4444" filter="url(#gl)">
+    <rect x="646" y="80" width="150" height="9" rx="4.5"/>
+  </g>
+  <g fill="#f87171" opacity="0.9">
+    <rect x="646" y="104" width="204" height="6" rx="3"/>
+    <rect x="646" y="120" width="168" height="6" rx="3"/>
+    <rect x="646" y="136" width="186" height="6" rx="3"/>
+  </g>
+  <circle cx="866" cy="86" r="11" fill="#ef4444" filter="url(#gl)"/>
+
+  <!-- right stack: reserve margin gauge -->
+  <rect x="626" y="192" width="264" height="118" rx="4" fill="url(#scr)" stroke="#1d3a68" stroke-width="2"/>
+  <g fill="#2a4a80" opacity="0.9"><rect x="644" y="206" width="96" height="6" rx="3"/></g>
+  <!-- bar meters, one dipping into amber -->
+  <g>
+    <rect x="644" y="228" width="228" height="12" rx="6" fill="#16294a"/>
+    <rect x="644" y="228" width="176" height="12" rx="6" fill="#22c55e"/>
+    <rect x="644" y="250" width="228" height="12" rx="6" fill="#16294a"/>
+    <rect x="644" y="250" width="132" height="12" rx="6" fill="#38bdf8"/>
+    <rect x="644" y="272" width="228" height="12" rx="6" fill="#16294a"/>
+    <rect x="644" y="272" width="58" height="12" rx="6" fill="#f59e0b" filter="url(#gl)"/>
+  </g>
+
+  <!-- far right: region tiles, one flagged -->
+  <rect x="912" y="58" width="170" height="252" rx="4" fill="url(#scr)" stroke="#1d3a68" stroke-width="2"/>
+  <g>
+    <rect x="928" y="76" width="138" height="36" rx="3" fill="#16304f"/>
+    <rect x="928" y="120" width="138" height="36" rx="3" fill="#16304f"/>
+    <rect x="928" y="164" width="138" height="36" rx="3" fill="#7c2d12" stroke="#f59e0b" stroke-width="1.6"/>
+    <rect x="928" y="208" width="138" height="36" rx="3" fill="#16304f"/>
+    <rect x="928" y="252" width="138" height="36" rx="3" fill="#16304f"/>
+  </g>
+  <g fill="#4e6d99" opacity="0.95">
+    <rect x="940" y="90" width="62" height="6" rx="3"/><rect x="940" y="134" width="80" height="6" rx="3"/>
+    <rect x="940" y="222" width="70" height="6" rx="3"/><rect x="940" y="266" width="88" height="6" rx="3"/>
+  </g>
+  <g fill="#fbbf24"><rect x="940" y="178" width="74" height="6" rx="3"/></g>
+
+  <!-- ambient screen glow spilling down the room -->
+  <rect x="80" y="310" width="1040" height="120" fill="url(#glow)" filter="url(#sf)"/>
+
+  <!-- ===== OPERATOR DESKS (empty) ===== -->
+  <rect x="0" y="452" width="1200" height="30" rx="4" fill="#16203a"/>
+  <rect x="0" y="470" width="1200" height="160" fill="url(#desk)"/>
+  <!-- desk monitors, backs to us -->
+  <g>
+    <rect x="150" y="382" width="132" height="72" rx="3" fill="#0d1830" stroke="#24406e" stroke-width="1.8"/>
+    <rect x="206" y="454" width="20" height="12" fill="#1a2742"/>
+    <rect x="330" y="376" width="150" height="80" rx="3" fill="#0d1830" stroke="#24406e" stroke-width="1.8"/>
+    <rect x="396" y="456" width="20" height="12" fill="#1a2742"/>
+    <rect x="700" y="380" width="140" height="76" rx="3" fill="#0d1830" stroke="#24406e" stroke-width="1.8"/>
+    <rect x="760" y="456" width="20" height="12" fill="#1a2742"/>
+    <rect x="884" y="386" width="126" height="70" rx="3" fill="#0d1830" stroke="#24406e" stroke-width="1.8"/>
+    <rect x="936" y="456" width="20" height="12" fill="#1a2742"/>
+  </g>
+  <!-- faint content on the desk monitors -->
+  <g fill="#2f5b96" opacity="0.75">
+    <rect x="162" y="396" width="60" height="5" rx="2.5"/><rect x="162" y="408" width="88" height="5" rx="2.5"/>
+    <rect x="344" y="392" width="72" height="5" rx="2.5"/><rect x="344" y="404" width="100" height="5" rx="2.5"/>
+    <rect x="712" y="394" width="66" height="5" rx="2.5"/><rect x="712" y="406" width="92" height="5" rx="2.5"/>
+    <rect x="896" y="400" width="58" height="5" rx="2.5"/>
+  </g>
+  <!-- empty chairs, silhouetted -->
+  <g fill="#0b1224">
+    <rect x="196" y="500" width="72" height="16" rx="8"/><rect x="224" y="514" width="12" height="40"/>
+    <rect x="386" y="512" width="78" height="17" rx="8.5"/><rect x="418" y="527" width="13" height="44"/>
+    <rect x="742" y="504" width="74" height="16" rx="8"/><rect x="772" y="518" width="12" height="42"/>
+  </g>
+
+  <rect width="1200" height="630" fill="url(#vgn)"/>
+  <rect x="0" y="288" width="1200" height="342" fill="url(#tov)"/>
+
+  <!-- Category badge -->
+  <rect x="40" y="36" width="196" height="38" rx="19" fill="#4338ca"/>
+  <text x="138" y="61" font-family="sans-serif" font-size="15" font-weight="700" fill="white" text-anchor="middle">AI・HPCインフラ</text>
+
+  <!-- Rule badge top right -->
+  <rect x="828" y="32" width="332" height="44" rx="8" fill="#7f1d1d" opacity="0.96"/>
+  <text x="994" y="60" font-family="sans-serif" font-size="16" font-weight="900" fill="white" text-anchor="middle">50MW以上・2027年6月から</text>
+
+  <!-- Accent bar -->
+  <rect x="40" y="404" width="5" height="128" rx="2.5" fill="#f59e0b"/>
+
+  <!-- Kicker -->
+  <text x="60" y="462" font-family="sans-serif" font-size="45" font-weight="900" fill="#fbbf24" filter="url(#ts)">AIデータセンターから先に停電させる</text>
+
+  <!-- Main headline -->
+  <text x="60" y="534" font-family="sans-serif" font-size="31" font-weight="900" fill="white" filter="url(#ts)">北米最大の系統が決めた、接続権の新しい値段</text>
+
+  <!-- Sub-line -->
+  <text x="60" y="582" font-family="sans-serif" font-size="17" fill="#fde68a" filter="url(#ts)">逃れる道は「電源を連れてくる」か「止まれます」と言うか — 日本も同じ方向へ</text>
+
+  <text x="1160" y="606" font-family="sans-serif" font-size="13" fill="rgba(255,255,255,0.4)" text-anchor="end">DCトレンド研究</text>
+</svg>
