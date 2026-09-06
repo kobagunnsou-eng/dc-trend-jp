@@ -5,7 +5,7 @@ category: "AI・HPCインフラ"
 tags: ["PJM", "系統接続", "デマンドレスポンス", "柔軟な負荷", "Emerald AI", "JERA", "FERC", "受電点", "蓄電池", "2026年"]
 published_at: "2026-09-06"
 summary: "PJMがFERCに申請した新ルールでは、2027年6月以降に運開する50MW以上のデータセンターは、系統が逼迫したとき最初に切られる対象になります。しかも、PJMが対価を払って止めてもらっている既存の需要家より先に。逃れる道は自前の新規電源を持ち込むか、「止まれます」と申告するか。この変化を受けて、DCの電力を絞るソフトウェア会社が企業価値1,000億円超になり、そこにJERAと丸の内イノベーションパートナーズが出資しました。日本でも経産省が同型のルール見直しを進めています。"
-thumbnail: "/images/articles/pjm-large-load-curtailment-flexible-datacenter-2026.svg"
+thumbnail: "/images/articles/pjm-large-load-curtailment-flexible-datacenter-2026.png"
 author: "DCトレンド研究編集部（現役DCエンジニア監修）"
 draft: false
 ---
