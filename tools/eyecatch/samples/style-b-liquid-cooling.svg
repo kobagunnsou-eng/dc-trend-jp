@@ -146,17 +146,17 @@
 
   <!-- Category badge -->
   <rect x="40" y="36" width="188" height="38" rx="19" fill="#0f766e"/>
-  <text x="134" y="61" font-family="sans-serif" font-size="15" font-weight="700" fill="white" text-anchor="middle">電力・冷却技術</text>
+  <text x="134" y="61" font-family="Meiryo, Yu Gothic UI, Noto Sans JP, sans-serif" font-size="15" font-weight="700" fill="white" text-anchor="middle">電力・冷却技術</text>
 
   <!-- Spec badge -->
   <rect x="874" y="32" width="286" height="44" rx="8" fill="#0c4a6e" opacity="0.96"/>
-  <text x="1017" y="60" font-family="sans-serif" font-size="16" font-weight="900" fill="white" text-anchor="middle">1ラック120kW時代</text>
+  <text x="1017" y="60" font-family="Meiryo, Yu Gothic UI, Noto Sans JP, sans-serif" font-size="16" font-weight="900" fill="white" text-anchor="middle">1ラック120kW時代</text>
 
   <rect x="40" y="404" width="5" height="128" rx="2.5" fill="#38bdf8"/>
 
-  <text x="60" y="462" font-family="sans-serif" font-size="47" font-weight="900" fill="#7dd3fc" filter="url(#ts)">空冷の限界、液冷の時代へ</text>
-  <text x="60" y="534" font-family="sans-serif" font-size="31" font-weight="900" fill="white" filter="url(#ts)">GPUの熱は、どこを通って建物の外へ出るのか</text>
-  <text x="60" y="582" font-family="sans-serif" font-size="17" fill="#bae6fd" filter="url(#ts)">コールドプレート → マニホールド → CDU → 屋外放熱器という一本の経路</text>
+  <text x="60" y="462" font-family="Meiryo, Yu Gothic UI, Noto Sans JP, sans-serif" font-size="47" font-weight="900" fill="#7dd3fc" filter="url(#ts)">空冷の限界、液冷の時代へ</text>
+  <text x="60" y="534" font-family="Meiryo, Yu Gothic UI, Noto Sans JP, sans-serif" font-size="31" font-weight="900" fill="white" filter="url(#ts)">GPUの熱は、どこを通って建物の外へ出るのか</text>
+  <text x="60" y="582" font-family="Meiryo, Yu Gothic UI, Noto Sans JP, sans-serif" font-size="17" fill="#bae6fd" filter="url(#ts)">コールドプレート → マニホールド → 熱交換器 → 屋外の放熱器という一本の経路</text>
 
-  <text x="1160" y="606" font-family="sans-serif" font-size="13" fill="rgba(255,255,255,0.4)" text-anchor="end">DCトレンド研究</text>
+  <text x="1160" y="606" font-family="Meiryo, Yu Gothic UI, Noto Sans JP, sans-serif" font-size="13" fill="rgba(255,255,255,0.4)" text-anchor="end">DCトレンド研究</text>
 </svg>
