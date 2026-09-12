@@ -5,7 +5,7 @@ category: "電力・冷却技術"
 tags: ["800VDC", "給電", "直流", "電気設備技術基準", "Flex", "EPC Power", "NVIDIA", "OCP", "パワー半導体", "2026年"]
 published_at: "2026-09-12"
 summary: "Flexが電力変換のEPC Powerを44億ドルで買収し、中国は7部門連名の政策文書に800V高圧直流を書き込みました。1ラック1MWの時代に、従来の給電方式は物理的に成立しません。ところが日本の電気設備技術基準では直流750V超が「高圧」で、世界が低圧と呼ぶ800Vが日本では高圧になります。この段差が何を意味するのか、太陽光と蓄電池で使われた前例は応用できるのか、現役DCエンジニアの視点で解説します。"
-thumbnail: "/images/articles/800vdc-power-architecture-japan-750v-wall-2026.svg"
+thumbnail: "/images/articles/800vdc-power-architecture-japan-750v-wall-2026.png"
 author: "DCトレンド研究編集部（現役DCエンジニア監修）"
 draft: false
 ---
