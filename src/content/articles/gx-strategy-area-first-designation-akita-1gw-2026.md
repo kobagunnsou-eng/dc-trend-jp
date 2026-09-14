@@ -5,7 +5,7 @@ category: "国内DC動向"
 tags: ["GX戦略地域", "経済産業省", "秋田", "東北電力", "火力発電所跡地", "受電点", "つくば", "社会的受容性", "2026年"]
 published_at: "2026-09-14"
 summary: "2026年9月11日、経産省がGX戦略地域の第1弾18自治体を認定しました。当サイトが8月の解説記事で「国はあえて市町村名を伏せている」と書いた、その市町村名がすべて公表されています。同じ日、東北電力は秋田火力発電所の跡地に1ギガワット級のデータセンター誘致を検討すると公表。廃止された発電所の跡地が、なぜ最良のDC用地なのか。そして認定された町で、住民が何を言っているのか。現役DCエンジニアの視点で解説します。"
-thumbnail: "/images/articles/gx-strategy-area-first-designation-akita-1gw-2026.svg"
+thumbnail: "/images/articles/gx-strategy-area-first-designation-akita-1gw-2026.png"
 author: "DCトレンド研究編集部（現役DCエンジニア監修）"
 draft: false
 ---
