@@ -5,7 +5,7 @@ category: "AI・HPCインフラ"
 tags: ["富士通", "MONAKA", "CPU", "AI推論", "空冷", "ソブリンAI", "Arm", "既存DC", "2026年"]
 published_at: "2026-09-15"
 summary: "富士通が国産CPU「FUJITSU-MONAKA」と搭載サーバーの販売を2026年11月から始めると発表しました。空冷なら周囲40℃まで、専用の冷却設備なしで既存のデータセンターに入るAI推論基盤です。1ラック600kW・液冷・800V直流という高密度路線とは逆側の答え。ただし空冷時の常用周波数は水冷時より約3割低く、一般出荷は2027年4月以降、ダイの製造はTSMCです。「国産」「11月発売」「空冷で動く」の中身を、現役DCエンジニアの視点で正確に解説します。"
-thumbnail: "/images/articles/fujitsu-monaka-air-cooled-ai-inference-2026.svg"
+thumbnail: "/images/articles/fujitsu-monaka-air-cooled-ai-inference-2026.png"
 author: "DCトレンド研究編集部（現役DCエンジニア監修）"
 draft: false
 ---
