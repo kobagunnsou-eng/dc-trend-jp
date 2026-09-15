@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <!-- Photo (style A, composition type 8 — people on site, first use): a technician's gloved hands
+         sliding a slim 1U server into an ordinary air-cooled rack in a conventional cold aisle with
+         perforated floor tiles. No face. Says "drops into an existing air-cooled DC, no retrofit". -->
+    <linearGradient id="aisle" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b2433"/>
+      <stop offset="55%" stop-color="#222d3f"/>
+      <stop offset="100%" stop-color="#121822"/>
+    </linearGradient>
+    <linearGradient id="rackFace" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2a3342"/>
+      <stop offset="100%" stop-color="#1d2430"/>
+    </linearGradient>
+    <linearGradient id="server" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d5dbe3"/>
+      <stop offset="45%" stop-color="#aeb7c3"/>
+      <stop offset="100%" stop-color="#7d8794"/>
+    </linearGradient>
+    <linearGradient id="glove" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4b5563"/>
+      <stop offset="100%" stop-color="#2d3440"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2b3444"/>
+      <stop offset="100%" stop-color="#151b25"/>
+    </linearGradient>
+    <radialGradient id="light" cx="62%" cy="10%" r="60%">
+      <stop offset="0%" stop-color="#dbeafe" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#dbeafe" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="coolair" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="vgn" cx="54%" cy="40%" r="78%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="rgba(4,6,12,0.78)"/>
+    </radialGradient>
+    <linearGradient id="tov" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(6,8,14,0)"/>
+      <stop offset="30%" stop-color="rgba(6,8,14,0.72)"/>
+      <stop offset="100%" stop-color="rgba(6,8,14,0.97)"/>
+    </linearGradient>
+    <filter id="ts"><feDropShadow dx="0" dy="2" stdDeviation="8" flood-color="rgba(0,0,0,0.95)"/></filter>
+    <filter id="sh"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="rgba(0,0,0,0.6)"/></filter>
+    <filter id="blur"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#aisle)"/>
+  <rect width="1200" height="630" fill="url(#light)"/>
+
+  <!-- ceiling light strip -->
+  <rect x="380" y="0" width="560" height="10" fill="#e0f2fe" opacity="0.55"/>
+
+  <!-- far racks receding on the left, out of focus -->
+  <g filter="url(#blur)" opacity="0.75">
+    <polygon points="0,40 300,120 300,470 0,560" fill="#1a2130"/>
+    <g fill="#34d399" opacity="0.55">
+      <rect x="40" y="150" width="6" height="4"/><rect x="90" y="176" width="6" height="4"/>
+      <rect x="150" y="200" width="6" height="4"/><rect x="210" y="224" width="6" height="4"/>
+      <rect x="40" y="250" width="6" height="4"/><rect x="120" y="272" width="6" height="4"/>
+      <rect x="190" y="296" width="6" height="4"/>
+    </g>
+    <g fill="#60a5fa" opacity="0.5">
+      <rect x="64" y="210" width="6" height="4"/><rect x="170" y="240" width="6" height="4"/>
+      <rect x="240" y="330" width="6" height="4"/>
+    </g>
+  </g>
+
+  <!-- raised floor with perforated tiles (conventional air-cooled cold aisle) -->
+  <polygon points="300,470 1200,430 1200,630 0,630 0,560" fill="url(#floor)"/>
+  <g fill="#0f1520" opacity="0.9">
+    <polygon points="360,500 520,494 516,528 352,536"/>
+    <polygon points="560,492 720,486 718,520 556,526"/>
+    <polygon points="760,484 920,478 920,512 758,518"/>
+  </g>
+  <!-- perforation dots -->
+  <g fill="#3b4a60" opacity="0.8">
+    <circle cx="390" cy="508" r="2"/><circle cx="410" cy="507" r="2"/><circle cx="430" cy="507" r="2"/>
+    <circle cx="450" cy="506" r="2"/><circle cx="470" cy="506" r="2"/><circle cx="490" cy="505" r="2"/>
+    <circle cx="390" cy="522" r="2"/><circle cx="410" cy="521" r="2"/><circle cx="430" cy="521" r="2"/>
+    <circle cx="590" cy="500" r="2"/><circle cx="610" cy="499" r="2"/><circle cx="630" cy="499" r="2"/>
+    <circle cx="650" cy="498" r="2"/><circle cx="670" cy="498" r="2"/><circle cx="690" cy="497" r="2"/>
+    <circle cx="790" cy="492" r="2"/><circle cx="810" cy="491" r="2"/><circle cx="830" cy="491" r="2"/>
+  </g>
+  <!-- cool air rising from the tiles -->
+  <g>
+    <rect x="360" y="250" width="160" height="260" fill="url(#coolair)"/>
+    <rect x="560" y="240" width="160" height="262" fill="url(#coolair)"/>
+  </g>
+
+  <!-- ===== THE RACK (right) — ordinary 19-inch rack, front view, slight angle ===== -->
+  <g filter="url(#sh)">
+    <polygon points="640,40 1180,20 1180,470 640,450" fill="url(#rackFace)" stroke="#0d121a" stroke-width="2"/>
+    <!-- rack rails -->
+    <rect x="664" y="46" width="12" height="400" fill="#3a4454"/>
+    <rect x="1140" y="30" width="12" height="424" fill="#3a4454"/>
+    <!-- installed 1U servers above and below the open slot -->
+    <g>
+      <polygon points="680,70 1138,58 1138,86 680,96" fill="#3b4556"/>
+      <polygon points="680,102 1138,90 1138,118 680,128" fill="#3b4556"/>
+      <polygon points="680,134 1138,122 1138,150 680,160" fill="#3b4556"/>
+      <polygon points="680,166 1138,154 1138,182 680,192" fill="#3b4556"/>
+      <!-- the open slot sits at y~198-226 -->
+      <polygon points="680,262 1138,250 1138,278 680,288" fill="#3b4556"/>
+      <polygon points="680,294 1138,282 1138,310 680,320" fill="#3b4556"/>
+      <polygon points="680,326 1138,314 1138,342 680,352" fill="#3b4556"/>
+      <polygon points="680,358 1138,346 1138,374 680,384" fill="#3b4556"/>
+      <polygon points="680,390 1138,378 1138,406 680,416" fill="#3b4556"/>
+    </g>
+    <!-- status LEDs on installed servers -->
+    <g fill="#34d399">
+      <rect x="1106" y="68" width="8" height="5"/><rect x="1106" y="100" width="8" height="5"/>
+      <rect x="1106" y="132" width="8" height="5"/><rect x="1106" y="164" width="8" height="5"/>
+      <rect x="1106" y="260" width="8" height="5"/><rect x="1106" y="292" width="8" height="5"/>
+      <rect x="1106" y="324" width="8" height="5"/><rect x="1106" y="356" width="8" height="5"/>
+      <rect x="1106" y="388" width="8" height="5"/>
+    </g>
+    <!-- front vent grilles -->
+    <g stroke="#2a3240" stroke-width="1.4">
+      <line x1="720" y1="80" x2="1060" y2="72"/><line x1="720" y1="112" x2="1060" y2="104"/>
+      <line x1="720" y1="144" x2="1060" y2="136"/><line x1="720" y1="176" x2="1060" y2="168"/>
+      <line x1="720" y1="272" x2="1060" y2="264"/><line x1="720" y1="304" x2="1060" y2="296"/>
+      <line x1="720" y1="336" x2="1060" y2="328"/><line x1="720" y1="368" x2="1060" y2="360"/>
+    </g>
+    <!-- the empty slot: dark gap -->
+    <polygon points="680,198 1138,186 1138,246 680,256" fill="#0a0e14"/>
+  </g>
+
+  <!-- ===== THE NEW 1U SERVER, half inserted, sticking out toward camera ===== -->
+  <g filter="url(#sh)">
+    <!-- top face of the chassis coming out of the slot toward the viewer (left) -->
+    <polygon points="430,214 920,196 1000,210 510,232" fill="url(#server)" stroke="#5b6573" stroke-width="1.6"/>
+    <!-- front bezel -->
+    <polygon points="430,214 510,232 510,262 430,242" fill="#9aa4b1" stroke="#5b6573" stroke-width="1.6"/>
+    <!-- side face -->
+    <polygon points="510,232 1000,210 1000,238 510,262" fill="#8c96a3" stroke="#5b6573" stroke-width="1.4"/>
+    <!-- bezel vents and a single status light -->
+    <g stroke="#6b7582" stroke-width="1.4">
+      <line x1="442" y1="224" x2="498" y2="238"/><line x1="442" y1="232" x2="498" y2="246"/>
+    </g>
+    <rect x="484" y="248" width="7" height="4" fill="#38bdf8"/>
+  </g>
+
+  <!-- ===== GLOVED HANDS pushing the server in (no face, no body beyond forearms) ===== -->
+  <g filter="url(#sh)">
+    <!-- left hand on the bezel -->
+    <path d="M 340 300 Q 360 262 408 246 Q 432 240 440 256 Q 444 272 424 282 Q 398 294 380 316 Z" fill="url(#glove)"/>
+    <path d="M 420 250 Q 436 240 446 250 Q 448 262 436 266 Z" fill="#3f4855"/>
+    <!-- forearm sleeve -->
+    <path d="M 260 380 Q 300 330 340 300 L 380 316 Q 340 352 300 410 Z" fill="#1f2937"/>
+    <!-- right hand on the chassis top -->
+    <path d="M 600 262 Q 612 222 660 212 Q 690 206 700 222 Q 704 238 682 246 Q 650 256 630 282 Z" fill="url(#glove)"/>
+    <path d="M 674 216 Q 690 206 702 216 Q 704 228 690 232 Z" fill="#3f4855"/>
+    <path d="M 540 350 Q 574 300 600 262 L 630 282 Q 600 322 574 372 Z" fill="#1f2937"/>
+  </g>
+
+  <rect width="1200" height="630" fill="url(#vgn)"/>
+  <rect x="0" y="288" width="1200" height="342" fill="url(#tov)"/>
+
+  <!-- Category badge -->
+  <rect x="40" y="36" width="196" height="38" rx="19" fill="#4338ca"/>
+  <text x="138" y="61" font-family="Meiryo, Yu Gothic UI, Noto Sans JP, sans-serif" font-size="15" font-weight="700" fill="white" text-anchor="middle">AI・HPCインフラ</text>
+
+  <!-- Spec badge -->
+  <rect x="872" y="32" width="288" height="44" rx="8" fill="#1e3a8a" opacity="0.96"/>
+  <text x="1016" y="60" font-family="Meiryo, Yu Gothic UI, Noto Sans JP, sans-serif" font-size="16" font-weight="900" fill="white" text-anchor="middle">空冷で周囲40℃まで</text>
+
+  <!-- Accent bar -->
+  <rect x="40" y="404" width="5" height="128" rx="2.5" fill="#60a5fa"/>
+
+  <!-- Kicker -->
+  <text x="60" y="462" font-family="Meiryo, Yu Gothic UI, Noto Sans JP, sans-serif" font-size="46" font-weight="900" fill="#93c5fd" filter="url(#ts)">液冷も800Vも要らないAI推論</text>
+
+  <!-- Main headline -->
+  <text x="60" y="534" font-family="Meiryo, Yu Gothic UI, Noto Sans JP, sans-serif" font-size="31" font-weight="900" fill="white" filter="url(#ts)">富士通MONAKA — 既存の空冷DCに入る国産CPUサーバー</text>
+
+  <!-- Sub-line -->
+  <text x="60" y="582" font-family="Meiryo, Yu Gothic UI, Noto Sans JP, sans-serif" font-size="17" fill="#bfdbfe" filter="url(#ts)">ただし常用周波数は空冷2.1GHz／水冷2.9GHz — 一般出荷は2027年4月以降</text>
+
+  <text x="1160" y="606" font-family="Meiryo, Yu Gothic UI, Noto Sans JP, sans-serif" font-size="13" fill="rgba(255,255,255,0.4)" text-anchor="end">DCトレンド研究</text>
+</svg>
